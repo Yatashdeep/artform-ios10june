@@ -371,14 +371,6 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-ionic-webview.IonicWebView",
-    "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
-    "pluginId": "cordova-plugin-ionic-webview",
-    "clobbers": [
-      "Ionic.WebView"
-    ]
-  },
-  {
     "id": "cordova-plugin-inappbrowser.inappbrowser",
     "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
     "pluginId": "cordova-plugin-inappbrowser",
@@ -388,10 +380,12 @@ module.exports = [
     ]
   },
   {
-    "id": "es6-promise-plugin.Promise",
-    "file": "plugins/es6-promise-plugin/www/promise.js",
-    "pluginId": "es6-promise-plugin",
-    "runs": true
+    "id": "com.telerik.plugins.nativepagetransitions.NativePageTransitions",
+    "file": "plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js",
+    "pluginId": "com.telerik.plugins.nativepagetransitions",
+    "clobbers": [
+      "window.plugins.nativepagetransitions"
+    ]
   },
   {
     "id": "cordova-plugin-x-socialsharing.SocialSharing",
@@ -402,11 +396,11 @@ module.exports = [
     ]
   },
   {
-    "id": "com.telerik.plugins.nativepagetransitions.NativePageTransitions",
-    "file": "plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js",
-    "pluginId": "com.telerik.plugins.nativepagetransitions",
+    "id": "cordova-plugin-ionic-webview.IonicWebView",
+    "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
+    "pluginId": "cordova-plugin-ionic-webview",
     "clobbers": [
-      "window.plugins.nativepagetransitions"
+      "Ionic.WebView"
     ]
   }
 ];
@@ -431,12 +425,10 @@ module.exports.metadata =
   "cordova-plugin-filepicker": "1.1.6",
   "branch-cordova-sdk": "4.1.2",
   "onesignal-cordova-plugin": "2.9.1",
-  "cordova-plugin-ionic-webview": "5.0.0",
-  "cordova-plugin-wkwebview-engine": "1.2.1",
   "cordova-plugin-inappbrowser": "3.2.0",
-  "es6-promise-plugin": "4.2.2",
-  "cordova-plugin-x-socialsharing": "5.6.4",
-  "com.telerik.plugins.nativepagetransitions": "0.6.5"
+  "com.telerik.plugins.nativepagetransitions": "0.6.5",
+  "cordova-plugin-x-socialsharing": "5.1.1",
+  "cordova-plugin-ionic-webview": "2.5.1"
 };
 // BOTTOM OF METADATA
 });

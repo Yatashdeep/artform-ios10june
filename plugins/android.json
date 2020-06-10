@@ -64,26 +64,19 @@
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "io.artform.com"
     },
-    "cordova-plugin-ionic-webview": {
-      "PACKAGE_NAME": "io.artform.com"
-    },
-    "cordova-plugin-wkwebview-engine": {
-      "PACKAGE_NAME": "io.artform.com"
-    },
     "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "io.artform.com"
-    },
-    "cordova-plugin-x-socialsharing": {
-      "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
       "PACKAGE_NAME": "io.artform.com"
     },
     "com.telerik.plugins.nativepagetransitions": {
       "PACKAGE_NAME": "io.artform.com"
-    }
-  },
-  "dependent_plugins": {
-    "es6-promise-plugin": {
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "io.artform.com"
+    },
+    "cordova-plugin-ionic-webview": {
+      "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+",
       "PACKAGE_NAME": "io.artform.com"
     }
-  }
+  },
+  "dependent_plugins": {}
 }

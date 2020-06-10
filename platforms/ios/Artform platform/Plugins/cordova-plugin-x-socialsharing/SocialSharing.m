@@ -1,5 +1,5 @@
 #import "SocialSharing.h"
-#import "NSString+SSURLEncoding.h"
+#import "NSString+URLEncoding.h"
 #import <Cordova/CDV.h>
 #import <Social/Social.h>
 #import <Foundation/NSException.h>
@@ -11,7 +11,6 @@ static NSString *const kShareOptionMessage = @"message";
 static NSString *const kShareOptionSubject = @"subject";
 static NSString *const kShareOptionFiles = @"files";
 static NSString *const kShareOptionUrl = @"url";
-static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
 
 @implementation SocialSharing {
   UIPopoverController *_popover;
@@ -19,6 +18,9 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
 }
 
 - (void)pluginInitialize {
+  if ([self isEmailAvailable]) {
+    [self cycleTheGlobalMailComposer];
+  }
 }
 
 - (void)available:(CDVInvokedUrlCommand*)command {
@@ -31,9 +33,6 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
 }
 
 - (NSString*)getIPadPopupCoordinates {
-  // see https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/issues/1052
-  return nil;
-  /*
   if (_popupCoordinates != nil) {
     return _popupCoordinates;
   }
@@ -43,7 +42,6 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
     // prolly a wkwebview, ignoring for now
     return nil;
   }
-  */
 }
 
 - (void)setIPadPopupCoordinates:(CDVInvokedUrlCommand*)command {
@@ -64,8 +62,7 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
                         kShareOptionMessage: [command.arguments objectAtIndex:0],
                         kShareOptionSubject: [command.arguments objectAtIndex:1],
                         kShareOptionFiles: [command.arguments objectAtIndex:2],
-                        kShareOptionUrl: [command.arguments objectAtIndex:3],
-                        kShareOptionIPadCoordinates: [command.arguments objectAtIndex:4]
+                        kShareOptionUrl: [command.arguments objectAtIndex:3]
                       }
     isBooleanResponse:YES
 ];
@@ -91,15 +88,6 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
     NSString *subject   = options[kShareOptionSubject];
     NSArray  *filenames = options[kShareOptionFiles];
     NSString *urlString = options[kShareOptionUrl];
-    NSString *iPadCoordString = options[kShareOptionIPadCoordinates];
-    NSArray *iPadCoordinates;
-
-    if (iPadCoordString != nil && iPadCoordString != [NSNull null]) {
-      iPadCoordinates = [iPadCoordString componentsSeparatedByString:@","];
-    } else {
-      iPadCoordinates = @[];
-    }
-
 
     NSMutableArray *activityItems = [[NSMutableArray alloc] init];
 
@@ -122,7 +110,7 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
     }
 
     if (urlString != (id)[NSNull null] && urlString != nil) {
-        [activityItems addObject:[NSURL URLWithString:[urlString SSURLEncodedString]]];
+        [activityItems addObject:[NSURL URLWithString:[urlString URLEncodedString]]];
     }
 
     UIActivity *activity = [[UIActivity alloc] init];
@@ -149,7 +137,7 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
         [activityVC setCompletionHandler:^(NSString *activityType, BOOL completed) {
           [self cleanupStoredFiles];
-          NSDictionary * result = @{@"completed":@(completed), @"app":activityType == nil ? @"" : activityType};
+          NSDictionary * result = @{@"completed":@(completed), @"app":activityType};
           CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:result];
           [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
         }];
@@ -166,14 +154,8 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
       if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
         NSString* iPadCoords = [self getIPadPopupCoordinates];
         if (iPadCoords != nil && ![iPadCoords isEqual:@"-1,-1,-1,-1"]) {
-          CGRect rect;
-          if ([iPadCoordinates count] == 4) {
-
-            rect = CGRectMake((int) [[iPadCoordinates objectAtIndex:0] integerValue], (int) [[iPadCoordinates objectAtIndex:1] integerValue], (int) [[iPadCoordinates objectAtIndex:2] integerValue], (int) [[iPadCoordinates objectAtIndex:3] integerValue]);
-          } else {
-            NSArray *comps = [iPadCoords componentsSeparatedByString:@","];
-            rect = [self getPopupRectFromIPadPopupCoordinates:comps];
-          }
+          NSArray *comps = [iPadCoords componentsSeparatedByString:@","];
+          CGRect rect = [self getPopupRectFromIPadPopupCoordinates:comps];
           if ([activityVC respondsToSelector:@selector(popoverPresentationController)]) {
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 80000 // iOS 8.0 supported
             activityVC.popoverPresentationController.sourceView = self.webView;
@@ -188,19 +170,13 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 80000 // iOS 8.0 supported
           activityVC.popoverPresentationController.sourceView = self.webView;
           // position the popup at the bottom, just like iOS < 8 did (and iPhone still does on iOS 8)
-          CGRect rect;
-          if ([iPadCoordinates count] == 4) {
-            NSLog([[NSString alloc] initWithFormat:@"test %d", [[iPadCoordinates objectAtIndex:0] integerValue]]);
-            rect = CGRectMake((int) [[iPadCoordinates objectAtIndex:0] integerValue], (int) [[iPadCoordinates objectAtIndex:1] integerValue], (int) [[iPadCoordinates objectAtIndex:2] integerValue], (int) [[iPadCoordinates objectAtIndex:3] integerValue]);
-          } else {
-            NSArray *comps = [NSArray arrayWithObjects:
-                               [NSNumber numberWithInt:(self.viewController.view.frame.size.width/2)-200],
-                               [NSNumber numberWithInt:self.viewController.view.frame.size.height],
-                               [NSNumber numberWithInt:400],
-                               [NSNumber numberWithInt:400],
-                               nil];
-            rect = [self getPopupRectFromIPadPopupCoordinates:comps];
-          }
+          NSArray *comps = [NSArray arrayWithObjects:
+                            [NSNumber numberWithInt:(self.viewController.view.frame.size.width/2)-200],
+                            [NSNumber numberWithInt:self.viewController.view.frame.size.height],
+                            [NSNumber numberWithInt:400],
+                            [NSNumber numberWithInt:400],
+                            nil];
+          CGRect rect = [self getPopupRectFromIPadPopupCoordinates:comps];
           activityVC.popoverPresentationController.sourceRect = rect;
 #endif
         }
@@ -227,7 +203,7 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
       BOOL fbAppInstalled = [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"fb://"]]; // requires whitelisting on iOS9
       if (fbAppInstalled) {
         UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
-        [pasteboard setValue:message forPasteboardType:@"public.utf8-plain-text"];
+        [pasteboard setValue:message forPasteboardType:@"public.text"];
         NSString *hint = [command.arguments objectAtIndex:4];
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:hint delegate:nil cancelButtonTitle:nil otherButtonTitles:nil];
         [alert show];
@@ -255,10 +231,6 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
     pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
   } else if ([@"instagram" caseInsensitiveCompare:via] == NSOrderedSame && [self canShareViaInstagram]) {
     pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
-  } else if ([@"com.apple.social.facebook" caseInsensitiveCompare:via] == NSOrderedSame && [self canShareViaFacebook]) {
-    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
-  } else if ([@"com.apple.social.twitter" caseInsensitiveCompare:via] == NSOrderedSame && [self canShareViaTwitter]) {
-    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
   } else if ([self isAvailableForSharing:command type:via]) {
     pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
   } else {
@@ -284,7 +256,6 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
 
 - (bool)isAvailableForSharing:(CDVInvokedUrlCommand*)command
                          type:(NSString *) type {
-
   // isAvailableForServiceType returns true if you pass it a type that is not
   // in the defined constants, this is probably a bug on apples part
   if(!([type isEqualToString:SLServiceTypeFacebook]
@@ -324,15 +295,15 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
   }
 
   if (urlString != (id)[NSNull null]) {
-    [composeViewController addURL:[NSURL URLWithString:[urlString SSURLEncodedString]]];
+    [composeViewController addURL:[NSURL URLWithString:[urlString URLEncodedString]]];
   }
 
   [composeViewController setCompletionHandler:^(SLComposeViewControllerResult result) {
     if (SLComposeViewControllerResultCancelled == result) {
       CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"cancelled"];
       [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
-    } else if (SLComposeViewControllerResultDone == result || [self isAvailableForSharing:command type:type]) {
-      CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsBool:true];
+    } else if ([self isAvailableForSharing:command type:type]) {
+      CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsBool:SLComposeViewControllerResultDone == result];
       [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
     } else {
       CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"not available"];
@@ -390,52 +361,31 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
         NSURL *file = [self getFile:path];
         NSData* data = [fileManager contentsAtPath:file.path];
 
-        if (!data) {
-          CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"invalid attachment"];
-          [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
-          return;
-        }
-
         NSString* fileName;
         NSString* mimeType;
         NSString* basename = [self getBasenameFromAttachmentPath:path];
 
-          //Find data anywhere in string
-          NSRange rangeData = [basename rangeOfString:@"data:"];
-          if (rangeData.location == NSNotFound)
-          {
-              fileName = [basename pathComponents].lastObject;
-              mimeType = [self getMimeTypeFromFileExtension:[basename pathExtension]];
-          }
-          else
-          {
-              mimeType = (NSString*)[[[basename substringFromIndex:rangeData.location+rangeData.length] componentsSeparatedByString: @";"] objectAtIndex:0];
-
-              //Find df anywhere in string
-              NSRange rangeDF = [basename rangeOfString:@"df:"];
-              //If not found fallback to default name
-              if (rangeDF.location == NSNotFound) {
-                  fileName = @"attachment.";
-                  fileName = [fileName stringByAppendingString:(NSString*)[[mimeType componentsSeparatedByString: @"/"] lastObject]];
-              } else {
-                  //Found, apply name
-                  fileName = (NSString*)[[[basename substringFromIndex:rangeDF.location+rangeDF.length] componentsSeparatedByString: @";"] objectAtIndex:0];
-              }
-
-
-              NSString *base64content = (NSString*)[[basename componentsSeparatedByString: @","] lastObject];
-              data = [SocialSharing dataFromBase64String:base64content];
-          }
-          [self.globalMailComposer addAttachmentData:data mimeType:mimeType fileName:fileName];
+        if ([basename hasPrefix:@"data:"]) {
+          mimeType = (NSString*)[[[basename substringFromIndex:5] componentsSeparatedByString: @";"] objectAtIndex:0];
+          fileName = @"attachment.";
+          fileName = [fileName stringByAppendingString:(NSString*)[[mimeType componentsSeparatedByString: @"/"] lastObject]];
+          NSString *base64content = (NSString*)[[basename componentsSeparatedByString: @","] lastObject];
+          data = [SocialSharing dataFromBase64String:base64content];
+        } else {
+          fileName = [basename pathComponents].lastObject;
+          mimeType = [self getMimeTypeFromFileExtension:[basename pathExtension]];
+        }
+        [self.globalMailComposer addAttachmentData:data mimeType:mimeType fileName:fileName];
       }
     }
 
     // remember the command, because we need it in the didFinishWithResult method
     _command = command;
 
-    dispatch_async(dispatch_get_main_queue(), ^{
+    [self.commandDelegate runInBackground:^{
       [[self getTopMostViewController] presentViewController:self.globalMailComposer animated:YES completion:nil];
-    });
+    }];
+
   } else {
     CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"not available"];
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
@@ -443,7 +393,7 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
 }
 
 - (UIViewController*) getTopMostViewController {
-  UIViewController *presentingViewController = [[UIApplication sharedApplication] keyWindow].rootViewController;
+  UIViewController *presentingViewController = [[[UIApplication sharedApplication] delegate] window].rootViewController;
   while (presentingViewController.presentedViewController != nil) {
     presentingViewController = presentingViewController.presentedViewController;
   }
@@ -455,7 +405,7 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
     NSString* pathWithoutPrefix = [path stringByReplacingOccurrencesOfString:@"base64:" withString:@""];
     return [pathWithoutPrefix substringToIndex:[pathWithoutPrefix rangeOfString:@"//"].location];
   }
-  return [path componentsSeparatedByString: @"?"][0];
+  return path;
 }
 
 - (NSString*) getMimeTypeFromFileExtension:(NSString*)extension {
@@ -469,10 +419,6 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
   NSString *result = (NSString*)CFBridgingRelease(UTTypeCopyPreferredTagWithClass(type, kUTTagClassMIMEType));
   CFRelease(ext);
   CFRelease(type);
-  if (result == nil) {
-    result = @"application/octet-stream";
-  }
-
   return result;
 }
 
@@ -484,7 +430,7 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
            didFinishWithResult:(MFMailComposeResult)result
                          error:(NSError*)error {
   bool ok = result == MFMailComposeResultSent;
-  [self.globalMailComposer dismissViewControllerAnimated:YES completion:nil];
+  [self.globalMailComposer dismissViewControllerAnimated:YES completion:^{[self cycleTheGlobalMailComposer];}];
   CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsBool:ok];
   [self.commandDelegate sendPluginResult:pluginResult callbackId:_command.callbackId];
 }
@@ -531,10 +477,10 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
     }
     // remember the command, because we need it in the didFinishWithResult method
     _command = command;
-    dispatch_async(dispatch_get_main_queue(), ^{
+    [self.commandDelegate runInBackground:^{
       picker.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-      [[self getTopMostViewController] presentViewController:picker animated:NO completion:nil];
-    });
+      [[self getTopMostViewController] presentViewController:picker animated:YES completion:nil];
+    }];
   } else {
     CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"not available"];
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
@@ -555,14 +501,6 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
 
 - (bool)canShareViaWhatsApp {
   return [[UIApplication sharedApplication] canOpenURL: [NSURL URLWithString:@"whatsapp://app"]]; // requires whitelisting on iOS9
-}
-
-- (bool)canShareViaFacebook {
-  return [[UIApplication sharedApplication] canOpenURL: [NSURL URLWithString:@"fb://"]]; // requires whitelisting on iOS9
-}
-
-- (bool)canShareViaTwitter {
-  return [[UIApplication sharedApplication] canOpenURL: [NSURL URLWithString:@"twitter://"]]; // requires whitelisting on iOS9
 }
 
 // this is only an internal test method for now, can be used to open a share sheet with 'Open in xx' links for tumblr, drive, dropbox, ..
@@ -617,7 +555,7 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
 
     // .. we put the message on the clipboard (you app can prompt the user to paste it)
     UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
-    [pasteboard setValue:message forPasteboardType:@"public.utf8-plain-text"];
+    [pasteboard setValue:message forPasteboardType:@"public.text"];
   }
 
   // remember the command for the delegate method
@@ -637,7 +575,7 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
   // Tradeoff: on iOS9 this method will always return true, so make sure to whitelist it and call canShareVia('whatsapp'..)
   if (!IsAtLeastiOSVersion(@"9.0")) {
     if (![self canShareViaWhatsApp]) {
-      CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"not available"];
+      CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"not available"];
       [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
       return;
     }
@@ -645,21 +583,20 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
 
   NSString *message   = [command.arguments objectAtIndex:0];
   // subject is not supported by the SLComposeViewController
-  NSArray *filenames = [command.arguments objectAtIndex:2];
+  NSArray  *filenames = [command.arguments objectAtIndex:2];
   NSString *urlString = [command.arguments objectAtIndex:3];
   NSString *abid = [command.arguments objectAtIndex:4];
-  NSString *phone = [command.arguments objectAtIndex:5];
 
   // only use the first image (for now.. maybe we can share in a loop?)
-  UIImage *image = nil;
-  for (NSString *filename in filenames) {
+  UIImage* image = nil;
+  for (NSString* filename in filenames) {
     image = [self getImage:filename];
     break;
   }
 
   // with WhatsApp, we can share an image OR text+url.. image wins if set
   if (image != nil) {
-    NSString *savePath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/whatsAppTmp.jpg"];
+    NSString * savePath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/whatsAppTmp.wai"];
     [UIImageJPEGRepresentation(image, 1.0) writeToFile:savePath atomically:YES];
     _documentInteractionController = [UIDocumentInteractionController interactionControllerWithURL:[NSURL fileURLWithPath:savePath]];
     _documentInteractionController.UTI = @"net.whatsapp.image";
@@ -668,7 +605,7 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
     [_documentInteractionController presentOpenInMenuFromRect:CGRectZero inView:self.viewController.view animated: YES];
   } else {
     // append an url to a message, if both are passed
-    NSString *shareString = @"";
+    NSString * shareString = @"";
     if (message != (id)[NSNull null]) {
       shareString = message;
     }
@@ -676,26 +613,22 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
       if ([shareString isEqual: @""]) {
         shareString = urlString;
       } else {
-        shareString = [NSString stringWithFormat:@"%@ %@", shareString, [urlString SSURLEncodedString]];
+        shareString = [NSString stringWithFormat:@"%@ %@", shareString, [urlString URLEncodedString]];
       }
     }
-    NSString *encodedShareString = [shareString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString * encodedShareString = [shareString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     // also encode the '=' character
     encodedShareString = [encodedShareString stringByReplacingOccurrencesOfString:@"=" withString:@"%3D"];
     encodedShareString = [encodedShareString stringByReplacingOccurrencesOfString:@"&" withString:@"%26"];
-    NSString *abidString = @"";
+    NSString * abidString = @"";
     if (abid != (id)[NSNull null]) {
       abidString = [NSString stringWithFormat:@"abid=%@&", abid];
     }
-    NSString *phoneString = @"";
-    if (phone != (id)[NSNull null]) {
-      phoneString = [NSString stringWithFormat:@"phone=%@&", phone];
-    }
-    NSString *encodedShareStringForWhatsApp = [NSString stringWithFormat:@"whatsapp://send?%@%@text=%@", abidString, phoneString, encodedShareString];
+    NSString * encodedShareStringForWhatsApp = [NSString stringWithFormat:@"whatsapp://send?%@text=%@", abidString, encodedShareString];
 
     NSURL *whatsappURL = [NSURL URLWithString:encodedShareStringForWhatsApp];
     [[UIApplication sharedApplication] openURL: whatsappURL];
-    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
+    CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
   }
 }
@@ -761,27 +694,10 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
 -(NSURL*)getFile: (NSString *)fileName {
   NSURL *file = nil;
   if (fileName != (id)[NSNull null]) {
-    NSRange rangeData = [fileName rangeOfString:@"data:"];
     if ([fileName hasPrefix:@"http"]) {
       NSURL *url = [NSURL URLWithString:fileName];
       NSData *fileData = [NSData dataWithContentsOfURL:url];
-      NSURLRequest *request = [NSURLRequest requestWithURL: url];
-      NSHTTPURLResponse *response;
-      [NSURLConnection sendSynchronousRequest: request returningResponse: &response error: nil];
-      if ([response respondsToSelector:@selector(allHeaderFields)]) {
-        NSDictionary *dictionary = [response allHeaderFields];
-        NSLog([dictionary description]);
-        NSString *name = dictionary[@"Content-Disposition"];
-        if (name == nil){
-          NSString *name = (NSString*)[[fileName componentsSeparatedByString: @"/"] lastObject];
-          file = [NSURL fileURLWithPath:[self storeInFile:[name componentsSeparatedByString: @"?"][0] fileData:fileData]];
-        } else {
-          file = [NSURL fileURLWithPath:[self storeInFile:[[name componentsSeparatedByString:@"="] lastObject] fileData:fileData]];
-        }
-      } else {
-	    NSString *name = (NSString*)[[fileName componentsSeparatedByString: @"/"] lastObject];
-        file = [NSURL fileURLWithPath:[self storeInFile:[name componentsSeparatedByString: @"?"][0] fileData:fileData]];
-	  }
+      file = [NSURL fileURLWithPath:[self storeInFile:(NSString*)[[fileName componentsSeparatedByString: @"/"] lastObject] fileData:fileData]];
     } else if ([fileName hasPrefix:@"www/"]) {
       NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
       NSString *fullPath = [NSString stringWithFormat:@"%@/%@", bundlePath, fileName];
@@ -789,27 +705,14 @@ static NSString *const kShareOptionIPadCoordinates = @"iPadCoordinates";
     } else if ([fileName hasPrefix:@"file://"]) {
       // stripping the first 6 chars, because the path should start with / instead of file://
       file = [NSURL fileURLWithPath:[fileName substringFromIndex:6]];
-     } else if (rangeData.location != NSNotFound ){
-        //If found "data:"
-        NSString *fileType  = (NSString*)[[[fileName substringFromIndex:rangeData.location+rangeData.length] componentsSeparatedByString: @";"] objectAtIndex:0];
-
-        NSString* attachmentName;
-        //Find df anywhere in string
-        NSRange rangeDF = [fileName rangeOfString:@"df:"];
-        //If not found fallback to default name
-        if (rangeDF.location == NSNotFound) {
-            attachmentName = @"attachment.";
-            attachmentName = [attachmentName stringByAppendingString:(NSString*)[[fileType componentsSeparatedByString: @"/"] lastObject]];
-        } else {
-            //Found, apply name
-            attachmentName = (NSString*)[[[fileName substringFromIndex:rangeDF.location+rangeDF.length] componentsSeparatedByString: @";"] objectAtIndex:0];
-        }
-
-
-        NSString *base64content = (NSString*)[[fileName componentsSeparatedByString: @","] lastObject];
-        NSData* data = [SocialSharing dataFromBase64String:base64content];
-        file = [NSURL fileURLWithPath:[self storeInFile:attachmentName fileData:data]];
-
+    } else if ([fileName hasPrefix:@"data:"]) {
+      // using a base64 encoded string
+      // extract some info from the 'fileName', which is for example: data:text/calendar;base64,<encoded stuff here>
+      NSString *fileType = (NSString*)[[[fileName substringFromIndex:5] componentsSeparatedByString: @";"] objectAtIndex:0];
+      fileType = (NSString*)[[fileType componentsSeparatedByString: @"/"] lastObject];
+      NSString *base64content = (NSString*)[[fileName componentsSeparatedByString: @","] lastObject];
+      NSData *fileData = [SocialSharing dataFromBase64String:base64content];
+      file = [NSURL fileURLWithPath:[self storeInFile:[NSString stringWithFormat:@"%@.%@", @"file", fileType] fileData:fileData]];
     } else {
       // assume anywhere else, on the local filesystem
       file = [NSURL fileURLWithPath:fileName];

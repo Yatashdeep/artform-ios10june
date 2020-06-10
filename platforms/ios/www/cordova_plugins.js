@@ -363,28 +363,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "cordova-plugin-wkwebview-engine.ios-wkwebview-exec",
-      "file": "plugins/cordova-plugin-wkwebview-engine/src/www/ios/ios-wkwebview-exec.js",
-      "pluginId": "cordova-plugin-wkwebview-engine",
-      "clobbers": [
-        "cordova.exec"
-      ]
-    },
-    {
-      "id": "cordova-plugin-wkwebview-engine.ios-wkwebview",
-      "file": "plugins/cordova-plugin-wkwebview-engine/src/www/ios/ios-wkwebview.js",
-      "pluginId": "cordova-plugin-wkwebview-engine",
-      "clobbers": [
-        "window.WkWebView"
-      ]
-    },
-    {
-      "id": "es6-promise-plugin.Promise",
-      "file": "plugins/es6-promise-plugin/www/promise.js",
-      "pluginId": "es6-promise-plugin",
-      "runs": true
-    },
-    {
       "id": "cordova-plugin-x-socialsharing.SocialSharing",
       "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
       "pluginId": "cordova-plugin-x-socialsharing",
@@ -440,13 +418,11 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-filepath": "1.5.8",
     "cordova-plugin-filepicker": "1.1.6",
     "cordova-plugin-inappbrowser": "3.2.0",
-    "cordova-plugin-ionic-webview": "5.0.0",
+    "cordova-plugin-ionic-webview": "2.5.1",
     "cordova-plugin-splashscreen": "4.0.3",
     "cordova-plugin-uniquedeviceid": "1.3.2",
     "cordova-plugin-whitelist": "1.3.1",
-    "cordova-plugin-wkwebview-engine": "1.2.1",
-    "es6-promise-plugin": "4.2.2",
-    "cordova-plugin-x-socialsharing": "5.6.4",
+    "cordova-plugin-x-socialsharing": "5.1.1",
     "cordova-plugin-youtube-video-player": "2.4.0",
     "ionic-plugin-keyboard": "2.2.1",
     "onesignal-cordova-plugin": "2.9.1",

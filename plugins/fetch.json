@@ -148,22 +148,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-ionic-webview": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-ionic-webview@5.0.0"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-wkwebview-engine": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-wkwebview-engine"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-inappbrowser": {
     "source": {
       "type": "registry",
@@ -171,16 +155,6 @@
     },
     "is_top_level": true,
     "variables": {}
-  },
-  "cordova-plugin-x-socialsharing": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-x-socialsharing@5.6.4"
-    },
-    "is_top_level": true,
-    "variables": {
-      "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
-    }
   },
   "es6-promise-plugin": {
     "source": {
@@ -194,6 +168,22 @@
     "source": {
       "type": "registry",
       "id": "com.telerik.plugins.nativepagetransitions"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-x-socialsharing": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-x-socialsharing@5.1.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-ionic-webview": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-ionic-webview@2.5.1"
     },
     "is_top_level": true,
     "variables": {}
