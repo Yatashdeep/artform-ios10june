@@ -10,10 +10,10 @@ import {
   PopoverController,
 } from "ionic-angular";
 import { ArtistprofilepagePage } from "../artistprofilepage/artistprofilepage";
-import {
-  NativePageTransitions,
-  NativeTransitionOptions,
-} from "@ionic-native/native-page-transitions";
+// import {
+//   NativePageTransitions,
+//   NativeTransitionOptions,
+// } from "@ionic-native/native-page-transitions";
 import { Observable } from "rxjs";
 import { SecurityProvider } from "../../providers/security/security";
 import { PopoverpagesharePage } from "../popoverpageshare/popoverpageshare";
@@ -74,7 +74,7 @@ export class CommentsboxPage {
     public popoverCtrl: PopoverController,
     public alertCtrl: AlertController,
     public security: SecurityProvider,
-    private nativePageTransitions: NativePageTransitions,
+    // private nativePageTransitions: NativePageTransitions,
     public viewCtrl: ViewController,
     public navCtrl: NavController,
     public navParams: NavParams
@@ -324,13 +324,13 @@ export class CommentsboxPage {
       });
   }
   close() {
-    let options: NativeTransitionOptions = {
-      direction: "down",
-      duration: 500,
-      slowdownfactor: -1,
-    };
+    // let options: NativeTransitionOptions = {
+    //   direction: "down",
+    //   duration: 500,
+    //   slowdownfactor: -1,
+    // };
 
-    this.nativePageTransitions.slide(options);
+    // this.nativePageTransitions.slide(options);
     this.navCtrl.pop();
   }
   profilepic() {

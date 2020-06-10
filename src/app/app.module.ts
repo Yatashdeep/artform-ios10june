@@ -41,10 +41,10 @@ import { ViewtalentPage } from "../pages/viewtalent/viewtalent";
 //import { AnumationviewComponent } from '../components/anumationview/anumationview';
 //import { HowtouploadpagesidemenuPage } from '../pages/howtouploadpagesidemenu/howtouploadpagesidemenu';
 import { FollowedartistPage } from "../pages/followedartist/followedartist";
-import {
-  NativePageTransitions,
-  NativeTransitionOptions,
-} from "@ionic-native/native-page-transitions";
+// import {
+//   NativePageTransitions,
+//   NativeTransitionOptions,
+// } from "@ionic-native/native-page-transitions";
 import { ViewvideoplayPage } from "../pages/viewvideoplay/viewvideoplay";
 import { TwitterConnect } from "@ionic-native/twitter-connect";
 import { Facebook } from "@ionic-native/facebook";
@@ -222,7 +222,7 @@ import { IOSFilePicker } from "@ionic-native/file-picker";
     Facebook,
     //GooglePlus,
     TwitterConnect,
-    NativePageTransitions,
+    //NativePageTransitions,
     StatusBar,
     SplashScreen,
     Pinterest,

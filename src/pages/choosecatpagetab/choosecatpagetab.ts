@@ -13,10 +13,10 @@ import { ReportprobPage } from "../reportprob/reportprob";
 import { FollowedartistPage } from "../followedartist/followedartist";
 import { ViewtalentPage } from "../viewtalent/viewtalent";
 import { ArtistprofilepagePage } from "../artistprofilepage/artistprofilepage";
-import {
-  NativePageTransitions,
-  NativeTransitionOptions,
-} from "@ionic-native/native-page-transitions";
+// import {
+//   NativePageTransitions,
+//   NativeTransitionOptions,
+// } from "@ionic-native/native-page-transitions";
 import { LoaderdataComponent } from "../../components/loaderdata/loaderdata";
 import { Observable } from "rxjs";
 import { SecurityProvider } from "../../providers/security/security";
@@ -67,7 +67,7 @@ export class ChoosecatpagetabPage {
     public events: Events,
     public profilemedia: DashboardserviceProvider,
     public security: SecurityProvider,
-    private nativePageTransitions: NativePageTransitions,
+    // private nativePageTransitions: NativePageTransitions,
     public modalCtrl: ModalController,
     public popoverCtrl: PopoverController,
     public navCtrl: NavController,
@@ -251,13 +251,13 @@ export class ChoosecatpagetabPage {
   }
   navigatetocomment() {
     localStorage.removeItem("usermedia");
-    let options: NativeTransitionOptions = {
-      direction: "up",
-      duration: 500,
-      slowdownfactor: 2,
-    };
+    // let options: NativeTransitionOptions = {
+    //   direction: "up",
+    //   duration: 500,
+    //   slowdownfactor: 2,
+    // };
 
-    this.nativePageTransitions.slide(options);
+    // this.nativePageTransitions.slide(options);
     // let commentsbox=this.modalCtrl.create(CommentsboxPage)
     // commentsbox.present()
     // this.navCtrl.push(CommentsboxPage)
@@ -282,13 +282,13 @@ export class ChoosecatpagetabPage {
   navigatetomsg(id) {
     console.log("recentdata", this.profilerecentcharts);
     localStorage.removeItem("usermedia");
-    let options: NativeTransitionOptions = {
-      direction: "up",
-      duration: 500,
-      slowdownfactor: 2,
-    };
-    console.log("user_url", this.profilerecentcharts[id]);
-    this.nativePageTransitions.slide(options);
+    // let options: NativeTransitionOptions = {
+    //   direction: "up",
+    //   duration: 500,
+    //   slowdownfactor: 2,
+    // };
+    // console.log("user_url", this.profilerecentcharts[id]);
+    // this.nativePageTransitions.slide(options);
     let commentsbox = this.modalCtrl.create(CommentsboxPage, {
       usermediaid: this.profilerecentcharts[id].usermediaid,
       mediapic: this.profilerecentcharts[id].category_image_url,
@@ -323,13 +323,13 @@ export class ChoosecatpagetabPage {
   navigatetomsgtop(id) {
     // alert(id)
     localStorage.removeItem("usermedia");
-    let options: NativeTransitionOptions = {
-      direction: "up",
-      duration: 500,
-      slowdownfactor: 2,
-    };
-    console.log(this.playerlist[id].usermedia_path);
-    this.nativePageTransitions.slide(options);
+    // let options: NativeTransitionOptions = {
+    //   direction: "up",
+    //   duration: 500,
+    //   slowdownfactor: 2,
+    // };
+    // console.log(this.playerlist[id].usermedia_path);
+    // this.nativePageTransitions.slide(options);
     let commentsbox = this.modalCtrl.create(CommentsboxPage, {
       usermediaid: this.playerlist[id].usermedia_id,
       mediapic: this.playerlist[id].usermedia_path,

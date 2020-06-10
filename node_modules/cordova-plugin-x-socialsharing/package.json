@@ -1,27 +1,27 @@
 {
-  "_from": "cordova-plugin-x-socialsharing@5.1.1",
-  "_id": "cordova-plugin-x-socialsharing@5.1.1",
+  "_from": "cordova-plugin-x-socialsharing@5.6.4",
+  "_id": "cordova-plugin-x-socialsharing@5.6.4",
   "_inBundle": false,
-  "_integrity": "sha1-7E+3h8N6dPp3sBzLlm3Eg8RUcU0=",
+  "_integrity": "sha512-bBjWY9TgoH1CMK4P26zLT1D9rVcvI9LoIEGUjmwdLGiBP+IWo7RXu90RM1xHmVjG5hVLgmic5XyWc665ye8aRQ==",
   "_location": "/cordova-plugin-x-socialsharing",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-x-socialsharing@5.1.1",
+    "raw": "cordova-plugin-x-socialsharing@5.6.4",
     "name": "cordova-plugin-x-socialsharing",
     "escapedName": "cordova-plugin-x-socialsharing",
-    "rawSpec": "5.1.1",
+    "rawSpec": "5.6.4",
     "saveSpec": null,
-    "fetchSpec": "5.1.1"
+    "fetchSpec": "5.6.4"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-x-socialsharing/-/cordova-plugin-x-socialsharing-5.1.1.tgz",
-  "_shasum": "ec4fb787c37a74fa77b01ccb966dc483c454714d",
-  "_spec": "cordova-plugin-x-socialsharing@5.1.1",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-x-socialsharing/-/cordova-plugin-x-socialsharing-5.6.4.tgz",
+  "_shasum": "92b87dc9daddfa8d1db4692257b1968f60e61ee6",
+  "_spec": "cordova-plugin-x-socialsharing@5.6.4",
   "_where": "/Users/apple/Documents/artformplat",
   "author": {
     "name": "Eddy Verbruggen - @EddyVerbruggen"
@@ -35,7 +35,9 @@
     "platforms": [
       "ios",
       "android",
-      "wp8"
+      "wp8",
+      "windows",
+      "web"
     ]
   },
   "deprecated": false,
@@ -59,6 +61,7 @@
     "Pocket",
     "LinkedIn",
     "cordova",
+    "WebShare",
     "ecosystem:cordova",
     "cordova-ios",
     "cordova-android",
@@ -70,5 +73,6 @@
     "type": "git",
     "url": "git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git"
   },
-  "version": "5.1.1"
+  "types": "./types/index.d.ts",
+  "version": "5.6.4"
 }

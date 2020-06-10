@@ -9,14 +9,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "com.telerik.plugins.nativepagetransitions.NativePageTransitions",
-      "file": "plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js",
-      "pluginId": "com.telerik.plugins.nativepagetransitions",
-      "clobbers": [
-        "window.plugins.nativepagetransitions"
-      ]
-    },
-    {
       "id": "cordova-plugin-file.DirectoryEntry",
       "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
       "pluginId": "cordova-plugin-file",
@@ -363,6 +355,12 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
+      "id": "es6-promise-plugin.Promise",
+      "file": "plugins/es6-promise-plugin/www/promise.js",
+      "pluginId": "es6-promise-plugin",
+      "runs": true
+    },
+    {
       "id": "cordova-plugin-x-socialsharing.SocialSharing",
       "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
       "pluginId": "cordova-plugin-x-socialsharing",
@@ -406,7 +404,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
   ];
   module.exports.metadata = {
     "branch-cordova-sdk": "4.1.2",
-    "com.telerik.plugins.nativepagetransitions": "0.6.5",
     "cordova-plugin-file": "6.0.1",
     "cordova-plugin-advanced-http": "1.10.0",
     "cordova-plugin-camera": "4.0.3",
@@ -422,7 +419,8 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-splashscreen": "4.0.3",
     "cordova-plugin-uniquedeviceid": "1.3.2",
     "cordova-plugin-whitelist": "1.3.1",
-    "cordova-plugin-x-socialsharing": "5.1.1",
+    "es6-promise-plugin": "4.2.2",
+    "cordova-plugin-x-socialsharing": "5.6.4",
     "cordova-plugin-youtube-video-player": "2.4.0",
     "ionic-plugin-keyboard": "2.2.1",
     "onesignal-cordova-plugin": "2.9.1",

@@ -1,25 +1,25 @@
 webpackJsonp([36],{
 
-/***/ 102:
+/***/ 101:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UploadmediaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_securitypanel_securitypanel__ = __webpack_require__(186);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_file_chooser__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_file_transfer__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_securitypanel_securitypanel__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_file_chooser__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_file_transfer__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_forms__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__artprofile_artprofile__ = __webpack_require__(187);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_http__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_file_path__ = __webpack_require__(346);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_file_picker__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__artprofile_artprofile__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_http__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_file_path__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_file_picker__ = __webpack_require__(346);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -993,17 +993,17 @@ var UploadmediaPage = (function () {
 
 /***/ }),
 
-/***/ 105:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CategoryPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__artprofile_artprofile__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__artprofile_artprofile__ = __webpack_require__(186);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1464,13 +1464,13 @@ var CategoryPage = (function () {
 
 /***/ }),
 
-/***/ 107:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FollowersPagepPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__artistprofilepage_artistprofilepage__ = __webpack_require__(46);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1541,15 +1541,15 @@ var FollowersPagepPage = (function () {
 
 /***/ }),
 
-/***/ 184:
+/***/ 183:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ViewvideotopperformersPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__ = __webpack_require__(156);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1646,26 +1646,26 @@ var ViewvideotopperformersPage = (function () {
 
 /***/ }),
 
-/***/ 186:
+/***/ 185:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SecuritypanelPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_twitter_connect__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_twitter_connect__ = __webpack_require__(340);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_facebook__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_facebook__ = __webpack_require__(341);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_core__ = __webpack_require__(711);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_core__ = __webpack_require__(710);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_core__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_cordova_oauth_platform_cordova__ = __webpack_require__(720);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_cordova_oauth_platform_cordova__ = __webpack_require__(719);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_cordova_oauth_platform_cordova___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_ng2_cordova_oauth_platform_cordova__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__commentsbox_commentsbox__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__artistprofilepage_artistprofilepage__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_unique_device_id__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_unique_device_id__ = __webpack_require__(157);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2400,29 +2400,28 @@ var SecuritypanelPage = (function () {
 
 /***/ }),
 
-/***/ 187:
+/***/ 186:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ArtprofilePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__category_category__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__uploadmedia_uploadmedia__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__category_category__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__uploadmedia_uploadmedia__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__commentsbox_commentsbox__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__popoverpageshare_popoverpageshare__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__reportprob_reportprob__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__followedartist_followedartist__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__artistprofilepage_artistprofilepage__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_native_page_transitions__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_dashboardservice_dashboardservice__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__viewvideoplay_viewvideoplay__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__viewtalent_viewtalent__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__followers_pagep_followers_pagep__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_securitypanel_securitypanel__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_security_security__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_dashboardservice_dashboardservice__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__viewvideoplay_viewvideoplay__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__viewtalent_viewtalent__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__followers_pagep_followers_pagep__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_securitypanel_securitypanel__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2443,7 +2442,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
+// import { NativePageTransitions, NativeTransitionOptions } from '@ionic-native/native-page-transitions';
 
 
 
@@ -2458,7 +2457,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var ArtprofilePage = (function () {
-    function ArtprofilePage(app, alertCtrl, events, profilemedia, security, loadingCtrl, event, nativePageTransitions, popoverCtrl, modalCtrl, navCtrl, navParams) {
+    function ArtprofilePage(app, alertCtrl, events, profilemedia, security, loadingCtrl, event, popoverCtrl, modalCtrl, navCtrl, navParams) {
         var _this = this;
         this.app = app;
         this.alertCtrl = alertCtrl;
@@ -2467,7 +2466,6 @@ var ArtprofilePage = (function () {
         this.security = security;
         this.loadingCtrl = loadingCtrl;
         this.event = event;
-        this.nativePageTransitions = nativePageTransitions;
         this.popoverCtrl = popoverCtrl;
         this.modalCtrl = modalCtrl;
         this.navCtrl = navCtrl;
@@ -2484,11 +2482,11 @@ var ArtprofilePage = (function () {
         this.loadercover = false;
         this.showcat = true;
         this.showshare = false;
-        this.playlist = 'latest';
+        this.playlist = "latest";
         // this.profile_pic=localStorage['image1']
         // this.banner=localStorage['banner']
-        this.profile_pic = localStorage.getItem('image1');
-        this.banner = localStorage.getItem('banner');
+        this.profile_pic = localStorage.getItem("image1");
+        this.banner = localStorage.getItem("banner");
         // alert(this.profile_pic)
         // alert(this.banner)
         // events.subscribe('user:image',(profile_pic,firtsname,time)=>{
@@ -2497,12 +2495,12 @@ var ArtprofilePage = (function () {
         //   this.profile_pic=profile_pic
         //   this.firtsname=firtsname
         // })
-        events.subscribe('user:banner', function (bannerimgsrc, firtsname, time) {
+        events.subscribe("user:banner", function (bannerimgsrc, firtsname, time) {
             _this.banner = bannerimgsrc;
             // alert(this.banner)
         });
-        events.subscribe('star-rating:changed', function (starRating) {
-            console.log('starrating' + starRating);
+        events.subscribe("star-rating:changed", function (starRating) {
+            console.log("starrating" + starRating);
             _this.rate = starRating;
         });
         // this.getfollowing()
@@ -2518,7 +2516,7 @@ var ArtprofilePage = (function () {
         // }
         // events.subscribe('user:following',(followingdata)=>{
         // this.followingdata=followingdata
-        // console.log(this.followingdata)  
+        // console.log(this.followingdata)
         // this.following=this.followingdata.length
         // // alert(this.banner)
         // })
@@ -2535,14 +2533,16 @@ var ArtprofilePage = (function () {
     };
     ArtprofilePage.prototype.loadcat = function () {
         var _this = this;
-        __WEBPACK_IMPORTED_MODULE_10_rxjs__["Observable"].of(null)
-            .flatMap(function () { return _this.security.getcategory(); }).subscribe(function (data) {
-            localStorage['category'] = JSON.stringify(data.categories);
+        __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(null)
+            .flatMap(function () { return _this.security.getcategory(); })
+            .subscribe(function (data) {
+            localStorage["category"] = JSON.stringify(data.categories);
         });
-        __WEBPACK_IMPORTED_MODULE_10_rxjs__["Observable"].of(null)
-            .flatMap(function () { return _this.security.getcategories(); }).subscribe(function (data) {
-            console.log('categories', data.categories);
-            localStorage['categories'] = JSON.stringify(data.categories);
+        __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(null)
+            .flatMap(function () { return _this.security.getcategories(); })
+            .subscribe(function (data) {
+            console.log("categories", data.categories);
+            localStorage["categories"] = JSON.stringify(data.categories);
         });
     };
     // getfollowing()
@@ -2571,24 +2571,38 @@ var ArtprofilePage = (function () {
         // this.event.publish('user:following',this.followingdata)
         //   })
         if (id == 1) {
-            __WEBPACK_IMPORTED_MODULE_10_rxjs__["Observable"].of(null)
-                .flatMap(function () { return _this.security.getfollow(''); }).subscribe(function (data) {
-                console.log('datausers', data.list);
-                console.log('hii');
+            __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(null)
+                .flatMap(function () { return _this.security.getfollow(""); })
+                .subscribe(function (data) {
+                console.log("datausers", data.list);
+                console.log("hii");
                 _this.followersdata = data.list;
-                _this.event.publish('user:followersdata', _this.followersdata);
-                console.log('followersdata', _this.followersdata);
-                var popover = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_15__followers_pagep_followers_pagep__["a" /* FollowersPagepPage */], { rcentdata: _this.latestchart, topid: 1, followersdata: _this.followersdata, id: id, followingdata: _this.followingdata });
+                _this.event.publish("user:followersdata", _this.followersdata);
+                console.log("followersdata", _this.followersdata);
+                var popover = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_14__followers_pagep_followers_pagep__["a" /* FollowersPagepPage */], {
+                    rcentdata: _this.latestchart,
+                    topid: 1,
+                    followersdata: _this.followersdata,
+                    id: id,
+                    followingdata: _this.followingdata,
+                });
                 popover.present({});
             });
         }
         else {
-            __WEBPACK_IMPORTED_MODULE_10_rxjs__["Observable"].of(null)
-                .flatMap(function () { return _this.security.getfollowing(''); }).subscribe(function (data) {
-                console.log('followingusers', data.list);
+            __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(null)
+                .flatMap(function () { return _this.security.getfollowing(""); })
+                .subscribe(function (data) {
+                console.log("followingusers", data.list);
                 _this.followingdata = data.list;
-                _this.event.publish('user:following', _this.followingdata);
-                var popover = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_15__followers_pagep_followers_pagep__["a" /* FollowersPagepPage */], { rcentdata: _this.latestchart, topid: 1, followersdata: _this.followersdata, id: id, followingdata: _this.followingdata });
+                _this.event.publish("user:following", _this.followingdata);
+                var popover = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_14__followers_pagep_followers_pagep__["a" /* FollowersPagepPage */], {
+                    rcentdata: _this.latestchart,
+                    topid: 1,
+                    followersdata: _this.followersdata,
+                    id: id,
+                    followingdata: _this.followingdata,
+                });
                 popover.present({});
             });
         }
@@ -2597,51 +2611,51 @@ var ArtprofilePage = (function () {
         this.countload = 0;
         this.page = 0;
         if (id == 1) {
-            this.categorytag = 'Music';
+            this.categorytag = "Music";
             this.catid = 1;
-            this.type = 'in Music';
+            this.type = "in Music";
         }
         else if (id == 2) {
-            this.categorytag = 'Dance';
+            this.categorytag = "Dance";
             this.catid = 2;
-            this.type = 'in Dance';
+            this.type = "in Dance";
         }
         else if (id == 3) {
-            this.categorytag = 'Film';
+            this.categorytag = "Film";
             this.catid = 3;
-            this.type = 'in Film';
+            this.type = "in Film";
         }
         else if (id == 4) {
-            this.categorytag = 'Photography';
+            this.categorytag = "Photography";
             this.catid = 4;
-            this.type = 'in Photography';
+            this.type = "in Photography";
         }
         else if (id == 7) {
-            this.categorytag = 'Literature';
+            this.categorytag = "Literature";
             this.catid = 7;
-            this.type = 'in Literature';
+            this.type = "in Literature";
         }
         else if (id == 8) {
-            this.categorytag = 'Art';
+            this.categorytag = "Art";
             this.catid = 8;
-            this.type = 'in Art';
+            this.type = "in Art";
         }
         else if (id == 5) {
-            this.categorytag = 'Freestyle';
+            this.categorytag = "Freestyle";
             this.catid = 5;
-            this.type = 'in Freestyle';
+            this.type = "in Freestyle";
         }
         else if (id == 9) {
-            this.categorytag = 'Personality';
+            this.categorytag = "Personality";
             this.catid = 9;
-            this.type = 'in Personality';
+            this.type = "in Personality";
         }
         else if (id == 6) {
-            this.categorytag = 'Others';
+            this.categorytag = "Others";
             this.catid = 6;
-            this.type = 'in Others';
+            this.type = "in Others";
         }
-        if (this.playlist == 'recent') {
+        if (this.playlist == "recent") {
             this.recentcharts();
             this.profilemedia.sortcatprofile = 1;
         }
@@ -2651,26 +2665,26 @@ var ArtprofilePage = (function () {
     };
     ArtprofilePage.prototype.changeplaylist = function (id) {
         console.log(id);
-        this.type = '';
+        this.type = "";
     };
     ArtprofilePage.prototype.ionViewDidLoad = function () {
-        this.user_display_name = localStorage['firstname'];
+        this.user_display_name = localStorage["firstname"];
         this.loaderitem = false;
         this.loadingrecentdata = false;
-        var usertype = localStorage['usertype'];
+        var usertype = localStorage["usertype"];
         //  alert(localStorage['usertype'])
         if (usertype == 3) {
-            this.artistprop = 'inactive';
-            this.title = 'Profile';
-            this.charttitle = 'Latest';
-            this.type = 'in Music';
+            this.artistprop = "inactive";
+            this.title = "Profile";
+            this.charttitle = "Latest";
+            this.type = "in Music";
         }
         else {
-            this.artistprop = 'active';
-            this.title = 'Artist Profile';
-            this.charttitle = 'Artist';
+            this.artistprop = "active";
+            this.title = "Artist Profile";
+            this.charttitle = "Artist";
         }
-        console.log('ionViewDidLoad ArtprofilePage');
+        console.log("ionViewDidLoad ArtprofilePage");
         this.usercharts();
         this.recentcharts();
     };
@@ -2679,33 +2693,34 @@ var ArtprofilePage = (function () {
         //   let loading=this.loadingCtrl.create({
         //     spinner:'hide',
         //     content:'<img src="https://media.giphy.com/media/3dbzJ7r5tLLjRPufWl/giphy.gif">',
-        //     cssClass:'transparent' 
+        //     cssClass:'transparent'
         //   })
         //  loading.present()
         // this.banner='assets/Dashboard/thumbnail.png'
         this.loaderitem = true;
-        __WEBPACK_IMPORTED_MODULE_10_rxjs__["Observable"].of(this.loaderitem)
-            .flatMap(function () { return _this.security.charts(_this.catid); }).subscribe(function (data) {
-            console.log('userdata', data.user);
+        __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(this.loaderitem)
+            .flatMap(function () { return _this.security.charts(_this.catid); })
+            .subscribe(function (data) {
+            console.log("userdata", data.user);
             _this.user = data.user;
             //  alert(data.user.user_profile_avatar)
             _this.loaderitem = false;
-            console.log('user_display_name' + data.user.user_display_name);
+            console.log("user_display_name" + data.user.user_display_name);
             //  alert('banerr'+this.banner)
-            if (data.status != 'fail') {
+            if (data.status != "fail") {
                 _this.firtsname = data.user.user_display_name;
                 if (_this.profile_pic) {
-                    _this.event.publish('user:image', localStorage.getItem('image1'), data.user.user_display_name, Date.now());
+                    _this.event.publish("user:image", localStorage.getItem("image1"), data.user.user_display_name, Date.now());
                     // alert('ssss'+this.profile_pic)
                 }
                 else {
-                    _this.event.publish('user:image', data.user.user_avatar, data.user.user_display_name, Date.now());
+                    _this.event.publish("user:image", data.user.user_avatar, data.user.user_display_name, Date.now());
                     _this.profile_pic = data.user.user_avatar;
                 }
                 // alert('following'+this.following)
                 _this.follower = data.user.user_followers.length;
-                if (localStorage['following'] != undefined) {
-                    _this.following = localStorage['following'];
+                if (localStorage["following"] != undefined) {
+                    _this.following = localStorage["following"];
                 }
                 else {
                     _this.following = data.user.user_following.length;
@@ -2724,7 +2739,7 @@ var ArtprofilePage = (function () {
                     // this.banner='assets/profile/Lighthouse.png'
                 }
                 _this.latestchart = _this.profilemedia.latestcharts(data.playerList);
-                console.log('latest', _this.latestchart);
+                console.log("latest", _this.latestchart);
             }
             else {
                 _this.firtsname = data.user.user_display_name;
@@ -2753,20 +2768,21 @@ var ArtprofilePage = (function () {
         //   let loading=this.loadingCtrl.create({
         //     spinner:'hide',
         //     content:'<img src="https://media.giphy.com/media/3dbzJ7r5tLLjRPufWl/giphy.gif">',
-        //     cssClass:'transparent' 
+        //     cssClass:'transparent'
         //   })
         //  loading.present()
         // this.banner='assets/Dashboard/thumbnail.png'
         this.loaderitem = true;
-        __WEBPACK_IMPORTED_MODULE_10_rxjs__["Observable"].of(this.loaderitem)
-            .flatMap(function () { return _this.security.charts(_this.catid); }).subscribe(function (data) {
-            console.log('userdata', data.user);
+        __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(this.loaderitem)
+            .flatMap(function () { return _this.security.charts(_this.catid); })
+            .subscribe(function (data) {
+            console.log("userdata", data.user);
             //  this.user=data.user
             //  alert(data.user.user_profile_avatar)
             _this.loaderitem = false;
-            console.log('user_display_name' + data.user.user_display_name);
+            console.log("user_display_name" + data.user.user_display_name);
             //  alert('banerr'+this.banner)
-            if (data.status != 'fail') {
+            if (data.status != "fail") {
                 // this.firtsname=data.user.user_display_name
                 // if(this.profile_pic)
                 // {
@@ -2780,7 +2796,7 @@ var ArtprofilePage = (function () {
                 // }
                 // alert('following'+this.following)
                 // this.follower=data.user.user_followers.length
-                if (localStorage['following'] != undefined) {
+                if (localStorage["following"] != undefined) {
                     // this.following=localStorage['following']
                 }
                 else {
@@ -2800,7 +2816,7 @@ var ArtprofilePage = (function () {
                     // this.banner='assets/profile/Lighthouse.png'
                 }
                 _this.latestchart = _this.profilemedia.latestcharts(data.playerList);
-                console.log('latest', _this.latestchart);
+                console.log("latest", _this.latestchart);
             }
             else {
                 // this.firtsname=data.user.user_display_name
@@ -2827,8 +2843,9 @@ var ArtprofilePage = (function () {
     ArtprofilePage.prototype.recentcharts = function (infiniteScroll) {
         var _this = this;
         // this.loadingrecentdata=true
-        __WEBPACK_IMPORTED_MODULE_10_rxjs__["Observable"].of(null)
-            .flatMap(function () { return _this.security.artistprofilerecent(_this.page, _this.catid); }).subscribe(function (data) {
+        __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(null)
+            .flatMap(function () { return _this.security.artistprofilerecent(_this.page, _this.catid); })
+            .subscribe(function (data) {
             // this.following=localStorage['following']
             // this.loadingrecentdata=false
             _this.profileuser = data.user;
@@ -2841,18 +2858,18 @@ var ArtprofilePage = (function () {
     };
     ArtprofilePage.prototype.loadMore = function (infiniteScroll) {
         this.page++;
-        console.log('ss');
+        console.log("ss");
         this.recentcharts(infiniteScroll);
         console.log(this.page);
     };
     ArtprofilePage.prototype.showcatevent = function (id) {
         if (id == 1) {
             this.showcat = false;
-            document.getElementById('categorylist').style.height = '336px';
+            document.getElementById("categorylist").style.height = "336px";
         }
         else {
             this.showcat = true;
-            document.getElementById('categorylist').style.height = '120px';
+            document.getElementById("categorylist").style.height = "120px";
         }
     };
     ArtprofilePage.prototype.tapshow = function () {
@@ -2865,12 +2882,12 @@ var ArtprofilePage = (function () {
         this.count++;
     };
     ArtprofilePage.prototype.inboxtap = function () {
-        this.navCtrl.push('InboxpagePage');
+        this.navCtrl.push("InboxpagePage");
     };
     ArtprofilePage.prototype.editprop = function () {
         // let contactmodal=this.modalCtrl.create(EditprofilepagePage,{user:this.user})
-        // contactmodal.present() 
-        this.navCtrl.push('EditprofilepagePage', { user: this.user });
+        // contactmodal.present()
+        this.navCtrl.push("EditprofilepagePage", { user: this.user });
     };
     ArtprofilePage.prototype.changeprefrence = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__category_category__["a" /* CategoryPage */]);
@@ -2881,13 +2898,13 @@ var ArtprofilePage = (function () {
     ArtprofilePage.prototype.navigatetocomment = function (i) {
         // let modal=this.modalCtrl.create(CommentsboxPage)
         // modal.present()
-        var options = {
-            direction: 'up',
-            duration: 500,
-            slowdownfactor: 2
-        };
-        this.nativePageTransitions.slide(options);
-        console.log('i', i);
+        //   let options: NativeTransitionOptions = {
+        //     direction: 'up',
+        //     duration: 500,
+        //     slowdownfactor: 2
+        //    }
+        //  this.nativePageTransitions.slide(options)
+        console.log("i", i);
         // let commentsbox=this.modalCtrl.create(CommentsboxPage)
         // commentsbox.present()
         // this.navCtrl.push(CommentsboxPage)
@@ -2899,7 +2916,7 @@ var ArtprofilePage = (function () {
         console.log(this.latestchart[i].user_display_name);
         console.log(this.latestchart[i].user_avatar);
         console.log(this.latestchart[i].small_image_url);
-        console.log('totalrating', this.latestchart[i].totalRating);
+        console.log("totalrating", this.latestchart[i].totalRating);
         //  console.log(this.latestchart[id].user_url)
         //  console.log(this.latestchart[id].artist_id)
         //  console.log(this.latestchart[id].rating)
@@ -2915,42 +2932,42 @@ var ArtprofilePage = (function () {
             totalrating: this.latestchart[i].totalRating,
             userurl: this.latestchart[i].user_url,
             artist_id: this.latestchart[i].artist_id,
-            rate: this.latestchart[i].rating
+            rate: this.latestchart[i].rating,
         });
         commentsbox.present();
     };
     ArtprofilePage.prototype.openstar = function (usermediaid) {
         var _this = this;
-        console.log('usermedia' + usermediaid);
-        console.log('rate' + this.rate);
+        console.log("usermedia" + usermediaid);
+        console.log("rate" + this.rate);
         if (usermediaid) {
-            var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_14__viewtalent_viewtalent__["a" /* ViewtalentPage */], { rate: this.rate });
+            var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_13__viewtalent_viewtalent__["a" /* ViewtalentPage */], { rate: this.rate });
             modal.present();
-            __WEBPACK_IMPORTED_MODULE_10_rxjs__["Observable"].of(null)
-                .flatMap(function () { return _this.security.starmedia(_this.rate, usermediaid); }).subscribe(function (data) {
-            });
+            __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(null)
+                .flatMap(function () { return _this.security.starmedia(_this.rate, usermediaid); })
+                .subscribe(function (data) { });
         }
     };
     ArtprofilePage.prototype.navigatetocomment1 = function (i) {
-        var options = {
-            direction: 'up',
-            duration: 500,
-            slowdownfactor: 2
-        };
-        this.nativePageTransitions.slide(options);
-        console.log('i', i);
+        //   let options: NativeTransitionOptions = {
+        //     direction: 'up',
+        //     duration: 500,
+        //     slowdownfactor: 2
+        //    }
+        //  this.nativePageTransitions.slide(options)
+        console.log("i", i);
         // let commentsbox=this.modalCtrl.create(CommentsboxPage)
         // commentsbox.present()
         // this.navCtrl.push(CommentsboxPage)
         // let commentsbox=this.modalCtrl.create(CommentsboxPage)
-        console.log('usermediaid', this.profilerecentcharts[i].usermediaid);
-        console.log('category_image_url', this.profilerecentcharts[i].category_image_url);
-        console.log('usermedia_name', this.profilerecentcharts[i].usermedia_name);
-        console.log('artforms', this.profilerecentcharts[i].artforms);
+        console.log("usermediaid", this.profilerecentcharts[i].usermediaid);
+        console.log("category_image_url", this.profilerecentcharts[i].category_image_url);
+        console.log("usermedia_name", this.profilerecentcharts[i].usermedia_name);
+        console.log("artforms", this.profilerecentcharts[i].artforms);
         console.log(this.profilerecentcharts[i].user_display_name);
         console.log(this.profilerecentcharts[i].user_avatar);
         console.log(this.profilerecentcharts[i].small_image_url);
-        console.log('totalrating' + this.profilerecentcharts[i].totalRating);
+        console.log("totalrating" + this.profilerecentcharts[i].totalRating);
         console.log(this.profilerecentcharts[i].userurl);
         console.log(this.profilerecentcharts[i].artist_id);
         console.log(this.profilerecentcharts[i].rating);
@@ -2966,30 +2983,32 @@ var ArtprofilePage = (function () {
             totalrating: this.profilerecentcharts[i].totalRating,
             userurl: this.profilerecentcharts[i].userurl,
             artist_id: this.profilerecentcharts[i].artist_id,
-            rate: this.profilerecentcharts[i].rating
+            rate: this.profilerecentcharts[i].rating,
         });
         commentsbox.present();
     };
     ArtprofilePage.prototype.tapshow1 = function (i) {
-        console.log('latestchart', this.latestchart);
-        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_5__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], { image: this.latestchart[i].category_image_url,
+        console.log("latestchart", this.latestchart);
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_5__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], {
+            image: this.latestchart[i].category_image_url,
             artistname: this.latestchart[i].usermedia_name,
             user_url: this.latestchart[i].userurl,
-            usermediaid: this.latestchart[i].usermediaid
+            usermediaid: this.latestchart[i].usermediaid,
         });
         popover.present({
-            ev: event
+            ev: event,
         });
     };
     ArtprofilePage.prototype.tapshow2 = function (i) {
-        console.log('profilerecentcharts', this.profilerecentcharts);
-        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_5__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], { image: null,
+        console.log("profilerecentcharts", this.profilerecentcharts);
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_5__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], {
+            image: null,
             artistname: this.profilerecentcharts[i].usermedia_name,
             user_url: this.profilerecentcharts[i].userurl,
-            usermediaid: this.profilerecentcharts[i].usermediaid
+            usermediaid: this.profilerecentcharts[i].usermediaid,
         });
         popover.present({
-            ev: event
+            ev: event,
         });
     };
     ArtprofilePage.prototype.reportnavigate = function () {
@@ -2998,60 +3017,68 @@ var ArtprofilePage = (function () {
     };
     // view media files
     ArtprofilePage.prototype.viewvideo = function (id) {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_13__viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */], {
-            data: this.latestchart, id: id
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_12__viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */], {
+            data: this.latestchart,
+            id: id,
         });
         modal.present();
     };
     ArtprofilePage.prototype.viewvideo1 = function (id) {
-        console.log('profilerecentcharts', this.profilerecentcharts);
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_13__viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */], {
-            data: this.profilerecentcharts, id: id
+        console.log("profilerecentcharts", this.profilerecentcharts);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_12__viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */], {
+            data: this.profilerecentcharts,
+            id: id,
         });
         modal.present();
     };
     ArtprofilePage.prototype.followedartist = function (artist_id, user_display_name) {
         var _this = this;
-        console.log(user_display_name + '' + this.user_display_name);
+        console.log(user_display_name + "" + this.user_display_name);
         if (this.user_display_name != user_display_name) {
-            __WEBPACK_IMPORTED_MODULE_10_rxjs__["Observable"].of(null)
-                .flatMap(function () { return _this.security.artistfollowed(artist_id); }).subscribe(function (data) {
+            __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(null)
+                .flatMap(function () { return _this.security.artistfollowed(artist_id); })
+                .subscribe(function (data) {
                 console.log(data.status);
-                var modalfollow = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_7__followedartist_followedartist__["a" /* FollowedartistPage */], { msg: data.status });
+                var modalfollow = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_7__followedartist_followedartist__["a" /* FollowedartistPage */], {
+                    msg: data.status,
+                });
                 modalfollow.present();
             });
         }
     };
     ArtprofilePage.prototype.artistpro = function (i) {
         // this.navCtrl.push(ArtistprofilepagePage)
-        if (localStorage['usertype'] == 2) {
+        if (localStorage["usertype"] == 2) {
         }
         else {
-            console.log('latestcharts', this.latestchart);
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__artistprofilepage_artistprofilepage__["a" /* ArtistprofilepagePage */], { id: i, rcentdata: this.latestchart, topid: 1 });
+            console.log("latestcharts", this.latestchart);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__artistprofilepage_artistprofilepage__["a" /* ArtistprofilepagePage */], {
+                id: i,
+                rcentdata: this.latestchart,
+                topid: 1,
+            });
         }
     };
     ArtprofilePage.prototype.uploadfile = function () {
         var _this = this;
-        if (localStorage['usertype'] == 2) {
+        if (localStorage["usertype"] == 2) {
             this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__uploadmedia_uploadmedia__["a" /* UploadmediaPage */], { id: 1 });
         }
         else {
             var alert_1 = this.alertCtrl.create({
-                title: 'You have created a User profile. In order to upload, please change to Artist profile. Would you like to change to Artist Profile and enable upload?',
+                title: "You have created a User profile. In order to upload, please change to Artist profile. Would you like to change to Artist Profile and enable upload?",
                 buttons: [
                     {
-                        text: 'Ok',
+                        text: "Ok",
                         handler: function (data) {
                             _this.changetype();
-                        }
+                        },
                     },
                     {
-                        text: 'Cancel',
-                        handler: function (data) {
-                        }
-                    }
-                ]
+                        text: "Cancel",
+                        handler: function (data) { },
+                    },
+                ],
             });
             alert_1.present();
         }
@@ -3059,36 +3086,43 @@ var ArtprofilePage = (function () {
     ArtprofilePage.prototype.changetype = function () {
         var _this = this;
         var loading = this.loadingCtrl.create({
-            spinner: 'hide',
+            spinner: "hide",
             //  content:'<img src="https://media.giphy.com/media/3dbzJ7r5tLLjRPufWl/giphy.gif">',
-            content: '',
-            cssClass: 'transparent'
+            content: "",
+            cssClass: "transparent",
         });
         loading.present();
-        __WEBPACK_IMPORTED_MODULE_10_rxjs__["Observable"].of(loading).flatMap(function (loading) { return loading.present(); })
-            .flatMap(function () { return _this.security.changeusertype(); }).subscribe(function (data) {
+        __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(loading)
+            .flatMap(function (loading) { return loading.present(); })
+            .flatMap(function () { return _this.security.changeusertype(); })
+            .subscribe(function (data) {
             loading.dismiss();
             // this.navCtrl.setRoot(SecuritypanelPage)
-            _this.app.getRootNav().setRoot(__WEBPACK_IMPORTED_MODULE_16__pages_securitypanel_securitypanel__["a" /* SecuritypanelPage */]);
+            _this.app.getRootNav().setRoot(__WEBPACK_IMPORTED_MODULE_15__pages_securitypanel_securitypanel__["a" /* SecuritypanelPage */]);
         });
     };
     ArtprofilePage.prototype.artistpro1 = function (i) {
         // this.navCtrl.push(ArtistprofilepagePage)
         //  alert(localStorage['usertype'])
-        if (localStorage['usertype'] == 2) {
+        if (localStorage["usertype"] == 2) {
         }
         else {
-            console.log('latestcharts', this.profilerecentcharts);
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__artistprofilepage_artistprofilepage__["a" /* ArtistprofilepagePage */], { id: i, rcentdata: this.profilerecentcharts, topid: 1 });
+            console.log("latestcharts", this.profilerecentcharts);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__artistprofilepage_artistprofilepage__["a" /* ArtistprofilepagePage */], {
+                id: i,
+                rcentdata: this.profilerecentcharts,
+                topid: 1,
+            });
         }
     };
     ArtprofilePage.prototype.tapshow3 = function () {
-        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_5__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], { image: this.profileuser.user_avatar,
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_5__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], {
+            image: this.profileuser.user_avatar,
             artistname: this.profileuser.user_display_name,
             user_url: this.profileuser.user_url,
-            usermediaid: localStorage['userid'],
-            type: 'artist',
-            banner: this.banner
+            usermediaid: localStorage["userid"],
+            type: "artist",
+            banner: this.banner,
         });
         // let ev = {
         //   target : {
@@ -3101,33 +3135,35 @@ var ArtprofilePage = (function () {
         //   }
         // };
         popover.present({
-            ev: event
+            ev: event,
         });
     };
     // Delete Function Here
     ArtprofilePage.prototype.DeleteMedia = function (UsrMediaID, index, artist) {
         var _this = this;
         var alert = this.alertCtrl.create({
-            title: 'Do you want to delete this ?',
+            title: "Do you want to delete this ?",
             buttons: [
                 {
-                    text: 'Ok',
+                    text: "Ok",
                     handler: function (data) {
                         var loading = _this.loadingCtrl.create({
-                            spinner: 'hide',
-                            content: '',
-                            cssClass: 'transparent'
+                            spinner: "hide",
+                            content: "",
+                            cssClass: "transparent",
                         });
                         loading.present();
-                        __WEBPACK_IMPORTED_MODULE_10_rxjs__["Observable"].of(loading).flatMap(function (loading) { return loading.present(); })
-                            .flatMap(function () { return _this.security.getDeleteMedia(UsrMediaID); }).subscribe(function (data) {
+                        __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(loading)
+                            .flatMap(function (loading) { return loading.present(); })
+                            .flatMap(function () { return _this.security.getDeleteMedia(UsrMediaID); })
+                            .subscribe(function (data) {
                             loading.dismiss();
-                            _this.callalert(data['message'], UsrMediaID);
+                            _this.callalert(data["message"], UsrMediaID);
                             // this.navCtrl.setRoot(this.navCtrl.getActive().component);
                             // if(artist=='artist') {
                             //   if (index > -1) {
                             //     this.latestchart.splice(index, 1);
-                            //   } 
+                            //   }
                             // }
                             // if(artist=='recent') {
                             //   if (index > -1) {
@@ -3135,14 +3171,13 @@ var ArtprofilePage = (function () {
                             //   }
                             // }
                         });
-                    }
+                    },
                 },
                 {
-                    text: 'Cancel',
-                    handler: function (data) {
-                    }
-                }
-            ]
+                    text: "Cancel",
+                    handler: function (data) { },
+                },
+            ],
         });
         alert.present();
     };
@@ -3152,9 +3187,9 @@ var ArtprofilePage = (function () {
             title: message,
             buttons: [
                 {
-                    text: 'Ok',
+                    text: "Ok",
                     handler: function (data) {
-                        if (message == 'Media has been deleted sucessful.') {
+                        if (message == "Media has been deleted sucessful.") {
                             _this.recentcharts();
                             _this.userchartsdub();
                             // for(var i=0;i<this.latestchart.length;i++)
@@ -3176,28 +3211,38 @@ var ArtprofilePage = (function () {
                             //     }
                             // }
                         }
-                    }
-                }
-            ]
+                    },
+                },
+            ],
         });
         alert.present();
     };
     ArtprofilePage.prototype.ionViewWillEnter = function () {
-        this.firtsname = localStorage['firstname'];
-        if (localStorage.getItem('image1') != null) {
-            this.profile_pic = localStorage.getItem('image1');
-            this.event.publish('user:image', this.profile_pic, localStorage['firstname'], Date.now());
+        this.firtsname = localStorage["firstname"];
+        if (localStorage.getItem("image1") != null) {
+            this.profile_pic = localStorage.getItem("image1");
+            this.event.publish("user:image", this.profile_pic, localStorage["firstname"], Date.now());
         }
         //  alert('tt'+localStorage['following'])
-        if (localStorage['following'] != undefined) {
-            this.following = localStorage['following'];
+        if (localStorage["following"] != undefined) {
+            this.following = localStorage["following"];
         }
     };
     ArtprofilePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-artprofile',template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/artprofile/artprofile.html"*/`<!--\n  Generated template for the ArtprofilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <ion-buttons left style="width: 19px;">\n      <button ion-button menuToggle>\n        <ion-icon item-start>\n          <img class="navbar-icon" item-left src="assets/Menu/navbar.png" />\n        </ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title style="text-align: CENTER; margin-left: 26px; margin-top: 5px;"\n      >{{title}}</ion-title\n    >\n\n    <ion-buttons\n      (click)="tapshow3()"\n      right\n      style="width: 14px; margin-right: 16px;"\n    >\n      <button style="width: 26px;" ion-button>\n        <ion-icon item-start>\n          <img class="navbar-icon" item-left src="assets/profile/share.png" />\n        </ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n  <div *ngIf="showshare==true" id="shareid" class="share-service">\n    <div class="arrow-icon">\n      <img class="icon-img" src="assets/profile/arrow.png" />\n    </div>\n    <ion-row style="padding: 7px; margin-top: -7px;">\n      <ion-col>\n        <img src="assets/profile/facebook.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/twitter.png " />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/google_plus.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/pinterest.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/whatsaap.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/mailwhite.png" />\n      </ion-col>\n    </ion-row>\n  </div>\n  <!-- <div *ngIf="loadercover==false" class="row-image">\n      <div class="div-right-inner" >\n        <p class="p-text p-points-text" style="font-size:1.2rem"></p>\n        <p class="p-text p-points-text"></p>\n      </div>\n    </div> -->\n  <div class="row-image" [ngStyle]="{\'background-image\':\'url(\'+banner+\')\'}">\n    <ion-row>\n      <ion-col style="padding: 15px;">\n        <div class="circle-radius">\n          <img\n            *ngIf="loaderitem==false"\n            style="border-radius: 50%; height: 100%; width: 100%;"\n            [src]="profile_pic"\n          />\n        </div>\n        <p\n          style="\n            margin-top: 5px;\n            font-weight: 500;\n            color: #fff;\n            font-size: 1.6rem;\n            font-family: AvenirLTStd-Heavy;\n            margin-left: 8px;\n            height: 0px;\n          "\n        >\n          {{firtsname}}\n        </p>\n        <!-- <p style="    margin-top: -11px;font-weight: 100;    color: #fff;">NYC</p> -->\n      </ion-col>\n      <ion-col>\n        <ion-row style="text-align: center; margin-top: 6px;">\n          <ion-col (click)="inboxtap()">\n            <div class="pro-div">\n              <img\n                style="height: 17px; margin-top: 11px;"\n                src="assets/profile/mail.png"\n              />\n            </div>\n            <p class="p-tag">Inbox</p>\n          </ion-col>\n\n          <ion-col (click)="uploadfile()">\n            <!-- <ion-col (click)="uploadnavigate()" > -->\n            <!-- <div *ngIf="artistprop==\'active\'" class="pro-div" style="background-color:#F29A10">\n    <img  style="    height: 17px;    margin-top: 11px;" src="assets/profile/downloads.png">\n    \n    </div>\n    <p *ngIf="artistprop==\'active\'" class="p-tag">Upload</p> -->\n            <div class="pro-div" style="background-color: hsl(37, 90%, 51%);">\n              <img\n                style="height: 17px; margin-top: 11px;"\n                src="assets/profile/downloads.png"\n              />\n            </div>\n            <p class="p-tag">Upload</p>\n          </ion-col>\n          <ion-col (click)="editprop()">\n            <div class="pro-div">\n              <img\n                style="height: 17px; margin-top: 11px;"\n                src="assets/profile/edit.png"\n              />\n            </div>\n            <p class="p-tag">Edit</p>\n          </ion-col>\n        </ion-row>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <ion-row>\n          <ion-col col-5>\n            <p\n              (click)="movetofollowers(1)"\n              style="\n                font-size: 1.3rem;\n                display: inline-flex;\n                color: #fff !important;\n              "\n            >\n              {{follower}} <span class="text-style"> Followers</span>\n            </p>\n          </ion-col>\n          <ion-col col-2>\n            <hr class="hr-line" />\n          </ion-col>\n          <ion-col col-5>\n            <p\n              (click)="movetofollowers(2)"\n              style="\n                font-size: 1.3rem;\n                display: inline-flex;\n                color: #fff !important;\n              "\n            >\n              {{following}} <span class="text-style"> Following</span>\n            </p>\n          </ion-col>\n        </ion-row>\n      </ion-col>\n      <ion-col>\n        <ion-row style="padding: 7px;">\n          <ion-col>\n            <!-- <img src="assets/profile/facebook (2).png"> -->\n          </ion-col>\n          <ion-col>\n            <!-- <img src="assets/profile/002-twitter.png"> -->\n          </ion-col>\n          <ion-col>\n            <!-- <img src="assets/profile/linkedIn.png"> -->\n          </ion-col>\n          <ion-col>\n            <!-- <img src="assets/profile/pinterest (2).png"> -->\n          </ion-col>\n          <ion-col>\n            <!-- <img src="assets/profile/instagram.png"> -->\n          </ion-col>\n        </ion-row>\n      </ion-col>\n    </ion-row>\n  </div>\n\n  <ion-segment\n    mode="md"\n    [(ngModel)]="playlist"\n    style="font-family: AvenirLTStd-Heavy;"\n  >\n    <ion-segment-button\n      class="seg-stylepro"\n      value="latest"\n      (ionSelect)="changeplaylist(1)"\n    >\n      {{charttitle}} Charts\n    </ion-segment-button>\n    <ion-segment-button\n      class="seg-stylepro"\n      value="recent"\n      (ionSelect)="changeplaylist(2)"\n    >\n      Recent Uploads\n    </ion-segment-button>\n  </ion-segment>\n</ion-header>\n\n<ion-content>\n  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">\n    <ion-refresher-content\n      pullingIcon="arrow-dropdown"\n      pullingText="Pull to refresh"\n      refreshingSpinner="circles"\n      refreshingText="Refreshing..."\n    ></ion-refresher-content>\n  </ion-refresher>\n  <div *ngIf="artistprop==\'inactive\'" class="category-list">\n    <div id="categorylist">\n      <ion-row style="padding: 6px;">\n        <ion-col\n          style="\n            font-weight: 500;\n            font-family: AvenirLTStd-Heavy;\n            font-size: 1.6rem;\n          "\n          >Categories</ion-col\n        >\n        <ion-col\n          *ngIf="showcat==true"\n          (click)="showcatevent(1)"\n          class="prop-see"\n          >See All</ion-col\n        >\n        <ion-col\n          *ngIf="showcat==false"\n          (click)="showcatevent(2)"\n          class="prop-see"\n          >Close</ion-col\n        >\n      </ion-row>\n      <ion-row *ngIf="showcat==true" style="margin-top: -8px;">\n        <ion-col class="col-cat" (click)="songtype(1)">\n          <img class="img-cat" src="assets/category/categories1.png" />\n          <p class="cat-types">Music</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(2)">\n          <img class="img-cat" src="assets/category/categories2.png" />\n          <p class="cat-types">Dance</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(3)">\n          <img class="img-cat" src="assets/category/categories3.png" />\n          <p class="cat-types">Film</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(4)">\n          <img class="img-cat" src="assets/category/categories4.png" />\n          <p class="cat-types">Photography</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(7)">\n          <img class="img-cat" src="assets/category/categories5.png" />\n          <p class="cat-types">Litreature</p>\n        </ion-col>\n      </ion-row>\n      <div *ngIf="showcat==false">\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(1)">\n            <img class="img-cat" src="assets/category/categories1.png" />\n            <p class="cat-types">Music</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(2)">\n            <img class="img-cat" src="assets/category/categories2.png" />\n            <p class="cat-types">Dance</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(3)">\n            <img class="img-cat" src="assets/category/categories3.png" />\n            <p class="cat-types">Film</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(4)">\n            <img class="img-cat" src="assets/category/categories4.png" />\n            <p class="cat-types">Photography</p>\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(7)">\n            <img class="img-cat" src="assets/category/categories5.png" />\n            <p class="cat-types">Litreature</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(8)">\n            <img class="img-cat" src="assets/category/categories6.png" />\n            <p class="cat-types">Art</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(5)">\n            <img class="img-cat" src="assets/category/categories7.png" />\n            <p class="cat-types">Freestyle</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(9)">\n            <img class="img-cat" src="assets/category/categories8.png" />\n            <p class="cat-types">Personality</p>\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(6)">\n            <img class="img-cat" src="assets/category/categories9.png" />\n            <p class="cat-types">Other</p>\n          </ion-col>\n        </ion-row>\n      </div>\n    </div>\n  </div>\n\n  <div [ngSwitch]="playlist">\n    <!-- <div *ngIf="artistprop==\'inactive\'"  > -->\n    <!-- <div  id="categorylist" *ngSwitchCase="\'latest\'" class="category-list">\n    \n      <ion-row style="padding: 6px;">\n     <ion-col style="font-weight: 500;    font-family: AvenirLTStd-Heavy;font-size: 1.6rem;">Categories</ion-col>\n     <ion-col *ngIf="showcat==true" (click)="showcatevent(1)" class="prop-see" >See All</ion-col>\n     <ion-col *ngIf="showcat==false" (click)="showcatevent(2)" class="prop-see" >Close</ion-col>\n   </ion-row>\n   <ion-row *ngIf="showcat==true"  style="margin-top: -8px;">\n    <ion-col class="col-cat" (click)="songtype(1)">\n      <img class="img-cat" src="assets/category/categories1.png">\n      <p class="cat-types">Music</p>\n  </ion-col>\n  <ion-col  class="col-cat" (click)="songtype(2)">\n      <img class="img-cat" src="assets/category/categories2.png">\n<p class="cat-types">Dance</p>\n    </ion-col>\n  <ion-col  class="col-cat" (click)="songtype(3)">\n      <img class="img-cat" src="assets/category/categories3.png">\n <p class="cat-types">Film</p>\n    </ion-col>\n  <ion-col  class="col-cat" (click)="songtype(4)">\n      <img class="img-cat" src="assets/category/categories4.png">\n      <p class="cat-types">Photography</p>\n  </ion-col>\n  <ion-col  class="col-cat" (click)="songtype(7)">\n      <img class="img-cat" src="assets/category/categories5.png">\n      <p class="cat-types">Litreature</p>\n  </ion-col>\n   </ion-row>\n  <div *ngIf="showcat==false" >\n    <ion-row>\n      <ion-col class="col-cat" (click)="songtype(1)">\n          <img class="img-cat" src="assets/category/categories1.png">\n          <p class="cat-types">Music</p>\n      </ion-col>\n      <ion-col  class="col-cat" (click)="songtype(2)">\n          <img class="img-cat" src="assets/category/categories2.png">\n    <p class="cat-types">Dance</p>\n        </ion-col>\n      <ion-col  class="col-cat" (click)="songtype(3)">\n          <img class="img-cat" src="assets/category/categories3.png">\n     <p class="cat-types">Film</p>\n        </ion-col>\n      <ion-col  class="col-cat" (click)="songtype(4)">\n          <img class="img-cat" src="assets/category/categories4.png">\n          <p class="cat-types">Photography</p>\n      </ion-col>\n     \n      </ion-row>\n      <ion-row>\n         \n          <ion-col  class="col-cat" (click)="songtype(7)">\n              <img class="img-cat" src="assets/category/categories5.png">\n        <p class="cat-types">Litreature</p>\n            </ion-col>\n          <ion-col  class="col-cat" (click)="songtype(8)">\n              <img class="img-cat" src="assets/category/categories6.png">\n         <p class="cat-types">Art</p>\n            </ion-col>\n          <ion-col  class="col-cat" (click)="songtype(5)">\n              <img class="img-cat" src="assets/category/categories7.png">\n              <p class="cat-types">Freestyle</p>\n          </ion-col>\n          <ion-col  class="col-cat" (click)="songtype(9)">\n              <img class="img-cat" src="assets/category/categories8.png">\n              <p class="cat-types">Personality</p>\n          </ion-col>\n          </ion-row>\n          <ion-row>\n              <ion-col  class="col-cat" (click)="songtype(6)">\n                  <img class="img-cat" src="assets/category/categories9.png">\n                  <p class="cat-types">Other</p>\n              </ion-col>\n          </ion-row>\n    </div>\n    \n  \n  </div> -->\n    <!-- </div> -->\n    <div *ngSwitchCase="\'latest\'">\n      <ion-list class="recent-upload">\n        <ion-row style="padding: 17px;" *ngIf="artistprop==\'inactive\'">\n          <ion-col>\n            <p style="font-weight: bold; font-size: 1.3rem;">\n              Based on your prefrences\n            </p>\n          </ion-col>\n          <ion-col style="text-align: end;"\n            ><button\n              (click)="changeprefrence()"\n              class="button-prefrence"\n              ion-button\n              color="primary"\n            >\n              Change Prefrences\n            </button></ion-col\n          >\n        </ion-row>\n        <ion-row style="margin-top: -18px;" padding>\n          <p class="head-p" *ngIf="artistprop==\'inactive\'">\n            <span class="span-head">Latest Uploads </span>{{type}}\n          </p>\n        </ion-row>\n        <!-- <loaderdata *ngIf="loaderitem==true"></loaderdata> -->\n        <ion-row\n          *ngFor="let value of latestchart;let i=index"\n          style="margin-top: -10px; margin-bottom: 26px;"\n        >\n          <div class="image-tag">\n            <img\n              style="width: 89%; object-fit: cover; background-color: #2e2e2e;"\n              [src]="value.media_thumbnail_url"\n            />\n          </div>\n          <div class="img-box">\n            <div class="img-content">\n              <div (click)="viewvideo(i)" class="cat-div">\n                <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->\n                <ion-row>\n                  <ion-col style="position: absolute;" class="cols-style">\n                    <p\n                      style="\n                        color: #fff;\n                        text-align: start;\n\n                        font-size: 2.9rem;\n\n                        position: absolute;\n\n                        top: -46px;\n                      "\n                    >\n                      0{{i+1}}\n                    </p>\n                  </ion-col>\n                  <ion-col col-8>\n                    <img\n                      *ngIf="value.media_type==\'video/mp4\'||value.media_type==\'youtube\' || value.media_type==\'audio/mpeg\' || value.media_type==\'audio/mp3\' "\n                      class="play-style"\n                      src="assets/play.png"\n                    />\n                  </ion-col>\n                  <ion-col col-4>\n                    <img\n                      *ngIf="value.mediathumbnailuser==null"\n                      class="cat-icon"\n                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8V8wHk1BbSmp3ltF_mbRP10iVeNAF5RqiALGKl3THo3x_-B36&usqp=CAU"\n                    />\n                    <!-- <img class="cat-icon" [src]="value.small_image_url"> -->\n                    <img\n                      *ngIf="value.mediathumbnailuser!=null"\n                      class="cat-icon"\n                      [src]="value.mediathumbnailuser"\n                    />\n                  </ion-col>\n                </ion-row>\n              </div>\n              <div class="details">\n                <ion-row>\n                  <ion-col col-5>\n                    <div class="details-1">\n                      <p class="title">{{value.usermedia_name}}</p>\n                      <p class="arts">{{value.artforms}}</p>\n                      <!-- <div *ngIf="user_display_name!=value.user_display_name" class="stars" (click)="openstar(value.rating,value.usermediaid,value.user_display_name)"> <ionic3-star-rating  -->\n                      <div\n                        *ngIf="user_display_name!=value.user_display_name"\n                        class="stars"\n                        (click)="openstar(value.usermediaid)"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="false"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n\n                      <div\n                        *ngIf="user_display_name==value.user_display_name"\n                        class="stars"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="true"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n                    </div>\n                  </ion-col>\n                  <ion-col col-4>\n                    <div class="details-2">\n                      <p class="author-name">{{value.user_display_name}}</p>\n                      <!-- <p class="post-time">{{value.usermedia_posted}}</p> -->\n                    </div>\n                  </ion-col>\n                  <ion-col col-3>\n                    <figure class="author-img">\n                      <img\n                        (click)="artistpro(i)"\n                        style="border-radius: 35px;"\n                        class="custom-cat-icon"\n                        [src]="value.user_avatar"\n                      />\n                    </figure>\n                  </ion-col>\n                </ion-row>\n              </div>\n\n              <!-- <div class="detail-grid" >\n        \n      <div style="margin-top: 6px;" class="detail-div" >\n         <p style="font-weight: bold;" class="music-type">{{value.usermedia_name}}</p>\n         <p class="title-type">{{value.toptypeprofile}}</p>\n         <div *ngIf="user_display_name!=value.user_display_name" class="star-div" (click)="openstar(value.usermediaid)"> <ionic3-star-rating \n          activeIcon = "ios-star"\n          defaultIcon = "ios-star-outline"\n          activeColor = "rgb(228, 215, 38)" \n          defaultColor = "#f4f4f4"\n          readonly="false"\n          [rating]="value.totalRating">\n      </ionic3-star-rating></div>\n      <div *ngIf="user_display_name==value.user_display_name" class="star-div" > <ionic3-star-rating \n        activeIcon = "ios-star"\n        defaultIcon = "ios-star-outline"\n        activeColor = "rgb(228, 215, 38)" \n        defaultColor = "#f4f4f4"\n        readonly="true"\n        [rating]="value.totalRating">\n    </ionic3-star-rating></div>\n    </div>\n      \n      <div style="text-align:right; " class="detail-div1" >\n        <div class="author-box">\n        <p style="    height: 0px;font-weight: bold">{{value.user_display_name}}</p>\n        <p>{{value.usermedia_posted}}</p>\n        </div>\n      </div>\n      <div   class="detail-div userpic">\n        <img (click)="artistpro(i)" class="userimage" [src]="value.user_profile_avatar">\n      </div>\n      </div> -->\n            </div>\n          </div>\n          <div class="post-img">\n            <div class="social-img">\n              <div class="header1">\n                <img class="img-post" src="assets/Dashboard/share-gray.png" />\n                <div class="share-div" (click)="tapshow1(i)"></div>\n              </div>\n              <div\n                class="header1"\n                (click)="followedartist(value.artist_id,value.user_display_name)"\n              >\n                <img class="img-post" src="assets/Dashboard/user.png" />\n              </div>\n              <div class="header1" (click)="navigatetocomment(i)">\n                <img class="img-post" src="assets/Dashboard/msg.png" />\n              </div>\n              <div class="header1" (click)="reportnavigate()">\n                <img class="img-post" src="assets/Dashboard/error.png" />\n              </div>\n\n              <div\n                class="header1"\n                (click)="DeleteMedia(value.usermediaid,i,\'artist\')"\n              >\n                <ion-icon name="ios-trash-outline" mode="ios"></ion-icon>\n              </div>\n            </div>\n          </div>\n        </ion-row>\n      </ion-list>\n    </div>\n    <!-- <div >\n    <div  id="categorylist" class="category-list" *ngSwitchCase="\'recent\'">\n   \n        <ion-row style="    padding: 6px;">\n       <ion-col style="font-weight: 500;">Categories</ion-col>\n       <ion-col *ngIf="showcat==true" (click)="showcatevent(1)" class="prop-see" >See All</ion-col>\n       <ion-col *ngIf="showcat==false" (click)="showcatevent(2)" class="prop-see" >Close</ion-col>\n     </ion-row>\n     <ion-row *ngIf="showcat==true"  style="margin-top: -8px;">\n       <ion-col class="col-cat" (click)="songtype(1)">\n         <img class="img-cat" src="assets/category/categories1.png">\n         <p class="cat-types">Music</p>\n     </ion-col>\n     <ion-col  class="col-cat" (click)="songtype(2)">\n         <img class="img-cat" src="assets/category/categories2.png">\n   <p class="cat-types">Dance</p>\n       </ion-col>\n     <ion-col  class="col-cat" (click)="songtype(3)">\n         <img class="img-cat" src="assets/category/categories3.png">\n    <p class="cat-types">Film</p>\n       </ion-col>\n     <ion-col  class="col-cat" (click)="songtype(4)">\n         <img class="img-cat" src="assets/category/categories4.png">\n         <p class="cat-types">Photography</p>\n     </ion-col>\n     <ion-col  class="col-cat" (click)="songtype(7)">\n         <img class="img-cat" src="assets/category/categories5.png">\n         <p class="cat-types">Litreature</p>\n     </ion-col>\n     </ion-row>\n    <div *ngIf="showcat==false" >\n      <ion-row>\n        <ion-col class="col-cat" (click)="songtype(1)">\n            <img class="img-cat" src="assets/category/categories1.png">\n            <p class="cat-types">Music</p>\n        </ion-col>\n        <ion-col  class="col-cat" (click)="songtype(2)">\n            <img class="img-cat" src="assets/category/categories2.png">\n      <p class="cat-types">Dance</p>\n          </ion-col>\n        <ion-col  class="col-cat" (click)="songtype(3)">\n            <img class="img-cat" src="assets/category/categories3.png">\n       <p class="cat-types">Film</p>\n          </ion-col>\n        <ion-col  class="col-cat" (click)="songtype(4)">\n            <img class="img-cat" src="assets/category/categories4.png">\n            <p class="cat-types">Photography</p>\n        </ion-col>\n       \n        </ion-row>\n        <ion-row>\n           \n            <ion-col  class="col-cat" (click)="songtype(7)">\n                <img class="img-cat" src="assets/category/categories5.png">\n          <p class="cat-types">Litreature</p>\n              </ion-col>\n            <ion-col  class="col-cat" (click)="songtype(8)">\n                <img class="img-cat" src="assets/category/categories6.png">\n           <p class="cat-types">Art</p>\n              </ion-col>\n            <ion-col  class="col-cat" (click)="songtype(5)">\n                <img class="img-cat" src="assets/category/categories7.png">\n                <p class="cat-types">Freestyle</p>\n            </ion-col>\n            <ion-col  class="col-cat" (click)="songtype(9)">\n                <img class="img-cat" src="assets/category/categories8.png">\n                <p class="cat-types">Personality</p>\n            </ion-col>\n            </ion-row>\n            <ion-row>\n                <ion-col  class="col-cat" (click)="songtype(6)">\n                    <img class="img-cat" src="assets/category/categories9.png">\n                    <p class="cat-types">Other</p>\n                </ion-col>\n            </ion-row>\n      </div>\n      \n    \n    </div>\n  </div> -->\n    <div *ngSwitchCase="\'recent\'">\n      <!-- <ion-list class="recent-upload"  >\n          <ion-row style="    padding: 17px;" *ngIf="artistprop==\'inactive\'">\n              <ion-col>\n               <p style="    font-weight: bold;\n               font-size:1.3rem "> Based on your prefrence</p>\n     \n               </ion-col>\n              <ion-col style="text-align: end;"><button (click)="changeprefrence()" class="button-prefrence" ion-button color="primary">Change Prefrences</button></ion-col>\n            </ion-row>\n   <ion-row padding style="margin-top: -18px;">\n   <p class="head-p"><span class="span-head">Recent Uploads </span> in Music</p>    \n  </ion-row>   \n  \n  <ion-row *ngFor="let value of profilerecentcharts"  style="    margin-top: -10px;    margin-bottom: 26px;">\n    <div class="image-tag">\n       \n        <img style="    width: 89%;" src="assets/Dashboard/thumbnail.png">\n       \n      </div>\n      <div class="img-box" >\n      <div class="img-content">\n        <div class="cat-div"> \n          <img class="cat-icon" src="assets/Dashboard/artist_profile1.png">\n        </div>\n       \n        <div class="detail-grid">\n          \n        <div style="margin-top: 6px;" class="detail-div">\n           <p style="font-weight: bold;" class="music-type">King Cay Music</p>\n           <p class="title-type">Music / Hip Hop/ Rap</p>\n           <div class="star-div"> <ionic3-star-rating \n            activeIcon = "ios-star"\n            defaultIcon = "ios-star-outline"\n            activeColor = "rgb(228, 215, 38)" \n            defaultColor = "#f4f4f4"\n            readonly="true"\n            [rating]="5">\n        </ionic3-star-rating></div>\n        </div>\n        \n        <div style="text-align:right; " class="detail-div1" (click)="artistpro()">\n          <div class="author-box">\n          <p style="    height: 0px;font-weight: bold">King Cay</p>\n          <p>10 mins ago</p>\n          </div>\n        </div>\n        <div   class="detail-div userpic">\n          <img class="userimage" src="assets/tabsicon/propic.jpg">\n        </div>\n        </div>\n  \n      </div>\n      </div>\n      <div class="post-img">\n   <div class="social-img">\n     \n     <div class="header1">\n        <img  class="img-post" src="assets/Dashboard/share-gray.png">\n        <div class="share-div" (click)="tapshow1()"></div>\n      </div>\n      <div class="header1" (click)="followedartist()">\n          <img class="img-post" src="assets/Dashboard/user.png">\n        </div>\n        <div class="header1" (click)="navigatetocomment()">\n            <img class="img-post" src="assets/Dashboard/msg.png">\n          </div>\n          <div class="header1" (click)="reportnavigate()">\n              <img class="img-post" src="assets/Dashboard/error.png">\n            </div>\n  \n      </div>\n    </div>\n    </ion-row>\n  \n  </ion-list> -->\n\n      <ion-list class="recent-upload">\n        <ion-row style="padding: 17px;" *ngIf="artistprop==\'inactive\'">\n          <ion-col>\n            <p style="font-weight: bold; font-size: 1.3rem;">\n              Based on your prefrences\n            </p>\n          </ion-col>\n          <ion-col style="text-align: end;"\n            ><button\n              (click)="changeprefrence()"\n              class="button-prefrence"\n              ion-button\n              color="primary"\n            >\n              Change Prefrences\n            </button></ion-col\n          >\n        </ion-row>\n        <ion-row style="margin-top: -18px;" padding>\n          <p *ngIf="!type" class="head-p">\n            <span class="span-head">Recent Uploads </span>\n          </p>\n          <p *ngIf="type" class="head-p">\n            <span class="span-head">Recent Uploads </span> {{type}}\n          </p>\n        </ion-row>\n        <!-- <ion-row style="    padding: 6px;">\n  <ion-col style="font-weight: 500;">Categories</ion-col>\n  <ion-col *ngIf="showcat==true" (click)="showcatevent(1)" class="prop-see" >See All</ion-col>\n  <ion-col *ngIf="showcat==false" (click)="showcatevent(2)" class="prop-see" >Close</ion-col>\n</ion-row>\n<ion-row *ngIf="showcat==true"  style="margin-top: -8px;">\n  <ion-col class="col-cat" (click)="songtype(1)">\n    <img class="img-cat" src="assets/category/categories1.png">\n    <p class="cat-types">Music</p>\n</ion-col>\n<ion-col  class="col-cat" (click)="songtype(2)">\n    <img class="img-cat" src="assets/category/categories2.png">\n<p class="cat-types">Dance</p>\n  </ion-col>\n<ion-col  class="col-cat" (click)="songtype(3)">\n    <img class="img-cat" src="assets/category/categories3.png">\n<p class="cat-types">Film</p>\n  </ion-col>\n<ion-col  class="col-cat" (click)="songtype(4)">\n    <img class="img-cat" src="assets/category/categories4.png">\n    <p class="cat-types">Photography</p>\n</ion-col>\n<ion-col  class="col-cat" (click)="songtype(7)">\n    <img class="img-cat" src="assets/category/categories5.png">\n    <p class="cat-types">Litreature</p>\n</ion-col>\n</ion-row>\n<div *ngIf="showcat==false" >\n <ion-row>\n   <ion-col class="col-cat" (click)="songtype(1)">\n       <img class="img-cat" src="assets/category/categories1.png">\n       <p class="cat-types">Music</p>\n   </ion-col>\n   <ion-col  class="col-cat" (click)="songtype(2)">\n       <img class="img-cat" src="assets/category/categories2.png">\n <p class="cat-types">Dance</p>\n     </ion-col>\n   <ion-col  class="col-cat" (click)="songtype(3)">\n       <img class="img-cat" src="assets/category/categories3.png">\n  <p class="cat-types">Film</p>\n     </ion-col>\n   <ion-col  class="col-cat" (click)="songtype(4)">\n       <img class="img-cat" src="assets/category/categories4.png">\n       <p class="cat-types">Photography</p>\n   </ion-col>\n  \n   </ion-row>\n   <ion-row>\n      \n       <ion-col  class="col-cat" (click)="songtype(7)">\n           <img class="img-cat" src="assets/category/categories5.png">\n     <p class="cat-types">Litreature</p>\n         </ion-col>\n       <ion-col  class="col-cat" (click)="songtype(8)">\n           <img class="img-cat" src="assets/category/categories6.png">\n      <p class="cat-types">Art</p>\n         </ion-col>\n       <ion-col  class="col-cat" (click)="songtype(5)">\n           <img class="img-cat" src="assets/category/categories7.png">\n           <p class="cat-types">Freestyle</p>\n       </ion-col>\n       <ion-col  class="col-cat" (click)="songtype(9)">\n           <img class="img-cat" src="assets/category/categories8.png">\n           <p class="cat-types">Personality</p>\n       </ion-col>\n       </ion-row>\n       <ion-row>\n           <ion-col  class="col-cat" (click)="songtype(6)">\n               <img class="img-cat" src="assets/category/categories9.png">\n               <p class="cat-types">Other</p>\n           </ion-col>\n       </ion-row>\n </div>\n  -->\n        <!-- <loaderdata *ngIf="loadingrecentdata==true"></loaderdata> -->\n\n        <ion-row\n          *ngFor="let value of profilerecentcharts;let i=index"\n          style="margin-bottom: 26px;"\n        >\n          <div class="image-tag">\n            <img\n              style="width: 89%; object-fit: cover; background-color: #2e2e2e;"\n              [src]="value.media_thumbnail_url"\n            />\n          </div>\n          <div class="img-box">\n            <div class="img-content">\n              <div (click)="viewvideo1(i)" class="cat-div">\n                <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->\n                <ion-row>\n                  <ion-col col-8>\n                    <img\n                      *ngIf="value.media_type==\'video/mp4\'||value.media_type==\'youtube\' || value.media_type==\'audio/mpeg\' || value.media_type==\'audio/mp3\'"\n                      class="play-style"\n                      src="assets/play.png"\n                    />\n                  </ion-col>\n                  <ion-col col-4>\n                    <img\n                      *ngIf="value.mediathumbnailuser==null"\n                      class="cat-icon"\n                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8V8wHk1BbSmp3ltF_mbRP10iVeNAF5RqiALGKl3THo3x_-B36&usqp=CAU"\n                    />\n                    <!-- <img class="cat-icon" [src]="value.small_image_url"> -->\n                    <img\n                      *ngIf="value.mediathumbnailuser!=null"\n                      class="cat-icon"\n                      [src]="value.mediathumbnailuser"\n                    />\n                  </ion-col>\n                </ion-row>\n              </div>\n              <div class="details">\n                <ion-row>\n                  <ion-col col-5>\n                    <div class="details-1">\n                      <p class="title">{{value.usermedia_name}}</p>\n                      <p class="arts">{{value.artforms}}</p>\n\n                      <div\n                        *ngIf="user_display_name!=value.user_display_name"\n                        class="stars"\n                        (click)="openstar(value.usermediaid)"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="false"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n\n                      <div\n                        *ngIf="user_display_name==value.user_display_name"\n                        class="stars"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="true"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n                    </div>\n                  </ion-col>\n                  <ion-col col-4>\n                    <div class="details-2">\n                      <p class="author-name">{{value.user_display_name}}</p>\n                      <!-- <p class="post-time">{{value.usermedia_posted}}</p> -->\n                    </div>\n                  </ion-col>\n                  <ion-col col-3>\n                    <figure class="author-img">\n                      <img\n                        (click)="artistpro1(i)"\n                        style="border-radius: 35px;"\n                        class="custom-cat-icon"\n                        [src]="value.user_avatar"\n                      />\n                    </figure>\n                  </ion-col>\n                </ion-row>\n              </div>\n              <!-- <div class="detail-grid">\n     \n   <div style="margin-top: 6px;" class="detail-div" >\n      <p style="font-weight: bold;" class="music-type">{{value.usermedia_name}}</p>\n      <p class="title-type">{{value.toptypeprofile}}</p>\n      <div *ngIf="user_display_name!=value.user_display_name" class="star-div" (click)="openstar(value.usermediaid)"> <ionic3-star-rating \n       activeIcon = "ios-star"\n       defaultIcon = "ios-star-outline"\n       activeColor = "rgb(228, 215, 38)" \n       defaultColor = "#f4f4f4"\n       readonly="false"\n       [rating]="value.totalRating">\n   </ionic3-star-rating></div>\n\n   <div *ngIf="user_display_name==value.user_display_name" class="star-div" > <ionic3-star-rating \n    activeIcon = "ios-star"\n    defaultIcon = "ios-star-outline"\n    activeColor = "rgb(228, 215, 38)" \n    defaultColor = "#f4f4f4"\n    readonly="true"\n    [rating]="value.totalRating">\n</ionic3-star-rating></div>\n   </div>\n   \n   <div style="text-align:right; " class="detail-div1" >\n     <div class="author-box">\n     <p style="    height: 0px;font-weight: bold">{{value.user_display_name}}</p>\n     <p>{{value.usermedia_posted}}</p>\n     </div>\n   </div>\n   <div   class="detail-div userpic">\n     <img (click)="artistpro1(i)" class="userimage" [src]="value.user_profile_avatar">\n   </div>\n   </div> -->\n            </div>\n          </div>\n          <div class="post-img">\n            <div class="social-img">\n              <div class="header1">\n                <img class="img-post" src="assets/Dashboard/share-gray.png" />\n                <div class="share-div" (click)="tapshow2(i)"></div>\n              </div>\n              <div class="header1" (click)="followedartist(value.artist_id)">\n                <img class="img-post" src="assets/Dashboard/user.png" />\n              </div>\n              <div class="header1" (click)="navigatetocomment1(i)">\n                <img class="img-post" src="assets/Dashboard/msg.png" />\n              </div>\n              <div class="header1" (click)="reportnavigate()">\n                <img class="img-post" src="assets/Dashboard/error.png" />\n              </div>\n\n              <div\n                class="header1"\n                (click)="DeleteMedia(value.usermediaid,i,\'recent\')"\n              >\n                <ion-icon name="ios-trash-outline" mode="ios"></ion-icon>\n              </div>\n            </div>\n          </div>\n        </ion-row>\n        <ion-infinite-scroll\n          (ionInfinite)="loadMore($event)"\n          loadingSpinner="bubbles"\n          loadingText="Loading data..."\n        >\n          <ion-infinite-scroll-content></ion-infinite-scroll-content>\n        </ion-infinite-scroll>\n      </ion-list>\n    </div>\n  </div>\n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/artprofile/artprofile.html"*/,
+            selector: "page-artprofile",template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/artprofile/artprofile.html"*/`<!--\n  Generated template for the ArtprofilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <ion-buttons left style="width: 19px;">\n      <button ion-button menuToggle>\n        <ion-icon item-start>\n          <img class="navbar-icon" item-left src="assets/Menu/navbar.png" />\n        </ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title style="text-align: CENTER; margin-left: 26px; margin-top: 5px;"\n      >{{title}}</ion-title\n    >\n\n    <ion-buttons\n      (click)="tapshow3()"\n      right\n      style="width: 14px; margin-right: 16px;"\n    >\n      <button style="width: 26px;" ion-button>\n        <ion-icon item-start>\n          <img class="navbar-icon" item-left src="assets/profile/share.png" />\n        </ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n  <div *ngIf="showshare==true" id="shareid" class="share-service">\n    <div class="arrow-icon">\n      <img class="icon-img" src="assets/profile/arrow.png" />\n    </div>\n    <ion-row style="padding: 7px; margin-top: -7px;">\n      <ion-col>\n        <img src="assets/profile/facebook.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/twitter.png " />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/google_plus.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/pinterest.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/whatsaap.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/mailwhite.png" />\n      </ion-col>\n    </ion-row>\n  </div>\n  <!-- <div *ngIf="loadercover==false" class="row-image">\n      <div class="div-right-inner" >\n        <p class="p-text p-points-text" style="font-size:1.2rem"></p>\n        <p class="p-text p-points-text"></p>\n      </div>\n    </div> -->\n  <div class="row-image" [ngStyle]="{\'background-image\':\'url(\'+banner+\')\'}">\n    <ion-row>\n      <ion-col style="padding: 15px;">\n        <div class="circle-radius">\n          <img\n            *ngIf="loaderitem==false"\n            style="border-radius: 50%; height: 100%; width: 100%;"\n            [src]="profile_pic"\n          />\n        </div>\n        <p\n          style="\n            margin-top: 5px;\n            font-weight: 500;\n            color: #fff;\n            font-size: 1.6rem;\n            font-family: AvenirLTStd-Heavy;\n            margin-left: 8px;\n            height: 0px;\n          "\n        >\n          {{firtsname}}\n        </p>\n        <!-- <p style="    margin-top: -11px;font-weight: 100;    color: #fff;">NYC</p> -->\n      </ion-col>\n      <ion-col>\n        <ion-row style="text-align: center; margin-top: 6px;">\n          <ion-col (click)="inboxtap()">\n            <div class="pro-div">\n              <img\n                style="height: 17px; margin-top: 11px;"\n                src="assets/profile/mail.png"\n              />\n            </div>\n            <p class="p-tag">Inbox</p>\n          </ion-col>\n\n          <ion-col (click)="uploadfile()">\n            <!-- <ion-col (click)="uploadnavigate()" > -->\n            <!-- <div *ngIf="artistprop==\'active\'" class="pro-div" style="background-color:#F29A10">\n    <img  style="    height: 17px;    margin-top: 11px;" src="assets/profile/downloads.png">\n    \n    </div>\n    <p *ngIf="artistprop==\'active\'" class="p-tag">Upload</p> -->\n            <div class="pro-div" style="background-color: hsl(37, 90%, 51%);">\n              <img\n                style="height: 17px; margin-top: 11px;"\n                src="assets/profile/downloads.png"\n              />\n            </div>\n            <p class="p-tag">Upload</p>\n          </ion-col>\n          <ion-col (click)="editprop()">\n            <div class="pro-div">\n              <img\n                style="height: 17px; margin-top: 11px;"\n                src="assets/profile/edit.png"\n              />\n            </div>\n            <p class="p-tag">Edit</p>\n          </ion-col>\n        </ion-row>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <ion-row>\n          <ion-col col-5>\n            <p\n              (click)="movetofollowers(1)"\n              style="\n                font-size: 1.3rem;\n                display: inline-flex;\n                color: #fff !important;\n              "\n            >\n              {{follower}} <span class="text-style"> Followers</span>\n            </p>\n          </ion-col>\n          <ion-col col-2>\n            <hr class="hr-line" />\n          </ion-col>\n          <ion-col col-5>\n            <p\n              (click)="movetofollowers(2)"\n              style="\n                font-size: 1.3rem;\n                display: inline-flex;\n                color: #fff !important;\n              "\n            >\n              {{following}} <span class="text-style"> Following</span>\n            </p>\n          </ion-col>\n        </ion-row>\n      </ion-col>\n      <ion-col>\n        <ion-row style="padding: 7px;">\n          <ion-col>\n            <!-- <img src="assets/profile/facebook (2).png"> -->\n          </ion-col>\n          <ion-col>\n            <!-- <img src="assets/profile/002-twitter.png"> -->\n          </ion-col>\n          <ion-col>\n            <!-- <img src="assets/profile/linkedIn.png"> -->\n          </ion-col>\n          <ion-col>\n            <!-- <img src="assets/profile/pinterest (2).png"> -->\n          </ion-col>\n          <ion-col>\n            <!-- <img src="assets/profile/instagram.png"> -->\n          </ion-col>\n        </ion-row>\n      </ion-col>\n    </ion-row>\n  </div>\n\n  <ion-segment\n    mode="md"\n    [(ngModel)]="playlist"\n    style="font-family: AvenirLTStd-Heavy;"\n  >\n    <ion-segment-button\n      class="seg-stylepro"\n      value="latest"\n      (ionSelect)="changeplaylist(1)"\n    >\n      {{charttitle}} Charts\n    </ion-segment-button>\n    <ion-segment-button\n      class="seg-stylepro"\n      value="recent"\n      (ionSelect)="changeplaylist(2)"\n    >\n      Recent Uploads\n    </ion-segment-button>\n  </ion-segment>\n</ion-header>\n\n<ion-content>\n  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">\n    <ion-refresher-content\n      pullingIcon="arrow-dropdown"\n      pullingText="Pull to refresh"\n      refreshingSpinner="circles"\n      refreshingText="Refreshing..."\n    ></ion-refresher-content>\n  </ion-refresher>\n  <div *ngIf="artistprop==\'inactive\'" class="category-list">\n    <div id="categorylist">\n      <ion-row style="padding: 6px;">\n        <ion-col\n          style="\n            font-weight: 500;\n            font-family: AvenirLTStd-Heavy;\n            font-size: 1.6rem;\n          "\n          >Categories</ion-col\n        >\n        <ion-col\n          *ngIf="showcat==true"\n          (click)="showcatevent(1)"\n          class="prop-see"\n          >See All</ion-col\n        >\n        <ion-col\n          *ngIf="showcat==false"\n          (click)="showcatevent(2)"\n          class="prop-see"\n          >Close</ion-col\n        >\n      </ion-row>\n      <ion-row *ngIf="showcat==true" style="margin-top: -8px;">\n        <ion-col class="col-cat" (click)="songtype(1)">\n          <img class="img-cat" src="assets/category/categories1.png" />\n          <p class="cat-types">Music</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(2)">\n          <img class="img-cat" src="assets/category/categories2.png" />\n          <p class="cat-types">Dance</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(3)">\n          <img class="img-cat" src="assets/category/categories3.png" />\n          <p class="cat-types">Film</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(4)">\n          <img class="img-cat" src="assets/category/categories4.png" />\n          <p class="cat-types">Photography</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(7)">\n          <img class="img-cat" src="assets/category/categories5.png" />\n          <p class="cat-types">Litreature</p>\n        </ion-col>\n      </ion-row>\n      <div *ngIf="showcat==false">\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(1)">\n            <img class="img-cat" src="assets/category/categories1.png" />\n            <p class="cat-types">Music</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(2)">\n            <img class="img-cat" src="assets/category/categories2.png" />\n            <p class="cat-types">Dance</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(3)">\n            <img class="img-cat" src="assets/category/categories3.png" />\n            <p class="cat-types">Film</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(4)">\n            <img class="img-cat" src="assets/category/categories4.png" />\n            <p class="cat-types">Photography</p>\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(7)">\n            <img class="img-cat" src="assets/category/categories5.png" />\n            <p class="cat-types">Litreature</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(8)">\n            <img class="img-cat" src="assets/category/categories6.png" />\n            <p class="cat-types">Art</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(5)">\n            <img class="img-cat" src="assets/category/categories7.png" />\n            <p class="cat-types">Freestyle</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(9)">\n            <img class="img-cat" src="assets/category/categories8.png" />\n            <p class="cat-types">Personality</p>\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(6)">\n            <img class="img-cat" src="assets/category/categories9.png" />\n            <p class="cat-types">Other</p>\n          </ion-col>\n        </ion-row>\n      </div>\n    </div>\n  </div>\n\n  <div [ngSwitch]="playlist">\n    <!-- <div *ngIf="artistprop==\'inactive\'"  > -->\n    <!-- <div  id="categorylist" *ngSwitchCase="\'latest\'" class="category-list">\n    \n      <ion-row style="padding: 6px;">\n     <ion-col style="font-weight: 500;    font-family: AvenirLTStd-Heavy;font-size: 1.6rem;">Categories</ion-col>\n     <ion-col *ngIf="showcat==true" (click)="showcatevent(1)" class="prop-see" >See All</ion-col>\n     <ion-col *ngIf="showcat==false" (click)="showcatevent(2)" class="prop-see" >Close</ion-col>\n   </ion-row>\n   <ion-row *ngIf="showcat==true"  style="margin-top: -8px;">\n    <ion-col class="col-cat" (click)="songtype(1)">\n      <img class="img-cat" src="assets/category/categories1.png">\n      <p class="cat-types">Music</p>\n  </ion-col>\n  <ion-col  class="col-cat" (click)="songtype(2)">\n      <img class="img-cat" src="assets/category/categories2.png">\n<p class="cat-types">Dance</p>\n    </ion-col>\n  <ion-col  class="col-cat" (click)="songtype(3)">\n      <img class="img-cat" src="assets/category/categories3.png">\n <p class="cat-types">Film</p>\n    </ion-col>\n  <ion-col  class="col-cat" (click)="songtype(4)">\n      <img class="img-cat" src="assets/category/categories4.png">\n      <p class="cat-types">Photography</p>\n  </ion-col>\n  <ion-col  class="col-cat" (click)="songtype(7)">\n      <img class="img-cat" src="assets/category/categories5.png">\n      <p class="cat-types">Litreature</p>\n  </ion-col>\n   </ion-row>\n  <div *ngIf="showcat==false" >\n    <ion-row>\n      <ion-col class="col-cat" (click)="songtype(1)">\n          <img class="img-cat" src="assets/category/categories1.png">\n          <p class="cat-types">Music</p>\n      </ion-col>\n      <ion-col  class="col-cat" (click)="songtype(2)">\n          <img class="img-cat" src="assets/category/categories2.png">\n    <p class="cat-types">Dance</p>\n        </ion-col>\n      <ion-col  class="col-cat" (click)="songtype(3)">\n          <img class="img-cat" src="assets/category/categories3.png">\n     <p class="cat-types">Film</p>\n        </ion-col>\n      <ion-col  class="col-cat" (click)="songtype(4)">\n          <img class="img-cat" src="assets/category/categories4.png">\n          <p class="cat-types">Photography</p>\n      </ion-col>\n     \n      </ion-row>\n      <ion-row>\n         \n          <ion-col  class="col-cat" (click)="songtype(7)">\n              <img class="img-cat" src="assets/category/categories5.png">\n        <p class="cat-types">Litreature</p>\n            </ion-col>\n          <ion-col  class="col-cat" (click)="songtype(8)">\n              <img class="img-cat" src="assets/category/categories6.png">\n         <p class="cat-types">Art</p>\n            </ion-col>\n          <ion-col  class="col-cat" (click)="songtype(5)">\n              <img class="img-cat" src="assets/category/categories7.png">\n              <p class="cat-types">Freestyle</p>\n          </ion-col>\n          <ion-col  class="col-cat" (click)="songtype(9)">\n              <img class="img-cat" src="assets/category/categories8.png">\n              <p class="cat-types">Personality</p>\n          </ion-col>\n          </ion-row>\n          <ion-row>\n              <ion-col  class="col-cat" (click)="songtype(6)">\n                  <img class="img-cat" src="assets/category/categories9.png">\n                  <p class="cat-types">Other</p>\n              </ion-col>\n          </ion-row>\n    </div>\n    \n  \n  </div> -->\n    <!-- </div> -->\n    <div *ngSwitchCase="\'latest\'">\n      <ion-list class="recent-upload">\n        <ion-row style="padding: 17px;" *ngIf="artistprop==\'inactive\'">\n          <ion-col>\n            <p style="font-weight: bold; font-size: 1.3rem;">\n              Based on your prefrences\n            </p>\n          </ion-col>\n          <ion-col style="text-align: end;"\n            ><button\n              (click)="changeprefrence()"\n              class="button-prefrence"\n              ion-button\n              color="primary"\n            >\n              Change Prefrences\n            </button></ion-col\n          >\n        </ion-row>\n        <ion-row style="margin-top: -18px;" padding>\n          <p class="head-p" *ngIf="artistprop==\'inactive\'">\n            <span class="span-head">Latest Uploads </span>{{type}}\n          </p>\n        </ion-row>\n        <!-- <loaderdata *ngIf="loaderitem==true"></loaderdata> -->\n        <ion-row\n          *ngFor="let value of latestchart;let i=index"\n          style="margin-top: -10px; margin-bottom: 26px;"\n        >\n          <div class="image-tag">\n            <img\n              style="width: 89%; object-fit: cover; background-color: #2e2e2e;"\n              [src]="value.media_thumbnail_url"\n            />\n          </div>\n          <div class="img-box">\n            <div class="img-content">\n              <div (click)="viewvideo(i)" class="cat-div">\n                <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->\n                <ion-row>\n                  <ion-col style="position: absolute;" class="cols-style">\n                    <p\n                      style="\n                        color: #fff;\n                        text-align: start;\n\n                        font-size: 2.9rem;\n\n                        position: absolute;\n\n                        top: -46px;\n                      "\n                    >\n                      0{{i+1}}\n                    </p>\n                  </ion-col>\n                  <ion-col col-8>\n                    <img\n                      *ngIf="value.media_type==\'video/mp4\'||value.media_type==\'youtube\' || value.media_type==\'audio/mpeg\' || value.media_type==\'audio/mp3\' "\n                      class="play-style"\n                      src="assets/play.png"\n                    />\n                  </ion-col>\n                  <ion-col col-4>\n                    <img\n                      *ngIf="value.mediathumbnailuser==null"\n                      class="cat-icon"\n                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8V8wHk1BbSmp3ltF_mbRP10iVeNAF5RqiALGKl3THo3x_-B36&usqp=CAU"\n                    />\n                    <!-- <img class="cat-icon" [src]="value.small_image_url"> -->\n                    <img\n                      *ngIf="value.mediathumbnailuser!=null"\n                      class="cat-icon"\n                      [src]="value.mediathumbnailuser"\n                    />\n                  </ion-col>\n                </ion-row>\n              </div>\n              <div class="details">\n                <ion-row>\n                  <ion-col col-5>\n                    <div class="details-1">\n                      <p class="title">{{value.usermedia_name}}</p>\n                      <p class="arts">{{value.artforms}}</p>\n                      <!-- <div *ngIf="user_display_name!=value.user_display_name" class="stars" (click)="openstar(value.rating,value.usermediaid,value.user_display_name)"> <ionic3-star-rating  -->\n                      <div\n                        *ngIf="user_display_name!=value.user_display_name"\n                        class="stars"\n                        (click)="openstar(value.usermediaid)"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="false"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n\n                      <div\n                        *ngIf="user_display_name==value.user_display_name"\n                        class="stars"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="true"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n                    </div>\n                  </ion-col>\n                  <ion-col col-4>\n                    <div class="details-2">\n                      <p class="author-name">{{value.user_display_name}}</p>\n                      <!-- <p class="post-time">{{value.usermedia_posted}}</p> -->\n                    </div>\n                  </ion-col>\n                  <ion-col col-3>\n                    <figure class="author-img">\n                      <img\n                        (click)="artistpro(i)"\n                        style="border-radius: 35px;"\n                        class="custom-cat-icon"\n                        [src]="value.user_avatar"\n                      />\n                    </figure>\n                  </ion-col>\n                </ion-row>\n              </div>\n\n              <!-- <div class="detail-grid" >\n        \n      <div style="margin-top: 6px;" class="detail-div" >\n         <p style="font-weight: bold;" class="music-type">{{value.usermedia_name}}</p>\n         <p class="title-type">{{value.toptypeprofile}}</p>\n         <div *ngIf="user_display_name!=value.user_display_name" class="star-div" (click)="openstar(value.usermediaid)"> <ionic3-star-rating \n          activeIcon = "ios-star"\n          defaultIcon = "ios-star-outline"\n          activeColor = "rgb(228, 215, 38)" \n          defaultColor = "#f4f4f4"\n          readonly="false"\n          [rating]="value.totalRating">\n      </ionic3-star-rating></div>\n      <div *ngIf="user_display_name==value.user_display_name" class="star-div" > <ionic3-star-rating \n        activeIcon = "ios-star"\n        defaultIcon = "ios-star-outline"\n        activeColor = "rgb(228, 215, 38)" \n        defaultColor = "#f4f4f4"\n        readonly="true"\n        [rating]="value.totalRating">\n    </ionic3-star-rating></div>\n    </div>\n      \n      <div style="text-align:right; " class="detail-div1" >\n        <div class="author-box">\n        <p style="    height: 0px;font-weight: bold">{{value.user_display_name}}</p>\n        <p>{{value.usermedia_posted}}</p>\n        </div>\n      </div>\n      <div   class="detail-div userpic">\n        <img (click)="artistpro(i)" class="userimage" [src]="value.user_profile_avatar">\n      </div>\n      </div> -->\n            </div>\n          </div>\n          <div class="post-img">\n            <div class="social-img">\n              <div class="header1">\n                <img class="img-post" src="assets/Dashboard/share-gray.png" />\n                <div class="share-div" (click)="tapshow1(i)"></div>\n              </div>\n              <div\n                class="header1"\n                (click)="followedartist(value.artist_id,value.user_display_name)"\n              >\n                <img class="img-post" src="assets/Dashboard/user.png" />\n              </div>\n              <div class="header1" (click)="navigatetocomment(i)">\n                <img class="img-post" src="assets/Dashboard/msg.png" />\n              </div>\n              <div class="header1" (click)="reportnavigate()">\n                <img class="img-post" src="assets/Dashboard/error.png" />\n              </div>\n\n              <div\n                class="header1"\n                (click)="DeleteMedia(value.usermediaid,i,\'artist\')"\n              >\n                <ion-icon name="ios-trash-outline" mode="ios"></ion-icon>\n              </div>\n            </div>\n          </div>\n        </ion-row>\n      </ion-list>\n    </div>\n    <!-- <div >\n    <div  id="categorylist" class="category-list" *ngSwitchCase="\'recent\'">\n   \n        <ion-row style="    padding: 6px;">\n       <ion-col style="font-weight: 500;">Categories</ion-col>\n       <ion-col *ngIf="showcat==true" (click)="showcatevent(1)" class="prop-see" >See All</ion-col>\n       <ion-col *ngIf="showcat==false" (click)="showcatevent(2)" class="prop-see" >Close</ion-col>\n     </ion-row>\n     <ion-row *ngIf="showcat==true"  style="margin-top: -8px;">\n       <ion-col class="col-cat" (click)="songtype(1)">\n         <img class="img-cat" src="assets/category/categories1.png">\n         <p class="cat-types">Music</p>\n     </ion-col>\n     <ion-col  class="col-cat" (click)="songtype(2)">\n         <img class="img-cat" src="assets/category/categories2.png">\n   <p class="cat-types">Dance</p>\n       </ion-col>\n     <ion-col  class="col-cat" (click)="songtype(3)">\n         <img class="img-cat" src="assets/category/categories3.png">\n    <p class="cat-types">Film</p>\n       </ion-col>\n     <ion-col  class="col-cat" (click)="songtype(4)">\n         <img class="img-cat" src="assets/category/categories4.png">\n         <p class="cat-types">Photography</p>\n     </ion-col>\n     <ion-col  class="col-cat" (click)="songtype(7)">\n         <img class="img-cat" src="assets/category/categories5.png">\n         <p class="cat-types">Litreature</p>\n     </ion-col>\n     </ion-row>\n    <div *ngIf="showcat==false" >\n      <ion-row>\n        <ion-col class="col-cat" (click)="songtype(1)">\n            <img class="img-cat" src="assets/category/categories1.png">\n            <p class="cat-types">Music</p>\n        </ion-col>\n        <ion-col  class="col-cat" (click)="songtype(2)">\n            <img class="img-cat" src="assets/category/categories2.png">\n      <p class="cat-types">Dance</p>\n          </ion-col>\n        <ion-col  class="col-cat" (click)="songtype(3)">\n            <img class="img-cat" src="assets/category/categories3.png">\n       <p class="cat-types">Film</p>\n          </ion-col>\n        <ion-col  class="col-cat" (click)="songtype(4)">\n            <img class="img-cat" src="assets/category/categories4.png">\n            <p class="cat-types">Photography</p>\n        </ion-col>\n       \n        </ion-row>\n        <ion-row>\n           \n            <ion-col  class="col-cat" (click)="songtype(7)">\n                <img class="img-cat" src="assets/category/categories5.png">\n          <p class="cat-types">Litreature</p>\n              </ion-col>\n            <ion-col  class="col-cat" (click)="songtype(8)">\n                <img class="img-cat" src="assets/category/categories6.png">\n           <p class="cat-types">Art</p>\n              </ion-col>\n            <ion-col  class="col-cat" (click)="songtype(5)">\n                <img class="img-cat" src="assets/category/categories7.png">\n                <p class="cat-types">Freestyle</p>\n            </ion-col>\n            <ion-col  class="col-cat" (click)="songtype(9)">\n                <img class="img-cat" src="assets/category/categories8.png">\n                <p class="cat-types">Personality</p>\n            </ion-col>\n            </ion-row>\n            <ion-row>\n                <ion-col  class="col-cat" (click)="songtype(6)">\n                    <img class="img-cat" src="assets/category/categories9.png">\n                    <p class="cat-types">Other</p>\n                </ion-col>\n            </ion-row>\n      </div>\n      \n    \n    </div>\n  </div> -->\n    <div *ngSwitchCase="\'recent\'">\n      <!-- <ion-list class="recent-upload"  >\n          <ion-row style="    padding: 17px;" *ngIf="artistprop==\'inactive\'">\n              <ion-col>\n               <p style="    font-weight: bold;\n               font-size:1.3rem "> Based on your prefrence</p>\n     \n               </ion-col>\n              <ion-col style="text-align: end;"><button (click)="changeprefrence()" class="button-prefrence" ion-button color="primary">Change Prefrences</button></ion-col>\n            </ion-row>\n   <ion-row padding style="margin-top: -18px;">\n   <p class="head-p"><span class="span-head">Recent Uploads </span> in Music</p>    \n  </ion-row>   \n  \n  <ion-row *ngFor="let value of profilerecentcharts"  style="    margin-top: -10px;    margin-bottom: 26px;">\n    <div class="image-tag">\n       \n        <img style="    width: 89%;" src="assets/Dashboard/thumbnail.png">\n       \n      </div>\n      <div class="img-box" >\n      <div class="img-content">\n        <div class="cat-div"> \n          <img class="cat-icon" src="assets/Dashboard/artist_profile1.png">\n        </div>\n       \n        <div class="detail-grid">\n          \n        <div style="margin-top: 6px;" class="detail-div">\n           <p style="font-weight: bold;" class="music-type">King Cay Music</p>\n           <p class="title-type">Music / Hip Hop/ Rap</p>\n           <div class="star-div"> <ionic3-star-rating \n            activeIcon = "ios-star"\n            defaultIcon = "ios-star-outline"\n            activeColor = "rgb(228, 215, 38)" \n            defaultColor = "#f4f4f4"\n            readonly="true"\n            [rating]="5">\n        </ionic3-star-rating></div>\n        </div>\n        \n        <div style="text-align:right; " class="detail-div1" (click)="artistpro()">\n          <div class="author-box">\n          <p style="    height: 0px;font-weight: bold">King Cay</p>\n          <p>10 mins ago</p>\n          </div>\n        </div>\n        <div   class="detail-div userpic">\n          <img class="userimage" src="assets/tabsicon/propic.jpg">\n        </div>\n        </div>\n  \n      </div>\n      </div>\n      <div class="post-img">\n   <div class="social-img">\n     \n     <div class="header1">\n        <img  class="img-post" src="assets/Dashboard/share-gray.png">\n        <div class="share-div" (click)="tapshow1()"></div>\n      </div>\n      <div class="header1" (click)="followedartist()">\n          <img class="img-post" src="assets/Dashboard/user.png">\n        </div>\n        <div class="header1" (click)="navigatetocomment()">\n            <img class="img-post" src="assets/Dashboard/msg.png">\n          </div>\n          <div class="header1" (click)="reportnavigate()">\n              <img class="img-post" src="assets/Dashboard/error.png">\n            </div>\n  \n      </div>\n    </div>\n    </ion-row>\n  \n  </ion-list> -->\n\n      <ion-list class="recent-upload">\n        <ion-row style="padding: 17px;" *ngIf="artistprop==\'inactive\'">\n          <ion-col>\n            <p style="font-weight: bold; font-size: 1.3rem;">\n              Based on your prefrences\n            </p>\n          </ion-col>\n          <ion-col style="text-align: end;"\n            ><button\n              (click)="changeprefrence()"\n              class="button-prefrence"\n              ion-button\n              color="primary"\n            >\n              Change Prefrences\n            </button></ion-col\n          >\n        </ion-row>\n        <ion-row style="margin-top: -18px;" padding>\n          <p *ngIf="!type" class="head-p">\n            <span class="span-head">Recent Uploads </span>\n          </p>\n          <p *ngIf="type" class="head-p">\n            <span class="span-head">Recent Uploads </span> {{type}}\n          </p>\n        </ion-row>\n        <!-- <ion-row style="    padding: 6px;">\n  <ion-col style="font-weight: 500;">Categories</ion-col>\n  <ion-col *ngIf="showcat==true" (click)="showcatevent(1)" class="prop-see" >See All</ion-col>\n  <ion-col *ngIf="showcat==false" (click)="showcatevent(2)" class="prop-see" >Close</ion-col>\n</ion-row>\n<ion-row *ngIf="showcat==true"  style="margin-top: -8px;">\n  <ion-col class="col-cat" (click)="songtype(1)">\n    <img class="img-cat" src="assets/category/categories1.png">\n    <p class="cat-types">Music</p>\n</ion-col>\n<ion-col  class="col-cat" (click)="songtype(2)">\n    <img class="img-cat" src="assets/category/categories2.png">\n<p class="cat-types">Dance</p>\n  </ion-col>\n<ion-col  class="col-cat" (click)="songtype(3)">\n    <img class="img-cat" src="assets/category/categories3.png">\n<p class="cat-types">Film</p>\n  </ion-col>\n<ion-col  class="col-cat" (click)="songtype(4)">\n    <img class="img-cat" src="assets/category/categories4.png">\n    <p class="cat-types">Photography</p>\n</ion-col>\n<ion-col  class="col-cat" (click)="songtype(7)">\n    <img class="img-cat" src="assets/category/categories5.png">\n    <p class="cat-types">Litreature</p>\n</ion-col>\n</ion-row>\n<div *ngIf="showcat==false" >\n <ion-row>\n   <ion-col class="col-cat" (click)="songtype(1)">\n       <img class="img-cat" src="assets/category/categories1.png">\n       <p class="cat-types">Music</p>\n   </ion-col>\n   <ion-col  class="col-cat" (click)="songtype(2)">\n       <img class="img-cat" src="assets/category/categories2.png">\n <p class="cat-types">Dance</p>\n     </ion-col>\n   <ion-col  class="col-cat" (click)="songtype(3)">\n       <img class="img-cat" src="assets/category/categories3.png">\n  <p class="cat-types">Film</p>\n     </ion-col>\n   <ion-col  class="col-cat" (click)="songtype(4)">\n       <img class="img-cat" src="assets/category/categories4.png">\n       <p class="cat-types">Photography</p>\n   </ion-col>\n  \n   </ion-row>\n   <ion-row>\n      \n       <ion-col  class="col-cat" (click)="songtype(7)">\n           <img class="img-cat" src="assets/category/categories5.png">\n     <p class="cat-types">Litreature</p>\n         </ion-col>\n       <ion-col  class="col-cat" (click)="songtype(8)">\n           <img class="img-cat" src="assets/category/categories6.png">\n      <p class="cat-types">Art</p>\n         </ion-col>\n       <ion-col  class="col-cat" (click)="songtype(5)">\n           <img class="img-cat" src="assets/category/categories7.png">\n           <p class="cat-types">Freestyle</p>\n       </ion-col>\n       <ion-col  class="col-cat" (click)="songtype(9)">\n           <img class="img-cat" src="assets/category/categories8.png">\n           <p class="cat-types">Personality</p>\n       </ion-col>\n       </ion-row>\n       <ion-row>\n           <ion-col  class="col-cat" (click)="songtype(6)">\n               <img class="img-cat" src="assets/category/categories9.png">\n               <p class="cat-types">Other</p>\n           </ion-col>\n       </ion-row>\n </div>\n  -->\n        <!-- <loaderdata *ngIf="loadingrecentdata==true"></loaderdata> -->\n\n        <ion-row\n          *ngFor="let value of profilerecentcharts;let i=index"\n          style="margin-bottom: 26px;"\n        >\n          <div class="image-tag">\n            <img\n              style="width: 89%; object-fit: cover; background-color: #2e2e2e;"\n              [src]="value.media_thumbnail_url"\n            />\n          </div>\n          <div class="img-box">\n            <div class="img-content">\n              <div (click)="viewvideo1(i)" class="cat-div">\n                <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->\n                <ion-row>\n                  <ion-col col-8>\n                    <img\n                      *ngIf="value.media_type==\'video/mp4\'||value.media_type==\'youtube\' || value.media_type==\'audio/mpeg\' || value.media_type==\'audio/mp3\'"\n                      class="play-style"\n                      src="assets/play.png"\n                    />\n                  </ion-col>\n                  <ion-col col-4>\n                    <img\n                      *ngIf="value.mediathumbnailuser==null"\n                      class="cat-icon"\n                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8V8wHk1BbSmp3ltF_mbRP10iVeNAF5RqiALGKl3THo3x_-B36&usqp=CAU"\n                    />\n                    <!-- <img class="cat-icon" [src]="value.small_image_url"> -->\n                    <img\n                      *ngIf="value.mediathumbnailuser!=null"\n                      class="cat-icon"\n                      [src]="value.mediathumbnailuser"\n                    />\n                  </ion-col>\n                </ion-row>\n              </div>\n              <div class="details">\n                <ion-row>\n                  <ion-col col-5>\n                    <div class="details-1">\n                      <p class="title">{{value.usermedia_name}}</p>\n                      <p class="arts">{{value.artforms}}</p>\n\n                      <div\n                        *ngIf="user_display_name!=value.user_display_name"\n                        class="stars"\n                        (click)="openstar(value.usermediaid)"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="false"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n\n                      <div\n                        *ngIf="user_display_name==value.user_display_name"\n                        class="stars"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="true"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n                    </div>\n                  </ion-col>\n                  <ion-col col-4>\n                    <div class="details-2">\n                      <p class="author-name">{{value.user_display_name}}</p>\n                      <!-- <p class="post-time">{{value.usermedia_posted}}</p> -->\n                    </div>\n                  </ion-col>\n                  <ion-col col-3>\n                    <figure class="author-img">\n                      <img\n                        (click)="artistpro1(i)"\n                        style="border-radius: 35px;"\n                        class="custom-cat-icon"\n                        [src]="value.user_avatar"\n                      />\n                    </figure>\n                  </ion-col>\n                </ion-row>\n              </div>\n              <!-- <div class="detail-grid">\n     \n   <div style="margin-top: 6px;" class="detail-div" >\n      <p style="font-weight: bold;" class="music-type">{{value.usermedia_name}}</p>\n      <p class="title-type">{{value.toptypeprofile}}</p>\n      <div *ngIf="user_display_name!=value.user_display_name" class="star-div" (click)="openstar(value.usermediaid)"> <ionic3-star-rating \n       activeIcon = "ios-star"\n       defaultIcon = "ios-star-outline"\n       activeColor = "rgb(228, 215, 38)" \n       defaultColor = "#f4f4f4"\n       readonly="false"\n       [rating]="value.totalRating">\n   </ionic3-star-rating></div>\n\n   <div *ngIf="user_display_name==value.user_display_name" class="star-div" > <ionic3-star-rating \n    activeIcon = "ios-star"\n    defaultIcon = "ios-star-outline"\n    activeColor = "rgb(228, 215, 38)" \n    defaultColor = "#f4f4f4"\n    readonly="true"\n    [rating]="value.totalRating">\n</ionic3-star-rating></div>\n   </div>\n   \n   <div style="text-align:right; " class="detail-div1" >\n     <div class="author-box">\n     <p style="    height: 0px;font-weight: bold">{{value.user_display_name}}</p>\n     <p>{{value.usermedia_posted}}</p>\n     </div>\n   </div>\n   <div   class="detail-div userpic">\n     <img (click)="artistpro1(i)" class="userimage" [src]="value.user_profile_avatar">\n   </div>\n   </div> -->\n            </div>\n          </div>\n          <div class="post-img">\n            <div class="social-img">\n              <div class="header1">\n                <img class="img-post" src="assets/Dashboard/share-gray.png" />\n                <div class="share-div" (click)="tapshow2(i)"></div>\n              </div>\n              <div class="header1" (click)="followedartist(value.artist_id)">\n                <img class="img-post" src="assets/Dashboard/user.png" />\n              </div>\n              <div class="header1" (click)="navigatetocomment1(i)">\n                <img class="img-post" src="assets/Dashboard/msg.png" />\n              </div>\n              <div class="header1" (click)="reportnavigate()">\n                <img class="img-post" src="assets/Dashboard/error.png" />\n              </div>\n\n              <div\n                class="header1"\n                (click)="DeleteMedia(value.usermediaid,i,\'recent\')"\n              >\n                <ion-icon name="ios-trash-outline" mode="ios"></ion-icon>\n              </div>\n            </div>\n          </div>\n        </ion-row>\n        <ion-infinite-scroll\n          (ionInfinite)="loadMore($event)"\n          loadingSpinner="bubbles"\n          loadingText="Loading data..."\n        >\n          <ion-infinite-scroll-content></ion-infinite-scroll-content>\n        </ion-infinite-scroll>\n      </ion-list>\n    </div>\n  </div>\n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/artprofile/artprofile.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* App */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */], __WEBPACK_IMPORTED_MODULE_12__providers_dashboardservice_dashboardservice__["a" /* DashboardserviceProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_security_security__["a" /* SecurityProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */], __WEBPACK_IMPORTED_MODULE_9__ionic_native_native_page_transitions__["a" /* NativePageTransitions */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* App */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_11__providers_dashboardservice_dashboardservice__["a" /* DashboardserviceProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__providers_security_security__["a" /* SecurityProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* PopoverController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], ArtprofilePage);
     return ArtprofilePage;
 }());
@@ -3206,7 +3251,7 @@ var ArtprofilePage = (function () {
 
 /***/ }),
 
-/***/ 200:
+/***/ 199:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -3219,156 +3264,156 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 200;
+webpackEmptyAsyncContext.id = 199;
 
 /***/ }),
 
-/***/ 244:
+/***/ 243:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/aboutusp/aboutusp.module": [
-		780,
+		779,
 		7
 	],
 	"../pages/artistprofilepage/artistprofilepage.module": [
-		811,
+		810,
 		35
 	],
 	"../pages/artprofile/artprofile.module": [
-		813,
+		812,
 		34
 	],
 	"../pages/category/category.module": [
-		812,
+		811,
 		33
 	],
 	"../pages/categorytabpage/categorytabpage.module": [
-		781,
+		780,
 		19
 	],
 	"../pages/chatinboxreply/chatinboxreply.module": [
-		804,
+		803,
 		18
 	],
 	"../pages/childcattabpage/childcattabpage.module": [
-		782,
+		781,
 		17
 	],
 	"../pages/choosecatpagetab/choosecatpagetab.module": [
-		805,
+		804,
 		32
 	],
 	"../pages/commentsbox/commentsbox.module": [
-		806,
+		805,
 		31
 	],
 	"../pages/communitygudelines/communitygudelines.module": [
-		783,
+		782,
 		5
 	],
 	"../pages/communitypopover/communitypopover.module": [
-		784,
+		783,
 		16
 	],
 	"../pages/competitiondetailpage/competitiondetailpage.module": [
-		785,
+		784,
 		15
 	],
 	"../pages/competitionsp/competitionsp.module": [
-		786,
+		785,
 		14
 	],
 	"../pages/createconversationpage/createconversationpage.module": [
-		807,
+		806,
 		13
 	],
 	"../pages/dashboard/dashboard.module": [
-		808,
+		807,
 		6
 	],
 	"../pages/editproartistpag/editproartistpag.module": [
-		787,
+		786,
 		30
 	],
 	"../pages/editprofilepage/editprofilepage.module": [
-		809,
+		808,
 		12
 	],
 	"../pages/followedartist/followedartist.module": [
-		788,
+		787,
 		29
 	],
 	"../pages/followers-pagep/followers-pagep.module": [
-		789,
+		788,
 		28
 	],
 	"../pages/getintouch/getintouch.module": [
-		790,
+		789,
 		0
 	],
 	"../pages/home/home.module": [
-		791,
+		790,
 		11
 	],
 	"../pages/howitworksp/howitworksp.module": [
-		792,
+		791,
 		4
 	],
 	"../pages/howtouploadpagesidemenu/howtouploadpagesidemenu.module": [
-		793,
+		792,
 		3
 	],
 	"../pages/inboxpage/inboxpage.module": [
-		794,
+		793,
 		10
 	],
 	"../pages/popoverpageshare/popoverpageshare.module": [
-		810,
+		809,
 		27
 	],
 	"../pages/privacyp/privacyp.module": [
-		795,
+		794,
 		2
 	],
 	"../pages/reportprob/reportprob.module": [
-		796,
+		795,
 		26
 	],
 	"../pages/securitypanel/securitypanel.module": [
-		814,
+		813,
 		25
 	],
 	"../pages/selectuploadcategory/selectuploadcategory.module": [
-		797,
+		796,
 		24
 	],
 	"../pages/subcattabp/subcattabp.module": [
-		798,
+		797,
 		9
 	],
 	"../pages/tabspage/tabspage.module": [
-		799,
+		798,
 		8
 	],
 	"../pages/termsandconditions/termsandconditions.module": [
-		800,
+		799,
 		1
 	],
 	"../pages/uploadmedia/uploadmedia.module": [
-		815,
+		814,
 		23
 	],
 	"../pages/viewtalent/viewtalent.module": [
-		801,
+		800,
 		22
 	],
 	"../pages/viewvideoplay/viewvideoplay.module": [
-		802,
+		801,
 		21
 	],
 	"../pages/viewvideotopperformers/viewvideotopperformers.module": [
-		803,
+		802,
 		20
 	]
 };
@@ -3383,7 +3428,7 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 244;
+webpackAsyncContext.id = 243;
 module.exports = webpackAsyncContext;
 
 /***/ }),
@@ -3393,11 +3438,11 @@ module.exports = webpackAsyncContext;
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SecurityProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(184);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_env__ = __webpack_require__(707);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_http__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_env__ = __webpack_require__(706);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_http__ = __webpack_require__(338);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4962,26 +5007,25 @@ var SecurityProvider = (function () {
 
 /***/ }),
 
-/***/ 396:
+/***/ 395:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChoosecatpagetabPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__commentsbox_commentsbox__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__popoverpageshare_popoverpageshare__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__reportprob_reportprob__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__followedartist_followedartist__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__viewtalent_viewtalent__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__artistprofilepage_artistprofilepage__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_native_page_transitions__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_dashboardservice_dashboardservice__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_viewvideoplay_viewvideoplay__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_viewvideotopperformers_viewvideotopperformers__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_security_security__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_dashboardservice_dashboardservice__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_viewvideoplay_viewvideoplay__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_viewvideotopperformers_viewvideotopperformers__ = __webpack_require__(183);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5004,7 +5048,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 /**
  * Generated class for the ChoosecatpagetabPage page.
  *
@@ -5012,13 +5055,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var ChoosecatpagetabPage = (function () {
-    function ChoosecatpagetabPage(service, events, profilemedia, security, nativePageTransitions, modalCtrl, popoverCtrl, navCtrl, navParams) {
+    function ChoosecatpagetabPage(service, events, profilemedia, security, 
+        // private nativePageTransitions: NativePageTransitions,
+        modalCtrl, popoverCtrl, navCtrl, navParams) {
         var _this = this;
         this.service = service;
         this.events = events;
         this.profilemedia = profilemedia;
         this.security = security;
-        this.nativePageTransitions = nativePageTransitions;
         this.modalCtrl = modalCtrl;
         this.popoverCtrl = popoverCtrl;
         this.navCtrl = navCtrl;
@@ -5040,7 +5084,7 @@ var ChoosecatpagetabPage = (function () {
         // })
         // loading.present()
         var _this = this;
-        __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(null)
+        __WEBPACK_IMPORTED_MODULE_8_rxjs__["Observable"].of(null)
             .flatMap(function () { return _this.security.artistfollowed(artist_id); })
             .subscribe(function (data) {
             console.log(data.status);
@@ -5061,7 +5105,7 @@ var ChoosecatpagetabPage = (function () {
         else if (this.choiceofintrest == 3) {
             this.catid = "category_id";
         }
-        __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(null)
+        __WEBPACK_IMPORTED_MODULE_8_rxjs__["Observable"].of(null)
             .flatMap(function () {
             return _this.security.cattab(_this.link, _this.page, _this.catype, _this.intrest, _this.catid);
         })
@@ -5101,7 +5145,7 @@ var ChoosecatpagetabPage = (function () {
         }
         console.log("choice" + this.choiceofintrest);
         console.log("catype" + this.catype);
-        __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(null)
+        __WEBPACK_IMPORTED_MODULE_8_rxjs__["Observable"].of(null)
             .flatMap(function () {
             return _this.security.cattrendingchattab(_this.catype, _this.intrest, _this.catid);
         })
@@ -5200,12 +5244,12 @@ var ChoosecatpagetabPage = (function () {
     };
     ChoosecatpagetabPage.prototype.navigatetocomment = function () {
         localStorage.removeItem("usermedia");
-        var options = {
-            direction: "up",
-            duration: 500,
-            slowdownfactor: 2,
-        };
-        this.nativePageTransitions.slide(options);
+        // let options: NativeTransitionOptions = {
+        //   direction: "up",
+        //   duration: 500,
+        //   slowdownfactor: 2,
+        // };
+        // this.nativePageTransitions.slide(options);
         // let commentsbox=this.modalCtrl.create(CommentsboxPage)
         // commentsbox.present()
         // this.navCtrl.push(CommentsboxPage)
@@ -5228,13 +5272,13 @@ var ChoosecatpagetabPage = (function () {
     ChoosecatpagetabPage.prototype.navigatetomsg = function (id) {
         console.log("recentdata", this.profilerecentcharts);
         localStorage.removeItem("usermedia");
-        var options = {
-            direction: "up",
-            duration: 500,
-            slowdownfactor: 2,
-        };
-        console.log("user_url", this.profilerecentcharts[id]);
-        this.nativePageTransitions.slide(options);
+        // let options: NativeTransitionOptions = {
+        //   direction: "up",
+        //   duration: 500,
+        //   slowdownfactor: 2,
+        // };
+        // console.log("user_url", this.profilerecentcharts[id]);
+        // this.nativePageTransitions.slide(options);
         var commentsbox = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__commentsbox_commentsbox__["a" /* CommentsboxPage */], {
             usermediaid: this.profilerecentcharts[id].usermediaid,
             mediapic: this.profilerecentcharts[id].category_image_url,
@@ -5267,13 +5311,13 @@ var ChoosecatpagetabPage = (function () {
     ChoosecatpagetabPage.prototype.navigatetomsgtop = function (id) {
         // alert(id)
         localStorage.removeItem("usermedia");
-        var options = {
-            direction: "up",
-            duration: 500,
-            slowdownfactor: 2,
-        };
-        console.log(this.playerlist[id].usermedia_path);
-        this.nativePageTransitions.slide(options);
+        // let options: NativeTransitionOptions = {
+        //   direction: "up",
+        //   duration: 500,
+        //   slowdownfactor: 2,
+        // };
+        // console.log(this.playerlist[id].usermedia_path);
+        // this.nativePageTransitions.slide(options);
         var commentsbox = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__commentsbox_commentsbox__["a" /* CommentsboxPage */], {
             usermediaid: this.playerlist[id].usermedia_id,
             mediapic: this.playerlist[id].usermedia_path,
@@ -5300,7 +5344,7 @@ var ChoosecatpagetabPage = (function () {
         console.log("usermedia" + usermedia_id);
         console.log("rate" + this.rate);
         if (usermedia_id) {
-            __WEBPACK_IMPORTED_MODULE_9_rxjs__["Observable"].of(null)
+            __WEBPACK_IMPORTED_MODULE_8_rxjs__["Observable"].of(null)
                 .flatMap(function () { return _this.service.starmedia(_this.rate, usermedia_id); })
                 .subscribe(function (data) {
                 var modal = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_6__viewtalent_viewtalent__["a" /* ViewtalentPage */], {
@@ -5339,14 +5383,14 @@ var ChoosecatpagetabPage = (function () {
         }
     };
     ChoosecatpagetabPage.prototype.viewvideo = function (id) {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_12__pages_viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */], {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_11__pages_viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */], {
             data: this.profilerecentcharts,
             id: id,
         });
         modal.present();
     };
     ChoosecatpagetabPage.prototype.viewvideotop = function (id) {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_13__pages_viewvideotopperformers_viewvideotopperformers__["a" /* ViewvideotopperformersPage */], {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_12__pages_viewvideotopperformers_viewvideotopperformers__["a" /* ViewvideotopperformersPage */], {
             data: this.playerlist,
             id: id,
         });
@@ -5356,11 +5400,10 @@ var ChoosecatpagetabPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: "page-choosecatpagetab",template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/choosecatpagetab/choosecatpagetab.html"*/`<!--\n  Generated template for the ChoosecatpagetabPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar style="text-align: center;" color="primary">\n    <!-- <ion-row no-padding>\n     \n     <ion-col style="text-align:center"  no-padding>\n         <p style="color:#fff">{{Titlecat}}</p>\n     </ion-col>\n    </ion-row> -->\n    <span style="color: #fff; color: #fff; margin-top: -20px;"\n      >{{Titlecat}}</span\n    >\n    <ion-row no-padding>\n      <div class="segment-class">\n        <ion-segment\n          mode="md"\n          [(ngModel)]="pet"\n          (ionChange)="onSegmentChanged($event)"\n        >\n          <ion-segment-button mode="md" class="seg-tab" value="Recent_Uploads">\n            Recent Uploads\n          </ion-segment-button>\n          <hr class="divider-seg" />\n          <ion-segment-button mode="md" class="seg-tab" value="top_performers">\n            Top Performers\n          </ion-segment-button>\n          <hr class="divider-seg" />\n          <!-- <ion-segment-button  class="seg-tab" value="Recent_Uploads" > -->\n          <ion-segment-button mode="md" class="seg-tab" value="Trending_Items">\n            Trending Items\n          </ion-segment-button>\n        </ion-segment>\n      </div>\n    </ion-row>\n  </ion-navbar>\n</ion-header>\n<ion-content>\n  <div [ngSwitch]="pet">\n    <ion-list *ngSwitchCase="\'Recent_Uploads\'">\n      <ion-row style="margin-top: -6px;" padding>\n        <p class="head-p"><span class="span-head">Recent Uploads </span></p>\n      </ion-row>\n      <div>\n        <!-- <ion-row *ngFor="let value of fakedata;let i=index"  style="    margin-top: -10px;    margin-bottom: 26px;">\n           <div class="image-tag">\n              \n               <img style="    width: 89%;" src="assets/Dashboard/thumbnail.png">\n              \n             </div>\n             <div class="img-box" >\n             <div class="img-content">\n              \n                <ion-row>\n                  <ion-col class="cols-style">\n                   0{{i+1}}\n                  </ion-col>\n                <ion-col style="text-align:end">\n                  \n                </ion-col>\n                 </ion-row>\n \n \n               <div class="detail-grid1">\n                 \n               <div class="detail-div">\n                  <p style="font-weight: bold;" class="music-type">Dublin</p>\n                 <p class="title-type1">Photography/Architecture</p> \n                  <ion-row class="star-div"> \n                  <ion-col  col-2>\n                   <img style="height:13px;    margin: 4px 1px 2px -3px;" src="assets/Dashboard/rating.png">\n                 </ion-col>\n                 <ion-col col-10>\n                  <p class="count-like">6037</p>\n                 </ion-col>\n                 </ion-row>\n               </div>\n               <div class="image-box" >\n                 <ion-row (click)="authtap()">\n                   <ion-col col-8 style="    text-align: end;">\n                     <p> dipu_m18</p></ion-col>\n                   <ion-col col-3 style="margin-top: -2px;">\n                       <img class="userimage1" src="assets/tabsicon/propic.jpg"> </ion-col>\n                 </ion-row> \n                 <ion-row style="    margin-top: -32px;" (click)="openstar()">\n                   <ion-col col-3>\n                         <p style="       margin-left: 9px;\n                         display: inline-block;    font-size: 1.5rem;\n                         position: absolute;\n     right: -14px;">Vote</p>\n                   </ion-col>\n                   <ion-col col-9 style="padding: 9px;margin-top: 3px;display: flex;\n                   justify-content: center;">\n                       <ionic3-star-rating \n                       activeIcon = "ios-star"\n                       defaultIcon = "ios-star-outline"\n                       activeColor = "rgb(228, 215, 38)" \n                       defaultColor = "rgb(228, 215, 38)"\n                       readonly="true"\n                       [rating]="0">\n                   </ionic3-star-rating>\n                     </ion-col>\n                   </ion-row>\n               </div>\n               \n               </div>\n       \n             </div>\n             </div>\n             <div class="post-img">\n          <div class="social-img">\n            \n            <div class="header1">\n               <img class="img-post" src="assets/Dashboard/share-gray.png">\n             </div>\n             <div class="header1">\n                 <img class="img-post" src="assets/Dashboard/user.png">\n               </div>\n               <div class="header1">\n                   <img class="img-post" src="assets/Dashboard/msg.png">\n                 </div>\n                 <div class="header1" (click)="reportnavigate()">\n                     <img class="img-post" src="assets/Dashboard/error.png">\n                   </div>\n       \n             </div>\n             <div class="social-img">\n       \n              <div class="header1" >\n                 <img class="img-post" src="assets/Dashboard/share-gray.png">\n                 <div class="share-div" (click)="tapshow1()"></div>\n               </div>\n               <div class="header1" (click)="followedartist()">\n                   <img class="img-post" src="assets/Dashboard/user.png">\n                 </div>\n                 <div class="header1" (click)="navigatetocomment()">\n                     <img class="img-post" src="assets/Dashboard/msg.png">\n                   </div>\n                   <div class="header1" (click)="reportnavigate()">\n                       <img class="img-post" src="assets/Dashboard/error.png">\n                     </div>\n         \n               </div>\n           </div>\n           </ion-row> -->\n        <loaderdata *ngIf="loadingdata==\'on\'"></loaderdata>\n        <ion-row\n          *ngFor="let value of profilerecentcharts;let i=index"\n          style="margin-top: -10px; margin-bottom: 26px;"\n        >\n          <div class="image-tag">\n            <img\n              style="width: 89%; object-fit: cover; background-color: #2e2e2e;"\n              [src]="value.media_thumbnail_url"\n            />\n          </div>\n          <div class="img-box">\n            <div class="img-content">\n              <div (click)="viewvideo(i)" class="cat-div">\n                <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->\n                <ion-row>\n                  <ion-col col-8>\n                    <img\n                      *ngIf="value.media_type==\'video/mp4\'||value.media_type==\'youtube\'||value.media_type==\'audio/mpeg\' || value.media_type==\'audio/mp3\'"\n                      class="play-style"\n                      src="assets/play.png"\n                    />\n                  </ion-col>\n                  <ion-col col-4>\n                    <!-- <img class="cat-icon" [src]="value.small_image_url"> -->\n                    <img class="cat-icon" [src]="value.mediathumbnailuser" />\n                  </ion-col>\n                </ion-row>\n              </div>\n              <div class="details">\n                <ion-row>\n                  <ion-col col-5>\n                    <div class="details-1">\n                      <p class="title">{{value.usermedia_name}}</p>\n                      <p class="arts">{{value.artforms}}</p>\n\n                      <div\n                        *ngIf="user_display_name!=value.user_display_name"\n                        class="stars"\n                        (click)="openstar(value.usermediaid)"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="false"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n\n                      <div\n                        *ngIf="user_display_name==value.user_display_name"\n                        class="stars"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="true"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n                    </div>\n                  </ion-col>\n                  <ion-col col-4>\n                    <div class="details-2">\n                      <p class="author-name">{{value.user_display_name}}</p>\n                      <!-- <p class="post-time">{{value.usermedia_posted}}</p> -->\n                    </div>\n                  </ion-col>\n                  <ion-col col-3>\n                    <figure class="author-img">\n                      <img\n                        (click)="authtap(i,value.user_display_name)"\n                        style="border-radius: 35px;"\n                        class="custom-cat-icon"\n                        [src]="value.user_avatar"\n                      />\n                    </figure>\n                  </ion-col>\n                </ion-row>\n              </div>\n              <!-- <div class="detail-grid" >\n              \n            <div style="margin-top: 6px;    white-space: nowrap;" class="detail-div" >\n               <p style="font-weight: bold;" class="music-type">{{value.usermedia_name}}</p>\n               <p class="title-type">{{value.toptypeprofile}}</p>\n               <div class="star-div" >\n            <ionic3-star-rating (click)="openstar(value.usermediaid)" *ngIf="user_display_name!=value.user_display_name"\n                activeIcon = "ios-star"\n                defaultIcon = "ios-star-outline"\n                activeColor = "rgb(228, 215, 38)" \n                defaultColor = "#f4f4f4"\n                readonly="false"\n                [rating]="value.totalRating">\n            </ionic3-star-rating>\n\n            <ionic3-star-rating *ngIf="user_display_name==value.user_display_name"\n                activeIcon = "ios-star"\n                defaultIcon = "ios-star-outline"\n                activeColor = "rgb(228, 215, 38)" \n                defaultColor = "#f4f4f4"\n                readonly="true"\n                [rating]="value.totalRating">\n            </ionic3-star-rating>\n          \n          </div>\n            </div>\n            \n          \n             <div style="text-align:right; " class="detail-div1" >  \n              <div class="author-box">\n              <p  style="    height: 0px;font-weight: bold">{{value.user_display_name}}</p>\n              <p>{{value.usermedia_posted}}</p>\n              </div>\n            </div>\n            <div   class="detail-div userpic">\n              <img (click)="authtap(i,value.user_display_name)" class="userimage" [src]="value.user_profile_avatar">\n            </div>\n            </div> -->\n            </div>\n          </div>\n          <div class="post-img">\n            <div class="social-img">\n              <div class="header1">\n                <img class="img-post" src="assets/Dashboard/share-gray.png" />\n                <div class="share-div" (click)="tapshow1(i)"></div>\n              </div>\n              <div class="header1" (click)="followartist(value.artist_id)">\n                <img class="img-post" src="assets/Dashboard/user.png" />\n              </div>\n              <div class="header1" (click)="navigatetomsg(i)">\n                <img class="img-post" src="assets/Dashboard/msg.png" />\n              </div>\n              <div class="header1" (click)="reportnavigate()">\n                <img class="img-post" src="assets/Dashboard/error.png" />\n              </div>\n            </div>\n          </div>\n        </ion-row>\n      </div>\n      <div\n        style="\n          text-align: center;\n          position: absolute;\n\n          width: 100%;\n          padding: 6%;\n          justify-content: center;\n        "\n      >\n        <p\n          style="\n            font-weight: bold;\n\n            font-size: 2.6rem;\n          "\n        >\n          {{completedata}}\n        </p>\n      </div>\n      <ion-infinite-scroll\n        (ionInfinite)="loadMore($event)"\n        loadingSpinner="bubbles"\n        loadingText="Loading data..."\n      >\n        <ion-infinite-scroll-content></ion-infinite-scroll-content>\n      </ion-infinite-scroll>\n    </ion-list>\n\n    <!--Recent Uploads  -->\n    <ion-list *ngSwitchCase="\'top_performers\'">\n      <ion-row style="margin-top: -6px;" padding>\n        <p class="head-p"><span class="span-head">Top Performers</span></p>\n      </ion-row>\n      <loaderdata *ngIf="loadingdata==\'on\'"></loaderdata>\n      <div\n        style="\n          text-align: center;\n          position: absolute;\n          top: 25%;\n          width: 100%;\n          padding: 6%;\n          justify-content: center;\n        "\n        *ngIf="text"\n      >\n        <p\n          style="\n            font-weight: bold;\n\n            font-size: 2.6rem;\n          "\n        >\n          {{text}}\n        </p>\n      </div>\n      <div>\n        <ion-row\n          *ngFor="let value of playerlist;let i=index"\n          style="margin-top: -10px; margin-bottom: 26px;"\n        >\n          <div class="image-tag">\n            <img\n              style="width: 89%; object-fit: cover; background-color: #2e2e2e;"\n              src="{{value.usermedia_path}}"\n            />\n          </div>\n          <div class="img-box">\n            <div class="img-content">\n              <!-- <ion-row style="height: 105px;" (click)="viewvideotop(i)">\n                     <ion-col class="cols-style">\n                      0{{i+1}}\n                     </ion-col>\n                   <ion-col style="text-align:end">\n                      <img class="\n                    cat-icon1" [src]="value.covermediathumbnail">\n                   </ion-col>\n                    </ion-row> -->\n              <ion-row style="height: 105px;" (click)="viewvideotop(i)">\n                <ion-col class="cols-style">\n                  0{{i+1}}\n                </ion-col>\n                <ion-col style="text-align: end;">\n                  <ion-row>\n                    <ion-col>\n                      <img\n                        style="\n                          position: absolute;\n                          justify-content: center;\n                          right: 32px;\n                          left: -30px;\n                          top: 41px;\n                        "\n                        *ngIf="value.usermedia_type==\'video/mp4\'||value.usermedia_type==\'youtube\'||value.usermedia_type==\'audio/mpeg\'  || value.usermedia_type==\'audio/mp3\'"\n                        class="play-style"\n                        src="assets/play.png"\n                      />\n                    </ion-col>\n                    <ion-col>\n                      <img\n                        class="cat-icon1"\n                        [src]="value.covermediathumbnail"\n                      />\n                    </ion-col>\n                  </ion-row>\n                </ion-col>\n              </ion-row>\n              <div class="details-top">\n                <ion-row>\n                  <ion-col col-6>\n                    <div class="details-top-1">\n                      <p class="title">{{value.usermedia_name}}</p>\n                      <p class="arts">{{value.toptype}}</p>\n                      <ion-row class="number-star">\n                        <ion-col col-2>\n                          <img\n                            src="assets/Dashboard/rating.png"\n                            class="star-img-1"\n                          />\n                        </ion-col>\n                        <ion-col col-10>\n                          <p class="count-like">{{value.totalrating}}</p>\n                        </ion-col>\n                      </ion-row>\n                    </div>\n                  </ion-col>\n                  <ion-col col-6>\n                    <div class="details-top-2">\n                      <ion-row>\n                        <ion-col col-12>\n                          <p class="author-name">{{value.user_display_name}}</p>\n                          <figure class="author-img">\n                            <img\n                              (click)="authtap1(i,value.user_display_name)"\n                              style="border-radius: 35px;"\n                              class="custom-cat-icon-1"\n                              [src]="value.user_avatar"\n                            />\n                          </figure>\n                        </ion-col>\n                      </ion-row>\n\n                      <ion-row (click)="openstar(value.usermedia_id)">\n                        <ion-col col-3>\n                          <p>Vote</p>\n                        </ion-col>\n                        <ion-col col-9>\n                          <div class="stars-1">\n                            <ionic3-star-rating\n                              *ngIf="user_display_name!=value.user_display_name"\n                              activeIcon="ios-star"\n                              defaultIcon="ios-star-outline"\n                              activeColor="rgb(228, 215, 38)"\n                              defaultColor="rgb(228, 215, 38)"\n                              readonly="false"\n                              [rating]="value.rate"\n                            >\n                            </ionic3-star-rating>\n\n                            <ionic3-star-rating\n                              *ngIf="user_display_name==value.user_display_name"\n                              activeIcon="ios-star"\n                              defaultIcon="ios-star-outline"\n                              activeColor="rgb(228, 215, 38)"\n                              defaultColor="rgb(228, 215, 38)"\n                              readonly="true"\n                              [rating]="value.rate"\n                            >\n                            </ionic3-star-rating>\n                          </div>\n                        </ion-col>\n                      </ion-row>\n                    </div>\n                  </ion-col>\n                </ion-row>\n              </div>\n              <!-- <div class="detail-grid1">\n                    \n                  <div style="white-space: nowrap;" class="detail-div">\n                     <p style="font-weight: bold;" class="music-type">{{value.usermedia_name}}</p>\n                     <p class="title-type1">{{value.toptype}}</p>\n                     <ion-row class="star-div"> \n                     <ion-col  col-2>\n                      <img style="height:13px;    margin: 4px 1px 2px -3px;" src="assets/Dashboard/rating.png">\n                    </ion-col>\n                    <ion-col col-10>\n                     <p style="    margin-top: -4px;" class="count-like">{{value.totalrating}}</p>\n                    </ion-col>\n                    </ion-row>\n                  </div>\n                  <div class="image-box" >\n                    <ion-row (click)="authtap1(i,value.user_display_name)">\n                      <ion-col class="user_name_topperformers" col-8 style="    text-align: end;    white-space: nowrap;">\n                        <p style="text-overflow: ellipsis;\n                        overflow: hidden;"> {{value.user_display_name}}</p></ion-col>\n                      <ion-col col-3 style="margin-top: -2px;">\n                       \n                          <img  class="userimage1" src="{{value.user_avatar}}">\n                         \n                        </ion-col>\n                      </ion-row> \n                    <ion-row style="    margin-top: -32px;"  >\n                      <ion-col col-3>\n                            <p style="       margin-left: 9px;\n                            display: inline-block;    font-size: 1.5rem;\n                            position: absolute; right: -14px;">Vote</p>\n                      </ion-col>\n                      <ion-col col-9 style="padding: 9px;margin-top: 3px;display: flex;\n                      justify-content: center;">\n                          <ionic3-star-rating (click)="openstar(value.usermedia_id)"  *ngIf="user_display_name!=value.user_display_name"\n                          activeIcon = "ios-star"\n                          defaultIcon = "ios-star-outline"\n                          activeColor = "rgb(228, 215, 38)" \n                          defaultColor = "rgb(228, 215, 38)"\n                          readonly="false"\n                          [rating]="value.rate" >\n                      </ionic3-star-rating>\n                      <ionic3-star-rating  *ngIf="user_display_name==value.user_display_name"\n                      activeIcon = "ios-star"\n                      defaultIcon = "ios-star-outline"\n                      activeColor = "rgb(228, 215, 38)" \n                      defaultColor = "rgb(228, 215, 38)"\n                      readonly="true"\n                      [rating]="value.rate" >\n                  </ionic3-star-rating>\n                        </ion-col>\n                      </ion-row>\n                  </div>\n                  \n                  </div> -->\n            </div>\n          </div>\n          <div class="post-img">\n            <div class="social-img">\n              <div class="header1">\n                <img class="img-post" src="assets/Dashboard/share-gray.png" />\n                <div class="share-div" (click)="tapshowtop(i)"></div>\n              </div>\n              <div class="header1" (click)="followartist(value.artist_id)">\n                <img class="img-post" src="assets/Dashboard/user.png" />\n              </div>\n              <div class="header1" (click)="navigatetomsgtop(i)">\n                <img class="img-post" src="assets/Dashboard/msg.png" />\n              </div>\n              <div class="header1" (click)="reportnavigate(i)">\n                <img class="img-post" src="assets/Dashboard/error.png" />\n              </div>\n            </div>\n          </div>\n        </ion-row>\n      </div>\n    </ion-list>\n    <!-- trending items -->\n    <ion-list *ngSwitchCase="\'Trending_Items\'">\n      <ion-row style="margin-top: -6px;" padding>\n        <p class="head-p"><span class="span-head">Trending Items </span></p>\n      </ion-row>\n      <div>\n        <loaderdata *ngIf="loadingdata==\'on\'"></loaderdata>\n        <!-- <ion-row *ngFor="let value of fakedata;let i=index"  style="    margin-top: -10px;    margin-bottom: 26px;">\n               <div class="image-tag">\n                  \n                   <img style="    width: 89%;" src="assets/Dashboard/thumbnail.png">\n                  \n                 </div>\n                 <div class="img-box" >\n                 <div class="img-content">\n                  \n                    <ion-row>\n                      <ion-col class="cols-style">\n                       0{{i+1}}\n                      </ion-col>\n                    <ion-col style="text-align:end">\n                       \n                    </ion-col>\n                     </ion-row>\n     \n     \n                   <div class="detail-grid1">\n                     \n                   <div class="detail-div">\n                      <p style="font-weight: bold;" class="music-type">Dublin</p>\n                      <p class="title-type1">Photography/Architecture</p> \n                      <ion-row class="star-div"> \n                      <ion-col  col-2>\n                       <img style="height:13px;    margin: 4px 1px 2px -3px;" src="assets/Dashboard/rating.png">\n                     </ion-col>\n                     <ion-col col-10>\n                      <p class="count-like">6037</p>\n                     </ion-col>\n                     </ion-row>\n                   </div>\n                   <div class="image-box">\n                     <ion-row (click)="authtap()">\n                       <ion-col col-8 style="    text-align: end;">\n                         <p> dipu_m18</p></ion-col>\n                       <ion-col col-3 style="margin-top: -2px;">\n                           <img class="userimage1" src="assets/tabsicon/propic.jpg"> </ion-col>\n                     </ion-row> \n                     <ion-row style="    margin-top: -32px;" (click)="openstar()">\n                       <ion-col col-3>\n                             <p style="       margin-left: 9px;\n                             display: inline-block;    font-size: 1.5rem;\n                             position: absolute;\n         right: -14px;">Vote</p>\n                       </ion-col>\n                       <ion-col col-9 style="padding: 9px;margin-top: 3px;display: flex;\n                       justify-content: center;">\n                           <ionic3-star-rating \n                           activeIcon = "ios-star"\n                           defaultIcon = "ios-star-outline"\n                           activeColor = "rgb(228, 215, 38)" \n                           defaultColor = "rgb(228, 215, 38)"\n                           readonly="true"\n                           [rating]="0">\n                       </ionic3-star-rating>\n                         </ion-col>\n                       </ion-row>\n                   </div>\n                   \n                   </div>\n           \n                 </div>\n                 </div>\n                 <div class="post-img">\n              <div class="social-img">\n                \n                <div class="header1">\n                   <img class="img-post" src="assets/Dashboard/share-gray.png">\n                   <div class="share-div" (click)="tapshow1()"></div>\n                 </div>\n                 <div class="header1" (click)="followedartist()">\n                     <img class="img-post" src="assets/Dashboard/user.png">\n                   </div>\n                   <div class="header1" (click)="navigatetocomment()">\n                       <img class="img-post" src="assets/Dashboard/msg.png">\n                     </div>\n                     <div class="header1" (click)="reportnavigate()">\n                         <img class="img-post" src="assets/Dashboard/error.png">\n                       </div>\n           \n                 </div>\n               </div>\n               </ion-row> -->\n        <ion-row\n          *ngFor="let value of profilerecentcharts;let i=index"\n          style="margin-top: -10px; margin-bottom: 26px;"\n        >\n          <div class="image-tag">\n            <img\n              style="width: 89%; object-fit: cover; background-color: #2e2e2e;"\n              [src]="value.media_thumbnail_url"\n            />\n          </div>\n          <div class="img-box">\n            <div class="img-content">\n              <div (click)="viewvideo(i)" class="cat-div">\n                <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->\n                <ion-row>\n                  <ion-col col-8>\n                    <img\n                      *ngIf="value.media_type==\'video/mp4\'||value.media_type==\'youtube\'||value.media_type==\'audio/mpeg\'  || value.media_type==\'audio/mp3\' "\n                      class="play-style"\n                      src="assets/play.png"\n                    />\n                  </ion-col>\n                  <ion-col col-4>\n                    <!-- <img class="cat-icon" [src]="value.small_image_url"> -->\n                    <img class="cat-icon" [src]="value.mediathumbnailuser" />\n                  </ion-col>\n                </ion-row>\n              </div>\n              <div class="details">\n                <ion-row>\n                  <ion-col col-5>\n                    <div class="details-1">\n                      <p class="title">{{value.usermedia_name}}</p>\n                      <p class="arts">{{value.artforms}}</p>\n\n                      <div\n                        *ngIf="user_display_name!=value.user_display_name"\n                        class="stars"\n                        (click)="openstar(value.usermediaid)"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="false"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n\n                      <div\n                        *ngIf="user_display_name==value.user_display_name"\n                        class="stars"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="true"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n                    </div>\n                  </ion-col>\n                  <ion-col col-4>\n                    <div class="details-2">\n                      <p class="author-name">{{value.user_display_name}}</p>\n                      <!-- <p class="post-time">{{value.usermedia_posted}}</p> -->\n                    </div>\n                  </ion-col>\n                  <ion-col col-3>\n                    <figure class="author-img">\n                      <img\n                        (click)="authtap(i,value.user_display_name)"\n                        style="border-radius: 35px;"\n                        class="custom-cat-icon"\n                        [src]="value.user_avatar"\n                      />\n                    </figure>\n                  </ion-col>\n                </ion-row>\n              </div>\n              <!-- <div class="detail-grid" >\n                   \n                 <div style="margin-top: 6px;    white-space: nowrap;" class="detail-div" >\n                    <p style="font-weight: bold;" class="music-type">{{value.usermedia_name}}</p>\n                    <p class="title-type">{{value.toptypeprofile}}</p>\n                    <div class="star-div" > \n                  <ionic3-star-rating  (click)="openstar(value.usermediaid)" *ngIf="user_display_name!=value.user_display_name"\n                     activeIcon = "ios-star"\n                     defaultIcon = "ios-star-outline"\n                     activeColor = "rgb(228, 215, 38)" \n                     defaultColor = "#f4f4f4"\n                     readonly="false"\n                     [rating]="value.totalRating">\n                 </ionic3-star-rating>\n                 <ionic3-star-rating  *ngIf="user_display_name==value.user_display_name"\n                     activeIcon = "ios-star"\n                     defaultIcon = "ios-star-outline"\n                     activeColor = "rgb(228, 215, 38)" \n                     defaultColor = "#f4f4f4"\n                     readonly="true"\n                     [rating]="value.totalRating">\n                 </ionic3-star-rating>\n                </div>\n                 </div>\n                 <div style="text-align:right; " class="detail-div1" > \n               \n                   <div class="author-box">\n                   <p style="    height: 0px;font-weight: bold">{{value.user_display_name}}</p>\n                   <p>{{value.usermedia_posted}}</p>\n                   </div>\n                 </div>\n                 <div   class="detail-div userpic">\n                   <img (click)="authtap(i,value.user_display_name)" class="userimage" [src]="value.user_profile_avatar">\n                 </div>\n                 </div> -->\n            </div>\n          </div>\n          <div class="post-img">\n            <div class="social-img">\n              <div class="header1">\n                <img class="img-post" src="assets/Dashboard/share-gray.png" />\n                <div class="share-div" (click)="tapshow1(i)"></div>\n              </div>\n              <div class="header1" (click)="followartist(value.artist_id)">\n                <img class="img-post" src="assets/Dashboard/user.png" />\n              </div>\n              <div class="header1" (click)="navigatetomsg(i)">\n                <img class="img-post" src="assets/Dashboard/msg.png" />\n              </div>\n              <div class="header1" (click)="reportnavigate()">\n                <img class="img-post" src="assets/Dashboard/error.png" />\n              </div>\n            </div>\n          </div>\n        </ion-row>\n      </div>\n      <div\n        style="\n          text-align: center;\n          position: absolute;\n          top: 25%;\n          width: 100%;\n          padding: 6%;\n          justify-content: center;\n        "\n        *ngIf="text"\n      >\n        <p\n          style="\n            font-weight: bold;\n\n            font-size: 2.6rem;\n          "\n        >\n          {{completedata}}\n        </p>\n      </div>\n      <ion-infinite-scroll\n        (ionInfinite)="loadMore($event)"\n        loadingSpinner="bubbles"\n        loadingText="Loading data..."\n      >\n        <ion-infinite-scroll-content></ion-infinite-scroll-content>\n      </ion-infinite-scroll>\n    </ion-list>\n  </div>\n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/choosecatpagetab/choosecatpagetab.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_10__providers_security_security__["a" /* SecurityProvider */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_9__providers_security_security__["a" /* SecurityProvider */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */],
-            __WEBPACK_IMPORTED_MODULE_11__providers_dashboardservice_dashboardservice__["a" /* DashboardserviceProvider */],
-            __WEBPACK_IMPORTED_MODULE_10__providers_security_security__["a" /* SecurityProvider */],
-            __WEBPACK_IMPORTED_MODULE_8__ionic_native_native_page_transitions__["a" /* NativePageTransitions */],
+            __WEBPACK_IMPORTED_MODULE_10__providers_dashboardservice_dashboardservice__["a" /* DashboardserviceProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_security_security__["a" /* SecurityProvider */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ModalController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* PopoverController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */],
@@ -5373,13 +5416,13 @@ var ChoosecatpagetabPage = (function () {
 
 /***/ }),
 
-/***/ 398:
+/***/ 397:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditproartistpagPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5422,13 +5465,13 @@ var EditproartistpagPage = (function () {
 
 /***/ }),
 
-/***/ 400:
+/***/ 399:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelectuploadcategoryPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_security_security__ = __webpack_require__(27);
@@ -5634,13 +5677,13 @@ var SelectuploadcategoryPage = (function () {
 
 /***/ }),
 
-/***/ 403:
+/***/ 402:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(404);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(408);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(407);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -5648,72 +5691,71 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 408:
+/***/ 407:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(390);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(391);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(746);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ionic3_star_rating__ = __webpack_require__(397);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_category_category__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_uploadmedia_uploadmedia__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(389);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(390);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(745);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ionic3_star_rating__ = __webpack_require__(396);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_category_category__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_uploadmedia_uploadmedia__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_reportprob_reportprob__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_choosecatpagetab_choosecatpagetab__ = __webpack_require__(396);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_choosecatpagetab_choosecatpagetab__ = __webpack_require__(395);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_commentsbox_commentsbox__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_artistprofilepage_artistprofilepage__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_popoverpageshare_popoverpageshare__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_viewtalent_viewtalent__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_followedartist_followedartist__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_native_page_transitions__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_viewvideoplay_viewvideoplay__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_twitter_connect__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_facebook__ = __webpack_require__(342);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__angular_common_http__ = __webpack_require__(185);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__angular_http__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__providers_dashboardservice_dashboardservice__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_loaderdata_loaderdata__ = __webpack_require__(747);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_viewvideotopperformers_viewvideotopperformers__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_storage__ = __webpack_require__(399);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_components_expandable_components_expandable__ = __webpack_require__(748);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_social_sharing__ = __webpack_require__(344);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_camera__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_native_file_transfer__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__ionic_native_file_chooser__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32_angular2_tag_input__ = __webpack_require__(401);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32_angular2_tag_input___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_32_angular2_tag_input__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__ionic_native_file__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34_angular_cropperjs__ = __webpack_require__(402);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34_angular_cropperjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_34_angular_cropperjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35_jw_angular_social_buttons__ = __webpack_require__(749);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35_jw_angular_social_buttons___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_35_jw_angular_social_buttons__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__ionic_native_pinterest__ = __webpack_require__(345);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_progressbar_progressbar__ = __webpack_require__(755);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_selectuploadcategory_selectuploadcategory__ = __webpack_require__(400);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__ionic_native_document_viewer__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__ionic_native_in_app_browser__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__pages_followers_pagep_followers_pagep__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__ionic_native_youtube_video_player__ = __webpack_require__(157);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43_videogular2_core__ = __webpack_require__(756);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43_videogular2_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_43_videogular2_core__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44_videogular2_controls__ = __webpack_require__(759);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44_videogular2_controls___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_44_videogular2_controls__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45_videogular2_overlay_play__ = __webpack_require__(774);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45_videogular2_overlay_play___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_45_videogular2_overlay_play__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46_videogular2_buffering__ = __webpack_require__(777);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46_videogular2_buffering___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_46_videogular2_buffering__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__ionic_native_branch_io__ = __webpack_require__(156);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__ionic_native_onesignal__ = __webpack_require__(392);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__ionic_native_unique_device_id__ = __webpack_require__(158);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__ionic_native_device__ = __webpack_require__(393);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__ionic_native_http__ = __webpack_require__(339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__ionic_native_file_path__ = __webpack_require__(346);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__ionic_native_file_picker__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_viewvideoplay_viewvideoplay__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_twitter_connect__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_facebook__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__providers_security_security__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__angular_common_http__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__angular_http__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_dashboardservice_dashboardservice__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_loaderdata_loaderdata__ = __webpack_require__(746);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_viewvideotopperformers_viewvideotopperformers__ = __webpack_require__(183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_storage__ = __webpack_require__(398);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_components_expandable_components_expandable__ = __webpack_require__(747);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_social_sharing__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_camera__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_file_transfer__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_native_file_chooser__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31_angular2_tag_input__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31_angular2_tag_input___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_31_angular2_tag_input__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__ionic_native_file__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33_angular_cropperjs__ = __webpack_require__(401);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33_angular_cropperjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_33_angular_cropperjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34_jw_angular_social_buttons__ = __webpack_require__(748);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34_jw_angular_social_buttons___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_34_jw_angular_social_buttons__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ionic_native_pinterest__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_progressbar_progressbar__ = __webpack_require__(754);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_selectuploadcategory_selectuploadcategory__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__ionic_native_document_viewer__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__ionic_native_in_app_browser__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_followers_pagep_followers_pagep__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__ionic_native_youtube_video_player__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42_videogular2_core__ = __webpack_require__(755);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42_videogular2_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_42_videogular2_core__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43_videogular2_controls__ = __webpack_require__(758);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43_videogular2_controls___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_43_videogular2_controls__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44_videogular2_overlay_play__ = __webpack_require__(773);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44_videogular2_overlay_play___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_44_videogular2_overlay_play__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45_videogular2_buffering__ = __webpack_require__(776);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45_videogular2_buffering___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_45_videogular2_buffering__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__ionic_native_branch_io__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__ionic_native_onesignal__ = __webpack_require__(391);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__ionic_native_unique_device_id__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__ionic_native_device__ = __webpack_require__(392);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__ionic_native_http__ = __webpack_require__(338);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__ionic_native_file_path__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__ionic_native_file_picker__ = __webpack_require__(346);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5758,7 +5800,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 //import { AnumationviewComponent } from '../components/anumationview/anumationview';
 //import { HowtouploadpagesidemenuPage } from '../pages/howtouploadpagesidemenu/howtouploadpagesidemenu';
 
-
+// import {
+//   NativePageTransitions,
+//   NativeTransitionOptions,
+// } from "@ionic-native/native-page-transitions";
 
 
 
@@ -5837,24 +5882,24 @@ var AppModule = (function () {
                 //  AnumationviewComponent,
                 //  HowtouploadpagesidemenuPage,
                 __WEBPACK_IMPORTED_MODULE_15__pages_followedartist_followedartist__["a" /* FollowedartistPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */],
-                __WEBPACK_IMPORTED_MODULE_24__components_loaderdata_loaderdata__["a" /* LoaderdataComponent */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_viewvideotopperformers_viewvideotopperformers__["a" /* ViewvideotopperformersPage */],
-                __WEBPACK_IMPORTED_MODULE_27__components_components_expandable_components_expandable__["a" /* ComponentsExpandableComponent */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */],
+                __WEBPACK_IMPORTED_MODULE_23__components_loaderdata_loaderdata__["a" /* LoaderdataComponent */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_viewvideotopperformers_viewvideotopperformers__["a" /* ViewvideotopperformersPage */],
+                __WEBPACK_IMPORTED_MODULE_26__components_components_expandable_components_expandable__["a" /* ComponentsExpandableComponent */],
                 // ChatinboxreplyPage,
-                __WEBPACK_IMPORTED_MODULE_37__components_progressbar_progressbar__["a" /* ProgressbarComponent */],
-                __WEBPACK_IMPORTED_MODULE_38__pages_selectuploadcategory_selectuploadcategory__["a" /* SelectuploadcategoryPage */],
+                __WEBPACK_IMPORTED_MODULE_36__components_progressbar_progressbar__["a" /* ProgressbarComponent */],
+                __WEBPACK_IMPORTED_MODULE_37__pages_selectuploadcategory_selectuploadcategory__["a" /* SelectuploadcategoryPage */],
                 // CompetitiondetailpagePage,
                 // CommunitypopoverPage,
-                __WEBPACK_IMPORTED_MODULE_41__pages_followers_pagep_followers_pagep__["a" /* FollowersPagepPage */],
+                __WEBPACK_IMPORTED_MODULE_40__pages_followers_pagep_followers_pagep__["a" /* FollowersPagepPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_32_angular2_tag_input__["RlTagInputModule"],
+                __WEBPACK_IMPORTED_MODULE_31_angular2_tag_input__["RlTagInputModule"],
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_6_ionic3_star_rating__["a" /* StarRatingModule */],
-                __WEBPACK_IMPORTED_MODULE_21__angular_common_http__["b" /* HttpClientModule */],
-                __WEBPACK_IMPORTED_MODULE_22__angular_http__["c" /* HttpModule */],
-                __WEBPACK_IMPORTED_MODULE_26__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_20__angular_common_http__["b" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_21__angular_http__["c" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_25__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["h" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], { statusbarPadding: true }, {
                     links: [
                         { loadChildren: '../pages/aboutusp/aboutusp.module#AboutuspPageModule', name: 'AboutuspPage', segment: 'aboutusp', priority: 'low', defaultHistory: [] },
@@ -5895,13 +5940,13 @@ var AppModule = (function () {
                         { loadChildren: '../pages/uploadmedia/uploadmedia.module#UploadmediaPageModule', name: 'UploadmediaPage', segment: 'uploadmedia', priority: 'low', defaultHistory: [] }
                     ]
                 }),
-                __WEBPACK_IMPORTED_MODULE_34_angular_cropperjs__["AngularCropperjsModule"],
-                __WEBPACK_IMPORTED_MODULE_35_jw_angular_social_buttons__["JwSocialButtonsModule"],
+                __WEBPACK_IMPORTED_MODULE_33_angular_cropperjs__["AngularCropperjsModule"],
+                __WEBPACK_IMPORTED_MODULE_34_jw_angular_social_buttons__["JwSocialButtonsModule"],
                 //YoutubePlayerMiniModule,
-                __WEBPACK_IMPORTED_MODULE_43_videogular2_core__["VgCoreModule"],
-                __WEBPACK_IMPORTED_MODULE_44_videogular2_controls__["VgControlsModule"],
-                __WEBPACK_IMPORTED_MODULE_45_videogular2_overlay_play__["VgOverlayPlayModule"],
-                __WEBPACK_IMPORTED_MODULE_46_videogular2_buffering__["VgBufferingModule"],
+                __WEBPACK_IMPORTED_MODULE_42_videogular2_core__["VgCoreModule"],
+                __WEBPACK_IMPORTED_MODULE_43_videogular2_controls__["VgControlsModule"],
+                __WEBPACK_IMPORTED_MODULE_44_videogular2_overlay_play__["VgOverlayPlayModule"],
+                __WEBPACK_IMPORTED_MODULE_45_videogular2_buffering__["VgBufferingModule"],
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* IonicApp */]],
             entryComponents: [
@@ -5936,43 +5981,43 @@ var AppModule = (function () {
                 // AnumationviewComponent,
                 // HowtouploadpagesidemenuPage,
                 __WEBPACK_IMPORTED_MODULE_15__pages_followedartist_followedartist__["a" /* FollowedartistPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */],
-                __WEBPACK_IMPORTED_MODULE_24__components_loaderdata_loaderdata__["a" /* LoaderdataComponent */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_viewvideotopperformers_viewvideotopperformers__["a" /* ViewvideotopperformersPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */],
+                __WEBPACK_IMPORTED_MODULE_23__components_loaderdata_loaderdata__["a" /* LoaderdataComponent */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_viewvideotopperformers_viewvideotopperformers__["a" /* ViewvideotopperformersPage */],
                 // ChatinboxreplyPage,
-                __WEBPACK_IMPORTED_MODULE_38__pages_selectuploadcategory_selectuploadcategory__["a" /* SelectuploadcategoryPage */],
+                __WEBPACK_IMPORTED_MODULE_37__pages_selectuploadcategory_selectuploadcategory__["a" /* SelectuploadcategoryPage */],
                 //  CompetitiondetailpagePage,
                 // CommunitypopoverPage,
-                __WEBPACK_IMPORTED_MODULE_41__pages_followers_pagep_followers_pagep__["a" /* FollowersPagepPage */],
+                __WEBPACK_IMPORTED_MODULE_40__pages_followers_pagep_followers_pagep__["a" /* FollowersPagepPage */],
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_53__ionic_native_file_picker__["a" /* IOSFilePicker */],
-                __WEBPACK_IMPORTED_MODULE_52__ionic_native_file_path__["a" /* FilePath */],
-                __WEBPACK_IMPORTED_MODULE_51__ionic_native_http__["a" /* HTTP */],
-                __WEBPACK_IMPORTED_MODULE_50__ionic_native_device__["a" /* Device */],
-                __WEBPACK_IMPORTED_MODULE_49__ionic_native_unique_device_id__["a" /* UniqueDeviceID */],
-                __WEBPACK_IMPORTED_MODULE_48__ionic_native_onesignal__["a" /* OneSignal */],
-                __WEBPACK_IMPORTED_MODULE_47__ionic_native_branch_io__["a" /* BranchIo */],
+                __WEBPACK_IMPORTED_MODULE_52__ionic_native_file_picker__["a" /* IOSFilePicker */],
+                __WEBPACK_IMPORTED_MODULE_51__ionic_native_file_path__["a" /* FilePath */],
+                __WEBPACK_IMPORTED_MODULE_50__ionic_native_http__["a" /* HTTP */],
+                __WEBPACK_IMPORTED_MODULE_49__ionic_native_device__["a" /* Device */],
+                __WEBPACK_IMPORTED_MODULE_48__ionic_native_unique_device_id__["a" /* UniqueDeviceID */],
+                __WEBPACK_IMPORTED_MODULE_47__ionic_native_onesignal__["a" /* OneSignal */],
+                __WEBPACK_IMPORTED_MODULE_46__ionic_native_branch_io__["a" /* BranchIo */],
                 // Deeplinks,
-                __WEBPACK_IMPORTED_MODULE_40__ionic_native_in_app_browser__["a" /* InAppBrowser */],
-                __WEBPACK_IMPORTED_MODULE_39__ionic_native_document_viewer__["a" /* DocumentViewer */],
-                __WEBPACK_IMPORTED_MODULE_33__ionic_native_file__["a" /* File */],
-                __WEBPACK_IMPORTED_MODULE_31__ionic_native_file_chooser__["a" /* FileChooser */],
-                __WEBPACK_IMPORTED_MODULE_30__ionic_native_file_transfer__["a" /* FileTransfer */],
-                __WEBPACK_IMPORTED_MODULE_29__ionic_native_camera__["a" /* Camera */],
-                __WEBPACK_IMPORTED_MODULE_28__ionic_native_social_sharing__["a" /* SocialSharing */],
-                __WEBPACK_IMPORTED_MODULE_19__ionic_native_facebook__["a" /* Facebook */],
+                __WEBPACK_IMPORTED_MODULE_39__ionic_native_in_app_browser__["a" /* InAppBrowser */],
+                __WEBPACK_IMPORTED_MODULE_38__ionic_native_document_viewer__["a" /* DocumentViewer */],
+                __WEBPACK_IMPORTED_MODULE_32__ionic_native_file__["a" /* File */],
+                __WEBPACK_IMPORTED_MODULE_30__ionic_native_file_chooser__["a" /* FileChooser */],
+                __WEBPACK_IMPORTED_MODULE_29__ionic_native_file_transfer__["a" /* FileTransfer */],
+                __WEBPACK_IMPORTED_MODULE_28__ionic_native_camera__["a" /* Camera */],
+                __WEBPACK_IMPORTED_MODULE_27__ionic_native_social_sharing__["a" /* SocialSharing */],
+                __WEBPACK_IMPORTED_MODULE_18__ionic_native_facebook__["a" /* Facebook */],
                 //GooglePlus,
-                __WEBPACK_IMPORTED_MODULE_18__ionic_native_twitter_connect__["a" /* TwitterConnect */],
-                __WEBPACK_IMPORTED_MODULE_16__ionic_native_native_page_transitions__["a" /* NativePageTransitions */],
+                __WEBPACK_IMPORTED_MODULE_17__ionic_native_twitter_connect__["a" /* TwitterConnect */],
+                //NativePageTransitions,
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
                 __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
-                __WEBPACK_IMPORTED_MODULE_36__ionic_native_pinterest__["a" /* Pinterest */],
-                __WEBPACK_IMPORTED_MODULE_42__ionic_native_youtube_video_player__["a" /* YoutubeVideoPlayer */],
+                __WEBPACK_IMPORTED_MODULE_35__ionic_native_pinterest__["a" /* Pinterest */],
+                __WEBPACK_IMPORTED_MODULE_41__ionic_native_youtube_video_player__["a" /* YoutubeVideoPlayer */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* IonicErrorHandler */] },
                 // {provide:HTTP_INTERCEPTORS,useClass:InterceptorProvider,multi:true},
-                __WEBPACK_IMPORTED_MODULE_20__providers_security_security__["a" /* SecurityProvider */],
-                __WEBPACK_IMPORTED_MODULE_23__providers_dashboardservice_dashboardservice__["a" /* DashboardserviceProvider */],
+                __WEBPACK_IMPORTED_MODULE_19__providers_security_security__["a" /* SecurityProvider */],
+                __WEBPACK_IMPORTED_MODULE_22__providers_dashboardservice_dashboardservice__["a" /* DashboardserviceProvider */],
             ],
         })
     ], AppModule);
@@ -5989,25 +6034,24 @@ var AppModule = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ArtistprofilepagePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__category_category__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__uploadmedia_uploadmedia__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__editproartistpag_editproartistpag__ = __webpack_require__(398);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__category_category__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__uploadmedia_uploadmedia__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__editproartistpag_editproartistpag__ = __webpack_require__(397);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__commentsbox_commentsbox__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__popoverpageshare_popoverpageshare__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__reportprob_reportprob__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__followedartist_followedartist__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_native_page_transitions__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_file_chooser__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_camera__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_file_transfer__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_dashboardservice_dashboardservice__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_viewtalent_viewtalent__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__viewvideoplay_viewvideoplay__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__followers_pagep_followers_pagep__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_file_chooser__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_camera__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_file_transfer__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_rxjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_security_security__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_dashboardservice_dashboardservice__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_viewtalent_viewtalent__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__viewvideoplay_viewvideoplay__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__followers_pagep_followers_pagep__ = __webpack_require__(106);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6027,7 +6071,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
+// import { NativePageTransitions, NativeTransitionOptions } from '@ionic-native/native-page-transitions';
 
 
 
@@ -6044,7 +6088,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var ArtistprofilepagePage = (function () {
-    function ArtistprofilepagePage(profilemedia, security, filetransfer, camera, filechoose, actionsheetCtrl, events, nativePageTransitions, popoverCtrl, modalCtrl, navCtrl, navParams) {
+    function ArtistprofilepagePage(profilemedia, security, filetransfer, camera, filechoose, actionsheetCtrl, events, popoverCtrl, modalCtrl, navCtrl, navParams) {
         var _this = this;
         this.profilemedia = profilemedia;
         this.security = security;
@@ -6053,7 +6097,6 @@ var ArtistprofilepagePage = (function () {
         this.filechoose = filechoose;
         this.actionsheetCtrl = actionsheetCtrl;
         this.events = events;
-        this.nativePageTransitions = nativePageTransitions;
         this.popoverCtrl = popoverCtrl;
         this.modalCtrl = modalCtrl;
         this.navCtrl = navCtrl;
@@ -6063,14 +6106,14 @@ var ArtistprofilepagePage = (function () {
         this.page = 0;
         this.showcat = true;
         this.showshare = false;
-        this.playlist = 'latest';
-        events.subscribe('star-rating:changed', function (starRating) {
-            console.log('starrating' + starRating);
+        this.playlist = "latest";
+        events.subscribe("star-rating:changed", function (starRating) {
+            console.log("starrating" + starRating);
             _this.rate = starRating;
         });
         // events.subscribe('user:following',(followingdata)=>{
         //   this.followingdata=followingdata
-        //   console.log(this.followingdata)  
+        //   console.log(this.followingdata)
         //   this.following=this.followingdata.length
         //   // alert(this.banner)
         //   })
@@ -6084,68 +6127,68 @@ var ArtistprofilepagePage = (function () {
     ArtistprofilepagePage.prototype.songtype = function (id) {
         this.page = 0;
         if (id == 1) {
-            this.categorytag = 'Music';
+            this.categorytag = "Music";
             this.catid = 1;
-            this.type = 'in Music';
+            this.type = "in Music";
         }
         else if (id == 2) {
-            this.categorytag = 'Dance';
+            this.categorytag = "Dance";
             this.catid = 2;
-            this.type = 'in Dance';
+            this.type = "in Dance";
         }
         else if (id == 3) {
-            this.categorytag = 'Film';
+            this.categorytag = "Film";
             this.catid = 3;
-            this.type = 'in Film';
+            this.type = "in Film";
         }
         else if (id == 4) {
-            this.categorytag = 'Photography';
+            this.categorytag = "Photography";
             this.catid = 4;
-            this.type = 'in Photography';
+            this.type = "in Photography";
         }
         else if (id == 7) {
-            this.categorytag = 'Literature';
+            this.categorytag = "Literature";
             this.catid = 7;
-            this.type = 'in Literature';
+            this.type = "in Literature";
         }
         else if (id == 8) {
-            this.categorytag = 'Art';
+            this.categorytag = "Art";
             this.catid = 8;
-            this.type = 'in Art';
+            this.type = "in Art";
         }
         else if (id == 5) {
-            this.categorytag = 'Freestyle';
+            this.categorytag = "Freestyle";
             this.catid = 5;
-            this.type = 'in Freestyle';
+            this.type = "in Freestyle";
         }
         else if (id == 9) {
-            this.categorytag = 'Personality';
+            this.categorytag = "Personality";
             this.catid = 9;
-            this.type = 'in Personality';
+            this.type = "in Personality";
         }
         else if (id == 6) {
-            this.categorytag = 'Others';
+            this.categorytag = "Others";
             this.catid = 6;
-            this.type = 'in Others';
+            this.type = "in Others";
         }
         this.profilemedia.sortcatprofile = 1;
         this.recentcharts();
     };
     ArtistprofilepagePage.prototype.ionViewDidLoad = function () {
         this.loadingrecentdata = false;
-        this.rcentdata = this.navParams.get('rcentdata');
-        console.log('recentdata chetan== ', this.rcentdata);
-        this.id = this.navParams.get('id');
-        this.topid = this.navParams.get('topid');
+        this.rcentdata = this.navParams.get("rcentdata");
+        console.log("recentdata chetan== ", this.rcentdata);
+        this.id = this.navParams.get("id");
+        this.topid = this.navParams.get("topid");
         if (this.topid == 1) {
-            console.log(this.rcentdata, '-topid--', this.rcentdata[this.id].artist_id);
+            console.log(this.rcentdata, "-topid--", this.rcentdata[this.id].artist_id);
             this.displayname = this.rcentdata[this.id].user_display_name;
             this.profilepic = this.rcentdata[this.id].user_avatar;
             // this.user_banner=this.rcentdata[this.id].user_banner
             this.artistid = this.rcentdata[this.id].artist_id;
         }
         else if (this.topid == 2) {
-            console.log(this.rcentdata, '-topid--', this.rcentdata[this.id].artist_id);
+            console.log(this.rcentdata, "-topid--", this.rcentdata[this.id].artist_id);
             this.displayname = this.rcentdata[this.id].Users.user_display_name;
             this.profilepic = this.rcentdata[this.id].Users.user_avatar;
             // this.user_banner=this.rcentdata[this.id].user_banner
@@ -6158,28 +6201,28 @@ var ArtistprofilepagePage = (function () {
             this.artistid = this.rcentdata[this.id].artist_id;
             console.log(this.artistid);
         }
-        else if (localStorage.getItem('usermedia')) {
+        else if (localStorage.getItem("usermedia")) {
             // alert(localStorage.getItem('usermedia'))
             // alert(localStorage.getItem('profile'))
             // alert(localStorage.getItem('title'))
             // this.displayname=localStorage.getItem('title')
             // this.profilepic=localStorage.getItem('profile')
             // this.user_banner=this.rcentdata.media[this.id].Users.user_banner
-            this.artistid = localStorage.getItem('usermedia');
+            this.artistid = localStorage.getItem("usermedia");
             // localStorage.removeItem('usermedia')
         }
         else {
             // yatash's code
-            console.log(this.rcentdata, '---', this.id);
+            console.log(this.rcentdata, "---", this.id);
             this.displayname = this.rcentdata.media[this.id].Users.user_display_name;
             this.profilepic = this.rcentdata.media[this.id].Users.user_profile_avatar;
             // this.user_banner=this.rcentdata.media[this.id].Users.user_banner
             this.artistid = this.rcentdata.media[this.id].Users.user_id;
-            // end of yatash's code 
+            // end of yatash's code
             //chetan's code
             //end of chetan's code
-            console.log('displayname' + this.displayname);
-            console.log('ionViewDidLoad ArtprofilePage');
+            console.log("displayname" + this.displayname);
+            console.log("ionViewDidLoad ArtprofilePage");
         }
         this.artitsload();
         this.recentcharts();
@@ -6193,15 +6236,16 @@ var ArtistprofilepagePage = (function () {
     ArtistprofilepagePage.prototype.artitsload = function () {
         var _this = this;
         this.loaderitem = true;
-        __WEBPACK_IMPORTED_MODULE_13_rxjs__["Observable"].of(this.loaderitem)
-            .flatMap(function () { return _this.security.artistcharts(_this.artistid); }).subscribe(function (data) {
+        __WEBPACK_IMPORTED_MODULE_12_rxjs__["Observable"].of(this.loaderitem)
+            .flatMap(function () { return _this.security.artistcharts(_this.artistid); })
+            .subscribe(function (data) {
             _this.loaderitem = false;
             //  this.following=data.user.user_following.length
             //  this.followers=data.user.user_followers.length
             _this.latestchart = _this.profilemedia.latestcharts(data.playerList);
             //  this.user_banner=data.media[0].Users.user_banner
             //      console.log('user_banner'+data.media[0].Users.user_banner)
-            console.log('latest', _this.latestchart);
+            console.log("latest", _this.latestchart);
             console.log(_this.following);
             console.log(_this.followers);
         });
@@ -6209,12 +6253,15 @@ var ArtistprofilepagePage = (function () {
     ArtistprofilepagePage.prototype.recentcharts = function (infiniteScroll) {
         var _this = this;
         this.loadingrecentdata = true;
-        __WEBPACK_IMPORTED_MODULE_13_rxjs__["Observable"].of(this.loadingrecentdata)
-            .flatMap(function () { return _this.security.artistprofilerecentchats(_this.page, _this.catid, _this.artistid); }).subscribe(function (data) {
+        __WEBPACK_IMPORTED_MODULE_12_rxjs__["Observable"].of(this.loadingrecentdata)
+            .flatMap(function () {
+            return _this.security.artistprofilerecentchats(_this.page, _this.catid, _this.artistid);
+        })
+            .subscribe(function (data) {
             _this.user_banner = data.media[0].Users.user_banner;
-            console.log('user_banner' + data.media[0].Users.user_banner);
-            console.log('user_display_name' + data.media[0].Users.user_display_name);
-            console.log('profilepic' + data.media[0].Users.user_profile_avatar);
+            console.log("user_banner" + data.media[0].Users.user_banner);
+            console.log("user_display_name" + data.media[0].Users.user_display_name);
+            console.log("profilepic" + data.media[0].Users.user_profile_avatar);
             _this.displayname = data.media[0].Users.user_display_name;
             _this.profilepic = data.media[0].Users.user_profile_avatar;
             _this.loadingrecentdata = false;
@@ -6228,18 +6275,18 @@ var ArtistprofilepagePage = (function () {
     };
     ArtistprofilepagePage.prototype.loadMore = function (infiniteScroll) {
         this.page++;
-        console.log('ss');
+        console.log("ss");
         this.recentcharts(infiniteScroll);
         console.log(this.page);
     };
     ArtistprofilepagePage.prototype.showcatevent = function (id) {
         if (id == 1) {
             this.showcat = false;
-            document.getElementById('categorylist').style.height = '300px';
+            document.getElementById("categorylist").style.height = "300px";
         }
         else {
             this.showcat = true;
-            document.getElementById('categorylist').style.height = '120px';
+            document.getElementById("categorylist").style.height = "120px";
         }
     };
     ArtistprofilepagePage.prototype.tapshow = function () {
@@ -6252,7 +6299,7 @@ var ArtistprofilepagePage = (function () {
         this.count++;
     };
     ArtistprofilepagePage.prototype.inboxtap = function () {
-        this.navCtrl.push('InboxpagePage');
+        this.navCtrl.push("InboxpagePage");
     };
     ArtistprofilepagePage.prototype.editprop = function () {
         var contactmodal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_4__editproartistpag_editproartistpag__["a" /* EditproartistpagPage */]);
@@ -6266,38 +6313,46 @@ var ArtistprofilepagePage = (function () {
     };
     ArtistprofilepagePage.prototype.getfollowing = function () {
         var _this = this;
-        __WEBPACK_IMPORTED_MODULE_13_rxjs__["Observable"].of(null)
-            .flatMap(function () { return _this.security.getfollowing(_this.artistid); }).subscribe(function (data) {
-            console.log('followingusers', data.list);
+        __WEBPACK_IMPORTED_MODULE_12_rxjs__["Observable"].of(null)
+            .flatMap(function () { return _this.security.getfollowing(_this.artistid); })
+            .subscribe(function (data) {
+            console.log("followingusers", data.list);
             _this.followingdata = data.list;
             _this.following = data.list.length;
         });
     };
     ArtistprofilepagePage.prototype.getfollow = function () {
         var _this = this;
-        __WEBPACK_IMPORTED_MODULE_13_rxjs__["Observable"].of(null)
-            .flatMap(function () { return _this.security.getfollow(_this.artistid); }).subscribe(function (data) {
-            console.log('datausers', data.list);
-            console.log('hii');
+        __WEBPACK_IMPORTED_MODULE_12_rxjs__["Observable"].of(null)
+            .flatMap(function () { return _this.security.getfollow(_this.artistid); })
+            .subscribe(function (data) {
+            console.log("datausers", data.list);
+            console.log("hii");
             _this.followersdata = data.list;
             _this.followers = data.list.length;
-            console.log('followersdata', _this.followersdata);
+            console.log("followersdata", _this.followersdata);
         });
     };
     ArtistprofilepagePage.prototype.movetofollowers = function (id) {
-        var popover = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_18__followers_pagep_followers_pagep__["a" /* FollowersPagepPage */], { rcentdata: this.latestchart, topid: 1, followersdata: this.followersdata, id: id, followingdata: this.followingdata });
+        var popover = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_17__followers_pagep_followers_pagep__["a" /* FollowersPagepPage */], {
+            rcentdata: this.latestchart,
+            topid: 1,
+            followersdata: this.followersdata,
+            id: id,
+            followingdata: this.followingdata,
+        });
         popover.present({});
     };
     ArtistprofilepagePage.prototype.navigatetocomment = function (i) {
         // let modal=this.modalCtrl.create(CommentsboxPage)
         // modal.present()
-        var options = {
-            direction: 'up',
-            duration: 500,
-            slowdownfactor: 2
-        };
-        this.nativePageTransitions.slide(options);
-        console.log('i', i);
+        //   let options: NativeTransitionOptions = {
+        //     direction: 'up',
+        //     duration: 500,
+        //     slowdownfactor: 2
+        //    }
+        //  this.nativePageTransitions.slide(options)
+        console.log("i", i);
         // let commentsbox=this.modalCtrl.create(CommentsboxPage)
         // commentsbox.present()
         // this.navCtrl.push(CommentsboxPage)
@@ -6309,7 +6364,7 @@ var ArtistprofilepagePage = (function () {
         console.log(this.latestchart[i].user_display_name);
         console.log(this.latestchart[i].user_avatar);
         console.log(this.latestchart[i].small_image_url);
-        console.log('totalrating', this.latestchart[i].totalRating);
+        console.log("totalrating", this.latestchart[i].totalRating);
         //  console.log(this.latestchart[id].user_url)
         //  console.log(this.latestchart[id].artist_id)
         //  console.log(this.latestchart[id].rating)
@@ -6325,30 +6380,30 @@ var ArtistprofilepagePage = (function () {
             totalrating: this.latestchart[i].totalRating,
             userurl: this.latestchart[i].user_url,
             artist_id: this.latestchart[i].artist_id,
-            rate: this.latestchart[i].rating
+            rate: this.latestchart[i].rating,
         });
         commentsbox.present();
     };
     ArtistprofilepagePage.prototype.navigatetocomment1 = function (i) {
-        var options = {
-            direction: 'up',
-            duration: 500,
-            slowdownfactor: 2
-        };
-        this.nativePageTransitions.slide(options);
-        console.log('i', i);
+        //   let options: NativeTransitionOptions = {
+        //     direction: 'up',
+        //     duration: 500,
+        //     slowdownfactor: 2
+        //    }
+        //  this.nativePageTransitions.slide(options)
+        console.log("i", i);
         // let commentsbox=this.modalCtrl.create(CommentsboxPage)
         // commentsbox.present()
         // this.navCtrl.push(CommentsboxPage)
         // let commentsbox=this.modalCtrl.create(CommentsboxPage)
-        console.log('usermediaid', this.profilerecentcharts[i].usermediaid);
-        console.log('category_image_url', this.profilerecentcharts[i].category_image_url);
-        console.log('usermedia_name', this.profilerecentcharts[i].usermedia_name);
-        console.log('artforms', this.profilerecentcharts[i].artforms);
+        console.log("usermediaid", this.profilerecentcharts[i].usermediaid);
+        console.log("category_image_url", this.profilerecentcharts[i].category_image_url);
+        console.log("usermedia_name", this.profilerecentcharts[i].usermedia_name);
+        console.log("artforms", this.profilerecentcharts[i].artforms);
         console.log(this.profilerecentcharts[i].user_display_name);
         console.log(this.profilerecentcharts[i].user_avatar);
         console.log(this.profilerecentcharts[i].small_image_url);
-        console.log('totalrating' + this.profilerecentcharts[i].totalRating);
+        console.log("totalrating" + this.profilerecentcharts[i].totalRating);
         console.log(this.profilerecentcharts[i].userurl);
         console.log(this.profilerecentcharts[i].artist_id);
         console.log(this.profilerecentcharts[i].rating);
@@ -6364,41 +6419,45 @@ var ArtistprofilepagePage = (function () {
             totalrating: this.profilerecentcharts[i].totalRating,
             userurl: this.profilerecentcharts[i].userurl,
             artist_id: this.profilerecentcharts[i].artist_id,
-            rate: this.profilerecentcharts[i].rating
+            rate: this.profilerecentcharts[i].rating,
         });
         commentsbox.present();
     };
     ArtistprofilepagePage.prototype.viewvideo = function (id) {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_17__viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */], {
-            data: this.latestchart, id: id
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_16__viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */], {
+            data: this.latestchart,
+            id: id,
         });
         modal.present();
     };
     ArtistprofilepagePage.prototype.viewvideo1 = function (id) {
-        console.log('profilerecentcharts', this.profilerecentcharts);
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_17__viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */], {
-            data: this.profilerecentcharts, id: id
+        console.log("profilerecentcharts", this.profilerecentcharts);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_16__viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */], {
+            data: this.profilerecentcharts,
+            id: id,
         });
         modal.present();
     };
     ArtistprofilepagePage.prototype.tapshow1 = function (i) {
-        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_6__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], { image: this.latestchart[i].category_image_url,
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_6__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], {
+            image: this.latestchart[i].category_image_url,
             artistname: this.latestchart[i].usermedia_name,
             user_url: this.latestchart[i].userurl,
-            usermediaid: this.latestchart[i].usermediaid
+            usermediaid: this.latestchart[i].usermediaid,
         });
         popover.present({
-            ev: event
+            ev: event,
         });
     };
     ArtistprofilepagePage.prototype.tapshow2 = function (i) {
-        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_6__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], { image: this.profilerecentcharts[i].category_image_url,
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_6__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], {
+            image: this.profilerecentcharts[i].category_image_url,
             artistname: this.profilerecentcharts[i].usermedia_name,
             user_url: this.profilerecentcharts[i].userurl,
-            usermediaid: this.profilerecentcharts[i].usermediaid
+            usermediaid: this.profilerecentcharts[i].usermediaid,
         });
         popover.present({
-            ev: event
+            ev: event,
         });
     };
     ArtistprofilepagePage.prototype.reportnavigate = function () {
@@ -6407,35 +6466,41 @@ var ArtistprofilepagePage = (function () {
     };
     ArtistprofilepagePage.prototype.followedartist = function (artist_id) {
         var _this = this;
-        __WEBPACK_IMPORTED_MODULE_13_rxjs__["Observable"].of(null)
-            .flatMap(function () { return _this.security.artistfollowed(artist_id); }).subscribe(function (data) {
+        __WEBPACK_IMPORTED_MODULE_12_rxjs__["Observable"].of(null)
+            .flatMap(function () { return _this.security.artistfollowed(artist_id); })
+            .subscribe(function (data) {
             console.log(data.status);
-            var modalfollow = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_8__followedartist_followedartist__["a" /* FollowedartistPage */], { msg: data.status });
+            var modalfollow = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_8__followedartist_followedartist__["a" /* FollowedartistPage */], {
+                msg: data.status,
+            });
             modalfollow.present();
         });
     };
     ArtistprofilepagePage.prototype.capturecamera = function () {
         var _this = this;
         var actionsheet = this.actionsheetCtrl.create({
-            title: 'Image Upload!',
-            buttons: [{
-                    text: 'Upload From Gallery',
+            title: "Image Upload!",
+            buttons: [
+                {
+                    text: "Upload From Gallery",
                     handler: function () {
                         _this.gallery();
                     },
                 },
                 {
-                    text: 'Take A Snap',
+                    text: "Take A Snap",
                     handler: function () {
                         _this.camera1();
-                    }
-                }]
+                    },
+                },
+            ],
         });
         actionsheet.present();
     };
     ArtistprofilepagePage.prototype.camera1 = function () {
         var _this = this;
-        this.camera.getPicture({
+        this.camera
+            .getPicture({
             quality: 75,
             destinationType: this.camera.DestinationType.FILE_URI,
             sourceType: this.camera.PictureSourceType.CAMERA,
@@ -6443,18 +6508,19 @@ var ArtistprofilepagePage = (function () {
             targetHeight: 500,
             targetWidth: 500,
             saveToPhotoAlbum: false,
-            correctOrientation: true
-        }).then(function (imageData) {
+            correctOrientation: true,
+        })
+            .then(function (imageData) {
             //  alert('imagedata'+imageData)
             _this.imgsrc = imageData;
             // this.imgsrc = "data:image/jpeg;base64," + imageData;
             _this.imageupload();
-        }, function (err) {
-        });
+        }, function (err) { });
     };
     ArtistprofilepagePage.prototype.gallery = function () {
         var _this = this;
-        this.camera.getPicture({
+        this.camera
+            .getPicture({
             quality: 75,
             destinationType: this.camera.DestinationType.FILE_URI,
             sourceType: this.camera.PictureSourceType.PHOTOLIBRARY,
@@ -6462,28 +6528,28 @@ var ArtistprofilepagePage = (function () {
             targetHeight: 500,
             targetWidth: 500,
             saveToPhotoAlbum: false,
-            correctOrientation: true
-        }).then(function (imageData) {
+            correctOrientation: true,
+        })
+            .then(function (imageData) {
             // alert('imagedata'+imageData)
             _this.imgsrc = imageData;
             //  this.imgsrc = "data:image/jpeg;base64," + imageData;
             _this.imageupload();
-        }, function (err) {
-        });
+        }, function (err) { });
     };
     ArtistprofilepagePage.prototype.imageupload = function () {
-        var sessionId = localStorage['sessionId'];
+        var sessionId = localStorage["sessionId"];
         //    alert(sessionId)
         //   alert('imgsrc'+this.imgsrc)
         var headers = new Headers({
-            'enctype': 'multipart/form-data;',
-            // 'Content-Type': 'application/json', 
+            enctype: "multipart/form-data;",
+            // 'Content-Type': 'application/json',
             // 'Content-Type': 'multipart/form-data',
-            'X-Cookie': 'CAKEPHP=' + sessionId,
-            'Access-Control-Allow-Origion': '*',
-            'Connection': 'close',
-            'Accept': 'application/json',
-            'Access-Control-Allow-Headers': 'Authorization, Origin, Content-Type, X-CSRF-Token,X-Cookie'
+            "X-Cookie": "CAKEPHP=" + sessionId,
+            "Access-Control-Allow-Origion": "*",
+            Connection: "close",
+            Accept: "application/json",
+            "Access-Control-Allow-Headers": "Authorization, Origin, Content-Type, X-CSRF-Token,X-Cookie",
         });
         // let headers = new Headers({ 'Content-Type': 'multipart/form-data','X-Cookie': 'CAKEPHP='+sessionId ,'Access-Control-Allow-Origion':'*','Accept':'application/json','Access-Control-Allow-Credentials': true})
         // headers.append('Content-Type','application/json');
@@ -6493,55 +6559,78 @@ var ArtistprofilepagePage = (function () {
         // alert(JSON.stringify(headers))
         var filetransfers = this.filetransfer.create();
         var options = {
-            fileKey: 'userAvatar',
-            fileName: 'filename.jpg',
+            fileKey: "userAvatar",
+            fileName: "filename.jpg",
             chunkedMode: false,
             headers: headers,
-            httpMethod: 'POST',
+            httpMethod: "POST",
             mimeType: "image/jpeg",
             // params: {"messageId": this.messagedata[this.messagedata.length-1].message_id},
-            params: { "cropData": { "x": 2937.6, "y": 1171.621978021978, "height": 1416.5802197802197, "width": 1416.5802197802197, "rotate": 0 } }
+            params: {
+                cropData: {
+                    x: 2937.6,
+                    y: 1171.621978021978,
+                    height: 1416.5802197802197,
+                    width: 1416.5802197802197,
+                    rotate: 0,
+                },
+            },
         };
         // filetransfers.upload(this.imgsrc,'https://www.demo.artformplatform.com/api/messages/upload.json', options)
-        filetransfers.upload(this.imgsrc, 'https://www.artformplatform.com/api/user/uploadAvatar.json', options)
+        filetransfers
+            .upload(this.imgsrc, "https://www.artformplatform.com/api/user/uploadAvatar.json", options)
             .then(function (data) {
-            alert('upload');
+            alert("upload");
             // alert('data11'+JSON.stringify(data))
         }, function (err) {
-            alert('bii' + err);
-            alert('error4' + JSON.stringify(err));
+            alert("bii" + err);
+            alert("error4" + JSON.stringify(err));
         });
     };
     ArtistprofilepagePage.prototype.openstar = function (usermediaid) {
         var _this = this;
-        console.log('usermedia' + usermediaid);
-        console.log('rate' + this.rate);
+        console.log("usermedia" + usermediaid);
+        console.log("rate" + this.rate);
         if (usermediaid) {
-            __WEBPACK_IMPORTED_MODULE_13_rxjs__["Observable"].of(null)
-                .flatMap(function () { return _this.security.starmedia(_this.rate, usermediaid); }).subscribe(function (data) {
-                var modal = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_16__pages_viewtalent_viewtalent__["a" /* ViewtalentPage */], { rate: _this.rate });
+            __WEBPACK_IMPORTED_MODULE_12_rxjs__["Observable"].of(null)
+                .flatMap(function () { return _this.security.starmedia(_this.rate, usermediaid); })
+                .subscribe(function (data) {
+                var modal = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_15__pages_viewtalent_viewtalent__["a" /* ViewtalentPage */], {
+                    rate: _this.rate,
+                });
                 modal.present();
             });
         }
     };
     ArtistprofilepagePage.prototype.tapshow3 = function () {
-        console.log('profileuser', this.profileuser);
-        console.log('user_id', this.profileuser.user_id);
-        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_6__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], { image: this.profileuser.user_avatar,
+        console.log("profileuser", this.profileuser);
+        console.log("user_id", this.profileuser.user_id);
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_6__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], {
+            image: this.profileuser.user_avatar,
             artistname: this.profileuser.user_display_name,
             user_url: this.profileuser.user_url,
             usermediaid: this.rcentdata[this.id].artist_id,
-            type: 'artist',
+            type: "artist",
         });
         popover.present({
-            ev: event
+            ev: event,
         });
     };
     ArtistprofilepagePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-artistprofilepage',template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/artistprofilepage/artistprofilepage.html"*/`<!--\n  Generated template for the ArtistprofilepagePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<!--\n  Generated template for the ArtprofilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <!-- <ion-buttons left style="    width: 19px;">\n            <button ion-button menuToggle>\n            <ion-icon item-start>\n              <img class="navbar-icon" item-left src="assets/Menu/navbar.png">\n            </ion-icon>\n             </button>\n        </ion-buttons> -->\n    <ion-title>Artist Profile</ion-title>\n\n    <ion-buttons\n      right\n      style="width: 14px; margin-right: 16px; margin-top: -8px;"\n    >\n      <button style="width: 26px;" ion-button (click)="tapshow3()">\n        <ion-icon item-start>\n          <img class="navbar-icon" item-left src="assets/profile/share.png" />\n        </ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n  <div *ngIf="showshare==true" id="shareid" class="share-service">\n    <div class="arrow-icon">\n      <img class="icon-img" src="assets/profile/arrow.png" />\n    </div>\n    <ion-row style="padding: 7px; margin-top: -7px;">\n      <ion-col>\n        <img src="assets/profile/facebook.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/twitter.png " />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/google_plus.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/pinterest.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/whatsaap.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/mailwhite.png" />\n      </ion-col>\n    </ion-row>\n  </div>\n  <div\n    class="row-image"\n    [ngStyle]="{\'background-image\':\'url(\'+user_banner+\')\'}"\n  >\n    <ion-row>\n      <ion-col style="padding: 15px;">\n        <div class="circle-radius">\n          <img\n            style="border-radius: 50%; height: 100%; width: 100px;"\n            [src]="profilepic"\n          />\n        </div>\n        <p\n          style="\n            margin-top: 5px;\n            font-weight: 500;\n            color: #fff;\n            font-size: 1.6rem;\n            font-family: AvenirLTStd-Heavy;\n          "\n        >\n          {{displayname}}\n        </p>\n        <!-- <p style="    margin-top: -11px;font-weight: 100;    color: #fff;">NYC</p>\n      <p style="    width: 193%;color: #fff;">Music | Dance | Film | Photography | Litreature</p> -->\n      </ion-col>\n      <ion-col>\n        <ion-row style="text-align: center; margin-top: 6px;">\n          <ion-col>\n            <!-- <div class="pro-div">  -->\n            <!-- <img style="    height: 17px;    margin-top: 11px;" src="assets/profile/mail.png"> -->\n\n            <!-- </div> -->\n            <!-- <p class="p-tag" >Inbox</p> -->\n          </ion-col>\n          <ion-col>\n            <!-- <div class="pro-div" style="background-color:#F29A10"> -->\n            <!-- <img style="    height: 17px;    margin-top: 11px;" src="assets/profile/downloads.png"> -->\n\n            <!-- </div> -->\n            <!-- <p class="p-tag">Upload</p> -->\n          </ion-col>\n          <ion-col (click)="editprop()">\n            <!-- <div class="pro-div">\n      <img style="    height: 17px;    margin-top: 11px;" src="assets/profile/edit.png">\n      \n      </div>\n      <p class="p-tag">Edit</p> -->\n          </ion-col>\n        </ion-row>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <ion-row>\n          <ion-col col-5>\n            <p\n              (click)="movetofollowers(1)"\n              style="\n                font-size: 1.2rem;\n                display: inline-flex;\n                color: #fff !important;\n              "\n            >\n              {{followers}} <span class="text-style"> Followers</span>\n            </p>\n          </ion-col>\n          <ion-col col-2>\n            <hr class="hr-line" />\n          </ion-col>\n          <ion-col col-5>\n            <p\n              (click)="movetofollowers(2)"\n              style="\n                font-size: 1.2rem;\n                display: inline-flex;\n                color: #fff !important;\n              "\n            >\n              {{following}} <span class="text-style"> Following</span>\n            </p>\n          </ion-col>\n        </ion-row>\n      </ion-col>\n      <!-- <ion-col>\n        <ion-row style="    padding: 7px;">\n          <ion-col>\n            <img src="assets/profile/facebook (2).png">\n          </ion-col>\n          <ion-col>\n              <img src="assets/profile/002-twitter.png">\n          </ion-col>\n          <ion-col>\n              <img src="assets/profile/linkedIn.png">\n          </ion-col>\n          <ion-col>\n              <img src="assets/profile/pinterest (2).png">\n          </ion-col>\n          <ion-col>\n              <img src="assets/profile/instagram.png">\n          </ion-col>\n        </ion-row>\n      </ion-col> -->\n    </ion-row>\n  </div>\n  <div>\n    <ion-segment\n      mode="md"\n      [(ngModel)]="playlist"\n      style="font-family: AvenirLTStd-Heavy;"\n    >\n      <ion-segment-button class="seg-stylepro" value="latest">\n        Artists Chart\n      </ion-segment-button>\n      <ion-segment-button class="seg-stylepro" value="recent">\n        Recent Uploads\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n</ion-header>\n\n<ion-content>\n  <div [ngSwitch]="playlist">\n    <!-- <div  id="categorylist" class="category-list" *ngSwitchCase="\'latest\'">\n      \n        <ion-row style="    padding: 6px;">\n       <ion-col style="font-weight: 500;    font-family: AvenirLTStd-Heavy;">Categories</ion-col>\n       <ion-col *ngIf="showcat==true" (click)="showcatevent(1)" class="prop-see" >See All</ion-col>\n       <ion-col *ngIf="showcat==false" (click)="showcatevent(2)" class="prop-see" >Close</ion-col>\n     </ion-row>\n     <ion-row *ngIf="showcat==true"  style="margin-top: -8px;">\n       <ion-col class="col-cat">\n         <img class="img-cat" src="assets/category/categories1.png">\n         <p class="cat-types">Music</p>\n     </ion-col>\n     <ion-col  class="col-cat">\n         <img class="img-cat" src="assets/category/categories2.png">\n   <p class="cat-types">Dance</p>\n       </ion-col>\n     <ion-col  class="col-cat">\n         <img class="img-cat" src="assets/category/categories3.png">\n    <p class="cat-types">Film</p>\n       </ion-col>\n     <ion-col  class="col-cat">\n         <img class="img-cat" src="assets/category/categories4.png">\n         <p class="cat-types">Photography</p>\n     </ion-col>\n     <ion-col  class="col-cat">\n         <img class="img-cat" src="assets/category/categories5.png">\n         <p class="cat-types">Litreature</p>\n     </ion-col>\n     </ion-row>\n    <div *ngIf="showcat==false" >\n      <ion-row>\n        <ion-col class="col-cat">\n            <img class="img-cat" src="assets/category/categories1.png">\n            <p class="cat-types">Music</p>\n        </ion-col>\n        <ion-col  class="col-cat">\n            <img class="img-cat" src="assets/category/categories2.png">\n      <p class="cat-types">Dance</p>\n          </ion-col>\n        <ion-col  class="col-cat">\n            <img class="img-cat" src="assets/category/categories3.png">\n       <p class="cat-types">Film</p>\n          </ion-col>\n        <ion-col  class="col-cat">\n            <img class="img-cat" src="assets/category/categories4.png">\n            <p class="cat-types">Photography</p>\n        </ion-col>\n       \n        </ion-row>\n        <ion-row>\n           \n            <ion-col  class="col-cat">\n                <img class="img-cat" src="assets/category/categories5.png">\n          <p class="cat-types">Litreature</p>\n              </ion-col>\n            <ion-col  class="col-cat">\n                <img class="img-cat" src="assets/category/categories6.png">\n           <p class="cat-types">Art</p>\n              </ion-col>\n            <ion-col  class="col-cat">\n                <img class="img-cat" src="assets/category/categories7.png">\n                <p class="cat-types">Freestyle</p>\n            </ion-col>\n            <ion-col  class="col-cat">\n                <img class="img-cat" src="assets/category/categories8.png">\n                <p class="cat-types">Personality</p>\n            </ion-col>\n            </ion-row>\n            <ion-row>\n                <ion-col  class="col-cat">\n                    <img class="img-cat" src="assets/category/categories9.png">\n                    <p class="cat-types">Other</p>\n                </ion-col>\n            </ion-row>\n      </div>\n      \n    \n    </div> -->\n    <div style="margin-top: 29px;" *ngSwitchCase="\'latest\'">\n      <!-- <ion-list class="recent-upload"  >\n         <ion-row style="    padding: 17px;">\n           <ion-col>\n            <p style="font-weight: bold;"> Based on your prefrences</p>\n  \n            </ion-col>\n           <ion-col style="text-align: end;"><button (click)="changeprefrence()" class="button-prefrence" ion-button color="primary">Change Prefrences</button></ion-col>\n         </ion-row>\n   <ion-row style="margin-top: -33px;" padding>\n   <p class="head-p"><span class="span-head">Recent Uploads </span> in Music</p>    \n  </ion-row>    -->\n\n      <!-- <ion-row *ngFor="let value of fakedata"  style="    margin-top: -10px;    margin-bottom: 26px;">\n    <div class="image-tag">\n       \n        <img style="    width: 89%;" src="assets/Dashboard/thumbnail.png">\n       \n      </div>\n      <div class="img-box" >\n      <div class="img-content">\n        <div class="cat-div"> \n          <img class="cat-icon" src="assets/Dashboard/artist_profile1.png">\n        </div>\n       \n        <div class="detail-grid">\n          \n        <div style="margin-top: 6px;" class="detail-div">\n           <p style="font-weight: bold;" class="music-type">King Cay Music</p>\n           <p class="title-type">Music / Hip Hop/ Rap</p>\n           <div class="star-div"> <ionic3-star-rating \n            activeIcon = "ios-star"\n            defaultIcon = "ios-star-outline"\n            activeColor = "rgb(228, 215, 38)" \n            defaultColor = "#f4f4f4"\n            readonly="true"\n            [rating]="5">\n        </ionic3-star-rating></div>\n        </div>\n        \n        <div style="text-align:right; " class="detail-div1">\n          <div class="author-box">\n          <p style="    height: 0px;font-weight: bold">King Cay</p>\n          <p>10 mins ago</p>\n          </div>\n        </div>\n        <div   class="detail-div userpic">\n          <img class="userimage" src="assets/tabsicon/propic.jpg">\n        </div>\n        </div>\n  \n      </div>\n      </div>\n      <div class="post-img">\n\n      <div class="social-img">\n       \n        <div class="header1" >\n           <img class="img-post" src="assets/Dashboard/share-gray.png">\n           <div class="share-div" (click)="tapshow1()"></div>\n         </div>\n         <div class="header1" (click)="followedartist()">\n             <img class="img-post" src="assets/Dashboard/user.png">\n           </div>\n           <div class="header1" (click)="navigatetocomment()">\n               <img class="img-post" src="assets/Dashboard/msg.png">\n             </div>\n             <div class="header1" (click)="reportnavigate()">\n                 <img class="img-post" src="assets/Dashboard/error.png">\n               </div>\n   \n         </div>\n    </div>\n    </ion-row> -->\n\n      <div>\n        <!-- <ion-row *ngFor="let value of fakedata;let i=index"  style="    margin-top: -10px;    margin-bottom: 26px;">\n         <div class="image-tag">\n            \n             <img style="    width: 89%;" src="assets/Dashboard/thumbnail.png">\n            \n           </div>\n           <div class="img-box" >\n           <div class="img-content">\n            \n              <ion-row>\n                <ion-col class="cols-style">\n                 0{{i+1}}\n                </ion-col>\n              <ion-col style="text-align:end">\n                 <img class="\n               cat-icon1" src="assets/Dashboard/artist_profile1.png">\n              </ion-col>\n               </ion-row>\n\n\n             <div class="detail-grid1">\n               \n             <div class="detail-div">\n                <p style="font-weight: bold;" class="music-type">Dublin</p>\n                <p class="title-type1">Photography/Architecture</p>\n                <ion-row class="star-div"> \n                <ion-col  col-2>\n                 <img style="height:13px;    margin: 4px 1px 2px -3px;" src="assets/Dashboard/rating.png">\n               </ion-col>\n               <ion-col col-10>\n                <p class="count-like">6037</p>\n               </ion-col>\n               </ion-row>\n             </div>\n             <div class="image-box" >\n               <ion-row (click)="authtap()">\n                 <ion-col col-8 style="    text-align: end;">\n                   <p> dipu_m18</p>\n                  </ion-col>\n                 <ion-col col-3 style="margin-top: -2px;">\n                     <img class="userimage1" src="assets/tabsicon/propic.jpg"> </ion-col>\n               </ion-row> \n               <ion-row style="    margin-top: 16px;" (click)="openstar()">\n                 <ion-col col-3>\n                       <p style="       margin-left: 9px;\n                       display: inline-block;    font-size: 1.5rem;\n                       position: absolute;\n   right: -14px;">Vote</p>\n                 </ion-col>\n                 <ion-col col-9 style="padding: 9px;margin-top: 3px;display: flex;\n                 justify-content: center;">\n                     <ionic3-star-rating \n                     activeIcon = "ios-star"\n                     defaultIcon = "ios-star-outline"\n                     activeColor = "rgb(228, 215, 38)" \n                     defaultColor = "rgb(228, 215, 38)"\n                     readonly="true"\n                     [rating]="0">\n                 </ionic3-star-rating>\n                   </ion-col>\n                 </ion-row>\n             </div>\n             \n             </div>\n     \n           </div>\n           </div>\n           <div class="post-img">\n        <div class="social-img">\n          \n          <div class="header1" >\n             <img class="img-post" src="assets/Dashboard/share-gray.png">\n             <div class="share-div" (click)="tapshow1()"></div>\n           </div>\n           <div class="header1" (click)="followedartist()">\n               <img class="img-post" src="assets/Dashboard/user.png">\n             </div>\n             <div class="header1" (click)="navigatetocomment()">\n                 <img class="img-post" src="assets/Dashboard/msg.png">\n               </div>\n               <div class="header1" (click)="reportnavigate()">\n                   <img class="img-post" src="assets/Dashboard/error.png">\n                 </div>\n     \n           </div>\n         </div>\n         </ion-row> -->\n        <loaderdata *ngIf="loaderitem==true"></loaderdata>\n        <ion-row\n          *ngFor="let value of latestchart;let i=index"\n          style="margin-top: -10px; margin-bottom: 26px;"\n        >\n          <div class="image-tag">\n            <img\n              style="width: 89%; object-fit: cover; background-color: #2e2e2e;"\n              [src]="value.media_thumbnail_url"\n            />\n          </div>\n          <div class="img-box">\n            <div class="img-content">\n              <div (click)="viewvideo(i)" class="cat-div">\n                <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->\n                <ion-row>\n                  <ion-col style="position: absolute;" class="cols-style">\n                    <p\n                      style="\n                        color: #fff;\n                        text-align: start;\n\n                        font-size: 2.9rem;\n\n                        position: absolute;\n\n                        top: -46px;\n                      "\n                    >\n                      0{{i+1}}\n                    </p>\n                  </ion-col>\n                  <ion-col col-8>\n                    <img\n                      *ngIf="value.media_type==\'video/mp4\'||value.media_type==\'youtube\' || value.usermedia_type==\'audio/mpeg\' || value.usermedia_type==\'audio/mp3\'"\n                      class="play-style"\n                      src="assets/play.png"\n                    />\n                  </ion-col>\n                  <ion-col col-4>\n                    <!-- <img class="cat-icon" [src]="value.small_image_url"> -->\n                    <img class="cat-icon" [src]="value.mediathumbnailuser" />\n                  </ion-col>\n                </ion-row>\n              </div>\n\n              <div class="details">\n                <ion-row>\n                  <ion-col col-5>\n                    <div class="details-1">\n                      <p class="title">{{value.usermedia_name}}</p>\n                      <p class="arts">{{value.artforms}}</p>\n                      <!-- <div *ngIf="user_display_name!=value.user_display_name" class="stars" (click)="openstar(value.rating,value.usermediaid,value.user_display_name)"> <ionic3-star-rating  -->\n                      <div\n                        *ngIf="user_display_name!=value.user_display_name"\n                        class="stars"\n                        (click)="openstar(value.usermediaid)"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="false"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n\n                      <div\n                        *ngIf="user_display_name==value.user_display_name"\n                        class="stars"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="true"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n                    </div>\n                  </ion-col>\n                  <ion-col col-4>\n                    <div class="details-2">\n                      <p class="author-name">{{value.user_display_name}}</p>\n                      <!-- <p class="post-time">{{value.usermedia_posted}}</p> -->\n                    </div>\n                  </ion-col>\n                  <ion-col col-3>\n                    <figure class="author-img">\n                      <img\n                        (click)="artistpro(i)"\n                        style="border-radius: 35px;"\n                        class="custom-cat-icon"\n                        [src]="value.user_avatar"\n                      />\n                    </figure>\n                  </ion-col>\n                </ion-row>\n              </div>\n\n              <!-- <div class="detail-grid" >\n                  \n                <div style="margin-top: 6px;    white-space: nowrap;" class="detail-div" >\n                   <p style="font-weight: bold;" class="music-type">{{value.usermedia_name}}</p>\n                   <p class="title-type">{{value.toptypeprofile}}</p>\n                   <div class="star-div" >\n                <ionic3-star-rating (click)="openstar(value.usermediaid)" *ngIf="user_display_name!=value.user_display_name"\n                    activeIcon = "ios-star"\n                    defaultIcon = "ios-star-outline"\n                    activeColor = "rgb(228, 215, 38)" \n                    defaultColor = "#f4f4f4"\n                    readonly="false"\n                    [rating]="value.totalRating">\n                </ionic3-star-rating>\n                <ionic3-star-rating *ngIf="user_display_name==value.user_display_name"\n                activeIcon = "ios-star"\n                defaultIcon = "ios-star-outline"\n                activeColor = "rgb(228, 215, 38)" \n                defaultColor = "#f4f4f4"\n                readonly="true"\n                [rating]="value.totalRating">\n            </ionic3-star-rating>\n              </div>\n                </div>\n                \n                <div style="text-align:right; " class="detail-div1" (click)="artistpro()">\n                  <div class="author-box">\n                  <p style="    height: 0px;font-weight: bold">{{displayname}}</p>\n                  <p>{{value.usermedia_posted}}</p>\n                  </div>\n                </div>\n                <div   class="detail-div userpic">\n                  <img class="userimage" [src]="value.user_profile_avatar">\n                </div>\n                </div>\n           -->\n            </div>\n          </div>\n          <div class="post-img">\n            <div class="social-img">\n              <div class="header1">\n                <img class="img-post" src="assets/Dashboard/share-gray.png" />\n                <div class="share-div" (click)="tapshow1(i)"></div>\n              </div>\n              <div class="header1" (click)="followedartist(value.artist_id)">\n                <img class="img-post" src="assets/Dashboard/user.png" />\n              </div>\n              <div class="header1" (click)="navigatetocomment(i)">\n                <img class="img-post" src="assets/Dashboard/msg.png" />\n              </div>\n              <div class="header1" (click)="reportnavigate()">\n                <img class="img-post" src="assets/Dashboard/error.png" />\n              </div>\n            </div>\n          </div>\n        </ion-row>\n      </div>\n    </div>\n\n    <div id="categorylist" class="category-list" *ngSwitchCase="\'recent\'">\n      <ion-row style="padding: 6px;">\n        <ion-col style="font-weight: 500;">Categories</ion-col>\n        <ion-col\n          *ngIf="showcat==true"\n          (click)="showcatevent(1)"\n          class="prop-see"\n          >See All</ion-col\n        >\n        <ion-col\n          *ngIf="showcat==false"\n          (click)="showcatevent(2)"\n          class="prop-see"\n          >Close</ion-col\n        >\n      </ion-row>\n      <ion-row *ngIf="showcat==true" style="margin-top: -8px;">\n        <ion-col class="col-cat" (click)="songtype(1)">\n          <img class="img-cat" src="assets/category/categories1.png" />\n          <p class="cat-types">Music</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(2)">\n          <img class="img-cat" src="assets/category/categories2.png" />\n          <p class="cat-types">Dance</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(3)">\n          <img class="img-cat" src="assets/category/categories3.png" />\n          <p class="cat-types">Film</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(4)">\n          <img class="img-cat" src="assets/category/categories4.png" />\n          <p class="cat-types">Photography</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(7)">\n          <img class="img-cat" src="assets/category/categories5.png" />\n          <p class="cat-types">Litreature</p>\n        </ion-col>\n      </ion-row>\n      <div *ngIf="showcat==false">\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(1)">\n            <img class="img-cat" src="assets/category/categories1.png" />\n            <p class="cat-types">Music</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(2)">\n            <img class="img-cat" src="assets/category/categories2.png" />\n            <p class="cat-types">Dance</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(3)">\n            <img class="img-cat" src="assets/category/categories3.png" />\n            <p class="cat-types">Film</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(4)">\n            <img class="img-cat" src="assets/category/categories4.png" />\n            <p class="cat-types">Photography</p>\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(7)">\n            <img class="img-cat" src="assets/category/categories5.png" />\n            <p class="cat-types">Litreature</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(8)">\n            <img class="img-cat" src="assets/category/categories6.png" />\n            <p class="cat-types">Art</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(5)">\n            <img class="img-cat" src="assets/category/categories7.png" />\n            <p class="cat-types">Freestyle</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(9)">\n            <img class="img-cat" src="assets/category/categories8.png" />\n            <p class="cat-types">Personality</p>\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(6)">\n            <img class="img-cat" src="assets/category/categories9.png" />\n            <p class="cat-types">Other</p>\n          </ion-col>\n        </ion-row>\n      </div>\n    </div>\n    <div style="margin-top: 29px;" *ngSwitchCase="\'recent\'">\n      <ion-list class="recent-upload">\n        <!-- <ion-row style="    padding: 17px;">\n                <ion-col>\n                 <p style="    font-weight: 500;"> Based on your prefrence</p>\n       \n                 </ion-col>\n                <ion-col style="text-align: end;"><button (click)="changeprefrence()" class="button-prefrence" ion-button color="primary">Change Prefrences</button></ion-col>\n              </ion-row>\n     <ion-row padding style="margin-top: -33px;">\n     <p class="head-p"><span class="span-head">Recent Uploads </span> in Music</p>    \n    </ion-row>    -->\n        <ion-row padding style="margin-top: -33px;">\n          <p class="head-p">\n            <span class="span-head">Recent Uploads </span> in All Categories\n          </p>\n        </ion-row>\n        <loaderdata *ngIf="loaderitem==true"></loaderdata>\n        <!-- <ion-row *ngFor="let value of fakedata"  style="    margin-top: -10px;    margin-bottom: 26px;">\n      <div class="image-tag">\n         \n          <img style="    width: 89%;" src="assets/Dashboard/thumbnail.png">\n         \n        </div>\n        <div class="img-box" >\n        <div class="img-content">\n          <div class="cat-div"> \n            <img class="cat-icon" src="assets/Dashboard/artist_profile1.png">\n          </div>\n         \n          <div class="detail-grid">\n            \n          <div style="margin-top: 6px;" class="detail-div">\n             <p style="font-weight: bold;" class="music-type">King Cay Music</p>\n             <p class="title-type">Music / Hip Hop/ Rap</p>\n             <div class="star-div"> <ionic3-star-rating \n              activeIcon = "ios-star"\n              defaultIcon = "ios-star-outline"\n              activeColor = "rgb(228, 215, 38)" \n              defaultColor = "#f4f4f4"\n              readonly="true"\n              [rating]="5">\n          </ionic3-star-rating></div>\n          </div>\n          \n          <div style="text-align:right; " class="detail-div1">\n            <div class="author-box">\n            <p style="    height: 0px;font-weight: bold">King Cay</p>\n            <p>10 mins ago</p>\n            </div>\n          </div>\n          <div   class="detail-div userpic">\n            <img class="userimage" src="assets/tabsicon/propic.jpg">\n          </div>\n          </div>\n    \n        </div>\n        </div>\n        <div class="post-img">\n     <div class="social-img">\n       \n       <div class="header1">\n          <img class="img-post" src="assets/Dashboard/share-gray.png">\n        </div>\n        <div class="header1">\n            <img class="img-post" src="assets/Dashboard/user.png">\n          </div>\n          <div class="header1" (click)="navigatetocomment()">\n              <img class="img-post" src="assets/Dashboard/msg.png">\n            </div>\n            <div class="header1">\n                <img class="img-post" src="assets/Dashboard/error.png">\n              </div>\n    \n        </div>\n        <div class="social-img">\n       \n          <div class="header1" >\n             <img class="img-post" src="assets/Dashboard/share-gray.png">\n             <div class="share-div" (click)="tapshow1()"></div>\n           </div>\n           <div class="header1" (click)="followedartist()">\n               <img class="img-post" src="assets/Dashboard/user.png">\n             </div>\n             <div class="header1" (click)="navigatetocomment()">\n                 <img class="img-post" src="assets/Dashboard/msg.png">\n               </div>\n               <div class="header1" (click)="reportnavigate()">\n                   <img class="img-post" src="assets/Dashboard/error.png">\n                 </div>\n     \n           </div>\n      </div>\n      </ion-row> -->\n        <ion-row\n          *ngFor="let value of profilerecentcharts;let i=index"\n          style="margin-top: -10px; margin-bottom: 26px;"\n        >\n          <div class="image-tag">\n            <img\n              style="width: 89%; object-fit: cover; background-color: #2e2e2e;"\n              [src]="value.media_thumbnail_url"\n            />\n          </div>\n          <div class="img-box">\n            <div class="img-content">\n              <div (click)="viewvideo1(i)" class="cat-div">\n                <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->\n                <ion-row>\n                  <ion-col col-8>\n                    <img\n                      *ngIf="value.media_type==\'video/mp4\'||value.media_type==\'youtube\' || value.media_type==\'audio/mpeg\' || value.media_type==\'audio/mp3\'"\n                      class="play-style"\n                      src="assets/play.png"\n                    />\n                  </ion-col>\n                  <ion-col col-4>\n                    <!-- <img class="cat-icon" [src]="value.small_image_url"> -->\n                    <img class="cat-icon" [src]="value.mediathumbnailuser" />\n                  </ion-col>\n                </ion-row>\n              </div>\n              <div class="details">\n                <ion-row>\n                  <ion-col col-5>\n                    <div class="details-1">\n                      <p class="title">{{value.usermedia_name}}</p>\n                      <p class="arts">{{value.artforms}}</p>\n                      <!-- <div *ngIf="user_display_name!=value.user_display_name" class="stars" (click)="openstar(value.rating,value.usermediaid,value.user_display_name)"> <ionic3-star-rating  -->\n                      <div\n                        *ngIf="user_display_name!=value.user_display_name"\n                        class="stars"\n                        (click)="openstar(value.usermediaid)"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="false"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n\n                      <div\n                        *ngIf="user_display_name==value.user_display_name"\n                        class="stars"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="true"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n                    </div>\n                  </ion-col>\n                  <ion-col col-4>\n                    <div class="details-2">\n                      <p class="author-name">{{value.user_display_name}}</p>\n                      <!-- <p class="post-time">{{value.usermedia_posted}}</p> -->\n                    </div>\n                  </ion-col>\n                  <ion-col col-3>\n                    <figure class="author-img">\n                      <img\n                        (click)="artistpro(i)"\n                        style="border-radius: 35px;"\n                        class="custom-cat-icon"\n                        [src]="value.user_avatar"\n                      />\n                    </figure>\n                  </ion-col>\n                </ion-row>\n              </div>\n              <!-- <div class="detail-grid">\n             \n           <div style="margin-top: 6px;" class="detail-div" >\n              <p style="font-weight: bold;" class="music-type">{{value.usermedia_name}}</p>\n              <p class="title-type">{{value.toptypeprofile}}</p>\n              <div class="star-div" > \n                <ionic3-star-rating (click)="openstar(value.usermediaid)" *ngIf="user_display_name!=value.user_display_name"\n               activeIcon = "ios-star"\n               defaultIcon = "ios-star-outline"\n               activeColor = "rgb(228, 215, 38)" \n               defaultColor = "#f4f4f4"\n               readonly="false"\n               [rating]="value.totalRating">\n           </ionic3-star-rating>\n           <ionic3-star-rating *ngIf="user_display_name==value.user_display_name"\n           activeIcon = "ios-star"\n           defaultIcon = "ios-star-outline"\n           activeColor = "rgb(228, 215, 38)" \n           defaultColor = "#f4f4f4"\n           readonly="true"\n           [rating]="value.totalRating">\n       </ionic3-star-rating>\n          </div>\n           </div>\n           \n           <div style="text-align:right; " class="detail-div1" (click)="artistpro()">\n             <div class="author-box">\n             <p style="    height: 0px;font-weight: bold">{{displayname}}</p>\n             <p>{{value.usermedia_posted}}</p>\n             </div>\n           </div>\n           <div   class="detail-div userpic">\n             <img class="userimage" [src]="value.user_profile_avatar">\n           </div>\n           </div> -->\n            </div>\n          </div>\n          <div class="post-img">\n            <div class="social-img">\n              <div class="header1">\n                <img class="img-post" src="assets/Dashboard/share-gray.png" />\n                <div class="share-div" (click)="tapshow2(i)"></div>\n              </div>\n              <div class="header1" (click)="followedartist(value.artist_id)">\n                <img class="img-post" src="assets/Dashboard/user.png" />\n              </div>\n              <div class="header1" (click)="navigatetocomment1(i)">\n                <img class="img-post" src="assets/Dashboard/msg.png" />\n              </div>\n              <div class="header1" (click)="reportnavigate()">\n                <img class="img-post" src="assets/Dashboard/error.png" />\n              </div>\n            </div>\n          </div>\n        </ion-row>\n        <ion-infinite-scroll\n          (ionInfinite)="loadMore($event)"\n          loadingSpinner="bubbles"\n          loadingText="Loading data..."\n        >\n          <ion-infinite-scroll-content></ion-infinite-scroll-content>\n        </ion-infinite-scroll>\n      </ion-list>\n    </div>\n  </div>\n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/artistprofilepage/artistprofilepage.html"*/,
+            selector: "page-artistprofilepage",template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/artistprofilepage/artistprofilepage.html"*/`<!--\n  Generated template for the ArtistprofilepagePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<!--\n  Generated template for the ArtprofilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <!-- <ion-buttons left style="    width: 19px;">\n            <button ion-button menuToggle>\n            <ion-icon item-start>\n              <img class="navbar-icon" item-left src="assets/Menu/navbar.png">\n            </ion-icon>\n             </button>\n        </ion-buttons> -->\n    <ion-title>Artist Profile</ion-title>\n\n    <ion-buttons\n      right\n      style="width: 14px; margin-right: 16px; margin-top: -8px;"\n    >\n      <button style="width: 26px;" ion-button (click)="tapshow3()">\n        <ion-icon item-start>\n          <img class="navbar-icon" item-left src="assets/profile/share.png" />\n        </ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n  <div *ngIf="showshare==true" id="shareid" class="share-service">\n    <div class="arrow-icon">\n      <img class="icon-img" src="assets/profile/arrow.png" />\n    </div>\n    <ion-row style="padding: 7px; margin-top: -7px;">\n      <ion-col>\n        <img src="assets/profile/facebook.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/twitter.png " />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/google_plus.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/pinterest.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/whatsaap.png" />\n      </ion-col>\n      <ion-col>\n        <img src="assets/profile/mailwhite.png" />\n      </ion-col>\n    </ion-row>\n  </div>\n  <div\n    class="row-image"\n    [ngStyle]="{\'background-image\':\'url(\'+user_banner+\')\'}"\n  >\n    <ion-row>\n      <ion-col style="padding: 15px;">\n        <div class="circle-radius">\n          <img\n            style="border-radius: 50%; height: 100%; width: 100px;"\n            [src]="profilepic"\n          />\n        </div>\n        <p\n          style="\n            margin-top: 5px;\n            font-weight: 500;\n            color: #fff;\n            font-size: 1.6rem;\n            font-family: AvenirLTStd-Heavy;\n          "\n        >\n          {{displayname}}\n        </p>\n        <!-- <p style="    margin-top: -11px;font-weight: 100;    color: #fff;">NYC</p>\n      <p style="    width: 193%;color: #fff;">Music | Dance | Film | Photography | Litreature</p> -->\n      </ion-col>\n      <ion-col>\n        <ion-row style="text-align: center; margin-top: 6px;">\n          <ion-col>\n            <!-- <div class="pro-div">  -->\n            <!-- <img style="    height: 17px;    margin-top: 11px;" src="assets/profile/mail.png"> -->\n\n            <!-- </div> -->\n            <!-- <p class="p-tag" >Inbox</p> -->\n          </ion-col>\n          <ion-col>\n            <!-- <div class="pro-div" style="background-color:#F29A10"> -->\n            <!-- <img style="    height: 17px;    margin-top: 11px;" src="assets/profile/downloads.png"> -->\n\n            <!-- </div> -->\n            <!-- <p class="p-tag">Upload</p> -->\n          </ion-col>\n          <ion-col (click)="editprop()">\n            <!-- <div class="pro-div">\n      <img style="    height: 17px;    margin-top: 11px;" src="assets/profile/edit.png">\n      \n      </div>\n      <p class="p-tag">Edit</p> -->\n          </ion-col>\n        </ion-row>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <ion-row>\n          <ion-col col-5>\n            <p\n              (click)="movetofollowers(1)"\n              style="\n                font-size: 1.2rem;\n                display: inline-flex;\n                color: #fff !important;\n              "\n            >\n              {{followers}} <span class="text-style"> Followers</span>\n            </p>\n          </ion-col>\n          <ion-col col-2>\n            <hr class="hr-line" />\n          </ion-col>\n          <ion-col col-5>\n            <p\n              (click)="movetofollowers(2)"\n              style="\n                font-size: 1.2rem;\n                display: inline-flex;\n                color: #fff !important;\n              "\n            >\n              {{following}} <span class="text-style"> Following</span>\n            </p>\n          </ion-col>\n        </ion-row>\n      </ion-col>\n      <!-- <ion-col>\n        <ion-row style="    padding: 7px;">\n          <ion-col>\n            <img src="assets/profile/facebook (2).png">\n          </ion-col>\n          <ion-col>\n              <img src="assets/profile/002-twitter.png">\n          </ion-col>\n          <ion-col>\n              <img src="assets/profile/linkedIn.png">\n          </ion-col>\n          <ion-col>\n              <img src="assets/profile/pinterest (2).png">\n          </ion-col>\n          <ion-col>\n              <img src="assets/profile/instagram.png">\n          </ion-col>\n        </ion-row>\n      </ion-col> -->\n    </ion-row>\n  </div>\n  <div>\n    <ion-segment\n      mode="md"\n      [(ngModel)]="playlist"\n      style="font-family: AvenirLTStd-Heavy;"\n    >\n      <ion-segment-button class="seg-stylepro" value="latest">\n        Artists Chart\n      </ion-segment-button>\n      <ion-segment-button class="seg-stylepro" value="recent">\n        Recent Uploads\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n</ion-header>\n\n<ion-content>\n  <div [ngSwitch]="playlist">\n    <!-- <div  id="categorylist" class="category-list" *ngSwitchCase="\'latest\'">\n      \n        <ion-row style="    padding: 6px;">\n       <ion-col style="font-weight: 500;    font-family: AvenirLTStd-Heavy;">Categories</ion-col>\n       <ion-col *ngIf="showcat==true" (click)="showcatevent(1)" class="prop-see" >See All</ion-col>\n       <ion-col *ngIf="showcat==false" (click)="showcatevent(2)" class="prop-see" >Close</ion-col>\n     </ion-row>\n     <ion-row *ngIf="showcat==true"  style="margin-top: -8px;">\n       <ion-col class="col-cat">\n         <img class="img-cat" src="assets/category/categories1.png">\n         <p class="cat-types">Music</p>\n     </ion-col>\n     <ion-col  class="col-cat">\n         <img class="img-cat" src="assets/category/categories2.png">\n   <p class="cat-types">Dance</p>\n       </ion-col>\n     <ion-col  class="col-cat">\n         <img class="img-cat" src="assets/category/categories3.png">\n    <p class="cat-types">Film</p>\n       </ion-col>\n     <ion-col  class="col-cat">\n         <img class="img-cat" src="assets/category/categories4.png">\n         <p class="cat-types">Photography</p>\n     </ion-col>\n     <ion-col  class="col-cat">\n         <img class="img-cat" src="assets/category/categories5.png">\n         <p class="cat-types">Litreature</p>\n     </ion-col>\n     </ion-row>\n    <div *ngIf="showcat==false" >\n      <ion-row>\n        <ion-col class="col-cat">\n            <img class="img-cat" src="assets/category/categories1.png">\n            <p class="cat-types">Music</p>\n        </ion-col>\n        <ion-col  class="col-cat">\n            <img class="img-cat" src="assets/category/categories2.png">\n      <p class="cat-types">Dance</p>\n          </ion-col>\n        <ion-col  class="col-cat">\n            <img class="img-cat" src="assets/category/categories3.png">\n       <p class="cat-types">Film</p>\n          </ion-col>\n        <ion-col  class="col-cat">\n            <img class="img-cat" src="assets/category/categories4.png">\n            <p class="cat-types">Photography</p>\n        </ion-col>\n       \n        </ion-row>\n        <ion-row>\n           \n            <ion-col  class="col-cat">\n                <img class="img-cat" src="assets/category/categories5.png">\n          <p class="cat-types">Litreature</p>\n              </ion-col>\n            <ion-col  class="col-cat">\n                <img class="img-cat" src="assets/category/categories6.png">\n           <p class="cat-types">Art</p>\n              </ion-col>\n            <ion-col  class="col-cat">\n                <img class="img-cat" src="assets/category/categories7.png">\n                <p class="cat-types">Freestyle</p>\n            </ion-col>\n            <ion-col  class="col-cat">\n                <img class="img-cat" src="assets/category/categories8.png">\n                <p class="cat-types">Personality</p>\n            </ion-col>\n            </ion-row>\n            <ion-row>\n                <ion-col  class="col-cat">\n                    <img class="img-cat" src="assets/category/categories9.png">\n                    <p class="cat-types">Other</p>\n                </ion-col>\n            </ion-row>\n      </div>\n      \n    \n    </div> -->\n    <div style="margin-top: 29px;" *ngSwitchCase="\'latest\'">\n      <!-- <ion-list class="recent-upload"  >\n         <ion-row style="    padding: 17px;">\n           <ion-col>\n            <p style="font-weight: bold;"> Based on your prefrences</p>\n  \n            </ion-col>\n           <ion-col style="text-align: end;"><button (click)="changeprefrence()" class="button-prefrence" ion-button color="primary">Change Prefrences</button></ion-col>\n         </ion-row>\n   <ion-row style="margin-top: -33px;" padding>\n   <p class="head-p"><span class="span-head">Recent Uploads </span> in Music</p>    \n  </ion-row>    -->\n\n      <!-- <ion-row *ngFor="let value of fakedata"  style="    margin-top: -10px;    margin-bottom: 26px;">\n    <div class="image-tag">\n       \n        <img style="    width: 89%;" src="assets/Dashboard/thumbnail.png">\n       \n      </div>\n      <div class="img-box" >\n      <div class="img-content">\n        <div class="cat-div"> \n          <img class="cat-icon" src="assets/Dashboard/artist_profile1.png">\n        </div>\n       \n        <div class="detail-grid">\n          \n        <div style="margin-top: 6px;" class="detail-div">\n           <p style="font-weight: bold;" class="music-type">King Cay Music</p>\n           <p class="title-type">Music / Hip Hop/ Rap</p>\n           <div class="star-div"> <ionic3-star-rating \n            activeIcon = "ios-star"\n            defaultIcon = "ios-star-outline"\n            activeColor = "rgb(228, 215, 38)" \n            defaultColor = "#f4f4f4"\n            readonly="true"\n            [rating]="5">\n        </ionic3-star-rating></div>\n        </div>\n        \n        <div style="text-align:right; " class="detail-div1">\n          <div class="author-box">\n          <p style="    height: 0px;font-weight: bold">King Cay</p>\n          <p>10 mins ago</p>\n          </div>\n        </div>\n        <div   class="detail-div userpic">\n          <img class="userimage" src="assets/tabsicon/propic.jpg">\n        </div>\n        </div>\n  \n      </div>\n      </div>\n      <div class="post-img">\n\n      <div class="social-img">\n       \n        <div class="header1" >\n           <img class="img-post" src="assets/Dashboard/share-gray.png">\n           <div class="share-div" (click)="tapshow1()"></div>\n         </div>\n         <div class="header1" (click)="followedartist()">\n             <img class="img-post" src="assets/Dashboard/user.png">\n           </div>\n           <div class="header1" (click)="navigatetocomment()">\n               <img class="img-post" src="assets/Dashboard/msg.png">\n             </div>\n             <div class="header1" (click)="reportnavigate()">\n                 <img class="img-post" src="assets/Dashboard/error.png">\n               </div>\n   \n         </div>\n    </div>\n    </ion-row> -->\n\n      <div>\n        <!-- <ion-row *ngFor="let value of fakedata;let i=index"  style="    margin-top: -10px;    margin-bottom: 26px;">\n         <div class="image-tag">\n            \n             <img style="    width: 89%;" src="assets/Dashboard/thumbnail.png">\n            \n           </div>\n           <div class="img-box" >\n           <div class="img-content">\n            \n              <ion-row>\n                <ion-col class="cols-style">\n                 0{{i+1}}\n                </ion-col>\n              <ion-col style="text-align:end">\n                 <img class="\n               cat-icon1" src="assets/Dashboard/artist_profile1.png">\n              </ion-col>\n               </ion-row>\n\n\n             <div class="detail-grid1">\n               \n             <div class="detail-div">\n                <p style="font-weight: bold;" class="music-type">Dublin</p>\n                <p class="title-type1">Photography/Architecture</p>\n                <ion-row class="star-div"> \n                <ion-col  col-2>\n                 <img style="height:13px;    margin: 4px 1px 2px -3px;" src="assets/Dashboard/rating.png">\n               </ion-col>\n               <ion-col col-10>\n                <p class="count-like">6037</p>\n               </ion-col>\n               </ion-row>\n             </div>\n             <div class="image-box" >\n               <ion-row (click)="authtap()">\n                 <ion-col col-8 style="    text-align: end;">\n                   <p> dipu_m18</p>\n                  </ion-col>\n                 <ion-col col-3 style="margin-top: -2px;">\n                     <img class="userimage1" src="assets/tabsicon/propic.jpg"> </ion-col>\n               </ion-row> \n               <ion-row style="    margin-top: 16px;" (click)="openstar()">\n                 <ion-col col-3>\n                       <p style="       margin-left: 9px;\n                       display: inline-block;    font-size: 1.5rem;\n                       position: absolute;\n   right: -14px;">Vote</p>\n                 </ion-col>\n                 <ion-col col-9 style="padding: 9px;margin-top: 3px;display: flex;\n                 justify-content: center;">\n                     <ionic3-star-rating \n                     activeIcon = "ios-star"\n                     defaultIcon = "ios-star-outline"\n                     activeColor = "rgb(228, 215, 38)" \n                     defaultColor = "rgb(228, 215, 38)"\n                     readonly="true"\n                     [rating]="0">\n                 </ionic3-star-rating>\n                   </ion-col>\n                 </ion-row>\n             </div>\n             \n             </div>\n     \n           </div>\n           </div>\n           <div class="post-img">\n        <div class="social-img">\n          \n          <div class="header1" >\n             <img class="img-post" src="assets/Dashboard/share-gray.png">\n             <div class="share-div" (click)="tapshow1()"></div>\n           </div>\n           <div class="header1" (click)="followedartist()">\n               <img class="img-post" src="assets/Dashboard/user.png">\n             </div>\n             <div class="header1" (click)="navigatetocomment()">\n                 <img class="img-post" src="assets/Dashboard/msg.png">\n               </div>\n               <div class="header1" (click)="reportnavigate()">\n                   <img class="img-post" src="assets/Dashboard/error.png">\n                 </div>\n     \n           </div>\n         </div>\n         </ion-row> -->\n        <loaderdata *ngIf="loaderitem==true"></loaderdata>\n        <ion-row\n          *ngFor="let value of latestchart;let i=index"\n          style="margin-top: -10px; margin-bottom: 26px;"\n        >\n          <div class="image-tag">\n            <img\n              style="width: 89%; object-fit: cover; background-color: #2e2e2e;"\n              [src]="value.media_thumbnail_url"\n            />\n          </div>\n          <div class="img-box">\n            <div class="img-content">\n              <div (click)="viewvideo(i)" class="cat-div">\n                <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->\n                <ion-row>\n                  <ion-col style="position: absolute;" class="cols-style">\n                    <p\n                      style="\n                        color: #fff;\n                        text-align: start;\n\n                        font-size: 2.9rem;\n\n                        position: absolute;\n\n                        top: -46px;\n                      "\n                    >\n                      0{{i+1}}\n                    </p>\n                  </ion-col>\n                  <ion-col col-8>\n                    <img\n                      *ngIf="value.media_type==\'video/mp4\'||value.media_type==\'youtube\' || value.usermedia_type==\'audio/mpeg\' || value.usermedia_type==\'audio/mp3\'"\n                      class="play-style"\n                      src="assets/play.png"\n                    />\n                  </ion-col>\n                  <ion-col col-4>\n                    <!-- <img class="cat-icon" [src]="value.small_image_url"> -->\n                    <img class="cat-icon" [src]="value.mediathumbnailuser" />\n                  </ion-col>\n                </ion-row>\n              </div>\n\n              <div class="details">\n                <ion-row>\n                  <ion-col col-5>\n                    <div class="details-1">\n                      <p class="title">{{value.usermedia_name}}</p>\n                      <p class="arts">{{value.artforms}}</p>\n                      <!-- <div *ngIf="user_display_name!=value.user_display_name" class="stars" (click)="openstar(value.rating,value.usermediaid,value.user_display_name)"> <ionic3-star-rating  -->\n                      <div\n                        *ngIf="user_display_name!=value.user_display_name"\n                        class="stars"\n                        (click)="openstar(value.usermediaid)"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="false"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n\n                      <div\n                        *ngIf="user_display_name==value.user_display_name"\n                        class="stars"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="true"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n                    </div>\n                  </ion-col>\n                  <ion-col col-4>\n                    <div class="details-2">\n                      <p class="author-name">{{value.user_display_name}}</p>\n                      <!-- <p class="post-time">{{value.usermedia_posted}}</p> -->\n                    </div>\n                  </ion-col>\n                  <ion-col col-3>\n                    <figure class="author-img">\n                      <img\n                        (click)="artistpro(i)"\n                        style="border-radius: 35px;"\n                        class="custom-cat-icon"\n                        [src]="value.user_avatar"\n                      />\n                    </figure>\n                  </ion-col>\n                </ion-row>\n              </div>\n\n              <!-- <div class="detail-grid" >\n                  \n                <div style="margin-top: 6px;    white-space: nowrap;" class="detail-div" >\n                   <p style="font-weight: bold;" class="music-type">{{value.usermedia_name}}</p>\n                   <p class="title-type">{{value.toptypeprofile}}</p>\n                   <div class="star-div" >\n                <ionic3-star-rating (click)="openstar(value.usermediaid)" *ngIf="user_display_name!=value.user_display_name"\n                    activeIcon = "ios-star"\n                    defaultIcon = "ios-star-outline"\n                    activeColor = "rgb(228, 215, 38)" \n                    defaultColor = "#f4f4f4"\n                    readonly="false"\n                    [rating]="value.totalRating">\n                </ionic3-star-rating>\n                <ionic3-star-rating *ngIf="user_display_name==value.user_display_name"\n                activeIcon = "ios-star"\n                defaultIcon = "ios-star-outline"\n                activeColor = "rgb(228, 215, 38)" \n                defaultColor = "#f4f4f4"\n                readonly="true"\n                [rating]="value.totalRating">\n            </ionic3-star-rating>\n              </div>\n                </div>\n                \n                <div style="text-align:right; " class="detail-div1" (click)="artistpro()">\n                  <div class="author-box">\n                  <p style="    height: 0px;font-weight: bold">{{displayname}}</p>\n                  <p>{{value.usermedia_posted}}</p>\n                  </div>\n                </div>\n                <div   class="detail-div userpic">\n                  <img class="userimage" [src]="value.user_profile_avatar">\n                </div>\n                </div>\n           -->\n            </div>\n          </div>\n          <div class="post-img">\n            <div class="social-img">\n              <div class="header1">\n                <img class="img-post" src="assets/Dashboard/share-gray.png" />\n                <div class="share-div" (click)="tapshow1(i)"></div>\n              </div>\n              <div class="header1" (click)="followedartist(value.artist_id)">\n                <img class="img-post" src="assets/Dashboard/user.png" />\n              </div>\n              <div class="header1" (click)="navigatetocomment(i)">\n                <img class="img-post" src="assets/Dashboard/msg.png" />\n              </div>\n              <div class="header1" (click)="reportnavigate()">\n                <img class="img-post" src="assets/Dashboard/error.png" />\n              </div>\n            </div>\n          </div>\n        </ion-row>\n      </div>\n    </div>\n\n    <div id="categorylist" class="category-list" *ngSwitchCase="\'recent\'">\n      <ion-row style="padding: 6px;">\n        <ion-col style="font-weight: 500;">Categories</ion-col>\n        <ion-col\n          *ngIf="showcat==true"\n          (click)="showcatevent(1)"\n          class="prop-see"\n          >See All</ion-col\n        >\n        <ion-col\n          *ngIf="showcat==false"\n          (click)="showcatevent(2)"\n          class="prop-see"\n          >Close</ion-col\n        >\n      </ion-row>\n      <ion-row *ngIf="showcat==true" style="margin-top: -8px;">\n        <ion-col class="col-cat" (click)="songtype(1)">\n          <img class="img-cat" src="assets/category/categories1.png" />\n          <p class="cat-types">Music</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(2)">\n          <img class="img-cat" src="assets/category/categories2.png" />\n          <p class="cat-types">Dance</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(3)">\n          <img class="img-cat" src="assets/category/categories3.png" />\n          <p class="cat-types">Film</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(4)">\n          <img class="img-cat" src="assets/category/categories4.png" />\n          <p class="cat-types">Photography</p>\n        </ion-col>\n        <ion-col class="col-cat" (click)="songtype(7)">\n          <img class="img-cat" src="assets/category/categories5.png" />\n          <p class="cat-types">Litreature</p>\n        </ion-col>\n      </ion-row>\n      <div *ngIf="showcat==false">\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(1)">\n            <img class="img-cat" src="assets/category/categories1.png" />\n            <p class="cat-types">Music</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(2)">\n            <img class="img-cat" src="assets/category/categories2.png" />\n            <p class="cat-types">Dance</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(3)">\n            <img class="img-cat" src="assets/category/categories3.png" />\n            <p class="cat-types">Film</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(4)">\n            <img class="img-cat" src="assets/category/categories4.png" />\n            <p class="cat-types">Photography</p>\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(7)">\n            <img class="img-cat" src="assets/category/categories5.png" />\n            <p class="cat-types">Litreature</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(8)">\n            <img class="img-cat" src="assets/category/categories6.png" />\n            <p class="cat-types">Art</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(5)">\n            <img class="img-cat" src="assets/category/categories7.png" />\n            <p class="cat-types">Freestyle</p>\n          </ion-col>\n          <ion-col class="col-cat" (click)="songtype(9)">\n            <img class="img-cat" src="assets/category/categories8.png" />\n            <p class="cat-types">Personality</p>\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col class="col-cat" (click)="songtype(6)">\n            <img class="img-cat" src="assets/category/categories9.png" />\n            <p class="cat-types">Other</p>\n          </ion-col>\n        </ion-row>\n      </div>\n    </div>\n    <div style="margin-top: 29px;" *ngSwitchCase="\'recent\'">\n      <ion-list class="recent-upload">\n        <!-- <ion-row style="    padding: 17px;">\n                <ion-col>\n                 <p style="    font-weight: 500;"> Based on your prefrence</p>\n       \n                 </ion-col>\n                <ion-col style="text-align: end;"><button (click)="changeprefrence()" class="button-prefrence" ion-button color="primary">Change Prefrences</button></ion-col>\n              </ion-row>\n     <ion-row padding style="margin-top: -33px;">\n     <p class="head-p"><span class="span-head">Recent Uploads </span> in Music</p>    \n    </ion-row>    -->\n        <ion-row padding style="margin-top: -33px;">\n          <p class="head-p">\n            <span class="span-head">Recent Uploads </span> in All Categories\n          </p>\n        </ion-row>\n        <loaderdata *ngIf="loaderitem==true"></loaderdata>\n        <!-- <ion-row *ngFor="let value of fakedata"  style="    margin-top: -10px;    margin-bottom: 26px;">\n      <div class="image-tag">\n         \n          <img style="    width: 89%;" src="assets/Dashboard/thumbnail.png">\n         \n        </div>\n        <div class="img-box" >\n        <div class="img-content">\n          <div class="cat-div"> \n            <img class="cat-icon" src="assets/Dashboard/artist_profile1.png">\n          </div>\n         \n          <div class="detail-grid">\n            \n          <div style="margin-top: 6px;" class="detail-div">\n             <p style="font-weight: bold;" class="music-type">King Cay Music</p>\n             <p class="title-type">Music / Hip Hop/ Rap</p>\n             <div class="star-div"> <ionic3-star-rating \n              activeIcon = "ios-star"\n              defaultIcon = "ios-star-outline"\n              activeColor = "rgb(228, 215, 38)" \n              defaultColor = "#f4f4f4"\n              readonly="true"\n              [rating]="5">\n          </ionic3-star-rating></div>\n          </div>\n          \n          <div style="text-align:right; " class="detail-div1">\n            <div class="author-box">\n            <p style="    height: 0px;font-weight: bold">King Cay</p>\n            <p>10 mins ago</p>\n            </div>\n          </div>\n          <div   class="detail-div userpic">\n            <img class="userimage" src="assets/tabsicon/propic.jpg">\n          </div>\n          </div>\n    \n        </div>\n        </div>\n        <div class="post-img">\n     <div class="social-img">\n       \n       <div class="header1">\n          <img class="img-post" src="assets/Dashboard/share-gray.png">\n        </div>\n        <div class="header1">\n            <img class="img-post" src="assets/Dashboard/user.png">\n          </div>\n          <div class="header1" (click)="navigatetocomment()">\n              <img class="img-post" src="assets/Dashboard/msg.png">\n            </div>\n            <div class="header1">\n                <img class="img-post" src="assets/Dashboard/error.png">\n              </div>\n    \n        </div>\n        <div class="social-img">\n       \n          <div class="header1" >\n             <img class="img-post" src="assets/Dashboard/share-gray.png">\n             <div class="share-div" (click)="tapshow1()"></div>\n           </div>\n           <div class="header1" (click)="followedartist()">\n               <img class="img-post" src="assets/Dashboard/user.png">\n             </div>\n             <div class="header1" (click)="navigatetocomment()">\n                 <img class="img-post" src="assets/Dashboard/msg.png">\n               </div>\n               <div class="header1" (click)="reportnavigate()">\n                   <img class="img-post" src="assets/Dashboard/error.png">\n                 </div>\n     \n           </div>\n      </div>\n      </ion-row> -->\n        <ion-row\n          *ngFor="let value of profilerecentcharts;let i=index"\n          style="margin-top: -10px; margin-bottom: 26px;"\n        >\n          <div class="image-tag">\n            <img\n              style="width: 89%; object-fit: cover; background-color: #2e2e2e;"\n              [src]="value.media_thumbnail_url"\n            />\n          </div>\n          <div class="img-box">\n            <div class="img-content">\n              <div (click)="viewvideo1(i)" class="cat-div">\n                <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->\n                <ion-row>\n                  <ion-col col-8>\n                    <img\n                      *ngIf="value.media_type==\'video/mp4\'||value.media_type==\'youtube\' || value.media_type==\'audio/mpeg\' || value.media_type==\'audio/mp3\'"\n                      class="play-style"\n                      src="assets/play.png"\n                    />\n                  </ion-col>\n                  <ion-col col-4>\n                    <!-- <img class="cat-icon" [src]="value.small_image_url"> -->\n                    <img class="cat-icon" [src]="value.mediathumbnailuser" />\n                  </ion-col>\n                </ion-row>\n              </div>\n              <div class="details">\n                <ion-row>\n                  <ion-col col-5>\n                    <div class="details-1">\n                      <p class="title">{{value.usermedia_name}}</p>\n                      <p class="arts">{{value.artforms}}</p>\n                      <!-- <div *ngIf="user_display_name!=value.user_display_name" class="stars" (click)="openstar(value.rating,value.usermediaid,value.user_display_name)"> <ionic3-star-rating  -->\n                      <div\n                        *ngIf="user_display_name!=value.user_display_name"\n                        class="stars"\n                        (click)="openstar(value.usermediaid)"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="false"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n\n                      <div\n                        *ngIf="user_display_name==value.user_display_name"\n                        class="stars"\n                      >\n                        <ionic3-star-rating\n                          activeIcon="ios-star"\n                          defaultIcon="ios-star-outline"\n                          activeColor="rgb(228, 215, 38)"\n                          defaultColor="#f4f4f4"\n                          readonly="true"\n                          [rating]="value.rating"\n                        >\n                        </ionic3-star-rating>\n                      </div>\n                    </div>\n                  </ion-col>\n                  <ion-col col-4>\n                    <div class="details-2">\n                      <p class="author-name">{{value.user_display_name}}</p>\n                      <!-- <p class="post-time">{{value.usermedia_posted}}</p> -->\n                    </div>\n                  </ion-col>\n                  <ion-col col-3>\n                    <figure class="author-img">\n                      <img\n                        (click)="artistpro(i)"\n                        style="border-radius: 35px;"\n                        class="custom-cat-icon"\n                        [src]="value.user_avatar"\n                      />\n                    </figure>\n                  </ion-col>\n                </ion-row>\n              </div>\n              <!-- <div class="detail-grid">\n             \n           <div style="margin-top: 6px;" class="detail-div" >\n              <p style="font-weight: bold;" class="music-type">{{value.usermedia_name}}</p>\n              <p class="title-type">{{value.toptypeprofile}}</p>\n              <div class="star-div" > \n                <ionic3-star-rating (click)="openstar(value.usermediaid)" *ngIf="user_display_name!=value.user_display_name"\n               activeIcon = "ios-star"\n               defaultIcon = "ios-star-outline"\n               activeColor = "rgb(228, 215, 38)" \n               defaultColor = "#f4f4f4"\n               readonly="false"\n               [rating]="value.totalRating">\n           </ionic3-star-rating>\n           <ionic3-star-rating *ngIf="user_display_name==value.user_display_name"\n           activeIcon = "ios-star"\n           defaultIcon = "ios-star-outline"\n           activeColor = "rgb(228, 215, 38)" \n           defaultColor = "#f4f4f4"\n           readonly="true"\n           [rating]="value.totalRating">\n       </ionic3-star-rating>\n          </div>\n           </div>\n           \n           <div style="text-align:right; " class="detail-div1" (click)="artistpro()">\n             <div class="author-box">\n             <p style="    height: 0px;font-weight: bold">{{displayname}}</p>\n             <p>{{value.usermedia_posted}}</p>\n             </div>\n           </div>\n           <div   class="detail-div userpic">\n             <img class="userimage" [src]="value.user_profile_avatar">\n           </div>\n           </div> -->\n            </div>\n          </div>\n          <div class="post-img">\n            <div class="social-img">\n              <div class="header1">\n                <img class="img-post" src="assets/Dashboard/share-gray.png" />\n                <div class="share-div" (click)="tapshow2(i)"></div>\n              </div>\n              <div class="header1" (click)="followedartist(value.artist_id)">\n                <img class="img-post" src="assets/Dashboard/user.png" />\n              </div>\n              <div class="header1" (click)="navigatetocomment1(i)">\n                <img class="img-post" src="assets/Dashboard/msg.png" />\n              </div>\n              <div class="header1" (click)="reportnavigate()">\n                <img class="img-post" src="assets/Dashboard/error.png" />\n              </div>\n            </div>\n          </div>\n        </ion-row>\n        <ion-infinite-scroll\n          (ionInfinite)="loadMore($event)"\n          loadingSpinner="bubbles"\n          loadingText="Loading data..."\n        >\n          <ion-infinite-scroll-content></ion-infinite-scroll-content>\n        </ion-infinite-scroll>\n      </ion-list>\n    </div>\n  </div>\n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/artistprofilepage/artistprofilepage.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_15__providers_dashboardservice_dashboardservice__["a" /* DashboardserviceProvider */], __WEBPACK_IMPORTED_MODULE_14__providers_security_security__["a" /* SecurityProvider */], __WEBPACK_IMPORTED_MODULE_12__ionic_native_file_transfer__["a" /* FileTransfer */], __WEBPACK_IMPORTED_MODULE_11__ionic_native_camera__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_10__ionic_native_file_chooser__["a" /* FileChooser */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */], __WEBPACK_IMPORTED_MODULE_9__ionic_native_native_page_transitions__["a" /* NativePageTransitions */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_14__providers_dashboardservice_dashboardservice__["a" /* DashboardserviceProvider */],
+            __WEBPACK_IMPORTED_MODULE_13__providers_security_security__["a" /* SecurityProvider */],
+            __WEBPACK_IMPORTED_MODULE_11__ionic_native_file_transfer__["a" /* FileTransfer */],
+            __WEBPACK_IMPORTED_MODULE_10__ionic_native_camera__["a" /* Camera */],
+            __WEBPACK_IMPORTED_MODULE_9__ionic_native_file_chooser__["a" /* FileChooser */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* PopoverController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], ArtistprofilepagePage);
     return ArtistprofilepagePage;
 }());
@@ -6556,16 +6645,15 @@ var ArtistprofilepagePage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CommentsboxPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__artistprofilepage_artistprofilepage__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_native_page_transitions__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__popoverpageshare_popoverpageshare__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__followedartist_followedartist__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__reportprob_reportprob__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__viewtalent_viewtalent__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_security_security__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__popoverpageshare_popoverpageshare__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__followedartist_followedartist__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__reportprob_reportprob__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__viewtalent_viewtalent__ = __webpack_require__(57);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6578,7 +6666,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
+// import {
+//   NativePageTransitions,
+//   NativeTransitionOptions,
+// } from "@ionic-native/native-page-transitions";
 
 
 
@@ -6592,14 +6683,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var CommentsboxPage = (function () {
-    function CommentsboxPage(event, modalCtrl, popoverCtrl, alertCtrl, security, nativePageTransitions, viewCtrl, navCtrl, navParams) {
+    function CommentsboxPage(event, modalCtrl, popoverCtrl, alertCtrl, security, 
+        // private nativePageTransitions: NativePageTransitions,
+        viewCtrl, navCtrl, navParams) {
         var _this = this;
         this.event = event;
         this.modalCtrl = modalCtrl;
         this.popoverCtrl = popoverCtrl;
         this.alertCtrl = alertCtrl;
         this.security = security;
-        this.nativePageTransitions = nativePageTransitions;
         this.viewCtrl = viewCtrl;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
@@ -6612,7 +6704,7 @@ var CommentsboxPage = (function () {
         // localStorage['usermedia']='130189'
     }
     CommentsboxPage.prototype.share = function () {
-        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_6__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], {
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_5__popoverpageshare_popoverpageshare__["a" /* PopoverpagesharePage */], {
             image: this.category_image_url,
             artistname: this.user_display_name,
             user_url: this.userurl,
@@ -6621,28 +6713,28 @@ var CommentsboxPage = (function () {
     };
     CommentsboxPage.prototype.followuser = function () {
         var _this = this;
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(null)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(null)
             .flatMap(function () { return _this.security.artistfollowed(_this.artist_id); })
             .subscribe(function (data) {
             console.log(data.status);
-            var modalfollow = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_7__followedartist_followedartist__["a" /* FollowedartistPage */], {
+            var modalfollow = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_6__followedartist_followedartist__["a" /* FollowedartistPage */], {
                 msg: data.status,
             });
             modalfollow.present();
         });
     };
     CommentsboxPage.prototype.reportnavigate = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_8__reportprob_reportprob__["a" /* ReportprobPage */], {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_7__reportprob_reportprob__["a" /* ReportprobPage */], {
             usermediaid: this.usermediaid,
         });
         modal.present();
     };
     CommentsboxPage.prototype.votesuccefully = function () {
         var _this = this;
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(null)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(null)
             .flatMap(function () { return _this.security.starmedia(_this.actualrate, _this.usermediaid); })
             .subscribe(function (data) {
-            var modal = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_9__viewtalent_viewtalent__["a" /* ViewtalentPage */], {
+            var modal = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_8__viewtalent_viewtalent__["a" /* ViewtalentPage */], {
                 rate: _this.actualrate,
             });
             modal.present();
@@ -6663,7 +6755,7 @@ var CommentsboxPage = (function () {
         if (localStorage.getItem("usermedia")) {
             this.usermediaid = localStorage.getItem("usermedia");
             // localStorage.removeItem('usermedia')
-            __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.loading)
+            __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.loading)
                 .flatMap(function () { return _this.security.getMediadetails(); })
                 .subscribe(function (data) {
                 console.log("1", data.playerMedia[0].UserMedia.media_thumbnail_url);
@@ -6754,7 +6846,7 @@ var CommentsboxPage = (function () {
             }
         }
         //  alert('this.usermediaid'+this.usermediaid)
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.loading)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.loading)
             .flatMap(function () { return _this.security.comments(_this.usermediaid); })
             .subscribe(function (data) {
             //  alert('data'+JSON.stringify(data))
@@ -6776,7 +6868,7 @@ var CommentsboxPage = (function () {
         this.loadingsend = false;
         this.editsend = false;
         this.send = false;
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.loadingsend)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.loadingsend)
             .flatMap(function () {
             return _this.security.editsubcomments(_this.comments, _this.subeditmediacomment_id, _this.usermediaid, _this.editmediacomment_id);
         })
@@ -6799,7 +6891,7 @@ var CommentsboxPage = (function () {
         var _this = this;
         this.loadingsend = false;
         this.send = false;
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.loading)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.loading)
             .flatMap(function () {
             return _this.security.editcomments(_this.comments, _this.mediacomment_id, _this.usermediaid);
         })
@@ -6813,7 +6905,7 @@ var CommentsboxPage = (function () {
         var _this = this;
         this.loadingeditsend = false;
         this.editdeleteid = id;
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.loadingeditsend)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.loadingeditsend)
             .flatMap(function () { return _this.security.deletesubcomments(id); })
             .subscribe(function (data) {
             _this.editdeletemsg();
@@ -6821,7 +6913,7 @@ var CommentsboxPage = (function () {
     };
     CommentsboxPage.prototype.editdeletemsg = function () {
         var _this = this;
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.loadingeditsend)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.loadingeditsend)
             .flatMap(function () { return _this.security.comments(_this.usermediaid); })
             .subscribe(function (data) {
             _this.loadingeditsend = true;
@@ -6829,12 +6921,12 @@ var CommentsboxPage = (function () {
         });
     };
     CommentsboxPage.prototype.close = function () {
-        var options = {
-            direction: "down",
-            duration: 500,
-            slowdownfactor: -1,
-        };
-        this.nativePageTransitions.slide(options);
+        // let options: NativeTransitionOptions = {
+        //   direction: "down",
+        //   duration: 500,
+        //   slowdownfactor: -1,
+        // };
+        // this.nativePageTransitions.slide(options);
         this.navCtrl.pop();
     };
     CommentsboxPage.prototype.profilepic = function () {
@@ -6843,7 +6935,7 @@ var CommentsboxPage = (function () {
     CommentsboxPage.prototype.sendbutton = function () {
         var _this = this;
         this.loadingsend = false;
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.loadingsend)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.loadingsend)
             .flatMap(function () { return _this.security.addcomments(_this.usermediaid, _this.comments); })
             .subscribe(function (data) {
             _this.refreshmsg();
@@ -6853,7 +6945,7 @@ var CommentsboxPage = (function () {
         var _this = this;
         console.log("ionViewDidLoad CommentsboxPage");
         this.usermediaid = this.navParams.get("usermediaid");
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.loadingsend)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.loadingsend)
             .flatMap(function () { return _this.security.comments(_this.usermediaid); })
             .subscribe(function (data) {
             _this.loadingsend = true;
@@ -6867,7 +6959,7 @@ var CommentsboxPage = (function () {
         this.loadingsend1 = false;
         this.deleteid = id;
         console.log(this.deleteid);
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.loadingsend1)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.loadingsend1)
             .flatMap(function () { return _this.security.deletecomments(mediacomment_id); })
             .subscribe(function (data) {
             _this.deletemsg();
@@ -6876,7 +6968,7 @@ var CommentsboxPage = (function () {
     CommentsboxPage.prototype.deletemsg = function () {
         var _this = this;
         this.usermediaid = this.navParams.get("usermediaid");
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.loadingsend1)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.loadingsend1)
             .flatMap(function () { return _this.security.comments(_this.usermediaid); })
             .subscribe(function (data) {
             _this.loadingsend1 = true;
@@ -6919,7 +7011,7 @@ var CommentsboxPage = (function () {
         this.replyid = i;
         this.usermediaid;
         this.replyloader = false;
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.replyloader)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.replyloader)
             .flatMap(function () {
             return _this.security.subcomments(_this.usermediaid, mediacomment_id, comments);
         })
@@ -6930,7 +7022,7 @@ var CommentsboxPage = (function () {
     CommentsboxPage.prototype.refreshreply = function () {
         var _this = this;
         this.usermediaid = this.navParams.get("usermediaid");
-        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(this.replyloader)
+        __WEBPACK_IMPORTED_MODULE_3_rxjs__["Observable"].of(this.replyloader)
             .flatMap(function () { return _this.security.comments(_this.usermediaid); })
             .subscribe(function (data) {
             _this.replyloader = true;
@@ -6946,8 +7038,7 @@ var CommentsboxPage = (function () {
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ModalController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* PopoverController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_security_security__["a" /* SecurityProvider */],
-            __WEBPACK_IMPORTED_MODULE_3__ionic_native_native_page_transitions__["a" /* NativePageTransitions */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_security_security__["a" /* SecurityProvider */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* ViewController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
@@ -6965,11 +7056,11 @@ var CommentsboxPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverpagesharePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_social_sharing__ = __webpack_require__(344);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_pinterest__ = __webpack_require__(345);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_branch_io__ = __webpack_require__(156);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_in_app_browser__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_social_sharing__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_pinterest__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_branch_io__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_in_app_browser__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7233,7 +7324,7 @@ var PopoverpagesharePage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReportprobPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_security_security__ = __webpack_require__(27);
@@ -7318,7 +7409,7 @@ var ReportprobPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FollowedartistPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7375,7 +7466,7 @@ var FollowedartistPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ViewtalentPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7419,7 +7510,7 @@ var ViewtalentPage = (function () {
 
 /***/ }),
 
-/***/ 707:
+/***/ 706:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7441,24 +7532,24 @@ var ENV = Live;
 
 /***/ }),
 
-/***/ 746:
+/***/ 745:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(391);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(390);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(390);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(389);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_commentsbox_commentsbox__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_security_security__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_Rx__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_Rx__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_branch_io__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_branch_io__ = __webpack_require__(155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_artistprofilepage_artistprofilepage__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_onesignal__ = __webpack_require__(392);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_unique_device_id__ = __webpack_require__(158);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_device__ = __webpack_require__(393);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_onesignal__ = __webpack_require__(391);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_unique_device_id__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_device__ = __webpack_require__(392);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7783,7 +7874,7 @@ var MyApp = (function () {
 
 /***/ }),
 
-/***/ 747:
+/***/ 746:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7825,7 +7916,7 @@ var LoaderdataComponent = (function () {
 
 /***/ }),
 
-/***/ 748:
+/***/ 747:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7883,7 +7974,7 @@ var ComponentsExpandableComponent = (function () {
 
 /***/ }),
 
-/***/ 755:
+/***/ 754:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7927,17 +8018,17 @@ var ProgressbarComponent = (function () {
 
 /***/ }),
 
-/***/ 77:
+/***/ 76:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ViewvideoplayPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__ = __webpack_require__(157);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_document_viewer__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_in_app_browser__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_document_viewer__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_in_app_browser__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -8122,13 +8213,13 @@ var ViewvideoplayPage = (function () {
 
 /***/ }),
 
-/***/ 78:
+/***/ 77:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DashboardserviceProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(75);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -8721,5 +8812,5 @@ var DashboardserviceProvider = (function () {
 
 /***/ })
 
-},[403]);
+},[402]);
 //# sourceMappingURL=main.js.map

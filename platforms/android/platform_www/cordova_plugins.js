@@ -380,12 +380,18 @@ module.exports = [
     ]
   },
   {
-    "id": "com.telerik.plugins.nativepagetransitions.NativePageTransitions",
-    "file": "plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js",
-    "pluginId": "com.telerik.plugins.nativepagetransitions",
+    "id": "cordova-plugin-ionic-webview.IonicWebView",
+    "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
+    "pluginId": "cordova-plugin-ionic-webview",
     "clobbers": [
-      "window.plugins.nativepagetransitions"
+      "Ionic.WebView"
     ]
+  },
+  {
+    "id": "es6-promise-plugin.Promise",
+    "file": "plugins/es6-promise-plugin/www/promise.js",
+    "pluginId": "es6-promise-plugin",
+    "runs": true
   },
   {
     "id": "cordova-plugin-x-socialsharing.SocialSharing",
@@ -393,14 +399,6 @@ module.exports = [
     "pluginId": "cordova-plugin-x-socialsharing",
     "clobbers": [
       "window.plugins.socialsharing"
-    ]
-  },
-  {
-    "id": "cordova-plugin-ionic-webview.IonicWebView",
-    "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
-    "pluginId": "cordova-plugin-ionic-webview",
-    "clobbers": [
-      "Ionic.WebView"
     ]
   }
 ];
@@ -426,9 +424,9 @@ module.exports.metadata =
   "branch-cordova-sdk": "4.1.2",
   "onesignal-cordova-plugin": "2.9.1",
   "cordova-plugin-inappbrowser": "3.2.0",
-  "com.telerik.plugins.nativepagetransitions": "0.6.5",
-  "cordova-plugin-x-socialsharing": "5.1.1",
-  "cordova-plugin-ionic-webview": "2.5.1"
+  "cordova-plugin-ionic-webview": "2.5.1",
+  "es6-promise-plugin": "4.2.2",
+  "cordova-plugin-x-socialsharing": "5.6.4"
 };
 // BOTTOM OF METADATA
 });
