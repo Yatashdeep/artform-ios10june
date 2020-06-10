@@ -117,9 +117,7 @@
       "cordova-plugin-inappbrowser": {},
       "com.telerik.plugins.nativepagetransitions": {},
       "cordova-plugin-x-socialsharing": {},
-      "cordova-plugin-ionic-webview": {
-        "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
-      }
+      "cordova-plugin-ionic-webview": {}
     },
     "platforms": [
       "android",
