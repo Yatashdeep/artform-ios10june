@@ -17,10 +17,10 @@ import { CategorytabpagePage } from "../categorytabpage/categorytabpage";
 import { ArtistprofilepagePage } from "../artistprofilepage/artistprofilepage";
 import { ViewtalentPage } from "../viewtalent/viewtalent";
 import { FollowedartistPage } from "../followedartist/followedartist";
-import {
-  NativePageTransitions,
-  NativeTransitionOptions,
-} from "@ionic-native/native-page-transitions";
+// import {
+//   NativePageTransitions,
+//   NativeTransitionOptions,
+// } from "@ionic-native/native-page-transitions";
 import { ViewvideoplayPage } from "../viewvideoplay/viewvideoplay";
 import { SecurityProvider } from "../../providers/security/security";
 import { Observable } from "rxjs";
@@ -81,7 +81,7 @@ export class DashboardPage {
     public dashboard: DashboardserviceProvider,
     public service: SecurityProvider,
     public loadingCtrl: LoadingController,
-    private nativePageTransitions: NativePageTransitions,
+    // private nativePageTransitions: NativePageTransitions,
     public popoverCtrl: PopoverController,
     public modalCtrl: ModalController,
     public navCtrl: NavController,
@@ -297,13 +297,13 @@ export class DashboardPage {
 
   navigatetomsg(id) {
     localStorage.removeItem("usermedia");
-    let options: NativeTransitionOptions = {
-      direction: "up",
-      duration: 500,
-      slowdownfactor: 2,
-    };
+    // let options: NativeTransitionOptions = {
+    //   direction: "up",
+    //   duration: 500,
+    //   slowdownfactor: 2,
+    // };
 
-    this.nativePageTransitions.slide(options);
+    // this.nativePageTransitions.slide(options);
     let commentsbox = this.modalCtrl.create(CommentsboxPage, {
       usermediaid: this.recentdata[id].usermediaid,
       mediapic: this.recentdata[id].category_image_url,
@@ -325,13 +325,13 @@ export class DashboardPage {
 
   navigatetomsgtop(id) {
     // alert(id)
-    let options: NativeTransitionOptions = {
-      direction: "up",
-      duration: 500,
-      slowdownfactor: 2,
-    };
+    // let options: NativeTransitionOptions = {
+    //   direction: "up",
+    //   duration: 500,
+    //   slowdownfactor: 2,
+    // };
 
-    this.nativePageTransitions.slide(options);
+    // this.nativePageTransitions.slide(options);
     let commentsbox = this.modalCtrl.create(CommentsboxPage, {
       usermediaid: this.playerlist[id].usermedia_id,
       mediapic: this.playerlist[id].usermedia_path,

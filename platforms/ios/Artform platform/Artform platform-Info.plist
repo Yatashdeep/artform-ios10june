@@ -101,6 +101,8 @@
 	<string>315436965794053</string>
 	<key>FacebookDisplayName</key>
 	<string>ArtFormPlatform</string>
+	<key>FacebookHybridAppEvents</key>
+	<string>false</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
@@ -116,12 +118,5 @@
 	<array>
 		<string>remote-notification</string>
 	</array>
-	<key>Fabric</key>
-	<dict>
-		<key>APIKey</key>
-		<string>3218c800211db53bb90e77910223b6eef082f76a</string>
-		<key>Kits</key>
-		<array/>
-	</dict>
 </dict>
 </plist>

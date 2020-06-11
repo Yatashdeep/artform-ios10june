@@ -10,7 +10,7 @@ import {
   Events,
 } from "ionic-angular";
 //import { TabspagePage } from '../tabspage/tabspage';
-import { TwitterConnect } from "@ionic-native/twitter-connect";
+// import { TwitterConnect } from "@ionic-native/twitter-connect";
 //import { GooglePlus } from '@ionic-native/google-plus';
 import {
   FormBuilder,
@@ -81,7 +81,7 @@ export class SecuritypanelPage {
     public loadingCtrl: LoadingController,
     public facebook: Facebook,
     public formBuilder: FormBuilder,
-    private twitter: TwitterConnect,
+    // private twitter: TwitterConnect,
     public navCtrl: NavController,
     public navParams: NavParams,
     public alertCtrl: AlertController
@@ -515,46 +515,43 @@ export class SecuritypanelPage {
     //  this.navCtrl.parent.select(1)
     // this.navCtrl.parent.select(2);
   }
-  twLogin() {
-    this.twitter.login().then(
-      (data) => {
-        // alert('hope'+JSON.stringify(data))
-        this.twitter.showUser().then(
-          (user) => {
-            alert("success" + JSON.stringify(user));
-            //   alert("user_id"+user.id)
-            //   alert("user_name"+user.name)
-            //   alert("display_name"+user.screen_name)
-            //   alert("profile_image_url"+user.profile_image_url)
-            this.sociallogintwitter(
-              user.id,
-              user.name,
-              user.screen_name,
-              user.profile_image_url
-            );
-          },
-          (err) => {
-            // default twitter image is too small https://developer.twitter.com/en/docs/accounts-and-users/user-profile-images-and-banners
-            var profile_image = err.profile_image_url_https.replace(
-              "_normal",
-              ""
-            );
+  // twLogin() {
+  //   this.twitter.login().then(
+  //     (data) => {
+  //       // alert('hope'+JSON.stringify(data))
+  //       this.twitter.showUser().then(
+  //         (user) => {
+  //           alert("success" + JSON.stringify(user));
 
-            // alert(err.name)
-            //  alert(err.screen_name)
-            // alert(err.followers_count)
-            // alert(profile_image)
-          }
-        ),
-          (error) => {
-            alert("error" + error);
-          };
-      },
-      (error) => {
-        alert("error2" + error);
-      }
-    );
-  }
+  //           this.sociallogintwitter(
+  //             user.id,
+  //             user.name,
+  //             user.screen_name,
+  //             user.profile_image_url
+  //           );
+  //         },
+  //         (err) => {
+  //           // default twitter image is too small https://developer.twitter.com/en/docs/accounts-and-users/user-profile-images-and-banners
+  //           var profile_image = err.profile_image_url_https.replace(
+  //             "_normal",
+  //             ""
+  //           );
+
+  //           // alert(err.name)
+  //           //  alert(err.screen_name)
+  //           // alert(err.followers_count)
+  //           // alert(profile_image)
+  //         }
+  //       ),
+  //         (error) => {
+  //           alert("error" + error);
+  //         };
+  //     },
+  //     (error) => {
+  //       alert("error2" + error);
+  //     }
+  //   );
+  // }
   sociallogintwitter(socialid, displayName, firtsname, profile_pic) {
     let loading = this.loadingCtrl.create({
       spinner: "hide",

@@ -6,11 +6,11 @@ import {
   ViewController,
 } from "ionic-angular";
 import { DomSanitizer } from "@angular/platform-browser";
-import { YoutubeVideoPlayer } from "@ionic-native/youtube-video-player";
-import {
-  DocumentViewer,
-  DocumentViewerOptions,
-} from "@ionic-native/document-viewer";
+//import { YoutubeVideoPlayer } from "@ionic-native/youtube-video-player";
+// import {
+//   DocumentViewer,
+//   DocumentViewerOptions,
+// } from "@ionic-native/document-viewer";
 //import { InAppBrowser } from "@ionic-native/in-app-browser";
 /**
  * Generated class for the ViewvideoplayPage page.
@@ -36,13 +36,13 @@ export class ViewvideoplayPage {
   mediatypes;
   constructor(
     //  public iab: InAppBrowser,
-    public document: DocumentViewer,
+    //  public document: DocumentViewer,
     public santizer: DomSanitizer,
     public viewCtrl: ViewController,
     public navCtrl: NavController,
-    public navParams: NavParams,
-    private youtube: YoutubeVideoPlayer
-  ) {
+    public navParams: NavParams
+  ) // private youtube: YoutubeVideoPlayer
+  {
     // alert("nwbi");
     this.mediatypes = false;
   }

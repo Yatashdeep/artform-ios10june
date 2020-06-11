@@ -1,76 +1,11 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
   {
-    "id": "cordova-plugin-device.device",
-    "file": "plugins/cordova-plugin-device/www/device.js",
-    "pluginId": "cordova-plugin-device",
-    "clobbers": [
-      "device"
-    ]
-  },
-  {
-    "id": "cordova-plugin-facebook4.FacebookConnectPlugin",
-    "file": "plugins/cordova-plugin-facebook4/www/facebook-native.js",
-    "pluginId": "cordova-plugin-facebook4",
-    "clobbers": [
-      "facebookConnectPlugin"
-    ]
-  },
-  {
     "id": "cordova-plugin-splashscreen.SplashScreen",
     "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
     "pluginId": "cordova-plugin-splashscreen",
     "clobbers": [
       "navigator.splashscreen"
-    ]
-  },
-  {
-    "id": "ionic-plugin-keyboard.keyboard",
-    "file": "plugins/ionic-plugin-keyboard/www/android/keyboard.js",
-    "pluginId": "ionic-plugin-keyboard",
-    "clobbers": [
-      "cordova.plugins.Keyboard"
-    ],
-    "runs": true
-  },
-  {
-    "id": "twitter-connect-plugin.TwitterConnect",
-    "file": "plugins/twitter-connect-plugin/www/TwitterConnect.js",
-    "pluginId": "twitter-connect-plugin",
-    "clobbers": [
-      "TwitterConnect"
-    ]
-  },
-  {
-    "id": "cordova-plugin-camera.Camera",
-    "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
-    "pluginId": "cordova-plugin-camera",
-    "clobbers": [
-      "Camera"
-    ]
-  },
-  {
-    "id": "cordova-plugin-camera.CameraPopoverOptions",
-    "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
-    "pluginId": "cordova-plugin-camera",
-    "clobbers": [
-      "CameraPopoverOptions"
-    ]
-  },
-  {
-    "id": "cordova-plugin-camera.camera",
-    "file": "plugins/cordova-plugin-camera/www/Camera.js",
-    "pluginId": "cordova-plugin-camera",
-    "clobbers": [
-      "navigator.camera"
-    ]
-  },
-  {
-    "id": "cordova-plugin-camera.CameraPopoverHandle",
-    "file": "plugins/cordova-plugin-camera/www/CameraPopoverHandle.js",
-    "pluginId": "cordova-plugin-camera",
-    "clobbers": [
-      "CameraPopoverHandle"
     ]
   },
   {
@@ -271,71 +206,11 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-document-viewer.SitewaertsDocumentViewer",
-    "file": "plugins/cordova-plugin-document-viewer/www/sitewaertsdocumentviewer.js",
-    "pluginId": "cordova-plugin-document-viewer",
-    "clobbers": [
-      "cordova.plugins.SitewaertsDocumentViewer",
-      "SitewaertsDocumentViewer"
-    ]
-  },
-  {
-    "id": "cordova-plugin-youtube-video-player.YoutubeVideoPlayer",
-    "file": "plugins/cordova-plugin-youtube-video-player/plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/www/YoutubeVideoPlayer.js",
-    "pluginId": "cordova-plugin-youtube-video-player",
-    "clobbers": [
-      "YoutubeVideoPlayer"
-    ]
-  },
-  {
     "id": "cordova-plugin-uniquedeviceid.UniqueDeviceID",
     "file": "plugins/cordova-plugin-uniquedeviceid/www/uniqueid.js",
     "pluginId": "cordova-plugin-uniquedeviceid",
     "merges": [
       "window.plugins.uniqueDeviceID"
-    ]
-  },
-  {
-    "id": "cordova-plugin-advanced-http.lodash",
-    "file": "plugins/cordova-plugin-advanced-http/www/lodash.js",
-    "pluginId": "cordova-plugin-advanced-http"
-  },
-  {
-    "id": "cordova-plugin-advanced-http.tough-cookie",
-    "file": "plugins/cordova-plugin-advanced-http/www/umd-tough-cookie.js",
-    "pluginId": "cordova-plugin-advanced-http"
-  },
-  {
-    "id": "cordova-plugin-advanced-http.messages",
-    "file": "plugins/cordova-plugin-advanced-http/www/messages.js",
-    "pluginId": "cordova-plugin-advanced-http"
-  },
-  {
-    "id": "cordova-plugin-advanced-http.local-storage-store",
-    "file": "plugins/cordova-plugin-advanced-http/www/local-storage-store.js",
-    "pluginId": "cordova-plugin-advanced-http"
-  },
-  {
-    "id": "cordova-plugin-advanced-http.cookie-handler",
-    "file": "plugins/cordova-plugin-advanced-http/www/cookie-handler.js",
-    "pluginId": "cordova-plugin-advanced-http"
-  },
-  {
-    "id": "cordova-plugin-advanced-http.angular-integration",
-    "file": "plugins/cordova-plugin-advanced-http/www/angular-integration.js",
-    "pluginId": "cordova-plugin-advanced-http"
-  },
-  {
-    "id": "cordova-plugin-advanced-http.helpers",
-    "file": "plugins/cordova-plugin-advanced-http/www/helpers.js",
-    "pluginId": "cordova-plugin-advanced-http"
-  },
-  {
-    "id": "cordova-plugin-advanced-http.http",
-    "file": "plugins/cordova-plugin-advanced-http/www/advanced-http.js",
-    "pluginId": "cordova-plugin-advanced-http",
-    "clobbers": [
-      "cordova.plugin.http"
     ]
   },
   {
@@ -371,6 +246,135 @@ module.exports = [
     ]
   },
   {
+    "id": "cordova-plugin-ionic-webview.IonicWebView",
+    "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
+    "pluginId": "cordova-plugin-ionic-webview",
+    "clobbers": [
+      "Ionic.WebView"
+    ]
+  },
+  {
+    "id": "cordova-plugin-advanced-http.cookie-handler",
+    "file": "plugins/cordova-plugin-advanced-http/www/cookie-handler.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.dependency-validator",
+    "file": "plugins/cordova-plugin-advanced-http/www/dependency-validator.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.error-codes",
+    "file": "plugins/cordova-plugin-advanced-http/www/error-codes.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.global-configs",
+    "file": "plugins/cordova-plugin-advanced-http/www/global-configs.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.helpers",
+    "file": "plugins/cordova-plugin-advanced-http/www/helpers.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.js-util",
+    "file": "plugins/cordova-plugin-advanced-http/www/js-util.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.local-storage-store",
+    "file": "plugins/cordova-plugin-advanced-http/www/local-storage-store.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.lodash",
+    "file": "plugins/cordova-plugin-advanced-http/www/lodash.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.messages",
+    "file": "plugins/cordova-plugin-advanced-http/www/messages.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.ponyfills",
+    "file": "plugins/cordova-plugin-advanced-http/www/ponyfills.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.public-interface",
+    "file": "plugins/cordova-plugin-advanced-http/www/public-interface.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.tough-cookie",
+    "file": "plugins/cordova-plugin-advanced-http/www/umd-tough-cookie.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.url-util",
+    "file": "plugins/cordova-plugin-advanced-http/www/url-util.js",
+    "pluginId": "cordova-plugin-advanced-http"
+  },
+  {
+    "id": "cordova-plugin-advanced-http.http",
+    "file": "plugins/cordova-plugin-advanced-http/www/advanced-http.js",
+    "pluginId": "cordova-plugin-advanced-http",
+    "clobbers": [
+      "cordova.plugin.http"
+    ]
+  },
+  {
+    "id": "cordova-plugin-camera.Camera",
+    "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
+    "pluginId": "cordova-plugin-camera",
+    "clobbers": [
+      "Camera"
+    ]
+  },
+  {
+    "id": "cordova-plugin-camera.CameraPopoverOptions",
+    "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
+    "pluginId": "cordova-plugin-camera",
+    "clobbers": [
+      "CameraPopoverOptions"
+    ]
+  },
+  {
+    "id": "cordova-plugin-camera.camera",
+    "file": "plugins/cordova-plugin-camera/www/Camera.js",
+    "pluginId": "cordova-plugin-camera",
+    "clobbers": [
+      "navigator.camera"
+    ]
+  },
+  {
+    "id": "cordova-plugin-camera.CameraPopoverHandle",
+    "file": "plugins/cordova-plugin-camera/www/CameraPopoverHandle.js",
+    "pluginId": "cordova-plugin-camera",
+    "clobbers": [
+      "CameraPopoverHandle"
+    ]
+  },
+  {
+    "id": "cordova-plugin-device.device",
+    "file": "plugins/cordova-plugin-device/www/device.js",
+    "pluginId": "cordova-plugin-device",
+    "clobbers": [
+      "device"
+    ]
+  },
+  {
+    "id": "cordova-plugin-facebook4.FacebookConnectPlugin",
+    "file": "plugins/cordova-plugin-facebook4/www/facebook-native.js",
+    "pluginId": "cordova-plugin-facebook4",
+    "clobbers": [
+      "facebookConnectPlugin"
+    ]
+  },
+  {
     "id": "es6-promise-plugin.Promise",
     "file": "plugins/es6-promise-plugin/www/promise.js",
     "pluginId": "es6-promise-plugin",
@@ -383,40 +387,28 @@ module.exports = [
     "clobbers": [
       "window.plugins.socialsharing"
     ]
-  },
-  {
-    "id": "cordova-plugin-ionic-webview.IonicWebView",
-    "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
-    "pluginId": "cordova-plugin-ionic-webview",
-    "clobbers": [
-      "Ionic.WebView"
-    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-  "cordova-plugin-device": "1.1.4",
-  "cordova-plugin-facebook4": "1.9.1",
   "cordova-plugin-splashscreen": "4.0.3",
   "cordova-plugin-whitelist": "1.3.1",
-  "ionic-plugin-keyboard": "2.2.1",
-  "twitter-connect-plugin": "0.6.0",
-  "cordova-plugin-camera": "4.0.3",
   "cordova-plugin-file": "6.0.1",
   "cordova-plugin-file-transfer": "1.7.1",
   "cordova-plugin-filechooser": "1.2.0",
-  "cordova-plugin-document-viewer": "0.9.11",
-  "cordova-plugin-youtube-video-player": "2.4.0",
   "cordova-plugin-uniquedeviceid": "1.3.2",
-  "cordova-plugin-advanced-http": "1.10.0",
   "cordova-plugin-filepath": "1.5.8",
   "cordova-plugin-filepicker": "1.1.6",
   "branch-cordova-sdk": "4.1.2",
   "onesignal-cordova-plugin": "2.9.1",
+  "cordova-plugin-ionic-webview": "5.0.0",
+  "cordova-plugin-advanced-http": "2.4.0",
+  "cordova-plugin-camera": "4.1.0",
+  "cordova-plugin-device": "2.0.3",
+  "cordova-plugin-facebook4": "1.9.1",
   "es6-promise-plugin": "4.2.2",
-  "cordova-plugin-x-socialsharing": "5.6.4",
-  "cordova-plugin-ionic-webview": "5.0.0"
+  "cordova-plugin-x-socialsharing": "5.6.4"
 };
 // BOTTOM OF METADATA
 });

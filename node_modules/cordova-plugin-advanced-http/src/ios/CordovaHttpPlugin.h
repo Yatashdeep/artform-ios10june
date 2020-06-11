@@ -4,15 +4,15 @@
 
 @interface CordovaHttpPlugin : CDVPlugin
 
-- (void)enableSSLPinning:(CDVInvokedUrlCommand*)command;
-- (void)acceptAllCerts:(CDVInvokedUrlCommand*)command;
-- (void)disableRedirect:(CDVInvokedUrlCommand*)command;
+- (void)setServerTrustMode:(CDVInvokedUrlCommand*)command;
 - (void)post:(CDVInvokedUrlCommand*)command;
-- (void)get:(CDVInvokedUrlCommand*)command;
 - (void)put:(CDVInvokedUrlCommand*)command;
 - (void)patch:(CDVInvokedUrlCommand*)command;
+- (void)get:(CDVInvokedUrlCommand*)command;
 - (void)delete:(CDVInvokedUrlCommand*)command;
-- (void)uploadFile:(CDVInvokedUrlCommand*)command;
+- (void)head:(CDVInvokedUrlCommand*)command;
+- (void)options:(CDVInvokedUrlCommand*)command;
+- (void)uploadFiles:(CDVInvokedUrlCommand*)command;
 - (void)downloadFile:(CDVInvokedUrlCommand*)command;
 
 @end

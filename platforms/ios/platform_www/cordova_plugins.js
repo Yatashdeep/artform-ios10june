@@ -182,18 +182,33 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "runs": true
     },
     {
-      "id": "cordova-plugin-advanced-http.lodash",
-      "file": "plugins/cordova-plugin-advanced-http/www/lodash.js",
+      "id": "cordova-plugin-advanced-http.cookie-handler",
+      "file": "plugins/cordova-plugin-advanced-http/www/cookie-handler.js",
       "pluginId": "cordova-plugin-advanced-http"
     },
     {
-      "id": "cordova-plugin-advanced-http.tough-cookie",
-      "file": "plugins/cordova-plugin-advanced-http/www/umd-tough-cookie.js",
+      "id": "cordova-plugin-advanced-http.dependency-validator",
+      "file": "plugins/cordova-plugin-advanced-http/www/dependency-validator.js",
       "pluginId": "cordova-plugin-advanced-http"
     },
     {
-      "id": "cordova-plugin-advanced-http.messages",
-      "file": "plugins/cordova-plugin-advanced-http/www/messages.js",
+      "id": "cordova-plugin-advanced-http.error-codes",
+      "file": "plugins/cordova-plugin-advanced-http/www/error-codes.js",
+      "pluginId": "cordova-plugin-advanced-http"
+    },
+    {
+      "id": "cordova-plugin-advanced-http.global-configs",
+      "file": "plugins/cordova-plugin-advanced-http/www/global-configs.js",
+      "pluginId": "cordova-plugin-advanced-http"
+    },
+    {
+      "id": "cordova-plugin-advanced-http.helpers",
+      "file": "plugins/cordova-plugin-advanced-http/www/helpers.js",
+      "pluginId": "cordova-plugin-advanced-http"
+    },
+    {
+      "id": "cordova-plugin-advanced-http.js-util",
+      "file": "plugins/cordova-plugin-advanced-http/www/js-util.js",
       "pluginId": "cordova-plugin-advanced-http"
     },
     {
@@ -202,18 +217,33 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "pluginId": "cordova-plugin-advanced-http"
     },
     {
-      "id": "cordova-plugin-advanced-http.cookie-handler",
-      "file": "plugins/cordova-plugin-advanced-http/www/cookie-handler.js",
+      "id": "cordova-plugin-advanced-http.lodash",
+      "file": "plugins/cordova-plugin-advanced-http/www/lodash.js",
       "pluginId": "cordova-plugin-advanced-http"
     },
     {
-      "id": "cordova-plugin-advanced-http.angular-integration",
-      "file": "plugins/cordova-plugin-advanced-http/www/angular-integration.js",
+      "id": "cordova-plugin-advanced-http.messages",
+      "file": "plugins/cordova-plugin-advanced-http/www/messages.js",
       "pluginId": "cordova-plugin-advanced-http"
     },
     {
-      "id": "cordova-plugin-advanced-http.helpers",
-      "file": "plugins/cordova-plugin-advanced-http/www/helpers.js",
+      "id": "cordova-plugin-advanced-http.ponyfills",
+      "file": "plugins/cordova-plugin-advanced-http/www/ponyfills.js",
+      "pluginId": "cordova-plugin-advanced-http"
+    },
+    {
+      "id": "cordova-plugin-advanced-http.public-interface",
+      "file": "plugins/cordova-plugin-advanced-http/www/public-interface.js",
+      "pluginId": "cordova-plugin-advanced-http"
+    },
+    {
+      "id": "cordova-plugin-advanced-http.tough-cookie",
+      "file": "plugins/cordova-plugin-advanced-http/www/umd-tough-cookie.js",
+      "pluginId": "cordova-plugin-advanced-http"
+    },
+    {
+      "id": "cordova-plugin-advanced-http.url-util",
+      "file": "plugins/cordova-plugin-advanced-http/www/url-util.js",
       "pluginId": "cordova-plugin-advanced-http"
     },
     {
@@ -262,15 +292,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "pluginId": "cordova-plugin-device",
       "clobbers": [
         "device"
-      ]
-    },
-    {
-      "id": "cordova-plugin-document-viewer.SitewaertsDocumentViewer",
-      "file": "plugins/cordova-plugin-document-viewer/www/sitewaertsdocumentviewer.js",
-      "pluginId": "cordova-plugin-document-viewer",
-      "clobbers": [
-        "cordova.plugins.SitewaertsDocumentViewer",
-        "SitewaertsDocumentViewer"
       ]
     },
     {
@@ -360,47 +381,21 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "cordova-plugin-youtube-video-player.YoutubeVideoPlayer",
-      "file": "plugins/cordova-plugin-youtube-video-player/plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/www/YoutubeVideoPlayer.js",
-      "pluginId": "cordova-plugin-youtube-video-player",
-      "clobbers": [
-        "YoutubeVideoPlayer"
-      ]
-    },
-    {
-      "id": "ionic-plugin-keyboard.keyboard",
-      "file": "plugins/ionic-plugin-keyboard/www/ios/keyboard.js",
-      "pluginId": "ionic-plugin-keyboard",
-      "clobbers": [
-        "cordova.plugins.Keyboard"
-      ],
-      "runs": true
-    },
-    {
       "id": "onesignal-cordova-plugin.OneSignal",
       "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
       "pluginId": "onesignal-cordova-plugin",
       "clobbers": [
         "OneSignal"
       ]
-    },
-    {
-      "id": "twitter-connect-plugin.TwitterConnect",
-      "file": "plugins/twitter-connect-plugin/www/TwitterConnect.js",
-      "pluginId": "twitter-connect-plugin",
-      "clobbers": [
-        "TwitterConnect"
-      ]
     }
   ];
   module.exports.metadata = {
     "branch-cordova-sdk": "4.1.2",
     "cordova-plugin-file": "6.0.1",
-    "cordova-plugin-advanced-http": "1.10.0",
-    "cordova-plugin-camera": "4.0.3",
-    "cordova-plugin-device": "1.1.4",
-    "cordova-plugin-document-viewer": "0.9.11",
-    "cordova-plugin-facebook4": "1.9.1",
+    "cordova-plugin-advanced-http": "2.4.0",
+    "cordova-plugin-camera": "4.1.0",
+    "cordova-plugin-device": "2.0.3",
+    "cordova-plugin-facebook4": "6.3.0",
     "cordova-plugin-file-transfer": "1.7.1",
     "cordova-plugin-filechooser": "1.2.0",
     "cordova-plugin-filepath": "1.5.8",
@@ -411,9 +406,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-whitelist": "1.3.1",
     "es6-promise-plugin": "4.2.2",
     "cordova-plugin-x-socialsharing": "5.6.4",
-    "cordova-plugin-youtube-video-player": "2.4.0",
-    "ionic-plugin-keyboard": "2.2.1",
-    "onesignal-cordova-plugin": "2.9.1",
-    "twitter-connect-plugin": "0.6.0"
+    "onesignal-cordova-plugin": "2.9.1"
   };
 });

@@ -7,19 +7,19 @@ webpackJsonp([36],{
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UploadmediaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_securitypanel_securitypanel__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_securitypanel_securitypanel__ = __webpack_require__(182);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_file_chooser__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file__ = __webpack_require__(179);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_file_transfer__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_forms__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__artprofile_artprofile__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__artprofile_artprofile__ = __webpack_require__(183);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_http__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_file_path__ = __webpack_require__(344);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_file_picker__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_file_path__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_file_picker__ = __webpack_require__(342);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1000,10 +1000,10 @@ var UploadmediaPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CategoryPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__artprofile_artprofile__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__artprofile_artprofile__ = __webpack_require__(183);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1541,7 +1541,7 @@ var FollowersPagepPage = (function () {
 
 /***/ }),
 
-/***/ 182:
+/***/ 180:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1549,7 +1549,6 @@ var FollowersPagepPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__ = __webpack_require__(155);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1562,7 +1561,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
+//import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
 /**
  * Generated class for the ViewvideotopperformersPage page.
  *
@@ -1570,8 +1569,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var ViewvideotopperformersPage = (function () {
-    function ViewvideotopperformersPage(youtube, santizer, viewCtrl, navCtrl, navParams) {
-        this.youtube = youtube;
+    function ViewvideotopperformersPage(
+        // private youtube: YoutubeVideoPlayer,
+        santizer, viewCtrl, navCtrl, navParams) {
         this.santizer = santizer;
         this.viewCtrl = viewCtrl;
         this.navCtrl = navCtrl;
@@ -1579,31 +1579,32 @@ var ViewvideotopperformersPage = (function () {
     }
     ViewvideotopperformersPage.prototype.ionViewDidLoad = function () {
         this.iframe = false;
-        console.log('ionViewDidLoad ViewvideotopperformersPage');
-        this.data = this.navParams.get('data');
-        this.id = this.navParams.get('id');
+        console.log("ionViewDidLoad ViewvideotopperformersPage");
+        this.data = this.navParams.get("data");
+        this.id = this.navParams.get("id");
         this.mediatype = this.data[this.id].media_thumbnail_url;
         this.usermedia_type = this.data[this.id].usermedia_type;
-        console.log('mediatype', this.mediatype);
-        console.log('usermedia', this.usermedia_type);
+        console.log("mediatype", this.mediatype);
+        console.log("usermedia", this.usermedia_type);
         this.videotap();
     };
     ViewvideotopperformersPage.prototype.close = function () {
         this.viewCtrl.dismiss();
     };
     ViewvideotopperformersPage.prototype.videotap = function () {
-        if (this.usermedia_type == 'youtube') {
+        if (this.usermedia_type == "youtube") {
             // alert('url'+this.data[this.id].media_thumbnail_url)
             this.iframe = true;
             var str = this.data[this.id].media_thumbnail_url;
-            var n = str.search('watch');
+            var n = str.search("watch");
             if (n != -1) {
                 var res = this.data[this.id].media_thumbnail_url.split("https://www.youtube.com/watch?v=");
-                console.log('ifstatement' + res[1]);
-                this.youtube_id = 'http://developersoptimal.com/test/index.html?url_string=' + res[1];
+                console.log("ifstatement" + res[1]);
+                this.youtube_id =
+                    "http://developersoptimal.com/test/index.html?url_string=" + res[1];
                 this.pathsantiz = this.santizer.bypassSecurityTrustResourceUrl(this.youtube_id);
                 // this.youtube_id='http://bracketfront.optimaltechnology.in/test.html?url_string='+res[1]
-                // this.youtube.openVideo(res[1]); 
+                // this.youtube.openVideo(res[1]);
                 // var youtubeurl='https://www.youtube.com/embed/'+res
                 // var youtuberes=youtubeurl.replace(",", "");
                 // console.log('youtubers'+youtuberes)
@@ -1612,11 +1613,12 @@ var ViewvideotopperformersPage = (function () {
             }
             else {
                 var res = this.data[this.id].media_thumbnail_url.split("https://youtu.be/");
-                this.youtube_id = 'http://developersoptimal.com/test/index.html?url_string=' + res[1];
+                this.youtube_id =
+                    "http://developersoptimal.com/test/index.html?url_string=" + res[1];
                 //  this.youtube_id='http://bracketfront.optimaltechnology.in/test.html?url_string='+res[1]
-                console.log('elsestatement' + res[1]);
+                console.log("elsestatement" + res[1]);
                 this.pathsantiz = this.santizer.bypassSecurityTrustResourceUrl(this.youtube_id);
-                //  this.youtube.openVideo(res[1]); 
+                //  this.youtube.openVideo(res[1]);
                 // var youtubeurl='https://www.youtube.com/embed/'+res
                 // var youtuberes1=youtubeurl.replace(",", "");
                 //  var youtuberes1=this.data[this.id].media_thumbnail_url
@@ -1635,9 +1637,12 @@ var ViewvideotopperformersPage = (function () {
     };
     ViewvideotopperformersPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-viewvideotopperformers',template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/viewvideotopperformers/viewvideotopperformers.html"*/`<!--\n  Generated template for the ViewvideotopperformersPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-content style="background-color: rgba(0, 0, 0, 0.6);">\n  <div class="pop-up">\n    <!-- <div class="close-style" (click)="close()">\n          <ion-icon style="font-size:2.2rem " name="close"></ion-icon>\n        </div> -->\n    <button\n      *ngIf="usertype==\'image/jpeg\'"\n      class="butt-style"\n      ion-button\n      round\n      (click)="close()"\n    >\n      <ion-icon name="close"></ion-icon>\n    </button>\n    <button\n      *ngIf="usertype!=\'image/jpeg\'"\n      class="butt-style1"\n      ion-button\n      round\n      (click)="close()"\n    >\n      <ion-icon name="close"></ion-icon>\n    </button>\n    <div class="pop-style">\n      <div\n        *ngIf="usermedia_type==\'image/jpeg\'||usermedia_type==\'image/png\'"\n        style="text-align: center;"\n      >\n        <img style="width: 100%;" [src]="mediatype" />\n      </div>\n      <div\n        *ngIf="usermedia_type!=\'image/jpeg\'&& usermedia_type!=\'image/png\'"\n        style="text-align: center;"\n      >\n        <video\n          playsinline\n          style="height: 189px; width: 96%;"\n          *ngIf="iframe==false"\n          width="330"\n          controls\n        >\n          <source src="{{mediatype}}" type="{{usermedia_type}}" />\n        </video>\n        <iframe\n          style="height: 229px; width: 96%;"\n          *ngIf="iframe==true"\n          width="420"\n          height="345"\n          [src]="pathsantiz"\n        >\n        </iframe>\n\n        <!-- <iframe style="height: 189px;width: 96%;" *ngIf="iframe==true" width="100%" height="100%"  allowfullscreen="0" [src]="youtube_id" >\n      </iframe> -->\n      </div>\n    </div>\n  </div>\n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/viewvideotopperformers/viewvideotopperformers.html"*/,
+            selector: "page-viewvideotopperformers",template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/viewvideotopperformers/viewvideotopperformers.html"*/`<!--\n  Generated template for the ViewvideotopperformersPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-content style="background-color: rgba(0, 0, 0, 0.6);">\n  <div class="pop-up">\n    <!-- <div class="close-style" (click)="close()">\n          <ion-icon style="font-size:2.2rem " name="close"></ion-icon>\n        </div> -->\n    <button\n      *ngIf="usertype==\'image/jpeg\'"\n      class="butt-style"\n      ion-button\n      round\n      (click)="close()"\n    >\n      <ion-icon name="close"></ion-icon>\n    </button>\n    <button\n      *ngIf="usertype!=\'image/jpeg\'"\n      class="butt-style1"\n      ion-button\n      round\n      (click)="close()"\n    >\n      <ion-icon name="close"></ion-icon>\n    </button>\n    <div class="pop-style">\n      <div\n        *ngIf="usermedia_type==\'image/jpeg\'||usermedia_type==\'image/png\'"\n        style="text-align: center;"\n      >\n        <img style="width: 100%;" [src]="mediatype" />\n      </div>\n      <div\n        *ngIf="usermedia_type!=\'image/jpeg\'&& usermedia_type!=\'image/png\'"\n        style="text-align: center;"\n      >\n        <video\n          playsinline\n          style="height: 189px; width: 96%;"\n          *ngIf="iframe==false"\n          width="330"\n          controls\n        >\n          <source src="{{mediatype}}" type="{{usermedia_type}}" />\n        </video>\n        <iframe\n          style="height: 229px; width: 96%;"\n          *ngIf="iframe==true"\n          width="420"\n          height="345"\n          [src]="pathsantiz"\n        >\n        </iframe>\n\n        <!-- <iframe style="height: 189px;width: 96%;" *ngIf="iframe==true" width="100%" height="100%"  allowfullscreen="0" [src]="youtube_id" >\n      </iframe> -->\n      </div>\n    </div>\n  </div>\n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/viewvideotopperformers/viewvideotopperformers.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__["a" /* YoutubeVideoPlayer */], __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], ViewvideotopperformersPage);
     return ViewvideotopperformersPage;
 }());
@@ -1646,26 +1651,25 @@ var ViewvideotopperformersPage = (function () {
 
 /***/ }),
 
-/***/ 184:
+/***/ 182:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SecuritypanelPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_twitter_connect__ = __webpack_require__(339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_facebook__ = __webpack_require__(340);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_core__ = __webpack_require__(709);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_core__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_cordova_oauth_platform_cordova__ = __webpack_require__(718);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_cordova_oauth_platform_cordova___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_ng2_cordova_oauth_platform_cordova__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__commentsbox_commentsbox__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__artistprofilepage_artistprofilepage__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_unique_device_id__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_facebook__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_security_security__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ng2_cordova_oauth_core__ = __webpack_require__(706);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ng2_cordova_oauth_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_ng2_cordova_oauth_core__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_platform_cordova__ = __webpack_require__(715);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_platform_cordova___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_platform_cordova__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__commentsbox_commentsbox__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__artistprofilepage_artistprofilepage__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_unique_device_id__ = __webpack_require__(155);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1678,7 +1682,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 //import { TabspagePage } from '../tabspage/tabspage';
-
+// import { TwitterConnect } from "@ionic-native/twitter-connect";
 //import { GooglePlus } from '@ionic-native/google-plus';
 
 
@@ -1700,7 +1704,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var SecuritypanelPage = (function () {
     function SecuritypanelPage(
         // private oneSignal: OneSignal,
-        uniqueDeviceID, modalCtrl, event, service, loadingCtrl, facebook, formBuilder, twitter, navCtrl, navParams, alertCtrl) {
+        uniqueDeviceID, modalCtrl, event, service, loadingCtrl, facebook, formBuilder, 
+        // private twitter: TwitterConnect,
+        navCtrl, navParams, alertCtrl) {
         this.uniqueDeviceID = uniqueDeviceID;
         this.modalCtrl = modalCtrl;
         this.event = event;
@@ -1708,12 +1714,11 @@ var SecuritypanelPage = (function () {
         this.loadingCtrl = loadingCtrl;
         this.facebook = facebook;
         this.formBuilder = formBuilder;
-        this.twitter = twitter;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.alertCtrl = alertCtrl;
-        this.oauth = new __WEBPACK_IMPORTED_MODULE_8_ng2_cordova_oauth_platform_cordova__["OauthCordova"]();
-        this.instagramProvider = new __WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_core__["Instagram"]({
+        this.oauth = new __WEBPACK_IMPORTED_MODULE_7_ng2_cordova_oauth_platform_cordova__["OauthCordova"]();
+        this.instagramProvider = new __WEBPACK_IMPORTED_MODULE_6_ng2_cordova_oauth_core__["Instagram"]({
             clientId: "9640f8cde2f3436d8853c34c799a3e34",
             redirectUri: "http://localhost",
             responseType: "token",
@@ -1739,23 +1744,23 @@ var SecuritypanelPage = (function () {
         this.signupform = formBuilder.group({
             email: [
                 "",
-                __WEBPACK_IMPORTED_MODULE_3__angular_forms__["Validators"].compose([
-                    __WEBPACK_IMPORTED_MODULE_3__angular_forms__["Validators"].maxLength(50),
-                    __WEBPACK_IMPORTED_MODULE_3__angular_forms__["Validators"].pattern(emailRegex),
-                    __WEBPACK_IMPORTED_MODULE_3__angular_forms__["Validators"].minLength(1),
-                    __WEBPACK_IMPORTED_MODULE_3__angular_forms__["Validators"].required,
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].compose([
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].maxLength(50),
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].pattern(emailRegex),
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].minLength(1),
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].required,
                 ]),
             ],
             //  password:['',Validators.compose([Validators.maxLength(30),Validators.pattern(passwordRegex),Validators.minLength(3),Validators.required])],
             password: [
                 "",
-                __WEBPACK_IMPORTED_MODULE_3__angular_forms__["Validators"].compose([
-                    __WEBPACK_IMPORTED_MODULE_3__angular_forms__["Validators"].maxLength(30),
-                    __WEBPACK_IMPORTED_MODULE_3__angular_forms__["Validators"].minLength(3),
-                    __WEBPACK_IMPORTED_MODULE_3__angular_forms__["Validators"].required,
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].compose([
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].maxLength(30),
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].minLength(3),
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].required,
                 ]),
             ],
-            confirmPassword: ["", __WEBPACK_IMPORTED_MODULE_3__angular_forms__["Validators"].required],
+            confirmPassword: ["", __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].required],
         }, {
             validator: SecuritypanelPage_1.MatchPassword,
         });
@@ -1799,7 +1804,7 @@ var SecuritypanelPage = (function () {
             cssClass: "transparent",
         });
         loading.present();
-        __WEBPACK_IMPORTED_MODULE_5_rxjs__["Observable"].of(loading)
+        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(loading)
             .flatMap(function (loading) { return loading.present(); })
             .flatMap(function () {
             return _this.service.sociallogininsta(apiResponse[0].user.id, apiResponse[0].user.username, apiResponse[0].user.profile_picture);
@@ -1846,7 +1851,7 @@ var SecuritypanelPage = (function () {
             cssClass: "transparent",
         });
         loading.present();
-        __WEBPACK_IMPORTED_MODULE_5_rxjs__["Observable"].of(loading)
+        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(loading)
             .flatMap(function (loading) { return loading.present(); })
             .flatMap(function () {
             return _this.service.sociallogingoogle(socialid, email, displayname, firtsname, profile_pic);
@@ -1902,7 +1907,7 @@ var SecuritypanelPage = (function () {
             cssClass: "transparent",
         });
         loading.present();
-        __WEBPACK_IMPORTED_MODULE_5_rxjs__["Observable"].of(loading)
+        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(loading)
             .flatMap(function (loading) { return loading.present(); })
             .flatMap(function () {
             return _this.service.sociallogin(socialid, email, profile_pic, first_name, profile_name, last_name);
@@ -1987,7 +1992,7 @@ var SecuritypanelPage = (function () {
             cssClass: "transparent",
         });
         loading.present();
-        __WEBPACK_IMPORTED_MODULE_5_rxjs__["Observable"].of(loading)
+        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(loading)
             .flatMap(function (loading) { return loading.present(); })
             .flatMap(function () { return _this.service.forgetpass(email); })
             .subscribe(function (data) {
@@ -2043,7 +2048,7 @@ var SecuritypanelPage = (function () {
             cssClass: "transparent",
         });
         loading.present();
-        __WEBPACK_IMPORTED_MODULE_5_rxjs__["Observable"].of(loading)
+        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(loading)
             .flatMap(function (loading) { return loading.present(); })
             .flatMap(function () { return _this.service.signin(_this.signupform, _this.radiocheck); })
             .subscribe(function (data) {
@@ -2080,32 +2085,41 @@ var SecuritypanelPage = (function () {
         //  this.navCtrl.parent.select(1)
         // this.navCtrl.parent.select(2);
     };
-    SecuritypanelPage.prototype.twLogin = function () {
-        var _this = this;
-        this.twitter.login().then(function (data) {
-            // alert('hope'+JSON.stringify(data))
-            _this.twitter.showUser().then(function (user) {
-                alert("success" + JSON.stringify(user));
-                //   alert("user_id"+user.id)
-                //   alert("user_name"+user.name)
-                //   alert("display_name"+user.screen_name)
-                //   alert("profile_image_url"+user.profile_image_url)
-                _this.sociallogintwitter(user.id, user.name, user.screen_name, user.profile_image_url);
-            }, function (err) {
-                // default twitter image is too small https://developer.twitter.com/en/docs/accounts-and-users/user-profile-images-and-banners
-                var profile_image = err.profile_image_url_https.replace("_normal", "");
-                // alert(err.name)
-                //  alert(err.screen_name)
-                // alert(err.followers_count)
-                // alert(profile_image)
-            }),
-                function (error) {
-                    alert("error" + error);
-                };
-        }, function (error) {
-            alert("error2" + error);
-        });
-    };
+    // twLogin() {
+    //   this.twitter.login().then(
+    //     (data) => {
+    //       // alert('hope'+JSON.stringify(data))
+    //       this.twitter.showUser().then(
+    //         (user) => {
+    //           alert("success" + JSON.stringify(user));
+    //           this.sociallogintwitter(
+    //             user.id,
+    //             user.name,
+    //             user.screen_name,
+    //             user.profile_image_url
+    //           );
+    //         },
+    //         (err) => {
+    //           // default twitter image is too small https://developer.twitter.com/en/docs/accounts-and-users/user-profile-images-and-banners
+    //           var profile_image = err.profile_image_url_https.replace(
+    //             "_normal",
+    //             ""
+    //           );
+    //           // alert(err.name)
+    //           //  alert(err.screen_name)
+    //           // alert(err.followers_count)
+    //           // alert(profile_image)
+    //         }
+    //       ),
+    //         (error) => {
+    //           alert("error" + error);
+    //         };
+    //     },
+    //     (error) => {
+    //       alert("error2" + error);
+    //     }
+    //   );
+    // }
     SecuritypanelPage.prototype.sociallogintwitter = function (socialid, displayName, firtsname, profile_pic) {
         var _this = this;
         var loading = this.loadingCtrl.create({
@@ -2115,7 +2129,7 @@ var SecuritypanelPage = (function () {
             cssClass: "transparent",
         });
         loading.present();
-        __WEBPACK_IMPORTED_MODULE_5_rxjs__["Observable"].of(loading)
+        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(loading)
             .flatMap(function (loading) { return loading.present(); })
             .flatMap(function () {
             return _this.service.sociallogintwitter(socialid, displayName, firtsname, profile_pic);
@@ -2190,7 +2204,7 @@ var SecuritypanelPage = (function () {
     };
     SecuritypanelPage.prototype.changetype = function () {
         var _this = this;
-        __WEBPACK_IMPORTED_MODULE_5_rxjs__["Observable"].of(null)
+        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(null)
             .flatMap(function () { return _this.service.changeusertype(); })
             .subscribe(function (data) {
             // this.navCtrl.setRoot(SecuritypanelPage)
@@ -2205,7 +2219,7 @@ var SecuritypanelPage = (function () {
         //   })
         //  loading.present()
         var _this = this;
-        __WEBPACK_IMPORTED_MODULE_5_rxjs__["Observable"].of(null)
+        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(null)
             .flatMap(function () { return _this.service.islogged(); })
             .subscribe(function (data) {
             //alert('usermedia'+localStorage.getItem('usermedia'))
@@ -2216,10 +2230,10 @@ var SecuritypanelPage = (function () {
                 // alert('inside')
                 //this.pushapi()
                 if (type == "0") {
-                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_9__commentsbox_commentsbox__["a" /* CommentsboxPage */]);
+                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__commentsbox_commentsbox__["a" /* CommentsboxPage */]);
                 }
                 else {
-                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_10__artistprofilepage_artistprofilepage__["a" /* ArtistprofilepagePage */]);
+                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_9__artistprofilepage_artistprofilepage__["a" /* ArtistprofilepagePage */]);
                 }
             }
             else {
@@ -2233,7 +2247,7 @@ var SecuritypanelPage = (function () {
     SecuritypanelPage.prototype.pushapi = function () {
         var _this = this;
         //alert('hiii')
-        __WEBPACK_IMPORTED_MODULE_5_rxjs__["Observable"].of(null)
+        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(null)
             .flatMap(function () { return _this.service.pushsend(); })
             .subscribe(function (data) {
             // alert('data'+JSON.stringify(data))
@@ -2292,7 +2306,7 @@ var SecuritypanelPage = (function () {
             cssClass: "transparent",
         });
         loading.present();
-        __WEBPACK_IMPORTED_MODULE_5_rxjs__["Observable"].of(loading)
+        __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(loading)
             .flatMap(function (loading) { return loading.present(); })
             .flatMap(function () { return _this.service.login(_this.email, _this.password, usertype); })
             .subscribe(function (data) {
@@ -2378,16 +2392,15 @@ var SecuritypanelPage = (function () {
     };
     SecuritypanelPage = SecuritypanelPage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: "page-securitypanel",template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/securitypanel/securitypanel.html"*/`<!--\n  Generated template for the SecuritypanelPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n\n    <ion-navbar color="primary">\n        \n          <ion-title style="text-align:center">\n          <div class="title-hope">\n             <div class="round-tab">\n              <ion-row>\n                <ion-col id="log" class="col-stylelog" (click)="navigatebar(1)">\n               <p id="logp" class="log-p">Login</p>\n                </ion-col>\n                <ion-col id="reg" class="col-stylereg" (click)="navigatebar(2)">\n                    <p id="regp" class="reg-p">Register</p> \n                </ion-col>\n              </ion-row>\n             </div>\n          </div>\n        </ion-title>\n      </ion-navbar>\n      </ion-header>\n\n<ion-content class="no-scroll" >\n    <!-- <div class="row-class">\n        <div id="strip-box" class="strip-div">\n         \n          <div id="log" class="login-div" (click)="navigatebar(1)">\n            <p id="logp" class="p-tagline">Login</p>\n          </div>\n          <div id="reg" class="regitser-div" (click)="navigatebar(2)">\n            <p id="regp" class="p-tagline">Register</p>\n          </div>\n        </div>\n       \n      </div> -->\n\n\n    <div *ngIf="user==true">\n    <ion-row [(ngModel)]="radiocheck" style="    margin-top: 8px;" radio-group>\n \n<ion-col class="col-option">\n<p class="p-option">Are you a Fan?</p>\n<ion-radio color="primary" slot="start" value="3" checked></ion-radio>\n</ion-col>\n<ion-col class="col-option">\n<p class="p-option">Are you an Artist?</p>\n<ion-radio  color="primary" slot="start" value="2" ></ion-radio>\n</ion-col>\n\n    </ion-row>\n    <ion-row>\n      <p class="register-net">Register using social networks</p>\n    </ion-row>\n    <ion-row style="    margin-top: 11px;">\n      <ion-col style="    text-align: end;" (click)="loginWithFB()">\n       <img class="social-img" src="assets/welcome/facebook.png">\n      </ion-col>\n      <ion-col style="margin-left: 12px;" (click)="twLogin()">\n        <img  class="social-img" src="assets/welcome/twitter.png">\n      </ion-col>\n      <!-- <ion-col style="text-align: center;margin-right: 12px;" (click)="loginUser()">\n        <img class="social-img" src="assets/welcome/google_plus.png">\n      </ion-col> -->\n      <!-- <ion-col  (click)="instagramlogin()">\n        <img class="social-img" src="assets/welcome/instagram.png">\n      </ion-col> -->\n    </ion-row>\n    <ion-row style="    margin-top: 25px;">\n      <p class="p-divider">OR</p>\n    </ion-row>\n    \n    <form [formGroup]="signupform" >\n    <ion-row  style="justify-content:center">\n      <ion-item class="item-input">\n        <img  class="icon-img" style="height:15px"  src="assets/welcome/mail.png" item-left primary>\n        <ion-input [class.invalid]="!signupform.controls.email.valid && (signupform.controls.email.dirty || submitAttempt)" formControlName="email"  type="text" class="input-font-family" type="text" placeholder="Enter Email"></ion-input>\n      \n    </ion-item>\n    <div *ngIf="!signupform.controls.email.valid  && (signupform.controls.email.dirty || submitAttempt)">\n      <p class="error-text">Please enter a valid Email.</p>\n    </div>\n      <ion-item class="item-input">\n        <img class="icon-img" src="assets/welcome/password.png" item-left primary>\n        <ion-input [class.invalid]="!signupform.controls.password.valid && (signupform.controls.password.dirty || submitAttempt)" formControlName="password"  type="password" class="input-font-family"  class="input-font-family" placeholder="Enter Password"></ion-input>\n       </ion-item>\n       <div *ngIf="!signupform.controls.password.valid  && (signupform.controls.password.dirty || submitAttempt)">\n        <!-- <p class="error-text errorform">Password Should be Six characters including one uppercase letter, one special character and alphanumeric characters .</p> -->\n        <p class="error-text errorform">Password should of minimum 3 characters .</p>\n      </div>\n       <!-- <ion-item class="item-input">\n        <img  class="icon-img" \n        ="assets/welcome/password.png" item-left primary>\n        <ion-input class="input-font-family" placeholder="Confirm Password"></ion-input>\n       </ion-item> -->\n       <ion-item class="item-input">\n          <img class="icon-img" src="assets/welcome/password.png" item-left primary>\n        <ion-input  formControlName="confirmPassword"  placeholder="Confirm Password" type="password" \n           [class.invalid]="!signupform.controls.confirmPassword.valid && (signupform.controls.confirmPassword.dirty || submitAttempt)"></ion-input>\n     </ion-item>\n     <div *ngIf="signupform.controls.confirmPassword.errors?.MatchPassword">\n     <p class="error-text">Password not matching</p>\n    </div>\n    </ion-row>\n  </form>\n    <ion-row style="margin-top: 45px;">\n      <ion-col class="col-style1">\n      <button  [disabled]="!signupform.valid" (click)="navigatetotab()"  style="    width: 83%;height: 40px;font-family:AvenirLTStd-Heavy;" ion-button full color="primary" round>SUBMIT</button> \n      </ion-col>\n      <ion-col class="col-style2">\n        <button (click)="cleardata()" [disabled]="signupform.valid" style="    width: 83%;height: 40px;font-family:AvenirLTStd-Heavy;" disabled ion-button full color="primary" round>CANCEL</button>\n      </ion-col>\n    </ion-row>\n    <ion-row style="height: 129px;" (click)="navigatebar(1)">\n      <p style="width: 100%;    text-align: CENTER; font-family: AvenirLTStd-Book;">Already have an account ?<span style="font-weight:bold;font-family: AvenirLTStd-Heavy;"> Login Here</span></p>\n    </ion-row>\n    </div>\n    <div *ngIf="user==false">\n      <ion-row style="justify-content:center;    margin-top: 23px;">\n        <ion-item class="item-input">\n          <img style="height:15px" class="icon-img"  src="assets/welcome/mail.png" item-left primary>\n          <ion-input [(ngModel)]="email" class="input-font-family" type="text" placeholder="Enter Email"></ion-input>\n        \n      </ion-item>\n        <ion-item class="item-input">\n          <img  class="icon-img" src="assets/welcome/password.png" item-left primary>\n          <ion-input type="password" [(ngModel)]="password" class="input-font-family" placeholder="Enter Password"></ion-input>\n         </ion-item>\n         \n      </ion-row>\n      <ion-row>\n        <p  (click)=" checkalert()" class="forget-style">Forgot Password?</p>\n      </ion-row>\n      <ion-row class="row-button">\n        <button (click)="navigatetotabsubmit()" style="width: 43%;height: 40px;font-family: AvenirLTStd-Heavy;" ion-button round color="primary" full>SUBMIT</button>\n      </ion-row>\n      <!-- <ion-row>\n          <ion-col col-5 class="check-style">\n          <ion-checkbox [(ngModel)]="checkremember" style="    margin-top: 0px;" class="check" color="primary" checked="true"></ion-checkbox>\n          \n        </ion-col>\n        <ion-col col-7 style="    margin-left: -12px;">\n          <p style="    font-family: AvenirLTStd-Book;    font-size: 1.6rem;">Remember Me</p>\n        </ion-col>\n      </ion-row> -->\n      <ion-row (click)="navigatebar(2)">\n \n    <p  style="width: 100%;    text-align: CENTER;    font-family: AvenirLTStd-Book;font-size: 1.5rem;">Don\'t have an account ?<span style="font-weight:bold"> Register Here</span></p>\n      </ion-row>\n      <ion-row class="row-bottom">\n      <div class="bottom-bar">\n      <ion-row>\n        <p class="register-net">Login using social networks</p>\n      </ion-row>\n      <ion-row style="    margin-top: 11px;" >\n        <ion-col style="    text-align: end;" (click)="loginWithFB()">\n         <img class="social-img" src="assets/welcome/facebook.png">\n        </ion-col>\n        <ion-col style="margin-left: 12px;" (click)="twLogin()" >\n          <img  class="social-img" src="assets/welcome/twitter.png">\n        </ion-col>\n        <!-- <ion-col style="text-align:center;margin-right: 12px; " (click)="loginUser()">\n          <img class="social-img" src="assets/welcome/google_plus.png">\n        </ion-col> -->\n        <!-- <ion-col  (click)="instagramlogin()">\n          <img class="social-img" src="assets/welcome/instagram.png">\n        </ion-col> -->\n      </ion-row>\n      </div>\n      </ion-row>\n    </div>\n \n    \n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/securitypanel/securitypanel.html"*/,
+            selector: "page-securitypanel",template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/securitypanel/securitypanel.html"*/`<!--\n  Generated template for the SecuritypanelPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar color="primary">\n    <ion-title style="text-align: center;">\n      <div class="title-hope">\n        <div class="round-tab">\n          <ion-row>\n            <ion-col id="log" class="col-stylelog" (click)="navigatebar(1)">\n              <p id="logp" class="log-p">Login</p>\n            </ion-col>\n            <ion-col id="reg" class="col-stylereg" (click)="navigatebar(2)">\n              <p id="regp" class="reg-p">Register</p>\n            </ion-col>\n          </ion-row>\n        </div>\n      </div>\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="no-scroll">\n  <!-- <div class="row-class">\n        <div id="strip-box" class="strip-div">\n         \n          <div id="log" class="login-div" (click)="navigatebar(1)">\n            <p id="logp" class="p-tagline">Login</p>\n          </div>\n          <div id="reg" class="regitser-div" (click)="navigatebar(2)">\n            <p id="regp" class="p-tagline">Register</p>\n          </div>\n        </div>\n       \n      </div> -->\n\n  <div *ngIf="user==true">\n    <ion-row [(ngModel)]="radiocheck" style="margin-top: 8px;" radio-group>\n      <ion-col class="col-option">\n        <p class="p-option">Are you a Fan?</p>\n        <ion-radio color="primary" slot="start" value="3" checked></ion-radio>\n      </ion-col>\n      <ion-col class="col-option">\n        <p class="p-option">Are you an Artist?</p>\n        <ion-radio color="primary" slot="start" value="2"></ion-radio>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <p class="register-net">Register using social networks</p>\n    </ion-row>\n    <ion-row style="margin-top: 11px;">\n      <ion-col style="text-align: center;" (click)="loginWithFB()">\n        <img class="social-img" src="assets/welcome/facebook.png" />\n      </ion-col>\n      <!-- <ion-col style="margin-left: 12px;" (click)="twLogin()">\n        <img  class="social-img" src="assets/welcome/twitter.png">\n      </ion-col> -->\n      <!-- <ion-col style="text-align: center;margin-right: 12px;" (click)="loginUser()">\n        <img class="social-img" src="assets/welcome/google_plus.png">\n      </ion-col> -->\n      <!-- <ion-col  (click)="instagramlogin()">\n        <img class="social-img" src="assets/welcome/instagram.png">\n      </ion-col> -->\n    </ion-row>\n    <ion-row style="margin-top: 25px;">\n      <p class="p-divider">OR</p>\n    </ion-row>\n\n    <form [formGroup]="signupform">\n      <ion-row style="justify-content: center;">\n        <ion-item class="item-input">\n          <img\n            class="icon-img"\n            style="height: 15px;"\n            src="assets/welcome/mail.png"\n            item-left\n            primary\n          />\n          <ion-input\n            [class.invalid]="!signupform.controls.email.valid && (signupform.controls.email.dirty || submitAttempt)"\n            formControlName="email"\n            type="text"\n            class="input-font-family"\n            type="text"\n            placeholder="Enter Email"\n          ></ion-input>\n        </ion-item>\n        <div\n          *ngIf="!signupform.controls.email.valid  && (signupform.controls.email.dirty || submitAttempt)"\n        >\n          <p class="error-text">Please enter a valid Email.</p>\n        </div>\n        <ion-item class="item-input">\n          <img\n            class="icon-img"\n            src="assets/welcome/password.png"\n            item-left\n            primary\n          />\n          <ion-input\n            [class.invalid]="!signupform.controls.password.valid && (signupform.controls.password.dirty || submitAttempt)"\n            formControlName="password"\n            type="password"\n            class="input-font-family"\n            class="input-font-family"\n            placeholder="Enter Password"\n          ></ion-input>\n        </ion-item>\n        <div\n          *ngIf="!signupform.controls.password.valid  && (signupform.controls.password.dirty || submitAttempt)"\n        >\n          <!-- <p class="error-text errorform">Password Should be Six characters including one uppercase letter, one special character and alphanumeric characters .</p> -->\n          <p class="error-text errorform">\n            Password should of minimum 3 characters .\n          </p>\n        </div>\n        <!-- <ion-item class="item-input">\n        <img  class="icon-img" \n        ="assets/welcome/password.png" item-left primary>\n        <ion-input class="input-font-family" placeholder="Confirm Password"></ion-input>\n       </ion-item> -->\n        <ion-item class="item-input">\n          <img\n            class="icon-img"\n            src="assets/welcome/password.png"\n            item-left\n            primary\n          />\n          <ion-input\n            formControlName="confirmPassword"\n            placeholder="Confirm Password"\n            type="password"\n            [class.invalid]="!signupform.controls.confirmPassword.valid && (signupform.controls.confirmPassword.dirty || submitAttempt)"\n          ></ion-input>\n        </ion-item>\n        <div *ngIf="signupform.controls.confirmPassword.errors?.MatchPassword">\n          <p class="error-text">Password not matching</p>\n        </div>\n      </ion-row>\n    </form>\n    <ion-row style="margin-top: 45px;">\n      <ion-col class="col-style1">\n        <button\n          [disabled]="!signupform.valid"\n          (click)="navigatetotab()"\n          style="width: 83%; height: 40px; font-family: AvenirLTStd-Heavy;"\n          ion-button\n          full\n          color="primary"\n          round\n        >\n          SUBMIT\n        </button>\n      </ion-col>\n      <ion-col class="col-style2">\n        <button\n          (click)="cleardata()"\n          [disabled]="signupform.valid"\n          style="width: 83%; height: 40px; font-family: AvenirLTStd-Heavy;"\n          disabled\n          ion-button\n          full\n          color="primary"\n          round\n        >\n          CANCEL\n        </button>\n      </ion-col>\n    </ion-row>\n    <ion-row style="height: 129px;" (click)="navigatebar(1)">\n      <p\n        style="width: 100%; text-align: CENTER; font-family: AvenirLTStd-Book;"\n      >\n        Already have an account ?<span\n          style="font-weight: bold; font-family: AvenirLTStd-Heavy;"\n        >\n          Login Here</span\n        >\n      </p>\n    </ion-row>\n  </div>\n  <div *ngIf="user==false">\n    <ion-row style="justify-content: center; margin-top: 23px;">\n      <ion-item class="item-input">\n        <img\n          style="height: 15px;"\n          class="icon-img"\n          src="assets/welcome/mail.png"\n          item-left\n          primary\n        />\n        <ion-input\n          [(ngModel)]="email"\n          class="input-font-family"\n          type="text"\n          placeholder="Enter Email"\n        ></ion-input>\n      </ion-item>\n      <ion-item class="item-input">\n        <img\n          class="icon-img"\n          src="assets/welcome/password.png"\n          item-left\n          primary\n        />\n        <ion-input\n          type="password"\n          [(ngModel)]="password"\n          class="input-font-family"\n          placeholder="Enter Password"\n        ></ion-input>\n      </ion-item>\n    </ion-row>\n    <ion-row>\n      <p (click)=" checkalert()" class="forget-style">Forgot Password?</p>\n    </ion-row>\n    <ion-row class="row-button">\n      <button\n        (click)="navigatetotabsubmit()"\n        style="width: 43%; height: 40px; font-family: AvenirLTStd-Heavy;"\n        ion-button\n        round\n        color="primary"\n        full\n      >\n        SUBMIT\n      </button>\n    </ion-row>\n    <!-- <ion-row>\n          <ion-col col-5 class="check-style">\n          <ion-checkbox [(ngModel)]="checkremember" style="    margin-top: 0px;" class="check" color="primary" checked="true"></ion-checkbox>\n          \n        </ion-col>\n        <ion-col col-7 style="    margin-left: -12px;">\n          <p style="    font-family: AvenirLTStd-Book;    font-size: 1.6rem;">Remember Me</p>\n        </ion-col>\n      </ion-row> -->\n    <ion-row (click)="navigatebar(2)">\n      <p\n        style="\n          width: 100%;\n          text-align: CENTER;\n          font-family: AvenirLTStd-Book;\n          font-size: 1.5rem;\n        "\n      >\n        Don\'t have an account ?<span style="font-weight: bold;">\n          Register Here</span\n        >\n      </p>\n    </ion-row>\n    <ion-row class="row-bottom">\n      <div class="bottom-bar">\n        <ion-row>\n          <p class="register-net">Login using social networks</p>\n        </ion-row>\n        <ion-row style="margin-top: 11px;">\n          <ion-col style="text-align: center;" (click)="loginWithFB()">\n            <img class="social-img" src="assets/welcome/facebook.png" />\n          </ion-col>\n          <!-- <ion-col style="margin-left: 12px;" (click)="twLogin()" >\n          <img  class="social-img" src="assets/welcome/twitter.png">\n        </ion-col> -->\n          <!-- <ion-col style="text-align:center;margin-right: 12px; " (click)="loginUser()">\n          <img class="social-img" src="assets/welcome/google_plus.png">\n        </ion-col> -->\n          <!-- <ion-col  (click)="instagramlogin()">\n          <img class="social-img" src="assets/welcome/instagram.png">\n        </ion-col> -->\n        </ion-row>\n      </div>\n    </ion-row>\n  </div>\n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/securitypanel/securitypanel.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_11__ionic_native_unique_device_id__["a" /* UniqueDeviceID */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_10__ionic_native_unique_device_id__["a" /* UniqueDeviceID */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ModalController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */],
-            __WEBPACK_IMPORTED_MODULE_6__providers_security_security__["a" /* SecurityProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_security_security__["a" /* SecurityProvider */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* LoadingController */],
-            __WEBPACK_IMPORTED_MODULE_4__ionic_native_facebook__["a" /* Facebook */],
-            __WEBPACK_IMPORTED_MODULE_3__angular_forms__["FormBuilder"],
-            __WEBPACK_IMPORTED_MODULE_2__ionic_native_twitter_connect__["a" /* TwitterConnect */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_facebook__["a" /* Facebook */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["FormBuilder"],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
@@ -2400,7 +2413,7 @@ var SecuritypanelPage = (function () {
 
 /***/ }),
 
-/***/ 185:
+/***/ 183:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2414,14 +2427,14 @@ var SecuritypanelPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__reportprob_reportprob__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__followedartist_followedartist__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__artistprofilepage_artistprofilepage__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_security_security__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_dashboardservice_dashboardservice__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__viewvideoplay_viewvideoplay__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__viewtalent_viewtalent__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__followers_pagep_followers_pagep__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_securitypanel_securitypanel__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_securitypanel_securitypanel__ = __webpack_require__(182);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3251,7 +3264,7 @@ var ArtprofilePage = (function () {
 
 /***/ }),
 
-/***/ 198:
+/***/ 196:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -3264,156 +3277,156 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 198;
+webpackEmptyAsyncContext.id = 196;
 
 /***/ }),
 
-/***/ 242:
+/***/ 240:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/aboutusp/aboutusp.module": [
-		778,
+		775,
 		7
 	],
 	"../pages/artistprofilepage/artistprofilepage.module": [
-		809,
+		806,
 		35
 	],
 	"../pages/artprofile/artprofile.module": [
-		811,
+		808,
 		34
 	],
 	"../pages/category/category.module": [
-		810,
+		807,
 		33
 	],
 	"../pages/categorytabpage/categorytabpage.module": [
-		779,
+		776,
 		19
 	],
 	"../pages/chatinboxreply/chatinboxreply.module": [
-		802,
+		799,
 		18
 	],
 	"../pages/childcattabpage/childcattabpage.module": [
-		780,
+		777,
 		17
 	],
 	"../pages/choosecatpagetab/choosecatpagetab.module": [
-		803,
+		800,
 		32
 	],
 	"../pages/commentsbox/commentsbox.module": [
-		804,
+		801,
 		31
 	],
 	"../pages/communitygudelines/communitygudelines.module": [
-		781,
+		778,
 		5
 	],
 	"../pages/communitypopover/communitypopover.module": [
-		782,
+		779,
 		16
 	],
 	"../pages/competitiondetailpage/competitiondetailpage.module": [
-		783,
+		780,
 		15
 	],
 	"../pages/competitionsp/competitionsp.module": [
-		784,
+		781,
 		14
 	],
 	"../pages/createconversationpage/createconversationpage.module": [
-		805,
+		802,
 		13
 	],
 	"../pages/dashboard/dashboard.module": [
-		806,
+		803,
 		6
 	],
 	"../pages/editproartistpag/editproartistpag.module": [
-		785,
+		782,
 		30
 	],
 	"../pages/editprofilepage/editprofilepage.module": [
-		807,
+		804,
 		12
 	],
 	"../pages/followedartist/followedartist.module": [
-		786,
+		783,
 		29
 	],
 	"../pages/followers-pagep/followers-pagep.module": [
-		787,
+		784,
 		28
 	],
 	"../pages/getintouch/getintouch.module": [
-		788,
+		785,
 		0
 	],
 	"../pages/home/home.module": [
-		789,
+		786,
 		11
 	],
 	"../pages/howitworksp/howitworksp.module": [
-		790,
+		787,
 		4
 	],
 	"../pages/howtouploadpagesidemenu/howtouploadpagesidemenu.module": [
-		791,
+		788,
 		3
 	],
 	"../pages/inboxpage/inboxpage.module": [
-		792,
+		789,
 		10
 	],
 	"../pages/popoverpageshare/popoverpageshare.module": [
-		808,
+		805,
 		27
 	],
 	"../pages/privacyp/privacyp.module": [
-		793,
+		790,
 		2
 	],
 	"../pages/reportprob/reportprob.module": [
-		794,
+		791,
 		26
 	],
 	"../pages/securitypanel/securitypanel.module": [
-		812,
+		809,
 		25
 	],
 	"../pages/selectuploadcategory/selectuploadcategory.module": [
-		795,
+		792,
 		24
 	],
 	"../pages/subcattabp/subcattabp.module": [
-		796,
+		793,
 		9
 	],
 	"../pages/tabspage/tabspage.module": [
-		797,
+		794,
 		8
 	],
 	"../pages/termsandconditions/termsandconditions.module": [
-		798,
+		795,
 		1
 	],
 	"../pages/uploadmedia/uploadmedia.module": [
-		813,
+		810,
 		23
 	],
 	"../pages/viewtalent/viewtalent.module": [
-		799,
+		796,
 		22
 	],
 	"../pages/viewvideoplay/viewvideoplay.module": [
-		800,
+		797,
 		21
 	],
 	"../pages/viewvideotopperformers/viewvideotopperformers.module": [
-		801,
+		798,
 		20
 	]
 };
@@ -3428,7 +3441,7 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 242;
+webpackAsyncContext.id = 240;
 module.exports = webpackAsyncContext;
 
 /***/ }),
@@ -3438,11 +3451,11 @@ module.exports = webpackAsyncContext;
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SecurityProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(181);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_env__ = __webpack_require__(705);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_env__ = __webpack_require__(702);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_http__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_http__ = __webpack_require__(335);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5007,7 +5020,7 @@ var SecurityProvider = (function () {
 
 /***/ }),
 
-/***/ 394:
+/***/ 391:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5020,12 +5033,12 @@ var SecurityProvider = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__followedartist_followedartist__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__viewtalent_viewtalent__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__artistprofilepage_artistprofilepage__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_security_security__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_dashboardservice_dashboardservice__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_viewvideoplay_viewvideoplay__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_viewvideotopperformers_viewvideotopperformers__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_viewvideotopperformers_viewvideotopperformers__ = __webpack_require__(180);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5416,7 +5429,7 @@ var ChoosecatpagetabPage = (function () {
 
 /***/ }),
 
-/***/ 396:
+/***/ 393:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5465,14 +5478,14 @@ var EditproartistpagPage = (function () {
 
 /***/ }),
 
-/***/ 398:
+/***/ 395:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelectuploadcategoryPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_security_security__ = __webpack_require__(27);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -5677,13 +5690,13 @@ var SelectuploadcategoryPage = (function () {
 
 /***/ }),
 
-/***/ 401:
+/***/ 398:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(402);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(403);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -5691,7 +5704,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 406:
+/***/ 403:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5699,62 +5712,59 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(388);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(389);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(744);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ionic3_star_rating__ = __webpack_require__(395);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(385);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(741);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ionic3_star_rating__ = __webpack_require__(392);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_category_category__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_uploadmedia_uploadmedia__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_reportprob_reportprob__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_choosecatpagetab_choosecatpagetab__ = __webpack_require__(394);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_choosecatpagetab_choosecatpagetab__ = __webpack_require__(391);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_commentsbox_commentsbox__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_artistprofilepage_artistprofilepage__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_popoverpageshare_popoverpageshare__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_viewtalent_viewtalent__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_followedartist_followedartist__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_viewvideoplay_viewvideoplay__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_twitter_connect__ = __webpack_require__(339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_facebook__ = __webpack_require__(340);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__angular_common_http__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__angular_http__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_dashboardservice_dashboardservice__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_loaderdata_loaderdata__ = __webpack_require__(745);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_viewvideotopperformers_viewvideotopperformers__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_storage__ = __webpack_require__(397);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_components_expandable_components_expandable__ = __webpack_require__(746);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_social_sharing__ = __webpack_require__(342);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_camera__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_file_transfer__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_native_file_chooser__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31_angular2_tag_input__ = __webpack_require__(399);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31_angular2_tag_input___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_31_angular2_tag_input__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__ionic_native_file__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33_angular_cropperjs__ = __webpack_require__(400);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33_angular_cropperjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_33_angular_cropperjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34_jw_angular_social_buttons__ = __webpack_require__(747);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34_jw_angular_social_buttons___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_34_jw_angular_social_buttons__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ionic_native_pinterest__ = __webpack_require__(343);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_progressbar_progressbar__ = __webpack_require__(753);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_selectuploadcategory_selectuploadcategory__ = __webpack_require__(398);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__ionic_native_document_viewer__ = __webpack_require__(180);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_followers_pagep_followers_pagep__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__ionic_native_youtube_video_player__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41_videogular2_core__ = __webpack_require__(754);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41_videogular2_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_41_videogular2_core__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42_videogular2_controls__ = __webpack_require__(757);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42_videogular2_controls___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_42_videogular2_controls__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43_videogular2_overlay_play__ = __webpack_require__(772);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43_videogular2_overlay_play___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_43_videogular2_overlay_play__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44_videogular2_buffering__ = __webpack_require__(775);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44_videogular2_buffering___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_44_videogular2_buffering__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__ionic_native_branch_io__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__ionic_native_onesignal__ = __webpack_require__(390);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__ionic_native_unique_device_id__ = __webpack_require__(156);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__ionic_native_device__ = __webpack_require__(391);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__ionic_native_http__ = __webpack_require__(337);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__ionic_native_file_path__ = __webpack_require__(344);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__ionic_native_file_picker__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_facebook__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_security_security__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__angular_common_http__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__angular_http__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_dashboardservice_dashboardservice__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_loaderdata_loaderdata__ = __webpack_require__(742);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_viewvideotopperformers_viewvideotopperformers__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_storage__ = __webpack_require__(394);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_components_expandable_components_expandable__ = __webpack_require__(743);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_social_sharing__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_camera__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_file_transfer__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_file_chooser__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30_angular2_tag_input__ = __webpack_require__(396);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30_angular2_tag_input___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_30_angular2_tag_input__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__ionic_native_file__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32_angular_cropperjs__ = __webpack_require__(397);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32_angular_cropperjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_32_angular_cropperjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33_jw_angular_social_buttons__ = __webpack_require__(744);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33_jw_angular_social_buttons___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_33_jw_angular_social_buttons__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__ionic_native_pinterest__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_progressbar_progressbar__ = __webpack_require__(750);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_selectuploadcategory_selectuploadcategory__ = __webpack_require__(395);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_followers_pagep_followers_pagep__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38_videogular2_core__ = __webpack_require__(751);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38_videogular2_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_38_videogular2_core__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39_videogular2_controls__ = __webpack_require__(754);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39_videogular2_controls___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_39_videogular2_controls__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40_videogular2_overlay_play__ = __webpack_require__(769);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40_videogular2_overlay_play___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_40_videogular2_overlay_play__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41_videogular2_buffering__ = __webpack_require__(772);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41_videogular2_buffering___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_41_videogular2_buffering__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__ionic_native_branch_io__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__ionic_native_onesignal__ = __webpack_require__(387);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__ionic_native_unique_device_id__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__ionic_native_device__ = __webpack_require__(388);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__ionic_native_http__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__ionic_native_file_path__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__ionic_native_file_picker__ = __webpack_require__(342);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5804,7 +5814,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 //   NativeTransitionOptions,
 // } from "@ionic-native/native-page-transitions";
 
-
+//import { TwitterConnect } from "@ionic-native/twitter-connect";
 
 //import { GooglePlus } from "@ionic-native/google-plus";
 
@@ -5827,10 +5837,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-//import{CompetitiondetailpagePage}from'../pages/competitiondetailpage/competitiondetailpage'
 
-
-
+//import { YoutubeVideoPlayer } from "@ionic-native/youtube-video-player";
 
 
 
@@ -5881,23 +5889,23 @@ var AppModule = (function () {
                 //  HowtouploadpagesidemenuPage,
                 __WEBPACK_IMPORTED_MODULE_15__pages_followedartist_followedartist__["a" /* FollowedartistPage */],
                 __WEBPACK_IMPORTED_MODULE_16__pages_viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */],
-                __WEBPACK_IMPORTED_MODULE_23__components_loaderdata_loaderdata__["a" /* LoaderdataComponent */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_viewvideotopperformers_viewvideotopperformers__["a" /* ViewvideotopperformersPage */],
-                __WEBPACK_IMPORTED_MODULE_26__components_components_expandable_components_expandable__["a" /* ComponentsExpandableComponent */],
+                __WEBPACK_IMPORTED_MODULE_22__components_loaderdata_loaderdata__["a" /* LoaderdataComponent */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_viewvideotopperformers_viewvideotopperformers__["a" /* ViewvideotopperformersPage */],
+                __WEBPACK_IMPORTED_MODULE_25__components_components_expandable_components_expandable__["a" /* ComponentsExpandableComponent */],
                 // ChatinboxreplyPage,
-                __WEBPACK_IMPORTED_MODULE_36__components_progressbar_progressbar__["a" /* ProgressbarComponent */],
-                __WEBPACK_IMPORTED_MODULE_37__pages_selectuploadcategory_selectuploadcategory__["a" /* SelectuploadcategoryPage */],
+                __WEBPACK_IMPORTED_MODULE_35__components_progressbar_progressbar__["a" /* ProgressbarComponent */],
+                __WEBPACK_IMPORTED_MODULE_36__pages_selectuploadcategory_selectuploadcategory__["a" /* SelectuploadcategoryPage */],
                 // CompetitiondetailpagePage,
                 // CommunitypopoverPage,
-                __WEBPACK_IMPORTED_MODULE_39__pages_followers_pagep_followers_pagep__["a" /* FollowersPagepPage */],
+                __WEBPACK_IMPORTED_MODULE_37__pages_followers_pagep_followers_pagep__["a" /* FollowersPagepPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_31_angular2_tag_input__["RlTagInputModule"],
+                __WEBPACK_IMPORTED_MODULE_30_angular2_tag_input__["RlTagInputModule"],
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_6_ionic3_star_rating__["a" /* StarRatingModule */],
-                __WEBPACK_IMPORTED_MODULE_20__angular_common_http__["b" /* HttpClientModule */],
-                __WEBPACK_IMPORTED_MODULE_21__angular_http__["c" /* HttpModule */],
-                __WEBPACK_IMPORTED_MODULE_25__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_19__angular_common_http__["b" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_20__angular_http__["c" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_24__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["h" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], { statusbarPadding: true }, {
                     links: [
                         { loadChildren: '../pages/aboutusp/aboutusp.module#AboutuspPageModule', name: 'AboutuspPage', segment: 'aboutusp', priority: 'low', defaultHistory: [] },
@@ -5938,13 +5946,13 @@ var AppModule = (function () {
                         { loadChildren: '../pages/uploadmedia/uploadmedia.module#UploadmediaPageModule', name: 'UploadmediaPage', segment: 'uploadmedia', priority: 'low', defaultHistory: [] }
                     ]
                 }),
-                __WEBPACK_IMPORTED_MODULE_33_angular_cropperjs__["AngularCropperjsModule"],
-                __WEBPACK_IMPORTED_MODULE_34_jw_angular_social_buttons__["JwSocialButtonsModule"],
+                __WEBPACK_IMPORTED_MODULE_32_angular_cropperjs__["AngularCropperjsModule"],
+                __WEBPACK_IMPORTED_MODULE_33_jw_angular_social_buttons__["JwSocialButtonsModule"],
                 //YoutubePlayerMiniModule,
-                __WEBPACK_IMPORTED_MODULE_41_videogular2_core__["VgCoreModule"],
-                __WEBPACK_IMPORTED_MODULE_42_videogular2_controls__["VgControlsModule"],
-                __WEBPACK_IMPORTED_MODULE_43_videogular2_overlay_play__["VgOverlayPlayModule"],
-                __WEBPACK_IMPORTED_MODULE_44_videogular2_buffering__["VgBufferingModule"],
+                __WEBPACK_IMPORTED_MODULE_38_videogular2_core__["VgCoreModule"],
+                __WEBPACK_IMPORTED_MODULE_39_videogular2_controls__["VgControlsModule"],
+                __WEBPACK_IMPORTED_MODULE_40_videogular2_overlay_play__["VgOverlayPlayModule"],
+                __WEBPACK_IMPORTED_MODULE_41_videogular2_buffering__["VgBufferingModule"],
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* IonicApp */]],
             entryComponents: [
@@ -5980,42 +5988,42 @@ var AppModule = (function () {
                 // HowtouploadpagesidemenuPage,
                 __WEBPACK_IMPORTED_MODULE_15__pages_followedartist_followedartist__["a" /* FollowedartistPage */],
                 __WEBPACK_IMPORTED_MODULE_16__pages_viewvideoplay_viewvideoplay__["a" /* ViewvideoplayPage */],
-                __WEBPACK_IMPORTED_MODULE_23__components_loaderdata_loaderdata__["a" /* LoaderdataComponent */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_viewvideotopperformers_viewvideotopperformers__["a" /* ViewvideotopperformersPage */],
+                __WEBPACK_IMPORTED_MODULE_22__components_loaderdata_loaderdata__["a" /* LoaderdataComponent */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_viewvideotopperformers_viewvideotopperformers__["a" /* ViewvideotopperformersPage */],
                 // ChatinboxreplyPage,
-                __WEBPACK_IMPORTED_MODULE_37__pages_selectuploadcategory_selectuploadcategory__["a" /* SelectuploadcategoryPage */],
+                __WEBPACK_IMPORTED_MODULE_36__pages_selectuploadcategory_selectuploadcategory__["a" /* SelectuploadcategoryPage */],
                 //  CompetitiondetailpagePage,
                 // CommunitypopoverPage,
-                __WEBPACK_IMPORTED_MODULE_39__pages_followers_pagep_followers_pagep__["a" /* FollowersPagepPage */],
+                __WEBPACK_IMPORTED_MODULE_37__pages_followers_pagep_followers_pagep__["a" /* FollowersPagepPage */],
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_51__ionic_native_file_picker__["a" /* IOSFilePicker */],
-                __WEBPACK_IMPORTED_MODULE_50__ionic_native_file_path__["a" /* FilePath */],
-                __WEBPACK_IMPORTED_MODULE_49__ionic_native_http__["a" /* HTTP */],
-                __WEBPACK_IMPORTED_MODULE_48__ionic_native_device__["a" /* Device */],
-                __WEBPACK_IMPORTED_MODULE_47__ionic_native_unique_device_id__["a" /* UniqueDeviceID */],
-                __WEBPACK_IMPORTED_MODULE_46__ionic_native_onesignal__["a" /* OneSignal */],
-                __WEBPACK_IMPORTED_MODULE_45__ionic_native_branch_io__["a" /* BranchIo */],
+                __WEBPACK_IMPORTED_MODULE_48__ionic_native_file_picker__["a" /* IOSFilePicker */],
+                __WEBPACK_IMPORTED_MODULE_47__ionic_native_file_path__["a" /* FilePath */],
+                __WEBPACK_IMPORTED_MODULE_46__ionic_native_http__["a" /* HTTP */],
+                __WEBPACK_IMPORTED_MODULE_45__ionic_native_device__["a" /* Device */],
+                __WEBPACK_IMPORTED_MODULE_44__ionic_native_unique_device_id__["a" /* UniqueDeviceID */],
+                __WEBPACK_IMPORTED_MODULE_43__ionic_native_onesignal__["a" /* OneSignal */],
+                __WEBPACK_IMPORTED_MODULE_42__ionic_native_branch_io__["a" /* BranchIo */],
                 // Deeplinks,
                 // InAppBrowser,
-                __WEBPACK_IMPORTED_MODULE_38__ionic_native_document_viewer__["a" /* DocumentViewer */],
-                __WEBPACK_IMPORTED_MODULE_32__ionic_native_file__["a" /* File */],
-                __WEBPACK_IMPORTED_MODULE_30__ionic_native_file_chooser__["a" /* FileChooser */],
-                __WEBPACK_IMPORTED_MODULE_29__ionic_native_file_transfer__["a" /* FileTransfer */],
-                __WEBPACK_IMPORTED_MODULE_28__ionic_native_camera__["a" /* Camera */],
-                __WEBPACK_IMPORTED_MODULE_27__ionic_native_social_sharing__["a" /* SocialSharing */],
-                __WEBPACK_IMPORTED_MODULE_18__ionic_native_facebook__["a" /* Facebook */],
+                // DocumentViewer,
+                __WEBPACK_IMPORTED_MODULE_31__ionic_native_file__["a" /* File */],
+                __WEBPACK_IMPORTED_MODULE_29__ionic_native_file_chooser__["a" /* FileChooser */],
+                __WEBPACK_IMPORTED_MODULE_28__ionic_native_file_transfer__["a" /* FileTransfer */],
+                __WEBPACK_IMPORTED_MODULE_27__ionic_native_camera__["a" /* Camera */],
+                __WEBPACK_IMPORTED_MODULE_26__ionic_native_social_sharing__["a" /* SocialSharing */],
+                __WEBPACK_IMPORTED_MODULE_17__ionic_native_facebook__["a" /* Facebook */],
                 //GooglePlus,
-                __WEBPACK_IMPORTED_MODULE_17__ionic_native_twitter_connect__["a" /* TwitterConnect */],
+                // TwitterConnect,
                 //NativePageTransitions,
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
                 __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
-                __WEBPACK_IMPORTED_MODULE_35__ionic_native_pinterest__["a" /* Pinterest */],
-                __WEBPACK_IMPORTED_MODULE_40__ionic_native_youtube_video_player__["a" /* YoutubeVideoPlayer */],
+                __WEBPACK_IMPORTED_MODULE_34__ionic_native_pinterest__["a" /* Pinterest */],
+                // YoutubeVideoPlayer,
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* IonicErrorHandler */] },
                 // {provide:HTTP_INTERCEPTORS,useClass:InterceptorProvider,multi:true},
-                __WEBPACK_IMPORTED_MODULE_19__providers_security_security__["a" /* SecurityProvider */],
-                __WEBPACK_IMPORTED_MODULE_22__providers_dashboardservice_dashboardservice__["a" /* DashboardserviceProvider */],
+                __WEBPACK_IMPORTED_MODULE_18__providers_security_security__["a" /* SecurityProvider */],
+                __WEBPACK_IMPORTED_MODULE_21__providers_dashboardservice_dashboardservice__["a" /* DashboardserviceProvider */],
             ],
         })
     ], AppModule);
@@ -6035,7 +6043,7 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__category_category__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__uploadmedia_uploadmedia__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__editproartistpag_editproartistpag__ = __webpack_require__(396);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__editproartistpag_editproartistpag__ = __webpack_require__(393);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__commentsbox_commentsbox__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__popoverpageshare_popoverpageshare__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__reportprob_reportprob__ = __webpack_require__(55);
@@ -6043,7 +6051,7 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_file_chooser__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_camera__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_file_transfer__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_security_security__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_dashboardservice_dashboardservice__ = __webpack_require__(77);
@@ -6645,7 +6653,7 @@ var ArtistprofilepagePage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__artistprofilepage_artistprofilepage__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_security_security__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__popoverpageshare_popoverpageshare__ = __webpack_require__(54);
@@ -7055,8 +7063,8 @@ var CommentsboxPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverpagesharePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_social_sharing__ = __webpack_require__(342);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_pinterest__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_social_sharing__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_pinterest__ = __webpack_require__(340);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_branch_io__ = __webpack_require__(154);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -7323,7 +7331,7 @@ var PopoverpagesharePage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReportprobPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_security_security__ = __webpack_require__(27);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -7508,7 +7516,7 @@ var ViewtalentPage = (function () {
 
 /***/ }),
 
-/***/ 705:
+/***/ 702:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7530,24 +7538,24 @@ var ENV = Live;
 
 /***/ }),
 
-/***/ 744:
+/***/ 741:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(389);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(388);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(385);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_commentsbox_commentsbox__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_Rx__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_Rx__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_branch_io__ = __webpack_require__(154);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_artistprofilepage_artistprofilepage__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_onesignal__ = __webpack_require__(390);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_unique_device_id__ = __webpack_require__(156);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_device__ = __webpack_require__(391);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_onesignal__ = __webpack_require__(387);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_unique_device_id__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_device__ = __webpack_require__(388);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7872,7 +7880,7 @@ var MyApp = (function () {
 
 /***/ }),
 
-/***/ 745:
+/***/ 742:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7914,7 +7922,7 @@ var LoaderdataComponent = (function () {
 
 /***/ }),
 
-/***/ 746:
+/***/ 743:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7972,7 +7980,7 @@ var ComponentsExpandableComponent = (function () {
 
 /***/ }),
 
-/***/ 753:
+/***/ 750:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8024,8 +8032,6 @@ var ProgressbarComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_document_viewer__ = __webpack_require__(180);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -8038,8 +8044,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
+//import { YoutubeVideoPlayer } from "@ionic-native/youtube-video-player";
+// import {
+//   DocumentViewer,
+//   DocumentViewerOptions,
+// } from "@ionic-native/document-viewer";
 //import { InAppBrowser } from "@ionic-native/in-app-browser";
 /**
  * Generated class for the ViewvideoplayPage page.
@@ -8050,13 +8059,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var ViewvideoplayPage = (function () {
     function ViewvideoplayPage(
         //  public iab: InAppBrowser,
-        document, santizer, viewCtrl, navCtrl, navParams, youtube) {
-        this.document = document;
+        //  public document: DocumentViewer,
+        santizer, viewCtrl, navCtrl, navParams) {
         this.santizer = santizer;
         this.viewCtrl = viewCtrl;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.youtube = youtube;
         // alert("nwbi");
         this.mediatypes = false;
     }
@@ -8204,12 +8212,10 @@ var ViewvideoplayPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: "page-viewvideoplay",template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/viewvideoplay/viewvideoplay.html"*/`<!--\n  Generated template for the ViewvideoplayPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-content style="background-color: rgba(0, 0, 0, 0.6);">\n  <div class="pop-up">\n    <button\n      *ngIf="usertype==\'image/jpeg\'"\n      class="butt-style"\n      ion-button\n      round\n      (click)="close()"\n    >\n      <ion-icon name="close"></ion-icon>\n    </button>\n    <button\n      *ngIf="usertype!=\'image/jpeg\'"\n      class="butt-style1"\n      ion-button\n      round\n      (click)="close()"\n    >\n      <ion-icon name="close"></ion-icon>\n    </button>\n\n    <div class="pop-style" *ngIf="mediatypes==true">\n      <div\n        *ngIf="usertype==\'image/jpeg\'||usertype==\'image/png\'||usertype==\'application/jpg\'"\n        style="text-align: center;"\n      >\n        <img style="width: 100%;" [src]="pathurl" />\n      </div>\n      <div\n        *ngIf="usertype!=\'image/jpeg\' && usertype!=\'image/png\' && usertype!=\'application/jpg\' && mediatypes==true"\n        style="text-align: center;"\n      >\n        <video\n          webkit-playsinline\n          playsinline\n          autoplay\n          loop\n          style="height: 189px; width: 96%;"\n          *ngIf="iframe==false"\n          width="330"\n          controls\n        >\n          <source src="{{pathurl}}" type="{{usertype}}" />\n        </video>\n        <!-- <iframe allow="autoplay; encrypted-media" style="height: 189px;width: 96%;" *ngIf="iframe==true" width="420" height="345" [src]="pathsantiz" >\n      </iframe> -->\n        <iframe\n          *ngIf="iframe==true"\n          style="height: 229px; width: 96%;"\n          [src]="pathsantiz"\n        >\n        </iframe>\n        <!-- <youtube-player  style="height: 189px;width: 96%;" *ngIf="iframe==true" [playerId]=\'"player"\' [width]="300" [height]="200" [videoId]="videoid"> </youtube-player> -->\n      </div>\n    </div>\n  </div>\n  <!-- <div id="youtube-player">\n\n  </div> -->\n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/viewvideoplay/viewvideoplay.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__ionic_native_document_viewer__["a" /* DocumentViewer */],
-            __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* ViewController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__["a" /* YoutubeVideoPlayer */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], ViewvideoplayPage);
     return ViewvideoplayPage;
 }());
@@ -8817,5 +8823,5 @@ var DashboardserviceProvider = (function () {
 
 /***/ })
 
-},[401]);
+},[398]);
 //# sourceMappingURL=main.js.map

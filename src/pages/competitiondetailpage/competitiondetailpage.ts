@@ -2,7 +2,7 @@ import { Component } from "@angular/core";
 import { IonicPage, NavController, NavParams } from "ionic-angular";
 import { Observable } from "rxjs";
 import { SecurityProvider } from "../../providers/security/security";
-import { DocumentViewer } from "@ionic-native/document-viewer";
+//import { DocumentViewer } from "@ionic-native/document-viewer";
 //import{InAppBrowser}from'@ionic-native/in-app-browser'
 
 /**
@@ -31,7 +31,7 @@ export class CompetitiondetailpagePage {
   loadingtext: boolean;
   constructor(
     //  public iab: InAppBrowser,
-    public document: DocumentViewer,
+    // public document: DocumentViewer,
     public security: SecurityProvider,
     public navCtrl: NavController,
     public navParams: NavParams

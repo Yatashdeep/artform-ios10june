@@ -1,6 +1,6 @@
 webpackJsonp([15],{
 
-/***/ 783:
+/***/ 780:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CompetitiondetailpagePageModule", function() { return CompetitiondetailpagePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__competitiondetailpage__ = __webpack_require__(821);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__competitiondetailpage__ = __webpack_require__(818);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -41,17 +41,16 @@ var CompetitiondetailpagePageModule = (function () {
 
 /***/ }),
 
-/***/ 821:
+/***/ 818:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CompetitiondetailpagePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_security_security__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_document_viewer__ = __webpack_require__(180);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -65,7 +64,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
+//import { DocumentViewer } from "@ionic-native/document-viewer";
 //import{InAppBrowser}from'@ionic-native/in-app-browser'
 /**
  * Generated class for the CompetitiondetailpagePage page.
@@ -76,8 +75,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var CompetitiondetailpagePage = (function () {
     function CompetitiondetailpagePage(
         //  public iab: InAppBrowser,
-        document, security, navCtrl, navParams) {
-        this.document = document;
+        // public document: DocumentViewer,
+        security, navCtrl, navParams) {
         this.security = security;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
@@ -127,8 +126,7 @@ var CompetitiondetailpagePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: "page-competitiondetailpage",template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/competitiondetailpage/competitiondetailpage.html"*/`<!--\n  Generated template for the CompetitiondetailpagePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n  <ion-title style="text-align: center;    margin-left: -13px;">{{titlecompetition}}</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <!-- <div class="cover-img" [style.backgroundImage]="\'url(\'+CompetitionsCoverMediaurl+\')\'">\n    \n<div>\n  <img style="height: 155px;" src="{{CompetitionsMediaurl}}">\n</div>\n  </div> -->\n \n    <div *ngIf="loadingtext==true" style="text-align: center;">\n    <p>Data Loading...</p>\n    <ion-spinner></ion-spinner>\n  </div>\n      <ion-slides *ngIf="carouselshow==true" pager class="slide-class">\n       <ion-slide *ngFor="let slide of carousel">\n        <div class="featured-image"  [style.backgroundImage]="\'url(\'+slide.CompetitionsMedia.url+\')\'">\n        <img  src="{{CompetitionsMediaurl}}" class="slide-image"/>\n        </div>\n      </ion-slide>\n      \n      </ion-slides>\n      <div *ngIf="carouselshow==false">\n        <img  src="{{CompetitionsMediaurl}}">\n      </div>\n    <!-- <div *ngFor="let slide of carousel">\n    <p>{{slide.CompetitionsMedia.url}}</p>\n    </div> -->\n  <div style="margin-top: 27px;" [innerHTML]="competitiondata">\n\n  </div>\n\n  <p *ngIf="gallery" style="font-size: 2rem;margin-bottom: -23PX;">Gallery</p>\n  <ion-slides *ngIf="gallery" pager class="slide-class">\n    <ion-slide *ngFor="let slide of gallery">\n     <div class="featured-image"  [style.backgroundImage]="\'url(\'+slide.CompetitionsMedia.url+\')\'">\n     </div>\n   </ion-slide>\n   \n   </ion-slides>\n\n   <p *ngIf="attachments" style="font-size:2rem;margin-bottom: -23PX;">Attachments</p>\n   <ion-slides *ngIf="attachments" pager class="slide-class">\n    <ion-slide *ngFor="let slide of attachments">\n      <!-- <p>{{slide.CompetitionsMedia.url}}</p> -->\n      <div *ngIf="slide.CompetitionsMedia.meta.type==\'audio/mpeg\'">\n        <audio controls>\n           \n            <source src="{{slide.CompetitionsMedia.url}}" type="audio/mpeg">\n         \n          </audio> \n      </div>\n      <div *ngIf="slide.CompetitionsMedia.meta.type==\'video/mp4\'">\n        <video width="320" height="240" controls>\n            <source src="{{slide.CompetitionsMedia.url}}" type="video/mp4">\n          </video> \n      </div>\n      <div *ngIf="slide.CompetitionsMedia.meta.type==\'application/pdf\'">\n        <button ion-button icon-only clear (click)="openpdf(slide.CompetitionsMedia.url)">\n            <ion-icon name="document"></ion-icon>\n          </button>\n      </div>\n     <!-- <div class="featured-image"  [style.backgroundImage]="\'url(\'+slide.CompetitionsMedia.url+\')\'">\n     </div> -->\n   </ion-slide>\n   \n   </ion-slides>\n\n\n\n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/competitiondetailpage/competitiondetailpage.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__ionic_native_document_viewer__["a" /* DocumentViewer */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_security_security__["a" /* SecurityProvider */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_security_security__["a" /* SecurityProvider */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], CompetitiondetailpagePage);

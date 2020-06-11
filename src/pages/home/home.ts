@@ -13,10 +13,10 @@ import { NavController, Events, IonicPage } from "ionic-angular";
 import { SecuritypanelPage } from "../securitypanel/securitypanel";
 import { HttpClient } from "@angular/common/http";
 import { Storage } from "@ionic/storage";
-import {
-  DocumentViewer,
-  DocumentViewerOptions,
-} from "@ionic-native/document-viewer";
+// import {
+//   DocumentViewer,
+//   DocumentViewerOptions,
+// } from "@ionic-native/document-viewer";
 //import { InAppBrowser } from "@ionic-native/in-app-browser";
 
 // Import Auth0Cordova and auth0.js
@@ -56,7 +56,7 @@ export class HomePage {
   private ytEvent;
   constructor(
     // private iab: InAppBrowser,
-    public document: DocumentViewer,
+    // public document: DocumentViewer,
     public zone: NgZone,
     //public pinterest:Pinterest,
     private http: HttpClient,

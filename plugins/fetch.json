@@ -1,12 +1,4 @@
 {
-  "cordova-plugin-device": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-device@^1.1.4"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-splashscreen": {
     "source": {
       "type": "registry",
@@ -19,43 +11,6 @@
     "source": {
       "type": "registry",
       "id": "cordova-plugin-whitelist@1.3.1"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "ionic-plugin-keyboard": {
-    "source": {
-      "type": "registry",
-      "id": "ionic-plugin-keyboard@~2.2.1"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "twitter-connect-plugin": {
-    "source": {
-      "type": "registry",
-      "id": "twitter-connect-plugin"
-    },
-    "is_top_level": true,
-    "variables": {
-      "FABRIC_KEY": "3218c800211db53bb90e77910223b6eef082f76a"
-    }
-  },
-  "cordova-plugin-facebook4": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-facebook4@1.9.1"
-    },
-    "is_top_level": true,
-    "variables": {
-      "APP_ID": "315436965794053",
-      "APP_NAME": "ArtFormPlatform"
-    }
-  },
-  "cordova-plugin-camera": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-camera@4.0.3"
     },
     "is_top_level": true,
     "variables": {}
@@ -84,34 +39,10 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-document-viewer": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-document-viewer@~0.9.11"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-youtube-video-player": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-youtube-video-player"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-uniquedeviceid": {
     "source": {
       "type": "registry",
       "id": "cordova-plugin-uniquedeviceid"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-advanced-http": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-advanced-http@1.10.0"
     },
     "is_top_level": true,
     "variables": {}
@@ -156,6 +87,49 @@
     "is_top_level": false,
     "variables": {}
   },
+  "cordova-plugin-ionic-webview": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-ionic-webview@^5.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-advanced-http": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-advanced-http@2.4.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@4.1.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device@2.0.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-facebook4": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-facebook4@6.3.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "315436965794053",
+      "APP_NAME": "ArtFormPlatform"
+    }
+  },
   "cordova-plugin-x-socialsharing": {
     "source": {
       "type": "registry",
@@ -165,13 +139,5 @@
     "variables": {
       "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
     }
-  },
-  "cordova-plugin-ionic-webview": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-ionic-webview@latest"
-    },
-    "is_top_level": true,
-    "variables": {}
   }
 }

@@ -46,7 +46,7 @@ import { FollowedartistPage } from "../pages/followedartist/followedartist";
 //   NativeTransitionOptions,
 // } from "@ionic-native/native-page-transitions";
 import { ViewvideoplayPage } from "../pages/viewvideoplay/viewvideoplay";
-import { TwitterConnect } from "@ionic-native/twitter-connect";
+//import { TwitterConnect } from "@ionic-native/twitter-connect";
 import { Facebook } from "@ionic-native/facebook";
 //import { GooglePlus } from "@ionic-native/google-plus";
 import { SecurityProvider } from "../providers/security/security";
@@ -82,13 +82,13 @@ import {
 import { ProgressbarComponent } from "../components/progressbar/progressbar";
 import { SelectuploadcategoryPage } from "../pages/selectuploadcategory/selectuploadcategory";
 //import{CompetitiondetailpagePage}from'../pages/competitiondetailpage/competitiondetailpage'
-import { DocumentViewer } from "@ionic-native/document-viewer";
+//import { DocumentViewer } from "@ionic-native/document-viewer";
 //import { InAppBrowser } from "@ionic-native/in-app-browser";
 //import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { CommunitypopoverPage } from "../pages/communitypopover/communitypopover";
 import { FollowersPagepPage } from "../pages/followers-pagep/followers-pagep";
 
-import { YoutubeVideoPlayer } from "@ionic-native/youtube-video-player";
+//import { YoutubeVideoPlayer } from "@ionic-native/youtube-video-player";
 import { VgCoreModule } from "videogular2/core";
 import { VgControlsModule } from "videogular2/controls";
 import { VgOverlayPlayModule } from "videogular2/overlay-play";
@@ -213,7 +213,7 @@ import { IOSFilePicker } from "@ionic-native/file-picker";
     BranchIo,
     // Deeplinks,
     // InAppBrowser,
-    DocumentViewer,
+    // DocumentViewer,
     File,
     FileChooser,
     FileTransfer,
@@ -221,12 +221,12 @@ import { IOSFilePicker } from "@ionic-native/file-picker";
     SocialSharing,
     Facebook,
     //GooglePlus,
-    TwitterConnect,
+    // TwitterConnect,
     //NativePageTransitions,
     StatusBar,
     SplashScreen,
     Pinterest,
-    YoutubeVideoPlayer,
+    // YoutubeVideoPlayer,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
     // {provide:HTTP_INTERCEPTORS,useClass:InterceptorProvider,multi:true},
     SecurityProvider,

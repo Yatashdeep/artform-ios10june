@@ -36,9 +36,6 @@
     <feature name="Device">
         <param name="ios-package" value="CDVDevice" />
     </feature>
-    <feature name="SitewaertsDocumentViewer">
-        <param name="ios-package" value="SitewaertsDocumentViewer" />
-    </feature>
     <feature name="FacebookConnectPlugin">
         <param name="ios-package" value="FacebookConnectPlugin" />
         <param name="onload" value="true" />
@@ -71,17 +68,8 @@
         <param name="ios-package" value="SocialSharing" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="YoutubeVideoPlayer">
-        <param name="ios-package" value="YoutubeVideoPlayer" />
-    </feature>
-    <feature name="Keyboard">
-        <param name="ios-package" onload="true" value="IonicKeyboard" />
-    </feature>
     <feature name="OneSignalPush">
         <param name="ios-package" value="OneSignalPush" />
-    </feature>
-    <feature name="TwitterConnect">
-        <param name="ios-package" value="TwitterConnect" />
     </feature>
     <name>Artform platform</name>
     <description>An awesome Ionic/Cordova app.</description>

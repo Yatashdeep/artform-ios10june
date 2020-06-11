@@ -2,25 +2,45 @@ PODS:
   - Branch (0.31.4):
     - Branch/Core (= 0.31.4)
   - Branch/Core (0.31.4)
+  - FBSDKCoreKit (5.15.0):
+    - FBSDKCoreKit/Basics (= 5.15.0)
+    - FBSDKCoreKit/Core (= 5.15.0)
+  - FBSDKCoreKit/Basics (5.15.0)
+  - FBSDKCoreKit/Core (5.15.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.15.0):
+    - FBSDKLoginKit/Login (= 5.15.0)
+  - FBSDKLoginKit/Login (5.15.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKShareKit (5.15.0):
+    - FBSDKShareKit/Share (= 5.15.0)
+  - FBSDKShareKit/Share (5.15.0):
+    - FBSDKCoreKit (~> 5.0)
   - OneSignal (2.13.1)
-  - XCDYouTubeKit (2.14.0)
 
 DEPENDENCIES:
   - Branch (~> 0.31.3)
+  - FBSDKCoreKit (= 5.15.0)
+  - FBSDKLoginKit (= 5.15.0)
+  - FBSDKShareKit (= 5.15.0)
   - OneSignal (= 2.13.1)
-  - XCDYouTubeKit (~> 2.7)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Branch
+    - FBSDKLoginKit
+    - FBSDKShareKit
     - OneSignal
-    - XCDYouTubeKit
+  trunk:
+    - FBSDKCoreKit
 
 SPEC CHECKSUMS:
   Branch: 5180bca89b8942dd0fe8175d7ecb8a8a451cf5b0
+  FBSDKCoreKit: 083ba8c8e37939c0b4c84250654c9be0aef0c2f8
+  FBSDKLoginKit: bd40354a96e4718765713ef225bc368f10dc395d
+  FBSDKShareKit: 23bad745329f966836f9a2493f86fc7c092b02e6
   OneSignal: fa98eaa90372bb367b6a4a1c1622ffb9832c7600
-  XCDYouTubeKit: 04a2f89dca6c5c53d1786701a0e98dcb484be7a8
 
-PODFILE CHECKSUM: 7295cbeb99f2163612f70e5c5ee8855301ae47f8
+PODFILE CHECKSUM: 2246f1a326783fdd1734d801293a7483ebaf7ca7
 
 COCOAPODS: 1.8.4

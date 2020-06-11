@@ -1,6 +1,6 @@
 webpackJsonp([11],{
 
-/***/ 789:
+/***/ 786:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePageModule", function() { return HomePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(824);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(821);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -41,16 +41,15 @@ var HomePageModule = (function () {
 
 /***/ }),
 
-/***/ 824:
+/***/ 821:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_storage__ = __webpack_require__(397);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_document_viewer__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_storage__ = __webpack_require__(394);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -64,7 +63,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
+// import {
+//   DocumentViewer,
+//   DocumentViewerOptions,
+// } from "@ionic-native/document-viewer";
 //import { InAppBrowser } from "@ionic-native/in-app-browser";
 // Import Auth0Cordova and auth0.js
 // import Auth0Cordova from '@auth0/cordova';
@@ -82,10 +84,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var HomePage = (function () {
     function HomePage(
         // private iab: InAppBrowser,
-        document, zone, 
+        // public document: DocumentViewer,
+        zone, 
         //public pinterest:Pinterest,
         http, storage, event, navCtrl) {
-        this.document = document;
         this.zone = zone;
         this.http = http;
         this.storage = storage;
@@ -227,8 +229,7 @@ var HomePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: "page-home",template:/*ion-inline-start:"/Users/apple/Documents/artformplat/src/pages/home/home.html"*/`\n\n<ion-content class="content-color">\n  <!-- https://www.youtube.com/embed/xxCVVQUBWTo -->\n     <!-- <iframe allow="encrypted-media" src="https://www.youtube.com/embed/xxCVVQUBWTo"></iframe>     -->\n       \n     <!-- <script>\n      // Load the IFrame Player API code asynchronously.\n      var tag = document.createElement(\'script\');\n      tag.src = "https://www.youtube.com/player_api";\n      var firstScriptTag = document.getElementsByTagName(\'script\')[0];\n      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);\n    \n      // Replace the \'ytplayer\' element with an <iframe> and\n      // YouTube player after the API code downloads.\n      var player;\n      function onYouTubePlayerAPIReady() {\n        player = new YT.Player(\'ytplayer\', {\n          height: \'360\',\n          width: \'640\',\n          videoId: \'M7lc1UVf-VE\'\n        });\n      }\n    </script> -->\n<ion-grid no-padding>\n  <ion-row no-padding (click)="logout()">\n  <p class="p-head">\n    <!-- <div id="ytplayer"></div> -->\n\n\nWelcome to\n  </p>\n  </ion-row>\n  <ion-row no-padding (click)="login()"> \n  <p class="p-headbold">\nArtform Platform\n  </p>\n  </ion-row>\n  <ion-row class="img-row">\n<div class="img-art" >\n  <div class="img-shadow">\n    </div>\n  <img src="assets/welcome/logoart.png">\n\n</div>\n  </ion-row>\n\n  <ion-row class="navigate-bar">\n      <button style="width: 43%;" ion-button color="dark" round outline (click)="navigatetoSecurity()">Get Started</button>\n\n\n   \n  </ion-row>\n</ion-grid> \n<!-- <vg-player>\n  <video [vgMedia]="media" #media id="singleVideo" preload="auto" controls>\n    <source src="https://www.youtube.com/embed/xxCVVQUBWTo" type="youtube">\n  </video>\n</vg-player> -->\n</ion-content>\n`/*ion-inline-end:"/Users/apple/Documents/artformplat/src/pages/home/home.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__ionic_native_document_viewer__["a" /* DocumentViewer */],
-            __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgZone"],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgZone"],
             __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */],
             __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */],

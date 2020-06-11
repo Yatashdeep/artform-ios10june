@@ -1,19 +1,19 @@
 {
-  "_from": "cordova-plugin-ionic-webview@latest",
+  "_from": "cordova-plugin-ionic-webview@5.0.0",
   "_id": "cordova-plugin-ionic-webview@5.0.0",
   "_inBundle": false,
   "_integrity": "sha512-Wq0kCanxubK/JroTW4Mp5soayScnRyiY1eCkbwiz1Dyt1xHOiOW/v+1miqtBHtnZhcXw25TulCKAVJzkNBdmyg==",
   "_location": "/cordova-plugin-ionic-webview",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-ionic-webview@latest",
+    "raw": "cordova-plugin-ionic-webview@5.0.0",
     "name": "cordova-plugin-ionic-webview",
     "escapedName": "cordova-plugin-ionic-webview",
-    "rawSpec": "latest",
+    "rawSpec": "5.0.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "5.0.0"
   },
   "_requiredBy": [
     "#USER",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-5.0.0.tgz",
   "_shasum": "d58741af85754d80da82c7f673842a3e71bde630",
-  "_spec": "cordova-plugin-ionic-webview@latest",
+  "_spec": "cordova-plugin-ionic-webview@5.0.0",
   "_where": "/Users/apple/Documents/artformplat",
   "author": {
     "name": "Ionic Team"
