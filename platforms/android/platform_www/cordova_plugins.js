@@ -371,15 +371,6 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-inappbrowser.inappbrowser",
-    "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-    "pluginId": "cordova-plugin-inappbrowser",
-    "clobbers": [
-      "cordova.InAppBrowser.open",
-      "window.open"
-    ]
-  },
-  {
     "id": "es6-promise-plugin.Promise",
     "file": "plugins/es6-promise-plugin/www/promise.js",
     "pluginId": "es6-promise-plugin",
@@ -423,7 +414,6 @@ module.exports.metadata =
   "cordova-plugin-filepicker": "1.1.6",
   "branch-cordova-sdk": "4.1.2",
   "onesignal-cordova-plugin": "2.9.1",
-  "cordova-plugin-inappbrowser": "3.2.0",
   "es6-promise-plugin": "4.2.2",
   "cordova-plugin-x-socialsharing": "5.6.4",
   "cordova-plugin-ionic-webview": "5.0.0"

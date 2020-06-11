@@ -17,7 +17,7 @@ import {
   DocumentViewer,
   DocumentViewerOptions,
 } from "@ionic-native/document-viewer";
-import { InAppBrowser } from "@ionic-native/in-app-browser";
+//import { InAppBrowser } from "@ionic-native/in-app-browser";
 
 // Import Auth0Cordova and auth0.js
 // import Auth0Cordova from '@auth0/cordova';
@@ -55,7 +55,7 @@ export class HomePage {
   private player;
   private ytEvent;
   constructor(
-    private iab: InAppBrowser,
+    // private iab: InAppBrowser,
     public document: DocumentViewer,
     public zone: NgZone,
     //public pinterest:Pinterest,

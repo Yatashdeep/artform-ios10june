@@ -11,7 +11,7 @@ import {
   DocumentViewer,
   DocumentViewerOptions,
 } from "@ionic-native/document-viewer";
-import { InAppBrowser } from "@ionic-native/in-app-browser";
+//import { InAppBrowser } from "@ionic-native/in-app-browser";
 /**
  * Generated class for the ViewvideoplayPage page.
  *
@@ -35,7 +35,7 @@ export class ViewvideoplayPage {
   youtube_id;
   mediatypes;
   constructor(
-    public iab: InAppBrowser,
+    //  public iab: InAppBrowser,
     public document: DocumentViewer,
     public santizer: DomSanitizer,
     public viewCtrl: ViewController,
@@ -63,11 +63,11 @@ export class ViewvideoplayPage {
 
     if (this.data[this.id].media_type == "application/pdf") {
       this.mediatypes = true;
-      const browser = this.iab.create(
-        this.data[this.id].mediaplay,
-        "_system",
-        "location=no"
-      );
+      // const browser = this.iab.create(
+      //   this.data[this.id].mediaplay,
+      //   "_system",
+      //   "location=no"
+      // );
       // const options: DocumentViewerOptions = {
       //   title: 'My PDF'
       // }
@@ -78,11 +78,11 @@ export class ViewvideoplayPage {
       "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
     ) {
       this.mediatypes = true;
-      const browser = this.iab.create(
-        this.data[this.id].mediaplay,
-        "_system",
-        "location=no"
-      );
+      // const browser = this.iab.create(
+      //   this.data[this.id].mediaplay,
+      //   "_system",
+      //   "location=no"
+      // );
       // const options: DocumentViewerOptions = {
       //   title: 'My Document'
       // }

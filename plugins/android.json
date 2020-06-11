@@ -64,9 +64,6 @@
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "io.artform.com"
     },
-    "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "io.artform.com"
-    },
     "cordova-plugin-x-socialsharing": {
       "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
       "PACKAGE_NAME": "io.artform.com"

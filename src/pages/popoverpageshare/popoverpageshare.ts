@@ -13,7 +13,7 @@ import {
   PinterestBoard,
 } from "@ionic-native/pinterest";
 import { BranchIo } from "@ionic-native/branch-io";
-import { InAppBrowser } from "@ionic-native/in-app-browser";
+//import { InAppBrowser } from "@ionic-native/in-app-browser";
 declare var window;
 /**
  * Generated class for the PopoverpagesharePage page.
@@ -45,9 +45,9 @@ export class PopoverpagesharePage {
     public pinterest: Pinterest,
     public socialshare: SocialSharing,
     public navCtrl: NavController,
-    public navParams: NavParams,
-    public iab: InAppBrowser
-  ) {}
+    public navParams: NavParams
+  ) //  public iab: InAppBrowser
+  {}
 
   ionViewDidLoad() {
     console.log("ionViewDidLoad PopoverpagesharePage");
@@ -137,12 +137,11 @@ export class PopoverpagesharePage {
     //   // put your control parameters here
     //   "$desktop_url" : "https://www.facebook.com",
     // });
-    const browser = this.iab.create(
-      "https://www.facebook.com/sharer/sharer.php?u=" + this.user_url,
-      "_system",
-      "location=no"
-    );
-
+    // const browser = this.iab.create(
+    //   "https://www.facebook.com/sharer/sharer.php?u=" + this.user_url,
+    //   "_system",
+    //   "location=no"
+    // );
     // this.socialshare
     //   .shareViaFacebookWithPasteMessageHint(
     //     this.artistname + "-artform platform check out this work on",

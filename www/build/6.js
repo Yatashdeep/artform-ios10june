@@ -1,6 +1,6 @@
 webpackJsonp([6],{
 
-/***/ 807:
+/***/ 806:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,8 +8,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardPageModule", function() { return DashboardPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard__ = __webpack_require__(833);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic3_star_rating__ = __webpack_require__(396);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard__ = __webpack_require__(832);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic3_star_rating__ = __webpack_require__(395);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -44,7 +44,7 @@ var DashboardPageModule = (function () {
 
 /***/ }),
 
-/***/ 816:
+/***/ 815:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -166,7 +166,7 @@ var CategorytabpagePage = (function () {
 
 /***/ }),
 
-/***/ 833:
+/***/ 832:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -176,7 +176,7 @@ var CategorytabpagePage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reportprob_reportprob__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__commentsbox_commentsbox__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__popoverpageshare_popoverpageshare__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__categorytabpage_categorytabpage__ = __webpack_require__(816);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__categorytabpage_categorytabpage__ = __webpack_require__(815);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__artistprofilepage_artistprofilepage__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__viewtalent_viewtalent__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__followedartist_followedartist__ = __webpack_require__(56);
@@ -186,7 +186,7 @@ throw new Error("Cannot find module \"@ionic-native/native-page-transitions\"");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_dashboardservice_dashboardservice__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__viewvideotopperformers_viewvideotopperformers__ = __webpack_require__(183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__viewvideotopperformers_viewvideotopperformers__ = __webpack_require__(182);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);

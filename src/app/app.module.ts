@@ -83,7 +83,7 @@ import { ProgressbarComponent } from "../components/progressbar/progressbar";
 import { SelectuploadcategoryPage } from "../pages/selectuploadcategory/selectuploadcategory";
 //import{CompetitiondetailpagePage}from'../pages/competitiondetailpage/competitiondetailpage'
 import { DocumentViewer } from "@ionic-native/document-viewer";
-import { InAppBrowser } from "@ionic-native/in-app-browser";
+//import { InAppBrowser } from "@ionic-native/in-app-browser";
 //import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { CommunitypopoverPage } from "../pages/communitypopover/communitypopover";
 import { FollowersPagepPage } from "../pages/followers-pagep/followers-pagep";
@@ -212,7 +212,7 @@ import { IOSFilePicker } from "@ionic-native/file-picker";
     OneSignal,
     BranchIo,
     // Deeplinks,
-    InAppBrowser,
+    // InAppBrowser,
     DocumentViewer,
     File,
     FileChooser,

@@ -55,18 +55,6 @@
     <feature name="FilePicker">
         <param name="ios-package" value="FilePicker" />
     </feature>
-    <feature name="InAppBrowser">
-        <param name="ios-package" value="CDVInAppBrowser" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="UIInAppBrowser">
-        <param name="ios-package" value="CDVUIInAppBrowser" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="WKInAppBrowser">
-        <param name="ios-package" value="CDVWKInAppBrowser" />
-        <param name="onload" value="true" />
-    </feature>
     <allow-navigation href="ionic://*" />
     <feature name="IonicWebView">
         <param name="ios-package" value="CDVWKWebViewEngine" />
