@@ -8,12 +8,11 @@
 ./platforms/ios/Artform platform/Plugins/cordova-plugin-inappbrowser/CDVUIInAppBrowser.h
 ./platforms/ios/Artform platform/Plugins/cordova-plugin-inappbrowser/CDVWKInAppBrowser.m
 ./platforms/ios/Artform platform/Plugins/cordova-plugin-inappbrowser/CDVUIInAppBrowser.m
-./platforms/ios/Artform platform/Plugins/com.telerik.plugins.nativepagetransitions/NativePageTransitions.m
 ./platforms/ios/Artform platform/Plugins/ionic-plugin-keyboard/IonicKeyboard.m
 ./platforms/ios/Artform platform/Plugins/twitter-connect-plugin/TwitterKit.framework/TwitterKit
 ./platforms/ios/Artform platform/Plugins/twitter-connect-plugin/TwitterKit.framework/Headers/TWTRTweet.h
-./platforms/ios/Artform platform/Plugins/cordova-plugin-wkwebview-engine/CDVWKWebViewEngine.m
 ./platforms/ios/Artform platform/Plugins/cordova-plugin-x-socialsharing/SocialSharing.m
+./platforms/ios/Artform platform.xcworkspace/xcuserdata/apple.xcuserdatad/UserInterfaceState.xcuserstate
 ./platforms/ios/www/build/vendor.js
 ./platforms/ios/www/build/vendor.js.map
 ./platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.m
@@ -39,11 +38,11 @@
 ./plugins/cordova-plugin-facebook4/src/ios/Bolts.framework/Bolts
 ./plugins/cordova-plugin-facebook4/src/ios/Bolts.framework/Headers/BFWebViewAppLinkResolver.h
 ./plugins/cordova-plugin-inappbrowser/tests/tests.js
+./plugins/cordova-plugin-inappbrowser/RELEASENOTES.md
 ./plugins/cordova-plugin-inappbrowser/README.md
 ./plugins/cordova-plugin-inappbrowser/src/ios/CDVUIInAppBrowser.h
 ./plugins/cordova-plugin-inappbrowser/src/ios/CDVWKInAppBrowser.m
 ./plugins/cordova-plugin-inappbrowser/src/ios/CDVUIInAppBrowser.m
-./plugins/com.telerik.plugins.nativepagetransitions/src/ios/NativePageTransitions.m
 ./plugins/cordova-plugin-whitelist/README.md
 ./plugins/cordova-plugin-whitelist/doc/pl/README.md
 ./plugins/cordova-plugin-whitelist/doc/ja/README.md
@@ -57,9 +56,6 @@
 ./plugins/cordova-plugin-camera/RELEASENOTES.md
 ./plugins/twitter-connect-plugin/src/ios/TwitterKit.framework/TwitterKit
 ./plugins/twitter-connect-plugin/src/ios/TwitterKit.framework/Headers/TWTRTweet.h
-./plugins/cordova-plugin-wkwebview-engine/RELEASENOTES.md
-./plugins/cordova-plugin-wkwebview-engine/README.md
-./plugins/cordova-plugin-wkwebview-engine/src/ios/CDVWKWebViewEngine.m
 ./plugins/cordova-plugin-youtube-video-player/platforms/ios/YoutubeVideoPlayerProject/Classes/MainViewController.m
 ./plugins/cordova-plugin-youtube-video-player/platforms/ios/CordovaLib/Classes/CDVPlugin.m
 ./plugins/cordova-plugin-youtube-video-player/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
@@ -109,12 +105,11 @@
 ./node_modules/cordova-ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj
 ./node_modules/cordova-android/bin/templates/project/assets/www/index.html
 ./node_modules/cordova-plugin-inappbrowser/tests/tests.js
+./node_modules/cordova-plugin-inappbrowser/RELEASENOTES.md
 ./node_modules/cordova-plugin-inappbrowser/README.md
 ./node_modules/cordova-plugin-inappbrowser/src/ios/CDVUIInAppBrowser.h
 ./node_modules/cordova-plugin-inappbrowser/src/ios/CDVWKInAppBrowser.m
 ./node_modules/cordova-plugin-inappbrowser/src/ios/CDVUIInAppBrowser.m
-./node_modules/com.telerik.plugins.nativepagetransitions/.idea/workspace.xml
-./node_modules/com.telerik.plugins.nativepagetransitions/src/ios/NativePageTransitions.m
 ./node_modules/ionic-angular/util/scroll-view.d.ts
 ./node_modules/ionic-angular/util/scroll-view.js
 ./node_modules/ionic-angular/umd/util/scroll-view.d.ts
@@ -168,9 +163,6 @@
 ./node_modules/cordova-plugin-camera/RELEASENOTES.md
 ./node_modules/twitter-connect-plugin/src/ios/TwitterKit.framework/TwitterKit
 ./node_modules/twitter-connect-plugin/src/ios/TwitterKit.framework/Headers/TWTRTweet.h
-./node_modules/cordova-plugin-wkwebview-engine/RELEASENOTES.md
-./node_modules/cordova-plugin-wkwebview-engine/README.md
-./node_modules/cordova-plugin-wkwebview-engine/src/ios/CDVWKWebViewEngine.m
 ./node_modules/cordova-plugin-youtube-video-player/platforms/ios/YoutubeVideoPlayerProject/Classes/MainViewController.m
 ./node_modules/cordova-plugin-youtube-video-player/platforms/ios/CordovaLib/Classes/CDVPlugin.m
 ./node_modules/cordova-plugin-youtube-video-player/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m

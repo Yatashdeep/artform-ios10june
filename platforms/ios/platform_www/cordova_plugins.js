@@ -415,7 +415,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-filepath": "1.5.8",
     "cordova-plugin-filepicker": "1.1.6",
     "cordova-plugin-inappbrowser": "3.2.0",
-    "cordova-plugin-ionic-webview": "2.5.1",
+    "cordova-plugin-ionic-webview": "5.0.0",
     "cordova-plugin-splashscreen": "4.0.3",
     "cordova-plugin-uniquedeviceid": "1.3.2",
     "cordova-plugin-whitelist": "1.3.1",

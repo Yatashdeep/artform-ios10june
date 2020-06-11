@@ -380,14 +380,6 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-ionic-webview.IonicWebView",
-    "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
-    "pluginId": "cordova-plugin-ionic-webview",
-    "clobbers": [
-      "Ionic.WebView"
-    ]
-  },
-  {
     "id": "es6-promise-plugin.Promise",
     "file": "plugins/es6-promise-plugin/www/promise.js",
     "pluginId": "es6-promise-plugin",
@@ -399,6 +391,14 @@ module.exports = [
     "pluginId": "cordova-plugin-x-socialsharing",
     "clobbers": [
       "window.plugins.socialsharing"
+    ]
+  },
+  {
+    "id": "cordova-plugin-ionic-webview.IonicWebView",
+    "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
+    "pluginId": "cordova-plugin-ionic-webview",
+    "clobbers": [
+      "Ionic.WebView"
     ]
   }
 ];
@@ -424,9 +424,9 @@ module.exports.metadata =
   "branch-cordova-sdk": "4.1.2",
   "onesignal-cordova-plugin": "2.9.1",
   "cordova-plugin-inappbrowser": "3.2.0",
-  "cordova-plugin-ionic-webview": "2.5.1",
   "es6-promise-plugin": "4.2.2",
-  "cordova-plugin-x-socialsharing": "5.6.4"
+  "cordova-plugin-x-socialsharing": "5.6.4",
+  "cordova-plugin-ionic-webview": "5.0.0"
 };
 // BOTTOM OF METADATA
 });
