@@ -408,7 +408,8 @@ module.exports.metadata =
   "cordova-plugin-device": "2.0.3",
   "cordova-plugin-facebook4": "1.9.1",
   "es6-promise-plugin": "4.2.2",
-  "cordova-plugin-x-socialsharing": "5.6.4"
+  "cordova-plugin-x-socialsharing": "5.6.4",
+  "cordova-plugin-crosswalk-webview": "2.4.0"
 };
 // BOTTOM OF METADATA
 });

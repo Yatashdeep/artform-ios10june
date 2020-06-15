@@ -95,6 +95,7 @@ ext {
 apply from: "twitter-connect-plugin/starter-twitter.gradle"
 apply from: "cordova-plugin-pinterest/starter-Pinterest.gradle"
 apply from: "onesignal-cordova-plugin/com-build-extras-onesignal.gradle"
+apply from: "cordova-plugin-crosswalk-webview/com-xwalk.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()

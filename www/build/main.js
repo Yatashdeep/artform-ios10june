@@ -3318,7 +3318,7 @@ var map = {
 		32
 	],
 	"../pages/commentsbox/commentsbox.module": [
-		801,
+		805,
 		31
 	],
 	"../pages/communitygudelines/communitygudelines.module": [
@@ -3338,11 +3338,11 @@ var map = {
 		14
 	],
 	"../pages/createconversationpage/createconversationpage.module": [
-		802,
+		801,
 		13
 	],
 	"../pages/dashboard/dashboard.module": [
-		803,
+		802,
 		6
 	],
 	"../pages/editproartistpag/editproartistpag.module": [
@@ -3350,15 +3350,15 @@ var map = {
 		30
 	],
 	"../pages/editprofilepage/editprofilepage.module": [
-		804,
+		803,
 		12
 	],
 	"../pages/followedartist/followedartist.module": [
-		783,
+		784,
 		29
 	],
 	"../pages/followers-pagep/followers-pagep.module": [
-		784,
+		783,
 		28
 	],
 	"../pages/getintouch/getintouch.module": [
@@ -3382,7 +3382,7 @@ var map = {
 		10
 	],
 	"../pages/popoverpageshare/popoverpageshare.module": [
-		805,
+		804,
 		27
 	],
 	"../pages/privacyp/privacyp.module": [
@@ -5916,8 +5916,8 @@ var AppModule = (function () {
                         { loadChildren: '../pages/competitiondetailpage/competitiondetailpage.module#CompetitiondetailpagePageModule', name: 'CompetitiondetailpagePage', segment: 'competitiondetailpage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/competitionsp/competitionsp.module#CompetitionspPageModule', name: 'CompetitionspPage', segment: 'competitionsp', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/editproartistpag/editproartistpag.module#EditproartistpagPageModule', name: 'EditproartistpagPage', segment: 'editproartistpag', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/followedartist/followedartist.module#FollowedartistPageModule', name: 'FollowedartistPage', segment: 'followedartist', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/followers-pagep/followers-pagep.module#FollowersPagepPageModule', name: 'FollowersPagepPage', segment: 'followers-pagep', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/followedartist/followedartist.module#FollowedartistPageModule', name: 'FollowedartistPage', segment: 'followedartist', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/getintouch/getintouch.module#GetintouchPageModule', name: 'GetintouchPage', segment: 'getintouch', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/howitworksp/howitworksp.module#HowitworkspPageModule', name: 'HowitworkspPage', segment: 'howitworksp', priority: 'low', defaultHistory: [] },
@@ -5934,11 +5934,11 @@ var AppModule = (function () {
                         { loadChildren: '../pages/viewvideotopperformers/viewvideotopperformers.module#ViewvideotopperformersPageModule', name: 'ViewvideotopperformersPage', segment: 'viewvideotopperformers', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/chatinboxreply/chatinboxreply.module#ChatinboxreplyPageModule', name: 'ChatinboxreplyPage', segment: 'chatinboxreply', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/choosecatpagetab/choosecatpagetab.module#ChoosecatpagetabPageModule', name: 'ChoosecatpagetabPage', segment: 'choosecatpagetab', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/commentsbox/commentsbox.module#CommentsboxPageModule', name: 'CommentsboxPage', segment: 'commentsbox', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/createconversationpage/createconversationpage.module#CreateconversationpagePageModule', name: 'CreateconversationpagePage', segment: 'createconversationpage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/dashboard/dashboard.module#DashboardPageModule', name: 'DashboardPage', segment: 'dashboard', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/editprofilepage/editprofilepage.module#EditprofilepagePageModule', name: 'EditprofilepagePage', segment: 'editprofilepage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/popoverpageshare/popoverpageshare.module#PopoverpagesharePageModule', name: 'PopoverpagesharePage', segment: 'popoverpageshare', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/commentsbox/commentsbox.module#CommentsboxPageModule', name: 'CommentsboxPage', segment: 'commentsbox', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/artistprofilepage/artistprofilepage.module#ArtistprofilepagePageModule', name: 'ArtistprofilepagePage', segment: 'artistprofilepage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/category/category.module#CategoryPageModule', name: 'CategoryPage', segment: 'category', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/artprofile/artprofile.module#ArtprofilePageModule', name: 'ArtprofilePage', segment: 'artprofile', priority: 'low', defaultHistory: [] },
