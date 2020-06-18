@@ -87,9 +87,9 @@ export class MyApp {
     public loadingCtrl: LoadingController,
     public event: Events,
     public menuCtrl: MenuController,
-    platform: Platform,
-    statusBar: StatusBar,
-    splashScreen: SplashScreen,
+    public platform: Platform,
+    public statusBar: StatusBar,
+    public splashScreen: SplashScreen,
     public branch: BranchIo
   ) {
     // alert("new");
