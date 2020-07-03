@@ -1,6 +1,6 @@
 webpackJsonp([11],{
 
-/***/ 786:
+/***/ 787:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePageModule", function() { return HomePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(821);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(822);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -41,7 +41,7 @@ var HomePageModule = (function () {
 
 /***/ }),
 
-/***/ 821:
+/***/ 822:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -227,7 +227,7 @@ var HomePage = (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: "page-home",template:/*ion-inline-start:"/Users/apple/Documents/BigCity/artform-ios10june/src/pages/home/home.html"*/'\n\n<ion-content class="content-color">\n  <!-- https://www.youtube.com/embed/xxCVVQUBWTo -->\n     <!-- <iframe allow="encrypted-media" src="https://www.youtube.com/embed/xxCVVQUBWTo"></iframe>     -->\n       \n     <!-- <script>\n      // Load the IFrame Player API code asynchronously.\n      var tag = document.createElement(\'script\');\n      tag.src = "https://www.youtube.com/player_api";\n      var firstScriptTag = document.getElementsByTagName(\'script\')[0];\n      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);\n    \n      // Replace the \'ytplayer\' element with an <iframe> and\n      // YouTube player after the API code downloads.\n      var player;\n      function onYouTubePlayerAPIReady() {\n        player = new YT.Player(\'ytplayer\', {\n          height: \'360\',\n          width: \'640\',\n          videoId: \'M7lc1UVf-VE\'\n        });\n      }\n    </script> -->\n<ion-grid no-padding>\n  <ion-row no-padding (click)="logout()">\n  <p class="p-head">\n    <!-- <div id="ytplayer"></div> -->\n\n\nWelcome to\n  </p>\n  </ion-row>\n  <ion-row no-padding (click)="login()"> \n  <p class="p-headbold">\nArtform Platform\n  </p>\n  </ion-row>\n  <ion-row class="img-row">\n<div class="img-art" >\n  <div class="img-shadow">\n    </div>\n  <img src="assets/welcome/logoart.png">\n\n</div>\n  </ion-row>\n\n  <ion-row class="navigate-bar">\n      <button style="width: 43%;" ion-button color="dark" round outline (click)="navigatetoSecurity()">Get Started</button>\n\n\n   \n  </ion-row>\n</ion-grid> \n<!-- <vg-player>\n  <video [vgMedia]="media" #media id="singleVideo" preload="auto" controls>\n    <source src="https://www.youtube.com/embed/xxCVVQUBWTo" type="youtube">\n  </video>\n</vg-player> -->\n</ion-content>\n'/*ion-inline-end:"/Users/apple/Documents/BigCity/artform-ios10june/src/pages/home/home.html"*/,
+            selector: "page-home",template:/*ion-inline-start:"/Users/apple/Documents/artform-ios10june/src/pages/home/home.html"*/'\n\n<ion-content class="content-color">\n  <!-- https://www.youtube.com/embed/xxCVVQUBWTo -->\n     <!-- <iframe allow="encrypted-media" src="https://www.youtube.com/embed/xxCVVQUBWTo"></iframe>     -->\n       \n     <!-- <script>\n      // Load the IFrame Player API code asynchronously.\n      var tag = document.createElement(\'script\');\n      tag.src = "https://www.youtube.com/player_api";\n      var firstScriptTag = document.getElementsByTagName(\'script\')[0];\n      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);\n    \n      // Replace the \'ytplayer\' element with an <iframe> and\n      // YouTube player after the API code downloads.\n      var player;\n      function onYouTubePlayerAPIReady() {\n        player = new YT.Player(\'ytplayer\', {\n          height: \'360\',\n          width: \'640\',\n          videoId: \'M7lc1UVf-VE\'\n        });\n      }\n    </script> -->\n<ion-grid no-padding>\n  <ion-row no-padding (click)="logout()">\n  <p class="p-head">\n    <!-- <div id="ytplayer"></div> -->\n\n\nWelcome to\n  </p>\n  </ion-row>\n  <ion-row no-padding (click)="login()"> \n  <p class="p-headbold">\nArtform Platform\n  </p>\n  </ion-row>\n  <ion-row class="img-row">\n<div class="img-art" >\n  <div class="img-shadow">\n    </div>\n  <img src="assets/welcome/logoart.png">\n\n</div>\n  </ion-row>\n\n  <ion-row class="navigate-bar">\n      <button style="width: 43%;" ion-button color="dark" round outline (click)="navigatetoSecurity()">Get Started</button>\n\n\n   \n  </ion-row>\n</ion-grid> \n<!-- <vg-player>\n  <video [vgMedia]="media" #media id="singleVideo" preload="auto" controls>\n    <source src="https://www.youtube.com/embed/xxCVVQUBWTo" type="youtube">\n  </video>\n</vg-player> -->\n</ion-content>\n'/*ion-inline-end:"/Users/apple/Documents/artform-ios10june/src/pages/home/home.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgZone"],
             __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */],
