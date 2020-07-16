@@ -3314,11 +3314,11 @@ var map = {
 		17
 	],
 	"../pages/choosecatpagetab/choosecatpagetab.module": [
-		800,
+		801,
 		32
 	],
 	"../pages/commentsbox/commentsbox.module": [
-		801,
+		800,
 		31
 	],
 	"../pages/communitygudelines/communitygudelines.module": [
@@ -3330,11 +3330,11 @@ var map = {
 		16
 	],
 	"../pages/competitiondetailpage/competitiondetailpage.module": [
-		781,
+		780,
 		15
 	],
 	"../pages/competitionsp/competitionsp.module": [
-		780,
+		781,
 		14
 	],
 	"../pages/createconversationpage/createconversationpage.module": [
@@ -3366,11 +3366,11 @@ var map = {
 		0
 	],
 	"../pages/home/home.module": [
-		787,
+		786,
 		11
 	],
 	"../pages/howitworksp/howitworksp.module": [
-		786,
+		787,
 		4
 	],
 	"../pages/howtouploadpagesidemenu/howtouploadpagesidemenu.module": [
@@ -3394,7 +3394,7 @@ var map = {
 		26
 	],
 	"../pages/securitypanel/securitypanel.module": [
-		810,
+		809,
 		25
 	],
 	"../pages/selectuploadcategory/selectuploadcategory.module": [
@@ -3402,7 +3402,7 @@ var map = {
 		24
 	],
 	"../pages/subcattabp/subcattabp.module": [
-		794,
+		795,
 		9
 	],
 	"../pages/tabspage/tabspage.module": [
@@ -3410,11 +3410,11 @@ var map = {
 		8
 	],
 	"../pages/termsandconditions/termsandconditions.module": [
-		795,
+		794,
 		1
 	],
 	"../pages/uploadmedia/uploadmedia.module": [
-		809,
+		810,
 		23
 	],
 	"../pages/viewtalent/viewtalent.module": [
@@ -5913,28 +5913,28 @@ var AppModule = (function () {
                         { loadChildren: '../pages/childcattabpage/childcattabpage.module#ChildcattabpagePageModule', name: 'ChildcattabpagePage', segment: 'childcattabpage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/communitygudelines/communitygudelines.module#CommunitygudelinesPageModule', name: 'CommunitygudelinesPage', segment: 'communitygudelines', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/communitypopover/communitypopover.module#CommunitypopoverPageModule', name: 'CommunitypopoverPage', segment: 'communitypopover', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/competitionsp/competitionsp.module#CompetitionspPageModule', name: 'CompetitionspPage', segment: 'competitionsp', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/competitiondetailpage/competitiondetailpage.module#CompetitiondetailpagePageModule', name: 'CompetitiondetailpagePage', segment: 'competitiondetailpage', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/competitionsp/competitionsp.module#CompetitionspPageModule', name: 'CompetitionspPage', segment: 'competitionsp', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/editproartistpag/editproartistpag.module#EditproartistpagPageModule', name: 'EditproartistpagPage', segment: 'editproartistpag', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/followedartist/followedartist.module#FollowedartistPageModule', name: 'FollowedartistPage', segment: 'followedartist', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/followers-pagep/followers-pagep.module#FollowersPagepPageModule', name: 'FollowersPagepPage', segment: 'followers-pagep', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/getintouch/getintouch.module#GetintouchPageModule', name: 'GetintouchPage', segment: 'getintouch', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/howitworksp/howitworksp.module#HowitworkspPageModule', name: 'HowitworkspPage', segment: 'howitworksp', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/howitworksp/howitworksp.module#HowitworkspPageModule', name: 'HowitworkspPage', segment: 'howitworksp', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/howtouploadpagesidemenu/howtouploadpagesidemenu.module#HowtouploadpagesidemenuPageModule', name: 'HowtouploadpagesidemenuPage', segment: 'howtouploadpagesidemenu', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/inboxpage/inboxpage.module#InboxpagePageModule', name: 'InboxpagePage', segment: 'inboxpage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/privacyp/privacyp.module#PrivacypPageModule', name: 'PrivacypPage', segment: 'privacyp', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reportprob/reportprob.module#ReportprobPageModule', name: 'ReportprobPage', segment: 'reportprob', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/selectuploadcategory/selectuploadcategory.module#SelectuploadcategoryPageModule', name: 'SelectuploadcategoryPage', segment: 'selectuploadcategory', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabspage/tabspage.module#TabspagePageModule', name: 'TabspagePage', segment: 'tabspage', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/subcattabp/subcattabp.module#SubcattabpPageModule', name: 'SubcattabpPage', segment: 'subcattabp', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/termsandconditions/termsandconditions.module#TermsandconditionsPageModule', name: 'TermsandconditionsPage', segment: 'termsandconditions', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/subcattabp/subcattabp.module#SubcattabpPageModule', name: 'SubcattabpPage', segment: 'subcattabp', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/viewtalent/viewtalent.module#ViewtalentPageModule', name: 'ViewtalentPage', segment: 'viewtalent', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/viewvideoplay/viewvideoplay.module#ViewvideoplayPageModule', name: 'ViewvideoplayPage', segment: 'viewvideoplay', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/viewvideotopperformers/viewvideotopperformers.module#ViewvideotopperformersPageModule', name: 'ViewvideotopperformersPage', segment: 'viewvideotopperformers', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/chatinboxreply/chatinboxreply.module#ChatinboxreplyPageModule', name: 'ChatinboxreplyPage', segment: 'chatinboxreply', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/choosecatpagetab/choosecatpagetab.module#ChoosecatpagetabPageModule', name: 'ChoosecatpagetabPage', segment: 'choosecatpagetab', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/commentsbox/commentsbox.module#CommentsboxPageModule', name: 'CommentsboxPage', segment: 'commentsbox', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/choosecatpagetab/choosecatpagetab.module#ChoosecatpagetabPageModule', name: 'ChoosecatpagetabPage', segment: 'choosecatpagetab', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/createconversationpage/createconversationpage.module#CreateconversationpagePageModule', name: 'CreateconversationpagePage', segment: 'createconversationpage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/dashboard/dashboard.module#DashboardPageModule', name: 'DashboardPage', segment: 'dashboard', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/editprofilepage/editprofilepage.module#EditprofilepagePageModule', name: 'EditprofilepagePage', segment: 'editprofilepage', priority: 'low', defaultHistory: [] },
@@ -5942,8 +5942,8 @@ var AppModule = (function () {
                         { loadChildren: '../pages/artistprofilepage/artistprofilepage.module#ArtistprofilepagePageModule', name: 'ArtistprofilepagePage', segment: 'artistprofilepage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/category/category.module#CategoryPageModule', name: 'CategoryPage', segment: 'category', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/artprofile/artprofile.module#ArtprofilePageModule', name: 'ArtprofilePage', segment: 'artprofile', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/uploadmedia/uploadmedia.module#UploadmediaPageModule', name: 'UploadmediaPage', segment: 'uploadmedia', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/securitypanel/securitypanel.module#SecuritypanelPageModule', name: 'SecuritypanelPage', segment: 'securitypanel', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/securitypanel/securitypanel.module#SecuritypanelPageModule', name: 'SecuritypanelPage', segment: 'securitypanel', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/uploadmedia/uploadmedia.module#UploadmediaPageModule', name: 'UploadmediaPage', segment: 'uploadmedia', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_32_angular_cropperjs__["AngularCropperjsModule"],
