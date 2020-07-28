@@ -1,6 +1,6 @@
 webpackJsonp([10],{
 
-/***/ 789:
+/***/ 790:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InboxpagePageModule", function() { return InboxpagePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__inboxpage__ = __webpack_require__(824);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__inboxpage__ = __webpack_require__(825);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -41,14 +41,14 @@ var InboxpagePageModule = (function () {
 
 /***/ }),
 
-/***/ 824:
+/***/ 825:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InboxpagePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_security_security__ = __webpack_require__(27);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -84,25 +84,26 @@ var InboxpagePage = (function () {
         this.loader = true;
     }
     InboxpagePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad InboxpagePage');
+        console.log("ionViewDidLoad InboxpagePage");
         this.flag = 2;
         this.loaddata();
     };
     InboxpagePage.prototype.loaddata = function (infiniteScroll) {
         var _this = this;
-        console.log('hii');
+        console.log("hii");
         if (this.flag == 1) {
             this.loading = true;
-            console.log('loading' + this.loading);
+            console.log("loading" + this.loading);
         }
         {
             this.loading = false;
         }
         __WEBPACK_IMPORTED_MODULE_2_rxjs__["Observable"].of(null)
-            .flatMap(function () { return _this.security.inboxapi(_this.page); }).subscribe(function (data) {
-            console.log('data', data.status);
-            if (data.status == 'fail') {
-                _this.message = 'Welcome To Inbox';
+            .flatMap(function () { return _this.security.inboxapi(_this.page); })
+            .subscribe(function (data) {
+            console.log("data", data.status);
+            if (data.status == "fail") {
+                _this.message = "Please Create new Conversation to see inbox list";
                 _this.messageactive = true;
             }
             _this.loading = true;
@@ -112,10 +113,10 @@ var InboxpagePage = (function () {
             _this.totalpages = data.totalPages;
             if (_this.totalpages == _this.page) {
                 _this.loader = false;
-                _this.text = 'No More Data';
+                _this.text = "No More Data";
             }
             _this.inboxdata = _this.inboxdatatest(data.conversations);
-            console.log('inboxdata', _this.inboxdata);
+            console.log("inboxdata", _this.inboxdata);
             if (infiniteScroll) {
                 infiniteScroll.complete();
             }
@@ -135,7 +136,7 @@ var InboxpagePage = (function () {
                 last_message: conversations[i].Conversations.last_message,
                 message: this.messagefilter2,
                 conversation_id: conversations[i].Conversations.conversation_id,
-                messageCount: conversations[i][0].messageCount
+                messageCount: conversations[i][0].messageCount,
             });
         }
         return this.inboxdata2;
@@ -158,18 +159,19 @@ var InboxpagePage = (function () {
         //   }
     };
     InboxpagePage.prototype.openmsg = function (id) {
-        this.navCtrl.push('ChatinboxreplyPage', { id: id });
+        this.navCtrl.push("ChatinboxreplyPage", { id: id });
     };
     InboxpagePage.prototype.tapshow = function () {
-        this.navCtrl.push('CreateconversationpagePage');
+        this.navCtrl.push("CreateconversationpagePage");
     };
     InboxpagePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-inboxpage',template:/*ion-inline-start:"/Users/apple/Documents/artform-ios10june/src/pages/inboxpage/inboxpage.html"*/'<!--\n  Generated template for the InboxpagePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title style="text-align:center;    margin-left: -19px;">Inbox</ion-title>\n    <ion-buttons right  style="    margin-right: 14px;" >\n      <button ion-button (click)="tapshow()">\n        <ion-icon name="add"></ion-icon>\n   </button>\n   </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content >\n    <ion-list *ngIf="loading==false" style="padding:21px;">\n        <div *ngFor="let fake of fakeUsers" style="    margin-bottom: 12px;">\n        \n            \n           \n             \n                <div class="div-right-inner" >\n                  <p class="p-text p-points-text" style="font-size:1.2rem"></p>\n               \n                </div>\n              \n                \n                \n      </div>\n      </ion-list>\n<ion-list style="    margin-top: 11px;">\n\n  <div style="text-align: center;" *ngIf="messageactive==true">\n    <p>{{message}}</p>\n    </div>\n  <ion-row *ngFor="let value of inboxdata" style="padding: 5px;">\n    <ion-col col-2>\n      <ion-avatar item-start>\n        <img class="img-design" [src]="value.user_profile_avatar">\n      </ion-avatar> \n    </ion-col>\n    <ion-col col-9 style="    margin-top: -9px;">\n     <div class="grid">\n    <div>\n      <p class="p-text">{{value.user_display_name}}</p> \n      <p    class="p1-text">{{value.title}}</p>\n    </div>\n    <div>\n      <p class="date-style">{{ value.last_message | date:format }}</p>\n    </div>\n     </div>\n     <ion-row class="msg-box">\n     \n       <div  >\n           <p>{{value.message}}</p>\n       </div>\n     </ion-row>\n    </ion-col>\n    <ion-col col-1 (click)="openmsg(value.conversation_id)">\n      <ion-icon  item-start style="    margin-top: 19px;">\n        <img class="icon-arrow" src="assets/inbox/arrow.png">\n      </ion-icon>\n      <ion-badge style="margin: -78px;">{{value.messageCount}}</ion-badge>\n    </ion-col>\n    <hr class="hr-style">\n    \n  </ion-row>\n  <p style="    text-align: center;">{{text}}</p>\n  <ion-infinite-scroll *ngIf="loader==true" (ionInfinite)="loadMore($event)" loadingSpinner="bubbles" loadingText="Loading data...">\n    <ion-infinite-scroll-content></ion-infinite-scroll-content>\n  </ion-infinite-scroll>\n</ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/apple/Documents/artform-ios10june/src/pages/inboxpage/inboxpage.html"*/,
+            selector: "page-inboxpage",template:/*ion-inline-start:"/Users/apple/Documents/30june_ArtForm/artform-ios10june/src/pages/inboxpage/inboxpage.html"*/'<!--\n  Generated template for the InboxpagePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <ion-title style="text-align: center; margin-left: -19px;">Inbox</ion-title>\n    <ion-buttons right style="margin-right: 14px;">\n      <button ion-button (click)="tapshow()">\n        <ion-icon name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list *ngIf="loading==false" style="padding: 21px;">\n    <div *ngFor="let fake of fakeUsers" style="margin-bottom: 12px;">\n      <div class="div-right-inner">\n        <p class="p-text p-points-text" style="font-size: 1.2rem;"></p>\n      </div>\n    </div>\n  </ion-list>\n  <ion-list style="margin-top: 11px;">\n    <div style="text-align: center;" *ngIf="messageactive==true">\n      <p>{{message}}</p>\n    </div>\n    <div>\n      <ion-row *ngFor="let value of inboxdata" style="padding: 5px;">\n        <ion-col col-2>\n          <ion-avatar item-start>\n            <img class="img-design" [src]="value.user_profile_avatar" />\n          </ion-avatar>\n        </ion-col>\n        <ion-col col-9 style="margin-top: -9px;">\n          <div class="grid">\n            <div>\n              <p class="p-text">{{value.user_display_name}}</p>\n              <p class="p1-text">{{value.title}}</p>\n            </div>\n            <div>\n              <p class="date-style">{{ value.last_message | date:format }}</p>\n            </div>\n          </div>\n          <ion-row class="msg-box">\n            <div>\n              <p>{{value.message}}</p>\n            </div>\n          </ion-row>\n        </ion-col>\n        <ion-col col-1 (click)="openmsg(value.conversation_id)">\n          <ion-icon item-start style="margin-top: 19px;">\n            <img class="icon-arrow" src="assets/inbox/arrow.png" />\n          </ion-icon>\n          <ion-badge style="margin: -78px;">{{value.messageCount}}</ion-badge>\n        </ion-col>\n        <hr class="hr-style" />\n      </ion-row>\n    </div>\n\n    <p style="text-align: center;">{{text}}</p>\n    <ion-infinite-scroll\n      *ngIf="loader==true"\n      (ionInfinite)="loadMore($event)"\n      loadingSpinner="bubbles"\n      loadingText="Loading data..."\n    >\n      <ion-infinite-scroll-content></ion-infinite-scroll-content>\n    </ion-infinite-scroll>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/apple/Documents/30june_ArtForm/artform-ios10june/src/pages/inboxpage/inboxpage.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ModalController */], __WEBPACK_IMPORTED_MODULE_3__providers_security_security__["a" /* SecurityProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ModalController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__providers_security_security__["a" /* SecurityProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_security_security__["a" /* SecurityProvider */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]) === "function" && _d || Object])
     ], InboxpagePage);
     return InboxpagePage;
+    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=inboxpage.js.map

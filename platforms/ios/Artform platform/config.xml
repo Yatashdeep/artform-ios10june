@@ -52,6 +52,18 @@
     <feature name="FilePicker">
         <param name="ios-package" value="FilePicker" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="UIInAppBrowser">
+        <param name="ios-package" value="CDVUIInAppBrowser" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="WKInAppBrowser">
+        <param name="ios-package" value="CDVWKInAppBrowser" />
+        <param name="onload" value="true" />
+    </feature>
     <allow-navigation href="ionic://*" />
     <feature name="IonicWebView">
         <param name="ios-package" value="CDVWKWebViewEngine" />
@@ -176,10 +188,13 @@
     <preference name="android-minSdkVersion" value="16" />
     <preference name="android-targetSdkVersion" value="28" />
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="FadeSplashScreenDuration" value="300" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="loadUrlTimeoutValue" value="100000" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="FadeSplashScreenDuration" value="2000" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="AutoHideSplashScreen" value="false" />
     <preference name="TwitterConsumerKey" value="XO9gFa1jmL58dJI5TIRz70nCW" />
     <preference name="TwitterConsumerSecret" value="UeWtTsvkBPFtSunIPPB7plqug4W06SY2Ck8OzwImJenoigpsd7 " />
     <preference name="WKWebViewOnly" value="true" />

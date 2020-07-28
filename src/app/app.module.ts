@@ -6,6 +6,12 @@ import {
   IonicModule,
   ModalController,
 } from "ionic-angular";
+
+import {
+  InAppBrowser,
+  InAppBrowserOptions,
+} from "@ionic-native/in-app-browser";
+
 import { SplashScreen } from "@ionic-native/splash-screen";
 import { StatusBar } from "@ionic-native/status-bar";
 //import { YoutubePlayerMiniModule } from "ng2-youtube-player-mini";
@@ -204,6 +210,7 @@ import { IOSFilePicker } from "@ionic-native/file-picker";
     FollowersPagepPage,
   ],
   providers: [
+    InAppBrowser,
     IOSFilePicker,
     FilePath,
     HTTP,

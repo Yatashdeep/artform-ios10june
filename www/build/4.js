@@ -1,6 +1,6 @@
 webpackJsonp([4],{
 
-/***/ 787:
+/***/ 788:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HowitworkspPageModule", function() { return HowitworkspPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__howitworksp__ = __webpack_require__(822);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__howitworksp__ = __webpack_require__(823);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -40,7 +40,7 @@ var HowitworkspPageModule = (function () {
 
 /***/ }),
 
-/***/ 811:
+/***/ 812:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -135,7 +135,7 @@ var TabspagePage = (function () {
     ], TabspagePage.prototype, "tabRef", void 0);
     TabspagePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-tabspage',template:/*ion-inline-start:"/Users/apple/Documents/artform-ios10june/src/pages/tabspage/tabspage.html"*/'<!--\n  Generated template for the TabspagePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-tabs #myTabs >\n  <!-- <div style="height:10px;width:40px;background-color:red" ></div> -->\n  <ion-tab [root]="DashboardPage"   tabTitle="Home" tabIcon="custom-home" ></ion-tab>\n  <ion-tab  [root]="tab2Root" tabTitle="Upload" tabIcon="custom-upload"></ion-tab>\n  <ion-tab  [root]="tab3Root" tabTitle="Categories" tabIcon="custom-category" ></ion-tab>\n  <ion-tab style="font-size:1.2rem " [root]="tab4Root"  tabTitle="Competitions" tabIcon="custom-price"></ion-tab>\n   <ion-tab  [root]="tab5Root"   tabTitle="Profile" tabIcon="custom-propic" tabsHideOnSubPages="true"></ion-tab>\n  <!-- <ion-tab   [root]="tab5Root" tabTitle="Profile" tabIcon="custom-propic" tabsHideOnSubPages="true"></ion-tab> -->\n</ion-tabs>\n'/*ion-inline-end:"/Users/apple/Documents/artform-ios10june/src/pages/tabspage/tabspage.html"*/,
+            selector: 'page-tabspage',template:/*ion-inline-start:"/Users/apple/Documents/30june_ArtForm/artform-ios10june/src/pages/tabspage/tabspage.html"*/'<!--\n  Generated template for the TabspagePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-tabs #myTabs >\n  <!-- <div style="height:10px;width:40px;background-color:red" ></div> -->\n  <ion-tab [root]="DashboardPage"   tabTitle="Home" tabIcon="custom-home" ></ion-tab>\n  <ion-tab  [root]="tab2Root" tabTitle="Upload" tabIcon="custom-upload"></ion-tab>\n  <ion-tab  [root]="tab3Root" tabTitle="Categories" tabIcon="custom-category" ></ion-tab>\n  <ion-tab style="font-size:1.2rem " [root]="tab4Root"  tabTitle="Competitions" tabIcon="custom-price"></ion-tab>\n   <ion-tab  [root]="tab5Root"   tabTitle="Profile" tabIcon="custom-propic" tabsHideOnSubPages="true"></ion-tab>\n  <!-- <ion-tab   [root]="tab5Root" tabTitle="Profile" tabIcon="custom-propic" tabsHideOnSubPages="true"></ion-tab> -->\n</ion-tabs>\n'/*ion-inline-end:"/Users/apple/Documents/30june_ArtForm/artform-ios10june/src/pages/tabspage/tabspage.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Events */], __WEBPACK_IMPORTED_MODULE_3__providers_security_security__["a" /* SecurityProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], TabspagePage);
@@ -146,14 +146,14 @@ var TabspagePage = (function () {
 
 /***/ }),
 
-/***/ 822:
+/***/ 823:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HowitworkspPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabspage_tabspage__ = __webpack_require__(811);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabspage_tabspage__ = __webpack_require__(812);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -186,7 +186,7 @@ var HowitworkspPage = (function () {
     };
     HowitworkspPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-howitworksp',template:/*ion-inline-start:"/Users/apple/Documents/artform-ios10june/src/pages/howitworksp/howitworksp.html"*/'<!--\n  Generated template for the HowitworkspPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <ion-buttons left style="width: 19px;">\n      <button ion-button menuToggle>\n        <ion-icon item-start>\n          <img class="navbar-icon" item-left src="assets/Menu/navbar.png" />\n        </ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title style="text-align: center;">How It Works</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-padding>\n  <div\n    style="\n      position: absolute;\n      top: 32%;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n      text-align: center;\n    "\n  >\n    <video autoplay width="330" controls>\n      <source\n        src="https://s3.eu-west-2.amazonaws.com/artformplatform.com/sample/tutorial.mp4"\n        type="video/mp4"\n      />\n    </video>\n  </div>\n</ion-content>\n<ion-footer>\n  <ion-row class="div-icon">\n    <ion-col (click)="navigatetotab(0)">\n      <div class="img-box">\n        <img class="img-style1" src="assets/tabsicon/home.png" />\n      </div>\n\n      <p class="p-tag">Home</p>\n    </ion-col>\n    <ion-col (click)="navigatetotab(1)">\n      <div class="img-box">\n        <img class="img-style1" src="assets/tabsicon/uploaded.png" />\n      </div>\n      <p class="p-tag">Upload</p>\n    </ion-col>\n    <ion-col (click)="navigatetotab(2)">\n      <div class="img-box">\n        <img class="img-style1" src="assets/tabsicon/categories.png" />\n      </div>\n      <p class="p-tag">Categories</p>\n    </ion-col>\n    <ion-col (click)="navigatetotab(3)">\n      <div class="img-box">\n        <img class="img-style1" src="assets/tabsicon/price.png" />\n      </div>\n      <p class="p-tag">Competitions</p>\n    </ion-col>\n    <ion-col (click)="navigatetotab(4)">\n      <div class="img-box">\n        <img\n          style="\n            border-radius: 34px;\n            height: 24px;\n            width: 24px;\n            margin-top: 3px;\n          "\n          class="img-style1"\n          src="assets/tabsicon/propic.jpg"\n        />\n      </div>\n      <p class="p-tag">Profile</p>\n    </ion-col>\n  </ion-row>\n</ion-footer>\n'/*ion-inline-end:"/Users/apple/Documents/artform-ios10june/src/pages/howitworksp/howitworksp.html"*/,
+            selector: 'page-howitworksp',template:/*ion-inline-start:"/Users/apple/Documents/30june_ArtForm/artform-ios10june/src/pages/howitworksp/howitworksp.html"*/'<!--\n  Generated template for the HowitworkspPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <ion-buttons left style="width: 19px;">\n      <button ion-button menuToggle>\n        <ion-icon item-start>\n          <img class="navbar-icon" item-left src="assets/Menu/navbar.png" />\n        </ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title style="text-align: center;">How It Works</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-padding>\n  <div\n    style="\n      position: absolute;\n      top: 32%;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n      text-align: center;\n    "\n  >\n    <video autoplay width="330" controls>\n      <source\n        src="https://s3.eu-west-2.amazonaws.com/artformplatform.com/sample/tutorial.mp4"\n        type="video/mp4"\n      />\n    </video>\n  </div>\n</ion-content>\n<ion-footer>\n  <ion-row class="div-icon">\n    <ion-col (click)="navigatetotab(0)">\n      <div class="img-box">\n        <img class="img-style1" src="assets/tabsicon/home.png" />\n      </div>\n\n      <p class="p-tag">Home</p>\n    </ion-col>\n    <ion-col (click)="navigatetotab(1)">\n      <div class="img-box">\n        <img class="img-style1" src="assets/tabsicon/uploaded.png" />\n      </div>\n      <p class="p-tag">Upload</p>\n    </ion-col>\n    <ion-col (click)="navigatetotab(2)">\n      <div class="img-box">\n        <img class="img-style1" src="assets/tabsicon/categories.png" />\n      </div>\n      <p class="p-tag">Categories</p>\n    </ion-col>\n    <ion-col (click)="navigatetotab(3)">\n      <div class="img-box">\n        <img class="img-style1" src="assets/tabsicon/price.png" />\n      </div>\n      <p class="p-tag">Competitions</p>\n    </ion-col>\n    <ion-col (click)="navigatetotab(4)">\n      <div class="img-box">\n        <img\n          style="\n            border-radius: 34px;\n            height: 24px;\n            width: 24px;\n            margin-top: 3px;\n          "\n          class="img-style1"\n          src="assets/tabsicon/propic.jpg"\n        />\n      </div>\n      <p class="p-tag">Profile</p>\n    </ion-col>\n  </ion-row>\n</ion-footer>\n'/*ion-inline-end:"/Users/apple/Documents/30june_ArtForm/artform-ios10june/src/pages/howitworksp/howitworksp.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], HowitworkspPage);

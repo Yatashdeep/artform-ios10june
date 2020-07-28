@@ -30,6 +30,10 @@ import { EditprofilepagePage } from "../editprofilepage/editprofilepage";
 import { CommentsboxPage } from "../commentsbox/commentsbox";
 import { ArtistprofilepagePage } from "../artistprofilepage/artistprofilepage";
 import { UniqueDeviceID } from "@ionic-native/unique-device-id";
+import {
+  InAppBrowser,
+  InAppBrowserOptions,
+} from "@ionic-native/in-app-browser";
 //import { OneSignal } from "@ionic-native/onesignal";
 /**
  * Generated class for the SecuritypanelPage page.
@@ -73,6 +77,7 @@ export class SecuritypanelPage {
         */
   });
   constructor(
+    private iab: InAppBrowser,
     // private oneSignal: OneSignal,
     private uniqueDeviceID: UniqueDeviceID,
     public modalCtrl: ModalController,
@@ -144,16 +149,17 @@ export class SecuritypanelPage {
   instagramlogin() {
     this.oauth.logInVia(this.instagramProvider).then(
       (success) => {
-        console.log(JSON.stringify(success));
+        alert(JSON.stringify(success));
 
         /* Returns User uploaded Photos */
+
         this.service.getInstagramUserInfo(success).subscribe((response) => {
           this.apiResponse = response.data;
           this.instalogin(this.apiResponse);
         });
       },
       (error) => {
-        console.log(JSON.stringify(error));
+        alert("newerror" + JSON.stringify(error));
       }
     );
   }

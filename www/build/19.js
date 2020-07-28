@@ -1,6 +1,6 @@
 webpackJsonp([19],{
 
-/***/ 776:
+/***/ 777:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CategorytabpagePageModule", function() { return CategorytabpagePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__categorytabpage__ = __webpack_require__(812);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__categorytabpage__ = __webpack_require__(813);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -41,7 +41,7 @@ var CategorytabpagePageModule = (function () {
 
 /***/ }),
 
-/***/ 812:
+/***/ 813:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -152,7 +152,7 @@ var CategorytabpagePage = (function () {
     };
     CategorytabpagePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-categorytabpage',template:/*ion-inline-start:"/Users/apple/Documents/artform-ios10june/src/pages/categorytabpage/categorytabpage.html"*/'<!--\n  Generated template for the CategorytabpagePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n   \n          <ion-buttons left style="    width: 19px;">\n              <button ion-button menuToggle>\n              <ion-icon item-start>\n                <img class="navbar-icon" item-left src="assets/Menu/navbar.png">\n              </ion-icon>\n               </button>\n          </ion-buttons>\n\n    <ion-title [style.marginRight] = "id ==1 ? \'77px\' :\'0px\'" style="text-align:center">Categories</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <!-- <div *ngIf="loadingdata==\'on\'" >\n    <div *ngFor="let fake of fakeUsers">\n        <div  class="div-parent"   >\n          \n          <div   class="div-left" >\n        \n            <div class="animate-imagebox" width="80"  ></div>\n            </div>\n            <div class="div-right" >\n           \n              </div>\n              \n             \n            \n         \n         \n            </div>\n          </div> \n          </div> -->\n    <ion-list style="    height: 100%;">\n        <div style="    margin-bottom: 13px;" *ngFor="let value of category;let i=index">\n       <div [style.backgroundImage]="\'url(\'+ value.Category.category_image_url +\')\'" class="row-image"  (click)="cattap(i)">\n      <ion-row style="height: 77px;">\n        <ion-col class="col-style" col-2>\n          <img class="img-size" [src]="value.Category.category_small_image_url">\n        </ion-col>\n        <ion-col class="col-cat" col-7>\n          <p class="p-cat">{{value.Category.category_class}}</p>\n          <img id="tickshow4" class="tree-img" src="assets/tree-cat/chevron.png">\n        </ion-col>\n        \n      </ion-row>\n      \n       </div>\n      \n        </div>\n      \n      \n      \n      </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/apple/Documents/artform-ios10june/src/pages/categorytabpage/categorytabpage.html"*/,
+            selector: 'page-categorytabpage',template:/*ion-inline-start:"/Users/apple/Documents/30june_ArtForm/artform-ios10june/src/pages/categorytabpage/categorytabpage.html"*/'<!--\n  Generated template for the CategorytabpagePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n   \n          <ion-buttons left style="    width: 19px;">\n              <button ion-button menuToggle>\n              <ion-icon item-start>\n                <img class="navbar-icon" item-left src="assets/Menu/navbar.png">\n              </ion-icon>\n               </button>\n          </ion-buttons>\n\n    <ion-title [style.marginRight] = "id ==1 ? \'77px\' :\'0px\'" style="text-align:center">Categories</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <!-- <div *ngIf="loadingdata==\'on\'" >\n    <div *ngFor="let fake of fakeUsers">\n        <div  class="div-parent"   >\n          \n          <div   class="div-left" >\n        \n            <div class="animate-imagebox" width="80"  ></div>\n            </div>\n            <div class="div-right" >\n           \n              </div>\n              \n             \n            \n         \n         \n            </div>\n          </div> \n          </div> -->\n    <ion-list style="    height: 100%;">\n        <div style="    margin-bottom: 13px;" *ngFor="let value of category;let i=index">\n       <div [style.backgroundImage]="\'url(\'+ value.Category.category_image_url +\')\'" class="row-image"  (click)="cattap(i)">\n      <ion-row style="height: 77px;">\n        <ion-col class="col-style" col-2>\n          <img class="img-size" [src]="value.Category.category_small_image_url">\n        </ion-col>\n        <ion-col class="col-cat" col-7>\n          <p class="p-cat">{{value.Category.category_class}}</p>\n          <img id="tickshow4" class="tree-img" src="assets/tree-cat/chevron.png">\n        </ion-col>\n        \n      </ion-row>\n      \n       </div>\n      \n        </div>\n      \n      \n      \n      </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/apple/Documents/30june_ArtForm/artform-ios10june/src/pages/categorytabpage/categorytabpage.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_security_security__["a" /* SecurityProvider */]])
     ], CategorytabpagePage);

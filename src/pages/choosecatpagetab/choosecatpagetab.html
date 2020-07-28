@@ -160,10 +160,10 @@
           </div>
           <div class="img-box">
             <div class="img-content">
-              <div (click)="viewvideo(i)" class="cat-div">
+              <div class="cat-div">
                 <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->
                 <ion-row>
-                  <ion-col col-8>
+                  <ion-col col-8 (click)="viewvideo(i)">
                     <img
                       *ngIf="value.media_type=='video/mp4'||value.media_type=='youtube'||value.media_type=='audio/mpeg' || value.media_type=='audio/mp3'"
                       class="play-style"
@@ -370,13 +370,13 @@
                     cat-icon1" [src]="value.covermediathumbnail">
                    </ion-col>
                     </ion-row> -->
-              <ion-row style="height: 105px;" (click)="viewvideotop(i)">
+              <ion-row style="height: 105px;">
                 <ion-col class="cols-style">
                   0{{i+1}}
                 </ion-col>
                 <ion-col style="text-align: end;">
                   <ion-row>
-                    <ion-col>
+                    <ion-col (click)="viewvideotop(i)">
                       <img
                         style="
                           position: absolute;
@@ -651,7 +651,7 @@
               <div (click)="viewvideo(i)" class="cat-div">
                 <!-- <img class="cat-icon" [src]="value.mediathumbnailuser"> -->
                 <ion-row>
-                  <ion-col col-8>
+                  <ion-col col-8 (click)="viewvideo(i)">
                     <img
                       *ngIf="value.media_type=='video/mp4'||value.media_type=='youtube'||value.media_type=='audio/mpeg'  || value.media_type=='audio/mp3' "
                       class="play-style"
