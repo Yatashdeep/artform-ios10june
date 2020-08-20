@@ -7,6 +7,7 @@ import {
   AlertController,
   ActionSheetController,
   Alert,
+  ModalController,
 } from "ionic-angular";
 import { Observable } from "rxjs";
 import { SecurityProvider } from "../../providers/security/security";
@@ -34,6 +35,7 @@ import { ArtprofilePage } from "../artprofile/artprofile";
 import { Http, Headers, RequestOptions } from "@angular/http";
 import { FilePath } from "@ionic-native/file-path";
 import { IOSFilePicker } from "@ionic-native/file-picker";
+
 /**
  *
  * Generated class for the UploadmediaPage page.
@@ -101,7 +103,8 @@ export class UploadmediaPage {
     public service: SecurityProvider,
     public navCtrl: NavController,
     public navParams: NavParams,
-    public filePicker: IOSFilePicker
+    public filePicker: IOSFilePicker,
+    public modalCtrl: ModalController
   ) {
     this.id = this.navParams.get("id");
     let linkregex = /^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$/;
@@ -438,6 +441,18 @@ export class UploadmediaPage {
       });
       alert.present();
     }
+  }
+  termspage() {
+    let popover = this.modalCtrl.create("CommunitypopoverPage", {
+      cssClass: "contact-popover",
+    });
+    popover.present({});
+    popover.onDidDismiss((data) => {
+      console.log("MODAL DATA", data);
+      if (data == 1) {
+        this.imageupload();
+      }
+    });
   }
   uploadmediadetails(medianame) {
     //  alert(medianame)
@@ -792,8 +807,8 @@ export class UploadmediaPage {
             fileEntry.getMetadata((metadata) => {
               //metadata.size is the size in bytes
               //  alert('size'+metadata.size)
-
-              this.imageupload();
+              this.termspage();
+              // this.imageupload();
             });
           });
           // this.imgsrc = "data:image/jpeg;base64," + imageData;
@@ -830,7 +845,8 @@ export class UploadmediaPage {
             fileEntry.getMetadata((metadata) => {
               //metadata.size is the size in bytes
               //  alert('size'+metadata.size)
-              this.imageupload();
+              this.termspage();
+              // this.imageupload();
             });
           });
           //  this.imgsrc = "data:image/jpeg;base64," + imageData;
